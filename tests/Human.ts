@@ -1,10 +1,9 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import {
-	WikidataResponse
-} from "../";
+import { WikidataResponse } from "../";
 
+// https://www.wikidata.org/wiki/Special:EntityData/Q94.json
 
 const Human: WikidataResponse = {
 	"entities": {
@@ -12,8 +11,8 @@ const Human: WikidataResponse = {
 			"pageid": 133,
 			"ns": 0,
 			"title": "Q5",
-			"lastrevid": 1488469466,
-			"modified": "2021-08-27T14:15:27Z",
+			"lastrevid": 2249375683,
+			"modified": "2024-09-17T19:25:18Z",
 			"type": "item",
 			"id": "Q5",
 			"labels": {
@@ -67,23 +66,23 @@ const Human: WikidataResponse = {
 				},
 				"sgs": {
 					"language": "sgs",
-					"value": "\u017dmuogos"
+					"value": "\u017emuogos"
 				},
 				"rup": {
 					"language": "rup",
-					"value": "Omu"
+					"value": "omu"
 				},
 				"nan": {
 					"language": "nan",
-					"value": "L\u00e2ng"
+					"value": "l\u00e2ng"
 				},
 				"nds-nl": {
 					"language": "nds-nl",
-					"value": "Mense"
+					"value": "mense"
 				},
 				"vro": {
 					"language": "vro",
-					"value": "Inemine"
+					"value": "inemine"
 				},
 				"en-gb": {
 					"language": "en-gb",
@@ -211,7 +210,7 @@ const Human: WikidataResponse = {
 				},
 				"diq": {
 					"language": "diq",
-					"value": "\u0130nsan"
+					"value": "merd\u0131m"
 				},
 				"el": {
 					"language": "el",
@@ -275,7 +274,7 @@ const Human: WikidataResponse = {
 				},
 				"ha": {
 					"language": "ha",
-					"value": "\u0257an Adam"
+					"value": "mutum"
 				},
 				"hak": {
 					"language": "hak",
@@ -307,7 +306,7 @@ const Human: WikidataResponse = {
 				},
 				"ia": {
 					"language": "ia",
-					"value": "humano"
+					"value": "esser human"
 				},
 				"id": {
 					"language": "id",
@@ -315,7 +314,7 @@ const Human: WikidataResponse = {
 				},
 				"ig": {
 					"language": "ig",
-					"value": "m\u00e1du"
+					"value": "mm\u00e1du"
 				},
 				"ilo": {
 					"language": "ilo",
@@ -403,7 +402,7 @@ const Human: WikidataResponse = {
 				},
 				"lt": {
 					"language": "lt",
-					"value": "\u017dmogus"
+					"value": "\u017emogus"
 				},
 				"ltg": {
 					"language": "ltg",
@@ -483,7 +482,7 @@ const Human: WikidataResponse = {
 				},
 				"oc": {
 					"language": "oc",
-					"value": "\u00e8stre uman"
+					"value": "\u00e8sser uman"
 				},
 				"or": {
 					"language": "or",
@@ -515,7 +514,7 @@ const Human: WikidataResponse = {
 				},
 				"rue": {
 					"language": "rue",
-					"value": "\u0427\u043e\u043b\u043e\u0432\u0456\u043a \u0440\u043e\u0437\u0443\u043c\u043d\u044b\u0439"
+					"value": "\u0447\u043e\u043b\u043e\u0432\u0456\u043a"
 				},
 				"sa": {
 					"language": "sa",
@@ -619,7 +618,7 @@ const Human: WikidataResponse = {
 				},
 				"vec": {
 					"language": "vec",
-					"value": "Homo sapiens"
+					"value": "\u00e8sar uman"
 				},
 				"vi": {
 					"language": "vi",
@@ -627,7 +626,7 @@ const Human: WikidataResponse = {
 				},
 				"vls": {
 					"language": "vls",
-					"value": "mens"
+					"value": "Mens"
 				},
 				"wa": {
 					"language": "wa",
@@ -656,10 +655,6 @@ const Human: WikidataResponse = {
 				"en-ca": {
 					"language": "en-ca",
 					"value": "human"
-				},
-				"de-ch": {
-					"language": "de-ch",
-					"value": "Mensch"
 				},
 				"pt-br": {
 					"language": "pt-br",
@@ -707,7 +702,7 @@ const Human: WikidataResponse = {
 				},
 				"min": {
 					"language": "min",
-					"value": "manusio"
+					"value": "urang"
 				},
 				"mzn": {
 					"language": "mzn",
@@ -771,11 +766,7 @@ const Human: WikidataResponse = {
 				},
 				"mai": {
 					"language": "mai",
-					"value": "\u0932\u094b\u0917"
-				},
-				"ak": {
-					"language": "ak",
-					"value": "onipa"
+					"value": "\u0932\u094b\u0915"
 				},
 				"ce": {
 					"language": "ce",
@@ -799,7 +790,7 @@ const Human: WikidataResponse = {
 				},
 				"bho": {
 					"language": "bho",
-					"value": "\u092e\u0928\u0941\u0937\u094d\u092f"
+					"value": "\ud804\udca7\ud804\udca2\ud804\udcb3\ud804\udcad\ud804\udcb9\ud804\udca8"
 				},
 				"ug": {
 					"language": "ug",
@@ -863,7 +854,7 @@ const Human: WikidataResponse = {
 				},
 				"gd": {
 					"language": "gd",
-					"value": "daonna"
+					"value": "neach"
 				},
 				"ary": {
 					"language": "ary",
@@ -879,7 +870,7 @@ const Human: WikidataResponse = {
 				},
 				"zu": {
 					"language": "zu",
-					"value": "Umuntu"
+					"value": "umuntu"
 				},
 				"dty": {
 					"language": "dty",
@@ -907,11 +898,11 @@ const Human: WikidataResponse = {
 				},
 				"lg": {
 					"language": "lg",
-					"value": "Omuntu"
+					"value": "omuntu"
 				},
 				"bcl": {
 					"language": "bcl",
-					"value": "Tao"
+					"value": "tao"
 				},
 				"inh": {
 					"language": "inh",
@@ -919,15 +910,15 @@ const Human: WikidataResponse = {
 				},
 				"rmy": {
 					"language": "rmy",
-					"value": "Manush"
+					"value": "manush"
 				},
 				"tw": {
 					"language": "tw",
-					"value": "nyimpa"
+					"value": "nnipa"
 				},
 				"atj": {
 					"language": "atj",
-					"value": "Nehirowisiw"
+					"value": "nehirowisiw"
 				},
 				"sat": {
 					"language": "sat",
@@ -947,11 +938,11 @@ const Human: WikidataResponse = {
 				},
 				"kab": {
 					"language": "kab",
-					"value": "Afgan"
+					"value": "afgan"
 				},
 				"lmo": {
 					"language": "lmo",
-					"value": "\u00fcm\u00e0"
+					"value": "uman"
 				},
 				"nqo": {
 					"language": "nqo",
@@ -959,7 +950,7 @@ const Human: WikidataResponse = {
 				},
 				"gcr": {
 					"language": "gcr",
-					"value": "Mounit\u00e9"
+					"value": "mounit\u00e9"
 				},
 				"smn": {
 					"language": "smn",
@@ -971,7 +962,7 @@ const Human: WikidataResponse = {
 				},
 				"tum": {
 					"language": "tum",
-					"value": "Munthu"
+					"value": "munthu"
 				},
 				"mni": {
 					"language": "mni",
@@ -991,7 +982,7 @@ const Human: WikidataResponse = {
 				},
 				"lld": {
 					"language": "lld",
-					"value": "Porsona"
+					"value": "porsona"
 				},
 				"dag": {
 					"language": "dag",
@@ -1007,7 +998,7 @@ const Human: WikidataResponse = {
 				},
 				"bjn": {
 					"language": "bjn",
-					"value": "Manusia"
+					"value": "manusia"
 				},
 				"pap": {
 					"language": "pap",
@@ -1015,11 +1006,11 @@ const Human: WikidataResponse = {
 				},
 				"co": {
 					"language": "co",
-					"value": "Omu"
+					"value": "omu"
 				},
 				"shi": {
 					"language": "shi",
-					"value": "Afgan"
+					"value": "afgan"
 				},
 				"ti": {
 					"language": "ti",
@@ -1035,21 +1026,173 @@ const Human: WikidataResponse = {
 				},
 				"crh": {
 					"language": "crh",
-					"value": "\u0130nsan"
+					"value": "insan"
 				},
 				"pwn": {
 					"language": "pwn",
 					"value": "caucau"
 				},
-				"als": {
-					"language": "als",
-					"value": "mensch"
+				"udm": {
+					"language": "udm",
+					"value": "\u0430\u0434\u044f\u043c\u0438"
+				},
+				"sn": {
+					"language": "sn",
+					"value": "munhu"
+				},
+				"szy": {
+					"language": "szy",
+					"value": "tademaw"
+				},
+				"tg-latn": {
+					"language": "tg-latn",
+					"value": "inson"
+				},
+				"pih": {
+					"language": "pih",
+					"value": "salan"
+				},
+				"nap": {
+					"language": "nap",
+					"value": "umane"
+				},
+				"ff": {
+					"language": "ff",
+					"value": "\u0253ii aadama"
+				},
+				"guw": {
+					"language": "guw",
+					"value": "gb\u1eb9t\u1ecd"
+				},
+				"kcg": {
+					"language": "kcg",
+					"value": "a\u0331tyubishyi"
+				},
+				"gpe": {
+					"language": "gpe",
+					"value": "human"
+				},
+				"tk": {
+					"language": "tk",
+					"value": "adam"
+				},
+				"pcm": {
+					"language": "pcm",
+					"value": "pesin"
+				},
+				"arq": {
+					"language": "arq",
+					"value": "\u0628\u0646\u0627\u062f\u0645"
+				},
+				"krj": {
+					"language": "krj",
+					"value": "tawu"
+				},
+				"kaa": {
+					"language": "kaa",
+					"value": "adam"
+				},
+				"tok": {
+					"language": "tok",
+					"value": "jan"
+				},
+				"dsb": {
+					"language": "dsb",
+					"value": "c\u0142owjek"
+				},
+				"cu": {
+					"language": "cu",
+					"value": "\u0447\u043b\u043e\u0432\u0463\u043a\u044a"
+				},
+				"en-us": {
+					"language": "en-us",
+					"value": "human"
+				},
+				"anp": {
+					"language": "anp",
+					"value": "\u092e\u0928\u0941\u0937\u094d\u092f"
+				},
+				"ryu": {
+					"language": "ryu",
+					"value": "\u30d2\u30c8"
+				},
+				"csb": {
+					"language": "csb",
+					"value": "cz\u0142owiek"
+				},
+				"nv": {
+					"language": "nv",
+					"value": "din\u00e9"
+				},
+				"chr": {
+					"language": "chr",
+					"value": "\u13f4\u13eb"
+				},
+				"mos": {
+					"language": "mos",
+					"value": "neda"
+				},
+				"gur": {
+					"language": "gur",
+					"value": "nera"
+				},
+				"fon": {
+					"language": "fon",
+					"value": "gb\u025bt\u0254"
+				},
+				"ady": {
+					"language": "ady",
+					"value": "\u0446\u04cf\u044b\u0444"
+				},
+				"sr-ec": {
+					"language": "sr-ec",
+					"value": "\u0447\u043e\u0432\u0435\u043a"
+				},
+				"zgh": {
+					"language": "zgh",
+					"value": "\u2d30\u2d3c\u2d33\u2d30\u2d4f"
+				},
+				"nan-hani": {
+					"language": "nan-hani",
+					"value": "\u4eba"
+				},
+				"ota": {
+					"language": "ota",
+					"value": "\u064a\u0646\u0633\u0627\u0646"
+				},
+				"tly": {
+					"language": "tly",
+					"value": "inson"
+				},
+				"bew": {
+					"language": "bew",
+					"value": "manusia"
+				},
+				"btm": {
+					"language": "btm",
+					"value": "alak"
+				},
+				"rn": {
+					"language": "rn",
+					"value": "Ikiremwa muntu"
+				},
+				"om": {
+					"language": "om",
+					"value": "Nama"
+				},
+				"dga": {
+					"language": "dga",
+					"value": "nensaala"
+				},
+				"kr": {
+					"language": "kr",
+					"value": "kam"
 				}
 			},
 			"descriptions": {
 				"en": {
 					"language": "en",
-					"value": "common name of Homo sapiens, unique extant species of the genus Homo"
+					"value": "any member of Homo sapiens, unique extant species of the genus Homo, from embryo to adult"
 				},
 				"fr": {
 					"language": "fr",
@@ -1057,7 +1200,7 @@ const Human: WikidataResponse = {
 				},
 				"de": {
 					"language": "de",
-					"value": "h\u00f6heres S\u00e4ugetier aus der Ordnung der Primaten, Trivialname von Homo sapiens und Homo sapiens sapiens"
+					"value": "h\u00f6heres S\u00e4ugetier aus der Ordnung der Primaten"
 				},
 				"pl": {
 					"language": "pl",
@@ -1065,11 +1208,11 @@ const Human: WikidataResponse = {
 				},
 				"es": {
 					"language": "es",
-					"value": "individuo de la especie Homo sapiens; \u00fanica superviviente del g\u00e9nero Homo"
+					"value": "nombre com\u00fan de Homo sapiens, \u00fanica especie existente del g\u00e9nero Homo"
 				},
 				"it": {
 					"language": "it",
-					"value": "specie a cui appartiene il genere umano"
+					"value": "nome comune della specie Homo sapiens, l'unica esistente del genere Homo"
 				},
 				"nl": {
 					"language": "nl",
@@ -1077,7 +1220,7 @@ const Human: WikidataResponse = {
 				},
 				"ko": {
 					"language": "ko",
-					"value": "\ud638\ubaa8 \uc0ac\ud53c\uc5d4\uc2a4\uc758 \uc77c\ubc18\uc801\uc778 \uba85\uce6d, \uc0ac\ub78c\uc18d\uc758 \ud55c \uc885"
+					"value": "\uc601\uc7a5\ub958\uc758 \uc77c\uc885"
 				},
 				"nb": {
 					"language": "nb",
@@ -1093,7 +1236,7 @@ const Human: WikidataResponse = {
 				},
 				"ru": {
 					"language": "ru",
-					"value": "\u0447\u0435\u043b\u043e\u0432\u0435\u043a \u043a\u0430\u043a \u0447\u0430\u0441\u0442\u044c \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430; \u043e\u0431\u0438\u0445\u043e\u0434\u043d\u043e\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0442\u0430\u043a\u0441\u043e\u043d\u0430 Homo sapiens, \u0432\u0438\u0434\u0430 \u0438\u0437 \u0441\u0435\u043c\u0435\u0439\u0441\u0442\u0432\u0430 \u0413\u043e\u043c\u0438\u043d\u0438\u0434, \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0433\u043e \u0432\u0438\u0434\u0430 \u0440\u043e\u0434\u0430 \u041b\u044e\u0434\u0438"
+					"value": "\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e, \u043e\u0431\u043b\u0430\u0434\u0430\u044e\u0449\u0435\u0435 \u0440\u0430\u0437\u0443\u043c\u043e\u043c \u0438 \u0441\u043e\u0437\u043d\u0430\u043d\u0438\u0435\u043c; \u0441\u0443\u0431\u044a\u0435\u043a\u0442, \u043e\u0442\u043d\u043e\u0441\u044f\u0449\u0438\u0439\u0441\u044f \u043a \u0432\u0438\u0434\u0443 \u0427\u0435\u043b\u043e\u0432\u0435\u043a \u0440\u0430\u0437\u0443\u043c\u043d\u044b\u0439"
 				},
 				"zh-hans": {
 					"language": "zh-hans",
@@ -1145,7 +1288,7 @@ const Human: WikidataResponse = {
 				},
 				"pt-br": {
 					"language": "pt-br",
-					"value": "esp\u00e9cie da fam\u00edlia Hominidae"
+					"value": "membro da esp\u00e9cie Homo sapiens, \u00fanica subesp\u00e9cie ainda existente do g\u00eanero Homo, de embri\u00e3o a adulto"
 				},
 				"fa": {
 					"language": "fa",
@@ -1165,7 +1308,7 @@ const Human: WikidataResponse = {
 				},
 				"pt": {
 					"language": "pt",
-					"value": "\u00fanica subesp\u00e9cie ainda existente do g\u00e9nero Homo"
+					"value": "membro da esp\u00e9cie Homo sapiens, \u00fanica subesp\u00e9cie ainda existente do g\u00e9nero Homo, de embri\u00e3o a adulto"
 				},
 				"eo": {
 					"language": "eo",
@@ -1177,7 +1320,7 @@ const Human: WikidataResponse = {
 				},
 				"da": {
 					"language": "da",
-					"value": "Menneske som medlem af det menneskelige samfund; Almindeligt navn p\u00e5 Homo sapiens"
+					"value": "menneske som medlem af det menneskelige samfund; almindeligt navn for Homo sapiens"
 				},
 				"cy": {
 					"language": "cy",
@@ -1189,7 +1332,7 @@ const Human: WikidataResponse = {
 				},
 				"uk": {
 					"language": "uk",
-					"value": "\u0432\u0438\u0434 \u0440\u043e\u0434\u0443 \u041b\u044e\u0434\u0438 (Homo) \u0456\u0437 \u0440\u043e\u0434\u0438\u043d\u0438 \u0433\u043e\u043c\u0456\u043d\u0456\u0434 \u0432 \u0440\u044f\u0434\u0456 \u043f\u0440\u0438\u043c\u0430\u0442\u0456\u0432, \u0454\u0434\u0438\u043d\u0438\u0439 \u0437 \u043d\u0438\u043d\u0456 \u0456\u0441\u043d\u0443\u044e\u0447\u0438\u0445 \u0432 \u0442\u0435\u043f\u0435\u0440\u0456\u0448\u043d\u0456\u0439 \u0447\u0430\u0441"
+					"value": "\u0432\u0438\u0434 \u0440\u043e\u0434\u0443 \u041b\u044e\u0434\u0438 (Homo) \u0456\u0437 \u0440\u043e\u0434\u0438\u043d\u0438 \u0433\u043e\u043c\u0456\u043d\u0456\u0434 \u0443 \u0440\u044f\u0434\u0456 \u043f\u0440\u0438\u043c\u0430\u0442\u0456\u0432, \u0454\u0434\u0438\u043d\u0438\u0439 \u0437 \u043d\u0438\u043d\u0456 \u0456\u0441\u043d\u0443\u044e\u0447\u0438\u0445"
 				},
 				"ro": {
 					"language": "ro",
@@ -1197,7 +1340,7 @@ const Human: WikidataResponse = {
 				},
 				"vi": {
 					"language": "vi",
-					"value": "lo\u00e0i duy nh\u1ea5t c\u00f2n s\u1ed1ng c\u1ee7a t\u00f4ng Hominini, thu\u1ed9c l\u1edbp \u0111\u1ed9ng v\u1eadt c\u00f3 v\u00fa"
+					"value": "lo\u00e0i duy nh\u1ea5t thu\u1ed9c chi Homo c\u1ee7a b\u1ed9 Linh tr\u01b0\u1edfng c\u00f2n t\u1ed3n t\u1ea1i"
 				},
 				"en-ca": {
 					"language": "en-ca",
@@ -1217,7 +1360,7 @@ const Human: WikidataResponse = {
 				},
 				"sl": {
 					"language": "sl",
-					"value": "vrsta iz dru\u017eine Hominidae"
+					"value": "katerikoli pripadnik vrste Homo sapiens, edine \u017eive\u010de vrste rodu Homo, od zarodka do odrasle osebe; zna\u010dilni so visoko razvite spoznavne funkcije, sposobnost govora, sposobnost uporabe orodja, dvo\u017ena hoja ter raznoliko dru\u017eabno in kulturno \u017eivljenje"
 				},
 				"gl": {
 					"language": "gl",
@@ -1225,11 +1368,11 @@ const Human: WikidataResponse = {
 				},
 				"bg": {
 					"language": "bg",
-					"value": "\u0432\u0438\u0434 \u0431\u043e\u0437\u0430\u0439\u043d\u0438\u043a"
+					"value": "\u043e\u0431\u0449\u043e\u043f\u0440\u0438\u0435\u0442\u043e\u0442\u043e \u0438\u043c\u0435 \u043d\u0430 Homo sapiens, \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u0438\u044f\u0442 \u043e\u0446\u0435\u043b\u044f\u043b \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043b \u043d\u0430 \u0440\u043e\u0434\u0430 Homo"
 				},
 				"ne": {
 					"language": "ne",
-					"value": "\u0939\u094b\u092e\u094b \u0938\u0947\u092a\u093f\u0928\u094d\u0938 \u0915\u094b \u092c\u094b\u0932\u0940\u091a\u093e\u0932\u0940\u0915\u094b \u0928\u093e\u092e, \u0939\u094b\u092e\u094b \u092a\u0930\u093f\u0935\u093e\u0930\u0915\u094b \u090f\u0915 \u0935\u093f\u0936\u0947\u0937 \u092a\u094d\u0930\u091c\u093e\u0924\u093f"
+					"value": "\u0939\u094b\u092e\u094b \u0938\u0947\u092a\u093f\u0928\u094d\u0938\u0915\u094b \u092c\u094b\u0932\u0940\u091a\u093e\u0932\u0940\u0915\u094b \u0928\u093e\u092e, \u0939\u094b\u092e\u094b \u092a\u0930\u093f\u0935\u093e\u0930\u0915\u094b \u090f\u0915 \u0935\u093f\u0936\u0947\u0937 \u092a\u094d\u0930\u091c\u093e\u0924\u093f"
 				},
 				"af": {
 					"language": "af",
@@ -1253,7 +1396,7 @@ const Human: WikidataResponse = {
 				},
 				"id": {
 					"language": "id",
-					"value": "nama umum dari Homo sapiens, spesies unik dari genus Homo"
+					"value": "nama umum Homo sapiens, satu-satunya spesies genus Homo yang masih ada"
 				},
 				"et": {
 					"language": "et",
@@ -1285,7 +1428,7 @@ const Human: WikidataResponse = {
 				},
 				"hr": {
 					"language": "hr",
-					"value": "\u017eivo bi\u0107e koje ima visoko razvijen mozak sposoban za apstraktno razmi\u0161ljanje, govor, rje\u0161avanje problema, introspekciju i sl"
+					"value": "\u017eivo bi\u0107e koje ima visoko razvijen mozak sposoban za apstraktno razmi\u0161ljanje, govor, rje\u0161avanje problema, introspekciju i sli\u010dno"
 				},
 				"sk": {
 					"language": "sk",
@@ -1317,11 +1460,11 @@ const Human: WikidataResponse = {
 				},
 				"sq": {
 					"language": "sq",
-					"value": "Njeriu si nj\u00eb an\u00ebtar i shoq\u00ebris\u00eb njer\u00ebzore; Emri i zakonsh\u00ebm i Homo sapiens, specie unike ekzistuese t\u00eb gjinis\u00eb Homo"
+					"value": "llojet e hominideve n\u00eb gjinin\u00eb Homo"
 				},
 				"tr": {
 					"language": "tr",
-					"value": "Homo sapiens'in ortak ad\u0131, Homo cinsinin en y\u00fcksek bili\u015fsel fonksiyona sahip t\u00fcr\u00fc"
+					"value": "embriyodan yeti\u015fkine kadar Homo cinsinin mevcut benzersiz t\u00fcr\u00fc olan Homo sapiens'in herhangi bir \u00fcyesi"
 				},
 				"pa": {
 					"language": "pa",
@@ -1341,7 +1484,7 @@ const Human: WikidataResponse = {
 				},
 				"bho": {
 					"language": "bho",
-					"value": "\u0939\u094b\u092e\u094b \u0938\u0947\u092a\u093f\u092f\u0902\u0938 \u0928\u093e\u0901\u0935 \u0915\u0947 \u092a\u094d\u0930\u091c\u093e\u0924\u093f \u0915\u0947 \u0906\u092e \u0938\u0939\u091c \u0928\u093e\u0901\u0935"
+					"value": "\ud804\udcaf\ud804\udcb7\ud804\udca7\ud804\udcb7 \ud804\udcae\ud804\udcb5\ud804\udca3\ud804\udcb1\ud804\udca8\ud804\udc81\ud804\udcae \ud804\udca2\ud804\udcb0\ud804\udc80\ud804\udcab \ud804\udc8d\ud804\udcb5 \ud804\udca3\ud804\udcb9\ud804\udca9\ud804\udc94\ud804\udcb0\ud804\udc9e\ud804\udcb1 \ud804\udc8d\ud804\udcb5 \ud804\udc84\ud804\udca7 \ud804\udcae\ud804\udcaf\ud804\udc94 \ud804\udca2\ud804\udcb0\ud804\udc80\ud804\udcab"
 				},
 				"sd": {
 					"language": "sd",
@@ -1401,7 +1544,7 @@ const Human: WikidataResponse = {
 				},
 				"shi": {
 					"language": "shi",
-					"value": "Assa\u0263 ittyussan n ufgan awnul. iga sg wanaw n Homo-Sapiens"
+					"value": "assa\u0263 ittyussan n ufgan awnul. iga sg wanaw n Homo-Sapiens"
 				},
 				"ha": {
 					"language": "ha",
@@ -1417,7 +1560,115 @@ const Human: WikidataResponse = {
 				},
 				"dag": {
 					"language": "dag",
-					"value": "Di wuhiri la daadam bee sala"
+					"value": "daadam bee sala"
+				},
+				"tw": {
+					"language": "tw",
+					"value": "Nnipa y\u025b Nyame ab\u0254de\u025b a \u0254b\u0254\u0254 w\u0254n s\u025b ne s\u025bso a \u025by\u025b \u0254baa ne barima"
+				},
+				"kcg": {
+					"language": "kcg",
+					"value": "a\u0331lyoot kuzang Homo sapiens, tangka\u0331i jenut Homo ti\u0331taa hu"
+				},
+				"gpe": {
+					"language": "gpe",
+					"value": "common name give Homo sapiens, unique extant species for de genus Homo"
+				},
+				"ky": {
+					"language": "ky",
+					"value": "Homo \u0442\u0443\u043a\u0443\u043c\u0443\u043d\u0443\u043d Homo sapiens \u0442\u04af\u0440\u04af\u043d\u0434\u04e9\u0433\u04af \u0441\u04af\u0442 \u044d\u043c\u04af\u04af\u0447\u04af"
+				},
+				"tt": {
+					"language": "tt",
+					"value": "Homo sapiens\u043d\u044b\u04a3 \u0433\u043e\u043c\u0443\u043c\u0438 \u0438\u0441\u0435\u043c\u0435, Homo \u043d\u04d9\u0441\u0435\u043b\u0435\u043d\u0435\u04a3 \u0443\u043d\u0438\u043a\u0430\u043b\u044c \u0442\u04e9\u0440\u043b\u04d9\u0440\u0435"
+				},
+				"uz": {
+					"language": "uz",
+					"value": "aql va ongga ega ijtimoiy mavjudot; Homo sapiens turiga mansub mavjudot"
+				},
+				"ga": {
+					"language": "ga",
+					"value": "Ainm coitianta d' Homo sapiens,speiceas uath\u00fail ar marthain den gh\u00e9ineas Homo, \u00f3 suth go duine f\u00e1sta"
+				},
+				"en-us": {
+					"language": "en-us",
+					"value": "common name of Homo sapiens, unique extant species of the genus Homo, from embryo to adult"
+				},
+				"as": {
+					"language": "as",
+					"value": "\u09b9\u09cb\u09ae\u09cb \u099a\u09c7\u09aa\u09bf\u09af\u09bc\u09c7\u09a8\u09cd\u09b8\u09f0 \u09b8\u09be\u09a7\u09be\u09f0\u09a3 \u09a8\u09be\u09ae, \u09ad\u09cd\u09f0\u09c2\u09a3\u09f0 \u09aa\u09f0\u09be \u09aa\u09cd\u09f0\u09be\u09aa\u09cd\u09a4\u09ac\u09af\u09bc\u09b8\u09cd\u0995\u09b2\u09c8 \u09b9\u09cb\u09ae\u09cb \u0997\u09a3\u09f0 \u0985\u09a8\u09a8\u09cd\u09af \u09aa\u09cd\u09f0\u099c\u09be\u09a4\u09bf"
+				},
+				"kk": {
+					"language": "kk",
+					"value": "\u0441\u0430\u043d\u0430\u043b\u044b \u0430\u0434\u0430\u043c\u043d\u044b\u04a3 \u043a\u04af\u043d\u0434\u0435\u043b\u0456\u043a\u0442\u0456 \u0430\u0442\u0430\u0443\u044b, \u0433\u043e\u043c\u043e \u0442\u04b1\u049b\u044b\u043c\u0434\u0430\u0441\u044b\u043d\u0430 \u043a\u0456\u0440\u0435\u0442\u0456\u043d \u0435\u0440\u0435\u043a\u0448\u0435 \u0442\u04af\u0440"
+				},
+				"ig": {
+					"language": "ig",
+					"value": "aha nd\u1ecb otu n\u1ecd n'okpuru mmad\u1ee5,nd\u1ecb na ebido na embrayo ruo na okenye"
+				},
+				"pcm": {
+					"language": "pcm",
+					"value": "name for group weh dey under homo sapiens, na em be people weh get special body weh dey grow from embryo to adult"
+				},
+				"tok": {
+					"language": "tok",
+					"value": "ijo ale ni li kama tan kulupu Homo"
+				},
+				"mos": {
+					"language": "mos",
+					"value": "wulgra nen-saala"
+				},
+				"diq": {
+					"language": "diq",
+					"value": "insan"
+				},
+				"rmy": {
+					"language": "rmy",
+					"value": "vasho"
+				},
+				"is": {
+					"language": "is",
+					"value": "mannapi af \u00e6ttflokknum Homini og \u00e6ttkv\u00edslinni Homo"
+				},
+				"sr-ec": {
+					"language": "sr-ec",
+					"value": "\u0431\u0438\u043b\u043e \u043a\u043e\u0458\u0438 \u0447\u043b\u0430\u043d \u0425\u043e\u043c\u043e \u0441\u0430\u043f\u0438\u0435\u043d\u0441\u0430, \u0458\u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u0435 \u043f\u043e\u0441\u0442\u043e\u0458\u0435\u045b\u0435 \u0432\u0440\u0441\u0442\u0435 \u0438\u0437 \u0440\u043e\u0434\u0430 \u0425\u043e\u043c\u043e, \u043e\u0434 \u0435\u043c\u0431\u0440\u0438\u043e\u043d\u0430 \u0434\u043e \u043e\u0434\u0440\u0430\u0441\u043b\u0435 \u043e\u0441\u043e\u0431\u0435"
+				},
+				"nan-hani": {
+					"language": "nan-hani",
+					"value": "\u9748\u9577\u76ee\u4eba\u79d1\u4eba\u5c6c\u7684\u7269\u7a2e"
+				},
+				"nan": {
+					"language": "nan",
+					"value": "L\u00eang-tn\u0302g-bo\u030dk J\u00een-kho J\u00een-sio\u030dk \u00ea bu\u030dt-ch\u00e9ng"
+				},
+				"ota": {
+					"language": "ota",
+					"value": "\u064a\u0631\u064a\u0648\u0632\u0648\u0646\u062f\u0643\u0649 \u0646 \u0628\u0627\u0633\u0643\u064a\u0646 \u062a\u0648\u0631 \u062f\u0648\u0631\u0648\u0645\u0648\u0646\u0627 \u0643\u0644\u0645\u064a\u0634 \u0627\u064a\u0643\u0649 \u0627\u064a\u0627\u0643\u0644\u0649 \u0628\u064a\u0631 \u067e\u0631\u064a\u0645\u0627\u062a \u0648\u0647 \u062d\u0648\u0645\u0648 \u062c\u064a\u0646\u0633\u064a\u0646\u064a\u0646 \u0647\u0627\u064a\u0627\u062a\u062a\u0627 \u0627\u0648\u0644\u0627\u0646 \u062a\u0643 \u062a\u0648\u0631\u0648"
+				},
+				"cdo": {
+					"language": "cdo",
+					"value": "\u8700\u7a2e\u9ad8\u7d1a\u5176\u9748\u9577\u76ee\u54fa\u4e73\u52d5\u7269"
+				},
+				"hak": {
+					"language": "hak",
+					"value": "\u4e00\u7a2e\u9ad8\u7d1a\u9748\u9577\u76ee\u54fa\u4e73\u52d5\u7269"
+				},
+				"lb": {
+					"language": "lb",
+					"value": "Individuum aus der Art vun den Homo sapiens"
+				},
+				"kaa": {
+					"language": "kaa",
+					"value": "aq\u0131l h\u00e1m sana\u01f5a iye j\u00e1miyetlik janzat; Homo sapiens t\u00farine tiyisli janzat"
+				},
+				"rn": {
+					"language": "rn",
+					"value": "uwo ari we wese wo mu bwoko bwa Homo sapiens, ubwoko budasanzwe bukiriho bwo mu bwoko bwa Homo, kuva ku rusoro gushika ku muntu akuze"
+				},
+				"dga": {
+					"language": "dga",
+					"value": "ne\u025b ka\u014ba na\u014b be Homo sapiens, yitaa na\u014b be Homo, yi bile te t\u0254 ne\u014bkpo\u014b"
 				}
 			},
 			"aliases": {
@@ -1428,39 +1679,39 @@ const Human: WikidataResponse = {
 					},
 					{
 						"language": "en",
-						"value": "humankind"
-					},
-					{
-						"language": "en",
 						"value": "people"
 					},
 					{
 						"language": "en",
-						"value": "homosapiens"
+						"value": "humans"
+					},
+					{
+						"language": "en",
+						"value": "man"
+					},
+					{
+						"language": "en",
+						"value": "men"
+					},
+					{
+						"language": "en",
+						"value": "individual human"
+					},
+					{
+						"language": "en",
+						"value": "individual Homo sapien"
+					},
+					{
+						"language": "en",
+						"value": "nonfictional human"
+					},
+					{
+						"language": "en",
+						"value": "non-fictional human"
 					},
 					{
 						"language": "en",
 						"value": "person"
-					},
-					{
-						"language": "en",
-						"value": "mankind"
-					},
-					{
-						"language": "en",
-						"value": "peoplekind"
-					},
-					{
-						"language": "en",
-						"value": "personkind"
-					},
-					{
-						"language": "en",
-						"value": "persons"
-					},
-					{
-						"language": "en",
-						"value": "humans"
 					}
 				],
 				"de": [
@@ -1479,6 +1730,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "de",
 						"value": "Personen"
+					},
+					{
+						"language": "de",
+						"value": "Menschen"
 					}
 				],
 				"pl": [
@@ -1497,6 +1752,14 @@ const Human: WikidataResponse = {
 					{
 						"language": "pl",
 						"value": "cz\u0142owiek wsp\u00f3\u0142czesny"
+					},
+					{
+						"language": "pl",
+						"value": "Cz\u0142owiek rozumny"
+					},
+					{
+						"language": "pl",
+						"value": "cz\u0142ek"
 					}
 				],
 				"be-tarask": [
@@ -1544,15 +1807,15 @@ const Human: WikidataResponse = {
 				"nds-nl": [
 					{
 						"language": "nds-nl",
-						"value": "M\u00ecnsk"
+						"value": "m\u00ecnsk"
 					},
 					{
 						"language": "nds-nl",
-						"value": "Mens"
+						"value": "mens"
 					},
 					{
 						"language": "nds-nl",
-						"value": "Meens"
+						"value": "meens"
 					}
 				],
 				"en-gb": [
@@ -1705,6 +1968,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "ca",
 						"value": "persones"
+					},
+					{
+						"language": "ca",
+						"value": "\u00c9sser hum\u00e0"
 					}
 				],
 				"zh-hans": [
@@ -1782,15 +2049,15 @@ const Human: WikidataResponse = {
 				"fr": [
 					{
 						"language": "fr",
-						"value": "etre humain"
+						"value": "humain"
+					},
+					{
+						"language": "fr",
+						"value": "humaine"
 					},
 					{
 						"language": "fr",
 						"value": "Homme"
-					},
-					{
-						"language": "fr",
-						"value": "Homo sapiens sapiens"
 					},
 					{
 						"language": "fr",
@@ -1799,14 +2066,6 @@ const Human: WikidataResponse = {
 					{
 						"language": "fr",
 						"value": "esp\u00e8ce humaine"
-					},
-					{
-						"language": "fr",
-						"value": "humaine"
-					},
-					{
-						"language": "fr",
-						"value": "humain"
 					},
 					{
 						"language": "fr",
@@ -1821,10 +2080,6 @@ const Human: WikidataResponse = {
 					{
 						"language": "nb",
 						"value": "Homo sapiens sapiens"
-					},
-					{
-						"language": "nb",
-						"value": "Menneske"
 					}
 				],
 				"sv": [
@@ -1842,7 +2097,7 @@ const Human: WikidataResponse = {
 					},
 					{
 						"language": "sv",
-						"value": "m\u00e4nniskoheten"
+						"value": "m\u00e4nskligheten"
 					}
 				],
 				"he": [
@@ -1999,6 +2254,26 @@ const Human: WikidataResponse = {
 					{
 						"language": "ja",
 						"value": "\u30db\u30e2\u30fb\u30b5\u30d4\u30a8\u30f3\u30b9"
+					},
+					{
+						"language": "ja",
+						"value": "\u4eba"
+					},
+					{
+						"language": "ja",
+						"value": "\u65b0\u4eba"
+					},
+					{
+						"language": "ja",
+						"value": "\u30db\u30e2\u30b5\u30d4\u30a8\u30f3\u30b9"
+					},
+					{
+						"language": "ja",
+						"value": "\u4eba\u9593"
+					},
+					{
+						"language": "ja",
+						"value": "\u3072\u3068"
 					}
 				],
 				"ru": [
@@ -2016,10 +2291,6 @@ const Human: WikidataResponse = {
 					},
 					{
 						"language": "ru",
-						"value": "Homo sapiens"
-					},
-					{
-						"language": "ru",
 						"value": "\u0447\u0435\u043b\u043e\u0432\u0435\u043a \u0440\u0430\u0437\u0443\u043c\u043d\u044b\u0439"
 					},
 					{
@@ -2028,13 +2299,29 @@ const Human: WikidataResponse = {
 					},
 					{
 						"language": "ru",
-						"value": "\u0447"
+						"value": "\u0427\u0435\u043b\u043e\u0432\u0435\u043a"
+					},
+					{
+						"language": "ru",
+						"value": "\u0447\u0435\u043b"
+					},
+					{
+						"language": "ru",
+						"value": "homo sapiens"
+					},
+					{
+						"language": "ru",
+						"value": "\u0447\u0435\u043b\u043e\u0432\u0435\u043a \u0437\u043d\u0430\u044e\u0449\u0438\u0439"
 					}
 				],
 				"fi": [
 					{
 						"language": "fi",
 						"value": "homo sapiens"
+					},
+					{
+						"language": "fi",
+						"value": "Ihminen"
 					}
 				],
 				"cs": [
@@ -2069,6 +2356,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "vi",
 						"value": "con ng\u01b0\u1eddi"
+					},
+					{
+						"language": "vi",
+						"value": "nh\u00e2n lo\u1ea1i"
 					}
 				],
 				"scn": [
@@ -2125,6 +2416,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "af",
 						"value": "sterfling"
+					},
+					{
+						"language": "af",
+						"value": "Mens"
 					}
 				],
 				"hi": [
@@ -2178,7 +2473,7 @@ const Human: WikidataResponse = {
 					},
 					{
 						"language": "lt",
-						"value": "\u017emogus"
+						"value": "\u017emoga"
 					}
 				],
 				"fo": [
@@ -2190,21 +2485,25 @@ const Human: WikidataResponse = {
 				"ia": [
 					{
 						"language": "ia",
-						"value": "esser human"
-					},
-					{
-						"language": "ia",
 						"value": "persona"
 					},
 					{
 						"language": "ia",
 						"value": "homine"
+					},
+					{
+						"language": "ia",
+						"value": "humano"
 					}
 				],
 				"id": [
 					{
 						"language": "id",
-						"value": "orang"
+						"value": "Homo sapiens"
+					},
+					{
+						"language": "id",
+						"value": "manusia modern"
 					}
 				],
 				"new": [
@@ -2247,6 +2546,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "et",
 						"value": "Homo sapiens"
+					},
+					{
+						"language": "et",
+						"value": "inimene"
 					}
 				],
 				"ast": [
@@ -2261,6 +2564,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "ast",
 						"value": "persona"
+					},
+					{
+						"language": "ast",
+						"value": "humanos"
 					}
 				],
 				"sq": [
@@ -2280,23 +2587,55 @@ const Human: WikidataResponse = {
 				"ba": [
 					{
 						"language": "ba",
-						"value": "\u04d9\u0499\u04d9\u043c, \u0431\u04d9\u043d\u0434\u04d9, \u0438\u043d\u0441\u0430\u043d, \u0445\u043e\u043c\u043e \u0441\u0430\u043f\u0438\u0435\u043d\u0441, \u0430\u04a3\u043b\u044b \u0439\u04d9\u043d \u044d\u0439\u04d9\u04bb\u0435"
+						"value": "\u04d9\u0499\u04d9\u043c"
+					},
+					{
+						"language": "ba",
+						"value": "\u0431\u04d9\u043d\u0434\u04d9"
+					},
+					{
+						"language": "ba",
+						"value": "\u0438\u043d\u0441\u0430\u043d"
+					},
+					{
+						"language": "ba",
+						"value": "\u0445\u043e\u043c\u043e \u0441\u0430\u043f\u0438\u0435\u043d\u0441"
+					},
+					{
+						"language": "ba",
+						"value": "\u0430\u04a3\u043b\u044b \u0439\u04d9\u043d \u044d\u0439\u04d9\u04bb\u0435"
 					}
 				],
 				"ky": [
 					{
 						"language": "ky",
-						"value": "\u0430\u0434\u0430\u043c (\u043a\u0438\u0448\u0438)"
+						"value": "\u043a\u0438\u0448\u0438"
 					},
 					{
 						"language": "ky",
-						"value": "\u043a\u0438\u0448\u0438"
+						"value": "\u0438\u043d\u0441\u0430\u043d"
+					},
+					{
+						"language": "ky",
+						"value": "Homo sapiens"
+					},
+					{
+						"language": "ky",
+						"value": "Homo sapiens sapiens"
+					},
+					{
+						"language": "ky",
+						"value": "\u0430\u0434\u0430\u043c \u0431\u0430\u043b\u0430\u0441\u044b"
 					}
 				],
 				"as": [
 					{
 						"language": "as",
-						"value": "\u09ae\u09be\u09a8\u09f1, \u09a8\u09f0"
+						"value": "\u09ae\u09be\u09a8\u09f1"
+					},
+					{
+						"language": "as",
+						"value": "\u09ac\u09cd\u09af\u0995\u09cd\u09a4\u09bf"
 					}
 				],
 				"uk": [
@@ -2315,28 +2654,32 @@ const Human: WikidataResponse = {
 					{
 						"language": "uk",
 						"value": "\u043f\u0435\u0440\u0441\u043e\u043d\u0430"
+					},
+					{
+						"language": "uk",
+						"value": "\u041b\u044e\u0434\u0438\u043d\u0430"
 					}
 				],
 				"hr": [
-					{
-						"language": "hr",
-						"value": "Ljudi"
-					},
 					{
 						"language": "hr",
 						"value": "Homo sapiens"
 					},
 					{
 						"language": "hr",
-						"value": "Ljudska vrsta"
+						"value": "ljudi"
 					},
 					{
 						"language": "hr",
-						"value": "Homo"
+						"value": "ljudska vrsta"
 					},
 					{
 						"language": "hr",
-						"value": "\u010covje\u010danstvo"
+						"value": "homo"
+					},
+					{
+						"language": "hr",
+						"value": "\u010dovje\u010danstvo"
 					}
 				],
 				"vls": [
@@ -2454,10 +2797,6 @@ const Human: WikidataResponse = {
 				"mwl": [
 					{
 						"language": "mwl",
-						"value": "Houmano"
-					},
-					{
-						"language": "mwl",
 						"value": "houmano"
 					}
 				],
@@ -2530,11 +2869,15 @@ const Human: WikidataResponse = {
 				"bho": [
 					{
 						"language": "bho",
-						"value": "\u092e\u093e\u0928\u0935"
+						"value": "\ud804\udca7\ud804\udcb0\ud804\udca2\ud804\udcab"
 					},
 					{
 						"language": "bho",
-						"value": "\u0906\u0926\u092e\u0940"
+						"value": "\ud804\udc84\ud804\udca0\ud804\udca7\ud804\udcb2"
+					},
+					{
+						"language": "bho",
+						"value": "\ud804\udca7\ud804\udcb0\ud804\udca2\ud804\udcb3\ud804\udcae"
 					},
 					{
 						"language": "bho",
@@ -2563,6 +2906,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "gsw",
 						"value": "Person"
+					},
+					{
+						"language": "gsw",
+						"value": "mensch"
 					}
 				],
 				"sr": [
@@ -2639,6 +2986,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "az",
 						"value": "i\u0307nsan"
+					},
+					{
+						"language": "az",
+						"value": "\u0130nsan"
 					}
 				],
 				"el": [
@@ -2661,12 +3012,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "el",
 						"value": "\u03b1\u03bd\u03b8\u03c1\u03ce\u03c0\u03b9\u03bd\u03bf \u03bf\u03bd"
-					}
-				],
-				"arz": [
+					},
 					{
-						"language": "arz",
-						"value": "human"
+						"language": "el",
+						"value": "\u0386\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03c2"
 					}
 				],
 				"diq": [
@@ -2676,7 +3025,7 @@ const Human: WikidataResponse = {
 					},
 					{
 						"language": "diq",
-						"value": "merd\u0131m"
+						"value": "Merd\u0131m"
 					}
 				],
 				"oc": [
@@ -2686,15 +3035,23 @@ const Human: WikidataResponse = {
 					},
 					{
 						"language": "oc",
-						"value": "\u00e8sser uman"
-					},
-					{
-						"language": "oc",
 						"value": "esp\u00e8cia umana"
 					},
 					{
 						"language": "oc",
 						"value": "\u00f2me"
+					},
+					{
+						"language": "oc",
+						"value": "\u00f2mi"
+					},
+					{
+						"language": "oc",
+						"value": "degun"
+					},
+					{
+						"language": "oc",
+						"value": "\u00e8stre uman"
 					}
 				],
 				"tg": [
@@ -2747,6 +3104,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "la",
 						"value": "gens humana"
+					},
+					{
+						"language": "la",
+						"value": "Gens humana"
 					}
 				],
 				"my": [
@@ -2863,12 +3224,24 @@ const Human: WikidataResponse = {
 					{
 						"language": "eo",
 						"value": "homoj"
+					},
+					{
+						"language": "eo",
+						"value": "Homo"
 					}
 				],
 				"bg": [
 					{
 						"language": "bg",
-						"value": "\u0445\u043e\u0440\u0430"
+						"value": "\u0447\u043e\u0432\u0435\u0448\u043a\u043e \u0441\u044a\u0449\u0435\u0441\u0442\u0432\u043e"
+					},
+					{
+						"language": "bg",
+						"value": "Homo sapiens"
+					},
+					{
+						"language": "bg",
+						"value": "\u043b\u0438\u0447\u043d\u043e\u0441\u0442"
 					}
 				],
 				"sat": [
@@ -2905,13 +3278,13 @@ const Human: WikidataResponse = {
 					{
 						"language": "be",
 						"value": "\u0437\u044f\u043c\u043b\u044f\u043d\u0456\u043d"
+					},
+					{
+						"language": "be",
+						"value": "\u0427\u0430\u043b\u0430\u0432\u0435\u043a"
 					}
 				],
 				"shi": [
-					{
-						"language": "shi",
-						"value": "Bnadm"
-					},
 					{
 						"language": "shi",
 						"value": "\u2d30\u2d3c\u2d33\u2d30\u2d4f"
@@ -2919,6 +3292,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "shi",
 						"value": "\u2d31\u2d4f\u2d30\u2d37\u2d4e"
+					},
+					{
+						"language": "shi",
+						"value": "bnadm"
 					}
 				],
 				"ti": [
@@ -2942,10 +3319,6 @@ const Human: WikidataResponse = {
 				"ha": [
 					{
 						"language": "ha",
-						"value": "mutum"
-					},
-					{
-						"language": "ha",
 						"value": "\u0257an'adam"
 					}
 				],
@@ -2958,31 +3331,13 @@ const Human: WikidataResponse = {
 				"an": [
 					{
 						"language": "an",
-						"value": "Hum\u00e1n"
+						"value": "hum\u00e1n"
 					}
 				],
 				"bcl": [
 					{
 						"language": "bcl",
 						"value": "tawo"
-					}
-				],
-				"bjn": [
-					{
-						"language": "bjn",
-						"value": "manusia"
-					}
-				],
-				"co": [
-					{
-						"language": "co",
-						"value": "omu"
-					}
-				],
-				"gcr": [
-					{
-						"language": "gcr",
-						"value": "mounit\u00e9"
 					}
 				],
 				"gd": [
@@ -2995,6 +3350,10 @@ const Human: WikidataResponse = {
 					{
 						"language": "hak",
 						"value": "ng\u00ecn"
+					},
+					{
+						"language": "hak",
+						"value": "\u4eba\u985e"
 					}
 				],
 				"hy": [
@@ -3015,28 +3374,40 @@ const Human: WikidataResponse = {
 						"value": "remna"
 					}
 				],
-				"kab": [
-					{
-						"language": "kab",
-						"value": "afgan"
-					}
-				],
 				"kk": [
 					{
 						"language": "kk",
 						"value": "\u0441\u0430\u043d\u0430\u043b\u044b \u0430\u0434\u0430\u043c"
+					},
+					{
+						"language": "kk",
+						"value": "\u0430\u0434\u0430\u043c\u0437\u0430\u0442"
+					},
+					{
+						"language": "kk",
+						"value": "\u0430\u0434\u0430\u043c\u0434\u0430\u0440"
+					},
+					{
+						"language": "kk",
+						"value": "\u0430\u0434\u0430\u043c \u0431\u0430\u043b\u0430\u0441\u044b"
+					},
+					{
+						"language": "kk",
+						"value": "Homo sapiens"
+					},
+					{
+						"language": "kk",
+						"value": "\u0433\u043e\u043c\u043e \u0441\u0430\u043f\u0438\u0435\u043d\u0441"
+					},
+					{
+						"language": "kk",
+						"value": "\u04bb\u043e\u043c\u043e \u0441\u0430\u043f\u0438\u0435\u043d\u0441"
 					}
 				],
 				"ksh": [
 					{
 						"language": "ksh",
 						"value": "Minsh"
-					}
-				],
-				"lg": [
-					{
-						"language": "lg",
-						"value": "omuntu"
 					}
 				],
 				"lo": [
@@ -3048,7 +3419,15 @@ const Human: WikidataResponse = {
 				"mai": [
 					{
 						"language": "mai",
-						"value": "\u0932\u094b\u0915"
+						"value": "\u0932\u094b\u0917"
+					},
+					{
+						"language": "mai",
+						"value": "\u0906\u0926\u092e\u0940"
+					},
+					{
+						"language": "mai",
+						"value": "\u092e\u093e\u0928\u0935"
 					}
 				],
 				"min": [
@@ -3069,22 +3448,24 @@ const Human: WikidataResponse = {
 						"value": "hendenan"
 					}
 				],
-				"rmy": [
-					{
-						"language": "rmy",
-						"value": "manush"
-					}
-				],
 				"sk": [
 					{
 						"language": "sk",
 						"value": "\u010dlovek rozumn\u00fd"
+					},
+					{
+						"language": "sk",
+						"value": "Homo sapiens"
 					}
 				],
 				"so": [
 					{
 						"language": "so",
 						"value": "insaan"
+					},
+					{
+						"language": "so",
+						"value": "dadyow"
 					}
 				],
 				"szl": [
@@ -3096,7 +3477,43 @@ const Human: WikidataResponse = {
 				"tr": [
 					{
 						"language": "tr",
-						"value": "i\u0307nsan"
+						"value": "\u0130nsan"
+					},
+					{
+						"language": "tr",
+						"value": "insanlar"
+					},
+					{
+						"language": "tr",
+						"value": "Homosapien"
+					},
+					{
+						"language": "tr",
+						"value": "Homo Sapien"
+					},
+					{
+						"language": "tr",
+						"value": "ki\u015fi"
+					},
+					{
+						"language": "tr",
+						"value": "kurgusal olmayan insan"
+					},
+					{
+						"language": "tr",
+						"value": "hayali olmayan insan"
+					},
+					{
+						"language": "tr",
+						"value": "kurmaca olmayan insan"
+					},
+					{
+						"language": "tr",
+						"value": "d\u00fc\u015f \u00fcr\u00fcn\u00fc olmayan insan"
+					},
+					{
+						"language": "tr",
+						"value": "d\u00fc\u015flemsel olmayan insan"
 					}
 				],
 				"tt": [
@@ -3105,16 +3522,364 @@ const Human: WikidataResponse = {
 						"value": "\u0430\u043a\u044b\u043b\u043b\u044b \u043a\u0435\u0448\u0435"
 					}
 				],
-				"tum": [
+				"udm": [
 					{
-						"language": "tum",
-						"value": "munthu"
+						"language": "udm",
+						"value": "\u043c\u0443\u0440\u0442"
 					}
 				],
-				"zu": [
+				"ace": [
 					{
-						"language": "zu",
-						"value": "umuntu"
+						"language": "ace",
+						"value": "Tokoh"
+					}
+				],
+				"cdo": [
+					{
+						"language": "cdo",
+						"value": "\u5102"
+					},
+					{
+						"language": "cdo",
+						"value": "\u4eba"
+					},
+					{
+						"language": "cdo",
+						"value": "\u00ecng"
+					}
+				],
+				"cv": [
+					{
+						"language": "cv",
+						"value": "\u044d\u0442\u0435\u043c"
+					},
+					{
+						"language": "cv",
+						"value": "\u00e7\u044b\u043d"
+					}
+				],
+				"fy": [
+					{
+						"language": "fy",
+						"value": "Minske"
+					}
+				],
+				"ga": [
+					{
+						"language": "ga",
+						"value": "neach"
+					}
+				],
+				"ilo": [
+					{
+						"language": "ilo",
+						"value": "tao (sebbangan)"
+					}
+				],
+				"io": [
+					{
+						"language": "io",
+						"value": "Homo"
+					}
+				],
+				"ku": [
+					{
+						"language": "ku",
+						"value": "meriv"
+					},
+					{
+						"language": "ku",
+						"value": "\u00eensan"
+					}
+				],
+				"li": [
+					{
+						"language": "li",
+						"value": "Mins"
+					}
+				],
+				"os": [
+					{
+						"language": "os",
+						"value": "\u0443\u0434\u0433\u043e\u0439\u043c\u0430\u0433"
+					}
+				],
+				"wa": [
+					{
+						"language": "wa",
+						"value": "djin (biyolodjeye)"
+					}
+				],
+				"ckb": [
+					{
+						"language": "ckb",
+						"value": "\u0645\u0631\u06c6"
+					},
+					{
+						"language": "ckb",
+						"value": "\u0628\u06d5\u0634\u06d5\u0631"
+					},
+					{
+						"language": "ckb",
+						"value": "\u0626\u06cc\u0646\u0633\u0627\u0646"
+					}
+				],
+				"tg-latn": [
+					{
+						"language": "tg-latn",
+						"value": "odam"
+					},
+					{
+						"language": "tg-latn",
+						"value": "mard"
+					},
+					{
+						"language": "tg-latn",
+						"value": "\u015faxs"
+					},
+					{
+						"language": "tg-latn",
+						"value": "shakhs"
+					},
+					{
+						"language": "tg-latn",
+						"value": "kas"
+					}
+				],
+				"ff": [
+					{
+						"language": "ff",
+						"value": "ne\u0257\u0257o"
+					},
+					{
+						"language": "ff",
+						"value": "him\u0253e"
+					},
+					{
+						"language": "ff",
+						"value": "remme"
+					},
+					{
+						"language": "ff",
+						"value": "remmeje"
+					}
+				],
+				"kcg": [
+					{
+						"language": "kcg",
+						"value": "a\u0331niet"
+					},
+					{
+						"language": "kcg",
+						"value": "a\u0331tyu"
+					},
+					{
+						"language": "kcg",
+						"value": "a\u0331yin"
+					},
+					{
+						"language": "kcg",
+						"value": "a\u0331nietbishyi"
+					},
+					{
+						"language": "kcg",
+						"value": "\u00e1\u0331nietbishyi"
+					}
+				],
+				"atj": [
+					{
+						"language": "atj",
+						"value": "iriniw"
+					}
+				],
+				"ne": [
+					{
+						"language": "ne",
+						"value": "\u092e\u093e\u0928\u094d\u091b\u0947"
+					},
+					{
+						"language": "ne",
+						"value": "\u092e\u093e\u0928\u0935"
+					}
+				],
+				"kaa": [
+					{
+						"language": "kaa",
+						"value": "i\u0307nsan"
+					},
+					{
+						"language": "kaa",
+						"value": "adamzat"
+					},
+					{
+						"language": "kaa",
+						"value": "sanal\u0131 adam"
+					},
+					{
+						"language": "kaa",
+						"value": "adam balas\u0131"
+					},
+					{
+						"language": "kaa",
+						"value": "insaniyat"
+					}
+				],
+				"mos": [
+					{
+						"language": "mos",
+						"value": "adem biiga"
+					},
+					{
+						"language": "mos",
+						"value": "ninsaala"
+					},
+					{
+						"language": "mos",
+						"value": "nedlem"
+					}
+				],
+				"gur": [
+					{
+						"language": "gur",
+						"value": "asaala"
+					},
+					{
+						"language": "gur",
+						"value": "neda"
+					},
+					{
+						"language": "gur",
+						"value": "nera asaala"
+					}
+				],
+				"sl": [
+					{
+						"language": "sl",
+						"value": "\u010dlove\u0161ko bitje"
+					},
+					{
+						"language": "sl",
+						"value": "mo\u0161ki"
+					},
+					{
+						"language": "sl",
+						"value": "\u017eenska"
+					},
+					{
+						"language": "sl",
+						"value": "\u010dlove\u010dina"
+					},
+					{
+						"language": "sl",
+						"value": "krona stvarstva"
+					},
+					{
+						"language": "sl",
+						"value": "zemljan"
+					},
+					{
+						"language": "sl",
+						"value": "\u010dlove\u010dek"
+					},
+					{
+						"language": "sl",
+						"value": "ljudje"
+					}
+				],
+				"vep": [
+					{
+						"language": "vep",
+						"value": "ristitud"
+					},
+					{
+						"language": "vep",
+						"value": "mez'"
+					},
+					{
+						"language": "vep",
+						"value": "mehed"
+					}
+				],
+				"mi": [
+					{
+						"language": "mi",
+						"value": "tangata"
+					}
+				],
+				"nan-hani": [
+					{
+						"language": "nan-hani",
+						"value": "\u4eba\u985e"
+					},
+					{
+						"language": "nan-hani",
+						"value": "\u5102"
+					}
+				],
+				"map-bms": [
+					{
+						"language": "map-bms",
+						"value": "menungsa"
+					}
+				],
+				"tok": [
+					{
+						"language": "tok",
+						"value": "ijo Homo sapiens"
+					}
+				],
+				"lb": [
+					{
+						"language": "lb",
+						"value": "Persoun"
+					},
+					{
+						"language": "lb",
+						"value": "Homo sapiens"
+					},
+					{
+						"language": "lb",
+						"value": "Homo sapiens sapiens"
+					},
+					{
+						"language": "lb",
+						"value": "M\u00ebnschen"
+					},
+					{
+						"language": "lb",
+						"value": "Persounen"
+					}
+				],
+				"tly": [
+					{
+						"language": "tly",
+						"value": "od\u0259m"
+					}
+				],
+				"dga": [
+					{
+						"language": "dga",
+						"value": "nensaala"
+					},
+					{
+						"language": "dga",
+						"value": "noba"
+					},
+					{
+						"language": "dga",
+						"value": "nensaaleba"
+					},
+					{
+						"language": "dga",
+						"value": "d\u0254\u0254"
+					},
+					{
+						"language": "dga",
+						"value": "d\u0254ba"
+					},
+					{
+						"language": "dga",
+						"value": "nensaale mime"
 					}
 				]
 			},
@@ -3164,12 +3929,12 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1552",
-							"hash": "4097059417b2c067b5051fb4b0cab27489423fcb",
+							"hash": "fa672f804dc1ee6985265b36876ba202cee7d484",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
-									"numeric-id": 3577052,
-									"id": "Q3577052"
+									"numeric-id": 185836,
+									"id": "Q185836"
 								},
 								"type": "wikibase-entityid"
 							},
@@ -3349,28 +4114,144 @@ const Human: WikidataResponse = {
 						"type": "statement",
 						"id": "Q5$09bfc2ed-493c-c6e9-8312-6bbf0cd91c21",
 						"rank": "normal"
-					}
-				],
-				"P361": [
+					},
 					{
 						"mainsnak": {
 							"snaktype": "value",
-							"property": "P361",
-							"hash": "17dcedb1e198825e04c968ec2b711741f768e93b",
+							"property": "P1552",
+							"hash": "4e7ee18a96ecb25bb26a970623355f8b923d29e3",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
-									"numeric-id": 1156970,
-									"id": "Q1156970"
+									"numeric-id": 83500,
+									"id": "Q83500"
 								},
 								"type": "wikibase-entityid"
 							},
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
-						"id": "q5$3ff6552a-41f7-0650-dbf3-8b6be2d8dc9a",
+						"id": "Q5$7448D923-D793-4401-AF97-D10C41C80D8D",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "e3c78ab7efd892cfcc5648e87a0343015b24f138",
+								"snaks": {
+									"P143": [
+										{
+											"snaktype": "value",
+											"property": "P143",
+											"hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 328,
+													"id": "Q328"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "2b1d525802aec5ebea3364b0437c717b21fc2f5a",
+											"datavalue": {
+												"value": {
+													"time": "+2022-12-04T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "9d9eafa0d7ea39d1b826a3249873f738962a9192",
+											"datavalue": {
+												"value": "https://en.wikipedia.org/w/index.php?title=Human&oldid=1124868722",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P143",
+									"P813",
+									"P4656"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1552",
+							"hash": "8da46ce7a37bba7d20c69a454d90b2e77e9722ea",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 171318,
+									"id": "Q171318"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$0DA7DB74-8939-4844-A3B9-E0B536954D20",
 						"rank": "normal"
 					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1552",
+							"hash": "5d3a3cd28ff0bb7c5468d06d72c68606d82c65ad",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 372949,
+									"id": "Q372949"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$A627BD7B-7271-44BB-B5D2-E1BA6C83BE73",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1552",
+							"hash": "aefd6dcd30b39220610ad27d8e0b8dd3d02fcfa0",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1239812,
+									"id": "Q1239812"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$85a7f8ce-4018-9f1a-2cd1-6a41da6c9968",
+						"rank": "normal"
+					}
+				],
+				"P361": [
 					{
 						"mainsnak": {
 							"snaktype": "value",
@@ -3388,6 +4269,25 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$1b8740d3-4e6c-29a9-9501-da22673cb5ac",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P361",
+							"hash": "17dcedb1e198825e04c968ec2b711741f768e93b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1156970,
+									"id": "Q1156970"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "q5$3ff6552a-41f7-0650-dbf3-8b6be2d8dc9a",
 						"rank": "normal"
 					},
 					{
@@ -3428,7 +4328,7 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$537eebe0-4213-745a-0f46-ba0e226393b1",
-						"rank": "normal"
+						"rank": "preferred"
 					},
 					{
 						"mainsnak": {
@@ -3540,88 +4440,6 @@ const Human: WikidataResponse = {
 						"type": "statement",
 						"id": "Q5$04AB5EE7-8884-4574-AAF6-4E3192560755",
 						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P910",
-							"hash": "fac3bf6b22847fc1b54fbceec8a2e47487ba7bf6",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 4047087,
-									"id": "Q4047087"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q5$979AC94B-C69F-447F-8CD6-CEAE73D2745F",
-						"rank": "normal"
-					}
-				],
-				"P646": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P646",
-							"hash": "7f4d65b3b2a0f7845585de92523ecba5f36d22b2",
-							"datavalue": {
-								"value": "/m/0dgw9r",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"id": "Q5$4D513F46-E17D-4DCA-995F-2FEDD058F841",
-						"rank": "normal",
-						"references": [
-							{
-								"hash": "2b00cb481cddcac7623114367489b5c194901c4a",
-								"snaks": {
-									"P248": [
-										{
-											"snaktype": "value",
-											"property": "P248",
-											"hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
-											"datavalue": {
-												"value": {
-													"entity-type": "item",
-													"numeric-id": 15241312,
-													"id": "Q15241312"
-												},
-												"type": "wikibase-entityid"
-											},
-											"datatype": "wikibase-item"
-										}
-									],
-									"P577": [
-										{
-											"snaktype": "value",
-											"property": "P577",
-											"hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
-											"datavalue": {
-												"value": {
-													"time": "+2013-10-28T00:00:00Z",
-													"timezone": 0,
-													"before": 0,
-													"after": 0,
-													"precision": 11,
-													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-												},
-												"type": "time"
-											},
-											"datatype": "time"
-										}
-									]
-								},
-								"snaks-order": [
-									"P248",
-									"P577"
-								]
-							}
-						]
 					}
 				],
 				"P1343": [
@@ -3773,10 +4591,27 @@ const Human: WikidataResponse = {
 									},
 									"datatype": "string"
 								}
+							],
+							"P805": [
+								{
+									"snaktype": "value",
+									"property": "P805",
+									"hash": "a4dd5bbb453fa443a33bfefbe3278def21055c6a",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 99220705,
+											"id": "Q99220705"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
 							]
 						},
 						"qualifiers-order": [
-							"P958"
+							"P958",
+							"P805"
 						],
 						"id": "Q5$E283C09D-AFF6-45AE-82C7-EA6BD95B653E",
 						"rank": "normal"
@@ -3874,6 +4709,166 @@ const Human: WikidataResponse = {
 						],
 						"id": "Q5$3ae02d19-46bd-01dc-f5a7-81284825eae6",
 						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1343",
+							"hash": "1e87e0f7d2db06ab0ef5ccabd7c6275641f36553",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 867541,
+									"id": "Q867541"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P805": [
+								{
+									"snaktype": "value",
+									"property": "P805",
+									"hash": "fb8965296c14a6a4e1997c5567aef129c81cacf9",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 120358593,
+											"id": "Q120358593"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P805"
+						],
+						"id": "Q5$4C8BD719-1D88-4D1C-B7EA-F777336A6A5D",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1343",
+							"hash": "108cf6c8b367e807f49b5394330121eb212625a5",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 19047539,
+									"id": "Q19047539"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P805": [
+								{
+									"snaktype": "value",
+									"property": "P805",
+									"hash": "8a77710d065ff2e67c5c3261e71c702ba9cd21e6",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 123948345,
+											"id": "Q123948345"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P805"
+						],
+						"id": "Q5$15A008E7-3AF2-451C-90F5-44A35AFFB0B1",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1343",
+							"hash": "33ab2ff1837135909882dcf832d394373dee0ebf",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 56441911,
+									"id": "Q56441911"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P805": [
+								{
+									"snaktype": "value",
+									"property": "P805",
+									"hash": "ca133440736629b1a5ebb05ff2c28ab6d94a7325",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 123955385,
+											"id": "Q123955385"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P805"
+						],
+						"id": "Q5$8F33B31C-B7CC-4598-816D-B04EC5048628",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1343",
+							"hash": "cc623969772776f2a8b109402b0ac5fa5c123233",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 19219752,
+									"id": "Q19219752"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P805": [
+								{
+									"snaktype": "value",
+									"property": "P805",
+									"hash": "87ed000cde809adc93e1be18db0b01f77ce01ab8",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 125328734,
+											"id": "Q125328734"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P805"
+						],
+						"id": "Q5$87D84C7B-A5B9-4E73-A6CE-1F98158B417B",
+						"rank": "normal"
 					}
 				],
 				"P1963": [
@@ -3881,7 +4876,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "1bf69864e2b26b89988cdbaf57835a83aaf4b53c",
+							"hash": "be6d5b6e6a3a8c6e7ad2166fbb08237efaf27b52",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -3893,6 +4888,41 @@ const Human: WikidataResponse = {
 							"datatype": "wikibase-property"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P11889": [
+								{
+									"snaktype": "value",
+									"property": "P11889",
+									"hash": "b375bbf83b6a9c7b10123f29233b987b380e7ec6",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 6581072,
+											"id": "Q6581072"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								},
+								{
+									"snaktype": "value",
+									"property": "P11889",
+									"hash": "ca868d019e3baec5c0acf2a3245a2745c0b8193b",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 6581097,
+											"id": "Q6581097"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P11889"
+						],
 						"id": "Q5$63ef3ef4-4499-110a-3f66-33b352b61520",
 						"rank": "normal"
 					},
@@ -3900,7 +4930,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "8fa6a6a9213a525291f82e6c0750aa38cca4853f",
+							"hash": "c58af33a98a34cdf63f21b804fb5b50503e461bb",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -3919,7 +4949,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "ed3fc323c2a07bb1e311c2069ee8a3529756f99d",
+							"hash": "058a6ebaad6ae6a4a7b616fbd88f415015a523ae",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -3938,7 +4968,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "8a717bd1359bb11342100a2d1319503e99d3fb72",
+							"hash": "19bb98624b0f788aefd235df9b6277e5dbec06fe",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -3957,7 +4987,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "c90d1ecf4292f8a7d20e261be03a1a48f7ac6b59",
+							"hash": "a829a141c54eddffb9c6c35cba0b3f350ba8105f",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -3976,7 +5006,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "9b398056af46365225c3bf7cb45dad516ec37897",
+							"hash": "21d37389ef42a3c8139fc4f1c751fc315e5b1a9a",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -3995,7 +5025,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "dffc301b107f22151c2fcdbee568633304362e9a",
+							"hash": "821b16c998ce508d64b303e17d6a5d2c0f1208a8",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4014,7 +5044,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "f0e8a9736ea0beb4f31868f41504156135eb00e3",
+							"hash": "5bb3211fd47e4bc3858a915f772dac683039ea9d",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4033,7 +5063,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "511f4e31c5ec6d2d872052807170590040f60d41",
+							"hash": "e9b6f0f63af10cf5f91a1b61c5fd5fc8977a5b26",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4052,7 +5082,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "b90bcc02cd0cf1759dd790576beddc62c953c1bb",
+							"hash": "f925dcfe282c872d92525ef7fc8e25630cb45318",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4071,26 +5101,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "1d6862a24966961e73f28fd8cf8b51e06b093994",
-							"datavalue": {
-								"value": {
-									"entity-type": "property",
-									"numeric-id": 26,
-									"id": "P26"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-property"
-						},
-						"type": "statement",
-						"id": "Q5$761db62e-42b5-1040-1c79-7e544b4ee8cb",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P1963",
-							"hash": "1a8bb6c5a2e5ab299d5b71087d2f7901c19fb7b8",
+							"hash": "64e5d3d033b7b02483970f383aed8311f849357a",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4109,7 +5120,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "f44aae98f2f8c0ad795cbc7c07b3db2b131a4cf3",
+							"hash": "48f658b3195acb82f8f0834f5e0b065170413961",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4128,7 +5139,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "5a36a1e90f66957d4d74ecf687c915ba576f6c13",
+							"hash": "4c201fc93795b836768882a1ff18aeb424d2726b",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4147,7 +5158,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "565ff35eca00e6fe3808fc454e3e26faae1f5d9d",
+							"hash": "12c2f81fc15888b667f98cda8d0f5a496d696857",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4166,7 +5177,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "bb768e508640d800274914536256c623c2c889e3",
+							"hash": "7c547e820436cbaf279aa5250281ab08606287d2",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4185,7 +5196,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "107171ae3548902ec1ee6d5e1cff119f98f7f422",
+							"hash": "e23577e58c0074743a26850bfe24e9eee1d33cf5",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4204,7 +5215,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "78fb4cc11782cda52675e8a25c2ca6fa28032e57",
+							"hash": "6882cf2d9daecfdac1f7130b9931fb3420299bd0",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4223,7 +5234,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "dda653bb418812bb9a916e4d027878b18631a684",
+							"hash": "3e9acd68699eb0a42038abf2c7d77764bf66f183",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4242,7 +5253,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "698104bb554df149cd0b5c587e66caf2bde7c5c9",
+							"hash": "161a586fc93cb408d6a34946629356dd41b6d893",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4261,7 +5272,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "921ccd7879690dda736acf7b3bb477c99c82ce25",
+							"hash": "3545056640cf6100e14f99e24365e63a18f8ce68",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4280,7 +5291,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "4961b583ca00fe71c5c9c6f904f721670a7e9732",
+							"hash": "ca8bb48a68b6e4afdf0ed6e363b23d62145f43d1",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4299,7 +5310,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "970d484c32b18aa6af9cfc829a61514dd9f00f59",
+							"hash": "e7490c5617cb6a62ee23ca657e68ac29fafe3997",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4318,7 +5329,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "602cabc2d8f67c3b59dbc563e69005beefedfb29",
+							"hash": "e8961a89df6265e09eb022e63b72e4295a72012b",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4337,7 +5348,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "7c8ea4d03103131434dd6df7077a2af62f6f20e2",
+							"hash": "43340f009373496aced5111aec2e38e4d7e07635",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4356,7 +5367,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "0202bd6e6e5e341b0acf412e979cac15327749c0",
+							"hash": "a044da67e82ad866d36a8923305e15e15e175b07",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4375,12 +5386,12 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "2efc2a9ffe07a3ced6f4622ccba0fd068de97843",
+							"hash": "5b05eb3d541973bb3025e4baf169bd449017dfe3",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
-									"numeric-id": 451,
-									"id": "P451"
+									"numeric-id": 1971,
+									"id": "P1971"
 								},
 								"type": "wikibase-entityid"
 							},
@@ -4394,7 +5405,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "730404b58edbcad14b12e3fb394df3ba89aa9464",
+							"hash": "c8afbe57817fc7fcef121dd22576321403d4868d",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4413,7 +5424,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "7ca9ffa9dce109f121bb0634581c85c5e4423959",
+							"hash": "3ddd5a945ad2069848bb8b608c2552001b0659e2",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4432,7 +5443,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "ee49b624a3dcb2940f5179f305bfa75b3ad7d3d9",
+							"hash": "3df46f445e5689df0e6a9c15ff33eefd876af21b",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4451,7 +5462,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "a91f8d4af284a66e08b6f01b8ca31f8ff5952cca",
+							"hash": "8163b387982ae675e27d9e43df1d4d8ecf7487e1",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4470,7 +5481,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "301c23561e49eae713fad1513fcbee169eee3028",
+							"hash": "1076f69add79895609bf0fa79c37d92063f3bd48",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4489,7 +5500,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "1d2f14f0a0d82d4a4021944f79941194bf8d05d8",
+							"hash": "623948516dec83e3ef80a417beb55632ca765f73",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4508,7 +5519,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "cec4a3d0baeac17c326ee9f23632a1db1bc5c0a2",
+							"hash": "c1a8106e094532aabe140a1c52715d2b6a28f438",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4527,7 +5538,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "e06276bf3ae16b0381454542cb4013695e3c42cd",
+							"hash": "257e47559eb1ef6df1e7783d842cd207e65a588a",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4546,7 +5557,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "8aa68a9dbbf57cc8147766eba130b1c37726dbb2",
+							"hash": "b12df42cb3e842e5bed7ebbb0f4e6d86967833c2",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4565,7 +5576,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "df0fb74f69ef5fab5980a0310e7f89e2f86de6da",
+							"hash": "902aec73ff0fd75afcb3783ac1afb3a338120c5e",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4584,7 +5595,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "e14fe80481b502e2e0986321dd501a44e5ce0ec5",
+							"hash": "f2041a36d1f519e6e359c2eef2bbd44700f79e09",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4603,7 +5614,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "038bc6783be2924c35988cec6b32a527111dec1f",
+							"hash": "feb0c579260c70d56e3c06a263f65381ea928384",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4622,7 +5633,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "fc5beb2ca19e4c707f78dbfee5401ac43fd864ae",
+							"hash": "b887b2bd233119d7d1736d8252f9aed081b84549",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4641,7 +5652,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "a04b708814259aed834c35402a73de528182a889",
+							"hash": "60287ec5e9d83a24200e50f3d71bec97eaf0942a",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4660,7 +5671,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "190422d6d415a78b7fcadfc4eee145c622e62e32",
+							"hash": "5dbfb9597f2bce5bba4ba8ca5054fa1a9f86201e",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4679,7 +5690,7 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1963",
-							"hash": "5356916ffbabad6a8aba8a47d854bfd53c5f93fb",
+							"hash": "bf3be86c81372f04532331604a755a27f1393164",
 							"datavalue": {
 								"value": {
 									"entity-type": "property",
@@ -4692,6 +5703,1089 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$c123b4d6-4672-ea4c-0049-b826f405c545",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "0bba6de95467e6b114fe3cdb21db2e2a24392b5f",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 4602,
+									"id": "P4602"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$3af8c789-48d3-5a71-4eb7-250b85352d1c",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "37f2712d39fb847c29981a66237127c2d6b891cc",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 742,
+									"id": "P742"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$93813d63-432b-647f-157e-27e7e61496d4",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "43e925f93ba450ee3336ac60a0faed88d9a655a7",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 69,
+									"id": "P69"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$49de6dec-47f1-d5de-c9be-5dc9f91a74da",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "7f695b6256b244be318a011461f779c9647c34f0",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 800,
+									"id": "P800"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$b4837c99-41f9-e49e-6f71-565dc654ca7b",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "7fb41afbcd4745aa87e6e55ffafb0b72c438a895",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 166,
+									"id": "P166"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$a41c6864-4e81-8721-6db8-977ccbe526c8",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "5876240aaa29b410c2821db44932efed37729230",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 214,
+									"id": "P214"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$280c6f4c-4375-52d9-3b0d-ba8530f82f81",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "8f4948a079290af3901a62bc545ef1f2f55b6f22",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 213,
+									"id": "P213"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$363d472f-451d-da94-2094-b28d7379be9c",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "4943a0a648c6e817cf5120e70572e8ca724a386d",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 227,
+									"id": "P227"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$0e26b069-4c7a-280b-203b-57597d96ff65",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "96bca75dcdd15b3721ddef089fa8ae23271af47a",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 244,
+									"id": "P244"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$93a133aa-4498-cb8a-0918-0e6de1f403a8",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "0364c06facca340a9005d11c2fd632765887da89",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 268,
+									"id": "P268"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$5b1477d6-4042-ed88-8d3f-29458fb1a1b6",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "4902baccf270c2cd3e52d743949132a99d61f03a",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1006,
+									"id": "P1006"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$60bc7120-47d2-2eb1-71cc-e5a3ea505035",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "4f617bde47ecf738a073eebe3780d4fcdb2cf192",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1711,
+									"id": "P1711"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$5d9b659c-4add-6b57-fb04-b2fbc372959f",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "ba16eb7bebb92c74ab1dc567c3470e6bebf82160",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 648,
+									"id": "P648"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$c2877cfd-490b-cc1f-8b3c-7a8fe57d8f05",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "b3e73b5829e06a8a426cb26f3afacb7901fd8fd9",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1315,
+									"id": "P1315"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$b0a528ca-4dea-2ade-abda-f06f4ea8c370",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "83e73398795bc24507404a4c71101f30e0ca15ca",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 2163,
+									"id": "P2163"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$e6f5209a-499e-8ae5-aaa6-98a70a0c66fd",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "c85ec2dfde034a4a76c27c090f18ef4d1a398e26",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 3430,
+									"id": "P3430"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$05a08a56-4a91-d26b-254e-795ca110afea",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "54d19db7d2f0a3376698f32fc51be7b27dd5c72a",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1015,
+									"id": "P1015"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$089fca7c-4218-a13f-8745-1c63b8a9f066",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "b57a9f3ead0cc19508eea2757c24465831f13797",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1207,
+									"id": "P1207"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$c0138178-4250-88f3-d0f5-ec0a3e38ff0a",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "d53d3898a0961ef103587f16800c938a4b02b6b0",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1225,
+									"id": "P1225"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$f10f6d57-4536-699a-1b5f-bf70a93d769e",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "c1d2d65d8db9036b6f7fbdeaaa71caf76f5d1558",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 4823,
+									"id": "P4823"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$0b50535f-4b4d-aa08-04e2-0ecdd8c621f9",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "a403b2f00fcbcaee0baa00090fdb45399f074592",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 269,
+									"id": "P269"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$9403d405-40aa-cd69-8388-391169377bdd",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "6de0fd1d8ffc33d3669c71c9de723aaf19757610",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 3222,
+									"id": "P3222"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$cbd674c9-48d1-8dae-a59c-01dba35226d5",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "94785ef7bec96a63614c6584db412c75c1e6239e",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1871,
+									"id": "P1871"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$fafe17a1-45cf-a00d-3d39-ba3af76fcb50",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "8b186e0d9c36b63c867e04865302cbad82a555d8",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 691,
+									"id": "P691"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$6a657814-4eed-4eea-27a1-1653946125dc",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "848409ea4936877b522739d6ef89bbfcc706eb89",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 4342,
+									"id": "P4342"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$118f3bf0-4cab-354d-d1cf-f0f92c8e9123",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "978803220c49e18372f0368ecf7a8df5717ac3d8",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 5361,
+									"id": "P5361"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$69e5fc8a-4d4c-46f2-d8a0-1f71e978a244",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "0601e60b07312db522fcb7480fd7a4b803ebc950",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 2600,
+									"id": "P2600"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$ea1412a4-4b2c-0778-564e-7d3190f1fc78",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "2ac863630d419e8b2e1b500bb4bf48d0c2111d58",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 535,
+									"id": "P535"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$4c65b68c-46c0-b18d-f1e0-bc10d98f6fdb",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "f842d1632dc264558ca9ac677172a0ac062a1725",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 8094,
+									"id": "P8094"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$a3a5cf1c-48fb-33ad-563e-4c90312ea868",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "c8582070bc410d0078bff2f43a4dbb7ac33ddd08",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 7293,
+									"id": "P7293"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$fdad35ae-41be-078d-bd19-0126f80b5126",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "aec5f2c0ffade59c8d09eae34028c8120463e29f",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 8189,
+									"id": "P8189"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$b6d5175c-48fb-1f85-91e1-36bf72f47efd",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "c31932e8e2b30f177d9ec06b1b51a7f8028802fc",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 950,
+									"id": "P950"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$458409ec-47d6-4d55-62e3-b1380b799057",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "0fc23bab4b66aa8e481014dd8a4173b58af20fce",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 8313,
+									"id": "P8313"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$85de9f49-4875-3882-bc35-e3e699d7a5a8",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "bac7ffca1367b9512d78bc4077b2259893fdd909",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1263,
+									"id": "P1263"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$b11f3648-4165-7931-9f6a-302e46362964",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "a200f9a12aae0cef6ae9bfa97071f11818df7efd",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 2949,
+									"id": "P2949"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$ca78d62c-4942-e430-5a93-55f1ce1954be",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "98bac55aec9ed33e54de7b818ddd5ce64e481ec8",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 7029,
+									"id": "P7029"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$26ac0375-4853-67b4-d9e2-062e36427a9d",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "2e6ad434644acf1cade9bc34938017f2c545d1b4",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 7699,
+									"id": "P7699"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$208f9bee-4023-34ed-60ad-03efd82e94f5",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "fdef8759dbd504b18f101b35ca8ed2a75f814aa4",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 10227,
+									"id": "P10227"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$a7168c9e-4a87-58cc-4887-91f5a70ccee7",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "fdbcd59c99fb5bd7acbe94c81c26838fba35964e",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 409,
+									"id": "P409"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$cb0bb40f-456e-fa14-1e27-153e486f2808",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "dffa94b543ac839964a3d2b548ec7f52bd880bb2",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 8081,
+									"id": "P8081"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$3fb939e1-48ce-7235-9640-9932a0515502",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "a8f7e3569a5e49fb17994c3a97837ec8bb0d9c2e",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 7902,
+									"id": "P7902"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$40042049-487d-5759-73c3-e17e44b6948c",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "79051e2671e42e336d0bfe2c5d7e8e9fd344ca84",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 4619,
+									"id": "P4619"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$eb79c977-4d34-c41e-b96b-f0e0294acf94",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "263aec94cde7e4ee2268c212785045123a31bb7b",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 7369,
+									"id": "P7369"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$6e4040bf-4366-8b6b-6cb1-1ebc5db7f544",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "6c823edee8dccd1b02df23f31a7df89951eff300",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 3348,
+									"id": "P3348"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$bb87ffd5-48df-3fb1-f430-e5a1c889e9ad",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "0f739dd2eb0da4fe97dd6892debc61e3a33518c7",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1368,
+									"id": "P1368"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$8a52054a-49f2-463c-a5d6-7cfe57c217b2",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "059323fbbb2dc401f60687ff8f13012809731803",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 11686,
+									"id": "P11686"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$fdd1e14b-4e44-6b04-283c-1e5bc8565765",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "9d7f1a265db94e3cc77d579dd8f509a3ca1f2ab8",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 10832,
+									"id": "P10832"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$4fd01092-4673-f42b-0f9e-d328c90d2d4d",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "eb5ffeb60cd9ecda57c6ce828bcc7369cd5b3476",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 5034,
+									"id": "P5034"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$e772011e-41e7-3835-6dbe-79c3b62f3579",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "25876118e975fe4b090342d0ba47bc60578de7a0",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1415,
+									"id": "P1415"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$cc37bec2-4400-e1f6-4fa4-5dd0c3806fad",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "67629f902ff8640a42525deb7ebf4a904f8a317a",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 6058,
+									"id": "P6058"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$6c6653e6-4410-9845-73f8-e622d13f22a3",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "fb8f5334290882a8d530ce0a7c8920c29e369f41",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 646,
+									"id": "P646"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$9eb434e0-413b-4743-e2cb-9773416af2e1",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "b9451b449750290f768d3bda1883893f975897aa",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 26,
+									"id": "P26"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$df93389a-4b33-8f3d-a275-e97cf7566cc5",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "a7cc32b450d6b34c149999a122e15011c10db4c0",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 451,
+									"id": "P451"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$7fec8686-49f9-2eec-59a2-e0fcb3e936f0",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "1896f3c64aeaedeb1c99fb91f5b32aef9b4f349d",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 3388,
+									"id": "P3388"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$ca470681-4fbc-66b5-5baf-3ff1675cc096",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "f6b8fc97144b65af01730836ef17a991707e6ec1",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1741,
+									"id": "P1741"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$fbe81c38-4223-5069-5c4f-6fc10ec131e8",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "48a4233d8edb674f6fe60da7e4facc90ec870bc6",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 3219,
+									"id": "P3219"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$008a3747-4e6a-981a-2598-35de16412ef1",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1963",
+							"hash": "5c27bcabd2ad939f85b88f6b7524985b7b3bf123",
+							"datavalue": {
+								"value": {
+									"entity-type": "property",
+									"numeric-id": 1411,
+									"id": "P1411"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-property"
+						},
+						"type": "statement",
+						"id": "Q5$d4b89db2-47de-24f2-e65c-ed8595397e4e",
 						"rank": "normal"
 					}
 				],
@@ -4708,34 +6802,65 @@ const Human: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
-						"id": "Q5$7ECD1D9E-850A-4852-8EB3-683748738963",
-						"rank": "normal",
-						"references": [
-							{
-								"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
-								"snaks": {
-									"P143": [
-										{
-											"snaktype": "value",
-											"property": "P143",
-											"hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
-											"datavalue": {
-												"value": {
-													"entity-type": "item",
-													"numeric-id": 48183,
-													"id": "Q48183"
-												},
-												"type": "wikibase-entityid"
-											},
-											"datatype": "wikibase-item"
-										}
-									]
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "5cc564e79f316a0bb1b4c0e12495c47d510aaa59",
+									"datavalue": {
+										"value": "Mensch",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P4970": [
+								{
+									"snaktype": "value",
+									"property": "P4970",
+									"hash": "7325332dc2abd866a44cfc685549f23178bf29a7",
+									"datavalue": {
+										"value": "Menschen",
+										"type": "string"
+									},
+									"datatype": "string"
 								},
-								"snaks-order": [
-									"P143"
-								]
-							}
-						]
+								{
+									"snaktype": "value",
+									"property": "P4970",
+									"hash": "847b05ae1780b8b787f634a0eaa3e5121f7948c1",
+									"datavalue": {
+										"value": "Homo sapiens",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P4070": [
+								{
+									"snaktype": "value",
+									"property": "P4070",
+									"hash": "a31fcf070e18833d8024450d393d2f3740eba17e",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 15978631,
+											"id": "Q15978631"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P4970",
+							"P4070"
+						],
+						"id": "Q5$7ECD1D9E-850A-4852-8EB3-683748738963",
+						"rank": "normal"
 					}
 				],
 				"P1417": [
@@ -4751,28 +6876,40 @@ const Human: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
-						"id": "Q5$37C1A020-970B-4721-A1EE-B4BF769DF7E0",
-						"rank": "normal"
-					}
-				],
-				"P2959": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P2959",
-							"hash": "9169396027fb520ad0c1a2a65126d553d9435d6c",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 22828631,
-									"id": "Q22828631"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "4538aa6fb40c973633434adffa13c469409be7aa",
+									"datavalue": {
+										"value": "human being",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P9570": [
+								{
+									"snaktype": "value",
+									"property": "P9570",
+									"hash": "99a755c0b8dd1903c4c7edd5bfa7633e6d76c7b3",
+									"datavalue": {
+										"value": {
+											"text": "a culture-bearing primate classified in the genus Homo, especially the species H. sapiens.",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							]
 						},
-						"type": "statement",
-						"id": "Q5$c4e58361-4352-b357-9239-591ba205c305",
+						"qualifiers-order": [
+							"P1810",
+							"P9570"
+						],
+						"id": "Q5$37C1A020-970B-4721-A1EE-B4BF769DF7E0",
 						"rank": "normal"
 					}
 				],
@@ -4807,21 +6944,6 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$2CAA164C-8F07-4395-B9DF-7158767938ED",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P3417",
-							"hash": "a3758275afd2c9e6ef2a20b3fcde53f46f98e00b",
-							"datavalue": {
-								"value": "People",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"id": "Q5$3E7D2F2A-67CE-4AAD-8102-94B837A8A0FF",
 						"rank": "normal"
 					}
 				],
@@ -4894,46 +7016,7 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$58ec4023-4baa-c8b2-dbf5-f06ce803ae15",
-						"rank": "normal",
-						"references": [
-							{
-								"hash": "21792a4b7f5fde776b9c36c933918e114319fc39",
-								"snaks": {
-									"P143": [
-										{
-											"snaktype": "value",
-											"property": "P143",
-											"hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
-											"datavalue": {
-												"value": {
-													"entity-type": "item",
-													"numeric-id": 328,
-													"id": "Q328"
-												},
-												"type": "wikibase-entityid"
-											},
-											"datatype": "wikibase-item"
-										}
-									],
-									"P4656": [
-										{
-											"snaktype": "value",
-											"property": "P4656",
-											"hash": "511f9e5d0e21b768872ebd33987818008c0cd97c",
-											"datavalue": {
-												"value": "https://en.wikipedia.org/w/index.php?title=Anthropology&oldid=901053547",
-												"type": "string"
-											},
-											"datatype": "url"
-										}
-									]
-								},
-								"snaks-order": [
-									"P143",
-									"P4656"
-								]
-							}
-						]
+						"rank": "normal"
 					},
 					{
 						"mainsnak": {
@@ -4952,66 +7035,6 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$cdbc0d7b-4271-2447-8e3f-0641b3029520",
-						"rank": "normal",
-						"references": [
-							{
-								"hash": "ee83eabeaebf5eb0f907d33cadd83776b8d21539",
-								"snaks": {
-									"P143": [
-										{
-											"snaktype": "value",
-											"property": "P143",
-											"hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
-											"datavalue": {
-												"value": {
-													"entity-type": "item",
-													"numeric-id": 328,
-													"id": "Q328"
-												},
-												"type": "wikibase-entityid"
-											},
-											"datatype": "wikibase-item"
-										}
-									],
-									"P4656": [
-										{
-											"snaktype": "value",
-											"property": "P4656",
-											"hash": "e1b18c09af6c1684f412200146eaf84409d2c1e1",
-											"datavalue": {
-												"value": "https://en.wikipedia.org/w/index.php?title=Human&oldid=902203494#Consciousness_and_thought",
-												"type": "string"
-											},
-											"datatype": "url"
-										}
-									]
-								},
-								"snaks-order": [
-									"P143",
-									"P4656"
-								]
-							}
-						]
-					}
-				],
-				"P1056": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P1056",
-							"hash": "97cd6d4390ec1032f85c4f4fc763b00816720414",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 3619132,
-									"id": "Q3619132"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q5$55ece42b-4bfc-23b3-a79a-2b23ba141b9e",
 						"rank": "normal"
 					}
 				],
@@ -5070,6 +7093,25 @@ const Human: WikidataResponse = {
 						"type": "statement",
 						"id": "Q5$ee2c2fc1-45f2-b1be-f474-2d288eecfe71",
 						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2283",
+							"hash": "ef8e5319c9b967fb352bb4d9f9e6300598260007",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 315,
+									"id": "Q315"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$D1A82257-FF4C-405A-BD0F-B26E214E4839",
+						"rank": "normal"
 					}
 				],
 				"P460": [
@@ -5106,6 +7148,23 @@ const Human: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "3031f89c761c25a9544fabd0c18a9514d25be66f",
+									"datavalue": {
+										"value": "Human beings",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
 						"id": "Q5$ACA9C3B9-D292-4FC0-B91D-1A0FC5533AD3",
 						"rank": "normal"
 					}
@@ -5242,6 +7301,49 @@ const Human: WikidataResponse = {
 						"type": "statement",
 						"id": "Q5$363FAEE6-1B86-4E9F-8DCF-69ABD19F6312",
 						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P5008",
+							"hash": "136e3fbe19158e73e4bfebf3f2d98a9df8638b7e",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 6173448,
+									"id": "Q6173448"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P585": [
+								{
+									"snaktype": "value",
+									"property": "P585",
+									"hash": "7661f66dd5b82a1ea92515ddb16c09ce3088edea",
+									"datavalue": {
+										"value": {
+											"time": "+2022-10-31T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P585"
+						],
+						"id": "Q5$96611468-A2CD-47D5-ACC1-428CA396ED4F",
+						"rank": "normal"
 					}
 				],
 				"P2521": [
@@ -5374,6 +7476,24 @@ const Human: WikidataResponse = {
 						"type": "statement",
 						"id": "Q5$f1361df8-4afc-28df-7bf7-8fdd38dd43dd",
 						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2521",
+							"hash": "d47920dd8588bf8dbe452263bbf67bc4c68cf902",
+							"datavalue": {
+								"value": {
+									"text": "\u017emoga",
+									"language": "lt"
+								},
+								"type": "monolingualtext"
+							},
+							"datatype": "monolingualtext"
+						},
+						"type": "statement",
+						"id": "Q5$8e9344aa-4f1c-d8ae-0e6f-5cf036ae9ebe",
+						"rank": "deprecated"
 					}
 				],
 				"P3321": [
@@ -5487,6 +7607,86 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$35532a36-45f9-58a4-9da3-732ad1b78618",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "62d76c3ed01f6a0a671bf2219fa163ec0a8e4496",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "b2d21f68ee1126d88f680c069f77f5e071757248",
+											"datavalue": {
+												"value": "http://wordnetweb.princeton.edu/perl/webwn?s=human",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854"
+								]
+							},
+							{
+								"hash": "5944bcf1fa7c5059c9dc09a67e094f4f757c1c10",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "c58a4aea80aa0ff416b64d9074bfe2d6b51cd584",
+											"datavalue": {
+												"value": "http://wordnetweb.princeton.edu/perl/webwn?s=person",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1889",
+							"hash": "602796e525bb0b87feb95d4cd095ff71f62e147b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 114353657,
+									"id": "Q114353657"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$363CC811-9B3D-48F6-BA35-CC2ED84830E0",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1889",
+							"hash": "a09d824a11f22886be8e61c648b4612597d754c6",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 124542004,
+									"id": "Q124542004"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$28683fdc-4709-91b7-bf45-0a08a9ba6d99",
 						"rank": "normal"
 					}
 				],
@@ -5507,30 +7707,29 @@ const Human: WikidataResponse = {
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P11527": [
+								{
+									"snaktype": "value",
+									"property": "P11527",
+									"hash": "03333cd9754e182cbd8cf05cf461c34d428ffcbe",
+									"datavalue": {
+										"value": {
+											"entity-type": "property",
+											"numeric-id": 31,
+											"id": "P31"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-property"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P11527"
+						],
 						"id": "Q5$913761A9-9588-4AB1-82B6-58E19DFEB8AA",
-						"rank": "normal",
-						"references": [
-							{
-								"hash": "45b57526eedd84be44735f105ed8341ec23f29d5",
-								"snaks": {
-									"P4656": [
-										{
-											"snaktype": "value",
-											"property": "P4656",
-											"hash": "9a3ac3afb852c2eefbfdbfc8538d3ab4a25bad91",
-											"datavalue": {
-												"value": "https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/Model_item&oldid=748996666",
-												"type": "string"
-											},
-											"datatype": "url"
-										}
-									]
-								},
-								"snaks-order": [
-									"P4656"
-								]
-							}
-						]
+						"rank": "normal"
 					},
 					{
 						"mainsnak": {
@@ -5548,6 +7747,27 @@ const Human: WikidataResponse = {
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P11527": [
+								{
+									"snaktype": "value",
+									"property": "P11527",
+									"hash": "03333cd9754e182cbd8cf05cf461c34d428ffcbe",
+									"datavalue": {
+										"value": {
+											"entity-type": "property",
+											"numeric-id": 31,
+											"id": "P31"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-property"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P11527"
+						],
 						"id": "Q5$1506d8df-4fba-ce45-4625-9353978194e7",
 						"rank": "normal"
 					},
@@ -5567,6 +7787,27 @@ const Human: WikidataResponse = {
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P11527": [
+								{
+									"snaktype": "value",
+									"property": "P11527",
+									"hash": "03333cd9754e182cbd8cf05cf461c34d428ffcbe",
+									"datavalue": {
+										"value": {
+											"entity-type": "property",
+											"numeric-id": 31,
+											"id": "P31"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-property"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P11527"
+						],
 						"id": "Q5$196758bc-452f-464e-a8d2-f0f34aa6292a",
 						"rank": "normal"
 					},
@@ -5586,6 +7827,27 @@ const Human: WikidataResponse = {
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P11527": [
+								{
+									"snaktype": "value",
+									"property": "P11527",
+									"hash": "03333cd9754e182cbd8cf05cf461c34d428ffcbe",
+									"datavalue": {
+										"value": {
+											"entity-type": "property",
+											"numeric-id": 31,
+											"id": "P31"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-property"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P11527"
+						],
 						"id": "Q5$89fdb133-41c8-d4f3-be60-9813add62b51",
 						"rank": "normal"
 					},
@@ -5605,45 +7867,28 @@ const Human: WikidataResponse = {
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P11527": [
+								{
+									"snaktype": "value",
+									"property": "P11527",
+									"hash": "03333cd9754e182cbd8cf05cf461c34d428ffcbe",
+									"datavalue": {
+										"value": {
+											"entity-type": "property",
+											"numeric-id": 31,
+											"id": "P31"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-property"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P11527"
+						],
 						"id": "Q5$ec3f4cab-4c54-9b42-11c1-87732834a56c",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P5869",
-							"hash": "340868f906ba00c8cf2164032902903ad9a4bff3",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 43527,
-									"id": "Q43527"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q5$08e93ab2-432b-2590-9871-d27d15fb0ebf",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P5869",
-							"hash": "5d0acf89f3a00426c74389f41245c6f7947ecf61",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 635,
-									"id": "Q635"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q5$a0938e14-4884-5eab-8833-a28f826ec421",
 						"rank": "normal"
 					},
 					{
@@ -5694,11 +7939,28 @@ const Human: WikidataResponse = {
 									},
 									"datatype": "wikibase-item"
 								}
+							],
+							"P11527": [
+								{
+									"snaktype": "value",
+									"property": "P11527",
+									"hash": "03333cd9754e182cbd8cf05cf461c34d428ffcbe",
+									"datavalue": {
+										"value": {
+											"entity-type": "property",
+											"numeric-id": 31,
+											"id": "P31"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-property"
+								}
 							]
 						},
 						"qualifiers-order": [
 							"P1013",
-							"P2868"
+							"P2868",
+							"P11527"
 						],
 						"id": "Q5$0320399f-43f1-7d04-b130-197dc21b6e45",
 						"rank": "normal",
@@ -5742,28 +8004,26 @@ const Human: WikidataResponse = {
 						]
 					}
 				],
-				"P2670": [
+				"P279": [
 					{
 						"mainsnak": {
 							"snaktype": "value",
-							"property": "P2670",
-							"hash": "95c2ec15e2409178ff33c636b80038214ab4659d",
+							"property": "P279",
+							"hash": "05483cf668dd2ba281bbbb64459776f0928000c0",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
-									"numeric-id": 215627,
-									"id": "Q215627"
+									"numeric-id": 110551885,
+									"id": "Q110551885"
 								},
 								"type": "wikibase-entityid"
 							},
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
-						"id": "Q5$ce5ef33c-476b-5a5e-606f-1fa94f83b2c7",
+						"id": "Q5$f68682c5-457f-36ea-bd2c-a5af92c54bbd",
 						"rank": "normal"
-					}
-				],
-				"P279": [
+					},
 					{
 						"mainsnak": {
 							"snaktype": "value",
@@ -5787,19 +8047,19 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P279",
-							"hash": "958d0bb25a0ec944ba2672df3161e735f87bdb87",
+							"hash": "7cf587f47d2ca90dab2aa335e79b74ab21d0ed39",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
-									"numeric-id": 154954,
-									"id": "Q154954"
+									"numeric-id": 26401003,
+									"id": "Q26401003"
 								},
 								"type": "wikibase-entityid"
 							},
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
-						"id": "Q5$d68ce771-4858-4666-377f-2fa9b70f18b7",
+						"id": "Q5$B2ACA7DB-7C19-4DB4-987F-13CC1F7E52C0",
 						"rank": "normal"
 					},
 					{
@@ -5819,6 +8079,25 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$e5807c96-4857-459d-0c4b-aa192f7cd303",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P279",
+							"hash": "958d0bb25a0ec944ba2672df3161e735f87bdb87",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 154954,
+									"id": "Q154954"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$d68ce771-4858-4666-377f-2fa9b70f18b7",
 						"rank": "normal"
 					}
 				],
@@ -5853,23 +8132,6 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$D239FD6C-7901-4B16-A037-3621EEB9BEE3",
-						"rank": "normal"
-					}
-				],
-				"P6332": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P6332",
-							"hash": "c9aab328ec0feb73848f7a7dbf1d4a7408a683b9",
-							"datavalue": {
-								"value": "l-humain",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"id": "Q5$cf1a3618-4d62-58ba-a81a-90f54a68c88c",
 						"rank": "normal"
 					}
 				],
@@ -5921,76 +8183,6 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$9A8C279B-AE57-4497-ADC8-B9773FFE0110",
-						"rank": "normal"
-					}
-				],
-				"P31": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P31",
-							"hash": "039ca41f187ee0f849e34958ffb63a69ad6d50e4",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 55983715,
-									"id": "Q55983715"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P642": [
-								{
-									"snaktype": "value",
-									"property": "P642",
-									"hash": "cf6408ac6fef3df8e0ce0ffdc5fcf3e138d2c8bc",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 15978631,
-											"id": "Q15978631"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								},
-								{
-									"snaktype": "value",
-									"property": "P642",
-									"hash": "d295d53e576550a9c88b8e74f5741450d6a6d681",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 3238275,
-											"id": "Q3238275"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								},
-								{
-									"snaktype": "value",
-									"property": "P642",
-									"hash": "a25937e849cb8860f1f7d0badc5ce41065dc5b0c",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 171283,
-											"id": "Q171283"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P642"
-						],
-						"id": "Q5$82b80d5f-4353-c7cb-1a3c-c0c8f4f5f237",
 						"rank": "normal"
 					}
 				],
@@ -6270,42 +8462,6 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P443",
-							"hash": "c8df31dcfd69c44eba628b2d219283ce85a38169",
-							"datavalue": {
-								"value": "LL-Q188 (deu)-Sebastian Wallroth-Mensch.wav",
-								"type": "string"
-							},
-							"datatype": "commonsMedia"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P407": [
-								{
-									"snaktype": "value",
-									"property": "P407",
-									"hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 188,
-											"id": "Q188"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P407"
-						],
-						"id": "Q5$6C2B5719-700C-49B1-9E62-9E0243BF9247",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P443",
 							"hash": "13161a1dfc544ccd177b4b7e81ce20bd40a16380",
 							"datavalue": {
 								"value": "LL-Q13955 (ara)-Spotless Mind1988-\u0625\u0646\u0633\u0627\u0646.wav",
@@ -6330,32 +8486,85 @@ const Human: WikidataResponse = {
 									},
 									"datatype": "wikibase-item"
 								}
+							],
+							"P5168": [
+								{
+									"snaktype": "value",
+									"property": "P5168",
+									"hash": "35961a5e87cd8b9a988d8d094f40271f406940ab",
+									"datavalue": {
+										"value": {
+											"text": "\u0625\u0646\u0633\u0627\u0646",
+											"language": "ar"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
 							]
 						},
 						"qualifiers-order": [
-							"P407"
+							"P407",
+							"P5168"
 						],
 						"id": "Q5$4a45fc28-d47c-4be7-bba3-bd6a19185ab9",
 						"rank": "normal",
 						"references": [
 							{
-								"hash": "4c6bd5dc3184c4c6b74157d63d65e8e8390f4dfd",
+								"hash": "bb764996ccd30678056c0ce38bef7fb43b8bfa5f",
 								"snaks": {
-									"P854": [
+									"P248": [
 										{
 											"snaktype": "value",
-											"property": "P854",
-											"hash": "56562930cff0d3936dc9f57a2956ea3faaf7fbdf",
+											"property": "P248",
+											"hash": "b3c62442a690bef0258a0cb603f6e103631dff2b",
 											"datavalue": {
-												"value": "https://lingualibre.fr/wiki/Q212980",
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 60024037,
+													"id": "Q60024037"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P10369": [
+										{
+											"snaktype": "value",
+											"property": "P10369",
+											"hash": "80007073d2a85115584a33db7daa1821ab51233b",
+											"datavalue": {
+												"value": "Q212980",
 												"type": "string"
 											},
-											"datatype": "url"
+											"datatype": "external-id"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "58bd015cbdb7a373ddb663b7a98264d0eaacb24d",
+											"datavalue": {
+												"value": {
+													"time": "+2023-12-13T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
 										}
 									]
 								},
 								"snaks-order": [
-									"P854"
+									"P248",
+									"P10369",
+									"P813"
 								]
 							}
 						]
@@ -6364,9 +8573,9 @@ const Human: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P443",
-							"hash": "900ff9d3590bbf953217aca519a2099cdd34bc3a",
+							"hash": "6b4aa34e37eff40a6ca68dd43b39cf3d402dc2ef",
 							"datavalue": {
-								"value": "Ms-MY-Manusia.ogg",
+								"value": "De-Mensch2.ogg",
 								"type": "string"
 							},
 							"datatype": "commonsMedia"
@@ -6377,40 +8586,208 @@ const Human: WikidataResponse = {
 								{
 									"snaktype": "value",
 									"property": "P407",
-									"hash": "ddb7e8cb0d4d47294266bb4d20981db1dc5c8def",
+									"hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
 									"datavalue": {
 										"value": {
 											"entity-type": "item",
-											"numeric-id": 9237,
-											"id": "Q9237"
+											"numeric-id": 188,
+											"id": "Q188"
 										},
 										"type": "wikibase-entityid"
 									},
 									"datatype": "wikibase-item"
 								}
+							],
+							"P5168": [
+								{
+									"snaktype": "value",
+									"property": "P5168",
+									"hash": "6502c16df741f77fa054ea0bea1a17a0c2dc1798",
+									"datavalue": {
+										"value": {
+											"text": "Mensch",
+											"language": "de"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							],
+							"P898": [
+								{
+									"snaktype": "value",
+									"property": "P898",
+									"hash": "6adf6be45b6e4e3ccc151fb80481e079ad82635b",
+									"datavalue": {
+										"value": "m\u025bn\u0283",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
 							]
 						},
 						"qualifiers-order": [
-							"P407"
+							"P407",
+							"P5168",
+							"P898"
 						],
-						"id": "Q5$13a56a32-4914-5619-e90c-1870db81082b",
+						"id": "Q5$08d22428-4e20-1d8a-0b5e-357d31cfdbc6",
 						"rank": "normal"
-					}
-				],
-				"P18": [
+					},
 					{
 						"mainsnak": {
 							"snaktype": "value",
-							"property": "P18",
-							"hash": "5ac274537a9a1490d85f5155994885ddbb97e9fd",
+							"property": "P443",
+							"hash": "343ebf00eea170db8d9aa3e4e378f77e13e22075",
 							"datavalue": {
-								"value": "Anterior view of human female and male, with labels.svg",
+								"value": "LL-Q1860 (eng)-Back ache-human.wav",
 								"type": "string"
 							},
 							"datatype": "commonsMedia"
 						},
 						"type": "statement",
-						"id": "Q5$5be68858-46f6-fd73-5618-9f019027fbd5",
+						"qualifiers": {
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P5168": [
+								{
+									"snaktype": "value",
+									"property": "P5168",
+									"hash": "435ad5c637a40119a60a4298c0e0678d718e9fb9",
+									"datavalue": {
+										"value": {
+											"text": "human",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P407",
+							"P5168"
+						],
+						"id": "Q5$ae2c75f9-45b6-d10e-6cd8-f0078943e9f0",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P443",
+							"hash": "ae271e3efbd19c8a32643f30b74a4aecfc57ed46",
+							"datavalue": {
+								"value": "LL-Q150 (fra)-Fhala.K-\u00eatre humain.wav",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 150,
+											"id": "Q150"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P5168": [
+								{
+									"snaktype": "value",
+									"property": "P5168",
+									"hash": "a24ec3d8d14a4174b26087c70be41c956c9eb131",
+									"datavalue": {
+										"value": {
+											"text": "\u00eatre humain",
+											"language": "fr"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P407",
+							"P5168"
+						],
+						"id": "Q5$42808af1-4b34-f23d-4dce-641784b64084",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P443",
+							"hash": "78643b2f85ff85538731ea3fbd9f75dce8f4f869",
+							"datavalue": {
+								"value": "De-Mensch.ogg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 188,
+											"id": "Q188"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P5168": [
+								{
+									"snaktype": "value",
+									"property": "P5168",
+									"hash": "3486cdfb49f188cfe743b5e76908da0568e07321",
+									"datavalue": {
+										"value": {
+											"text": "Mensch (German)",
+											"language": "de"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P407",
+							"P5168"
+						],
+						"id": "Q5$898fab35-462a-8f5a-af12-7ecb5b070949",
 						"rank": "normal"
 					}
 				],
@@ -6444,6 +8821,23 @@ const Human: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "8d4d49c912ce2da6b68798b016ec1d0c617457d9",
+									"datavalue": {
+										"value": "\u4eba\u7c7b",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
 						"id": "Q5$684DB002-89A9-4C81-869B-832E028EFFEE",
 						"rank": "normal"
 					}
@@ -6509,29 +8903,7 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$51924B75-F2AB-4EAD-A08A-F8957DE52884",
-						"rank": "normal",
-						"references": [
-							{
-								"hash": "cd7809bb55adb7a965bebdc5b6aa96878bfa1bff",
-								"snaks": {
-									"P973": [
-										{
-											"snaktype": "value",
-											"property": "P973",
-											"hash": "763c032c9af9031bec45a326acac17f05ed63f53",
-											"datavalue": {
-												"value": "http://xmlns.com/foaf/spec/#term_Person",
-												"type": "string"
-											},
-											"datatype": "url"
-										}
-									]
-								},
-								"snaks-order": [
-									"P973"
-								]
-							}
-						]
+						"rank": "normal"
 					}
 				],
 				"P8512": [
@@ -6705,23 +9077,6 @@ const Human: WikidataResponse = {
 						"rank": "normal"
 					}
 				],
-				"P8972": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8972",
-							"hash": "be0bd2c5d5b4d6c827071ef67e0bf891b8e231c2",
-							"datavalue": {
-								"value": "Font Awesome 5 solid user.svg",
-								"type": "string"
-							},
-							"datatype": "commonsMedia"
-						},
-						"type": "statement",
-						"id": "Q5$65d9668c-45b1-3ae0-53ef-d9aedd7df0f2",
-						"rank": "normal"
-					}
-				],
 				"P8785": [
 					{
 						"mainsnak": {
@@ -6874,395 +9229,6 @@ const Human: WikidataResponse = {
 						"rank": "normal"
 					}
 				],
-				"P8419": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "9f72ab054598f48dc62658da6c85d0ad9767e23b",
-							"datavalue": {
-								"value": "Human",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "9f7116b256f158aab16df8dbf52155821cdef7c9",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 107316855,
-											"id": "Q107316855"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								},
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "2676d76a32e544ce99d8cfe832a8ec77039a8f2e",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 105265074,
-											"id": "Q105265074"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$2e803540-48c8-6b61-4adf-6134e7b17352",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "9e8bf49bea364250d7960b2184a52a03b59664c4",
-							"datavalue": {
-								"value": "Human being",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "2676d76a32e544ce99d8cfe832a8ec77039a8f2e",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 105265074,
-											"id": "Q105265074"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$ca0a197e-490c-6272-8b86-f1fdfb858876",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "a43d1a71ffbaf0c1c90649b0bd16c1dbbfe4e2bb",
-							"datavalue": {
-								"value": "People",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "2676d76a32e544ce99d8cfe832a8ec77039a8f2e",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 105265074,
-											"id": "Q105265074"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$d3c99102-4626-f9c2-60de-c38cacffebaf",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "ebc90ac5ec8321963011e9b8fc7dc39a24b1ec42",
-							"datavalue": {
-								"value": "Humankind",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "9f7116b256f158aab16df8dbf52155821cdef7c9",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 107316855,
-											"id": "Q107316855"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$b2bd68c6-4438-18e1-e27e-6c5532a6f5b3",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "afc21b503318aba6b7ab53a765d790ea6cdf4a22",
-							"datavalue": {
-								"value": "Person",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "novalue",
-									"property": "P1552",
-									"hash": "c8439d482c59c2ff630be422cc7a011f666cbfef",
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$2c7a6616-4be2-7b6c-b50e-5ae4df7d9c02",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "7843579598b3f6cfe52c4ba42eaba18d326d8748",
-							"datavalue": {
-								"value": "Mankind",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "9f7116b256f158aab16df8dbf52155821cdef7c9",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 107316855,
-											"id": "Q107316855"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$2f4b0b9d-435f-08fc-b13a-be79df978f23",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "7ecbd3a9512bec2cfd12f975b5c0dd2efda3a576",
-							"datavalue": {
-								"value": "persons",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "9f7116b256f158aab16df8dbf52155821cdef7c9",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 107316855,
-											"id": "Q107316855"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$b66d236e-40d7-ff01-4d37-a93ccb35794b",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "78c24ecbd00f08fc517c6948b5be3da424e63889",
-							"datavalue": {
-								"value": "Humans",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "9f7116b256f158aab16df8dbf52155821cdef7c9",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 107316855,
-											"id": "Q107316855"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$a8a1beac-4b04-ff3f-22c3-0996523c27f5",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "cd63486bd7bf0e7d678dc731b1436cfab671e2df",
-							"datavalue": {
-								"value": "Homo Sapiens",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "9f7116b256f158aab16df8dbf52155821cdef7c9",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 107316855,
-											"id": "Q107316855"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$3adb2372-43fe-3f7a-7b59-310023cd481e",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P8419",
-							"hash": "5cf23a4db25f2a5cad40ecc4cabb507a1f88e495",
-							"datavalue": {
-								"value": "Homo",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P1552": [
-								{
-									"snaktype": "value",
-									"property": "P1552",
-									"hash": "9f7116b256f158aab16df8dbf52155821cdef7c9",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 107316855,
-											"id": "Q107316855"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P1552"
-						],
-						"id": "Q5$18f5a80a-4f84-4757-6f9c-f642d2c76fd3",
-						"rank": "normal"
-					}
-				],
-				"P425": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P425",
-							"hash": "df740d3a41739291571715cb4ea62349df91a931",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 61788060,
-									"id": "Q61788060"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q5$855d268c-4f20-da76-9b11-881c486d308d",
-						"rank": "normal"
-					}
-				],
 				"P129": [
 					{
 						"mainsnak": {
@@ -7281,25 +9247,6 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$56761279-4c16-df52-5fea-9b991de5daba",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P129",
-							"hash": "bbd1bedccdad4c15fd75140ab0c80be64cb60a80",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 8195619,
-									"id": "Q8195619"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q5$21979919-4c7e-6f5c-2cd0-2bd831e00d18",
 						"rank": "normal"
 					},
 					{
@@ -7336,17 +9283,2234 @@ const Human: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q5$BF941C39-2EF7-477C-8E2A-7C5BDFFCE2F4",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "a146bb9f5549b1f392b51b80d2879a6aed5de72a",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 36578,
+													"id": "Q36578"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P227": [
+										{
+											"snaktype": "value",
+											"property": "P227",
+											"hash": "7a85c0017ab49b134eb0f98359fd368b5cd40df4",
+											"datavalue": {
+												"value": "4038639-9",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 188,
+													"id": "Q188"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "dc85b6e2574128709f3e7e967cce7818bb3d9be7",
+											"datavalue": {
+												"value": {
+													"time": "+2022-04-15T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P227",
+									"P407",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1036",
+							"hash": "f9068157af87c814baff5770d3c84fd89957e680",
+							"datavalue": {
+								"value": "599.9",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$b6c42009-48fe-c5b5-d8db-139d1f73b72b",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "a146bb9f5549b1f392b51b80d2879a6aed5de72a",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 36578,
+													"id": "Q36578"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P227": [
+										{
+											"snaktype": "value",
+											"property": "P227",
+											"hash": "7a85c0017ab49b134eb0f98359fd368b5cd40df4",
+											"datavalue": {
+												"value": "4038639-9",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 188,
+													"id": "Q188"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "dc85b6e2574128709f3e7e967cce7818bb3d9be7",
+											"datavalue": {
+												"value": {
+													"time": "+2022-04-15T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P227",
+									"P407",
+									"P813"
+								]
+							}
+						]
+					}
+				],
+				"P4212": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P4212",
+							"hash": "52d0a9430844cdad805233121154aa3ea356e869",
+							"datavalue": {
+								"value": "pcrtUKPDSjlOdz",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$987B3E2B-7037-401A-9930-E2E098EFF3AD",
+						"rank": "normal"
+					}
+				],
+				"P1344": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1344",
+							"hash": "1f2fe921c2e68c1f02e1a95b186d98ec05108b6f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 61788060,
+									"id": "Q61788060"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$983b3e28-411c-2435-34b9-e85090700055",
+						"rank": "normal"
+					}
+				],
+				"P9084": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P9084",
+							"hash": "571af4d5261d5e826ccbb26557fae4db16b1697b",
+							"datavalue": {
+								"value": "people",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$DF48024F-0D0E-4728-8663-C654D372F948",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P9084",
+							"hash": "0195fcdc11b864f35c327c4b10e5e3bdeed01fc9",
+							"datavalue": {
+								"value": "human",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$459550F3-661C-43A3-BE2E-070F1FD23DC8",
+						"rank": "normal"
+					}
+				],
+				"P10283": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10283",
+							"hash": "520f0251c85eea4b288d84d3984c979d04b89e82",
+							"datavalue": {
+								"value": "C2777938546",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "52caa4a89ff7e878b3a32d4f95e632fe392646da",
+									"datavalue": {
+										"value": "Homo sapiens",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q5$52106A97-7A74-4D41-AB28-F3BB702C8B27",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 107507571,
+													"id": "Q107507571"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+											"datavalue": {
+												"value": {
+													"time": "+2022-01-26T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+											"datavalue": {
+												"value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P813",
+									"P854"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10283",
+							"hash": "00f99deb115142cec13b60d6933647780c07cbb4",
+							"datavalue": {
+								"value": "C2992909513",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "1b7ded588d67c5029fb18c7b576f4169b43fd49e",
+									"datavalue": {
+										"value": "Human species",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q5$28DF8898-6D98-4C02-9CE0-0AE8A99004E9",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 107507571,
+													"id": "Q107507571"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+											"datavalue": {
+												"value": {
+													"time": "+2022-01-26T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+											"datavalue": {
+												"value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P813",
+									"P854"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10283",
+							"hash": "032ef456e3d8b8f5de561b60952c41ba340a1377",
+							"datavalue": {
+								"value": "C3020439559",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "d8bf89d82f55398a5f739d41e5610d58e0922013",
+									"datavalue": {
+										"value": "Human being",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q5$FF956DE9-61A1-4893-9BF0-A86523150166",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 107507571,
+													"id": "Q107507571"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+											"datavalue": {
+												"value": {
+													"time": "+2022-01-26T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+											"datavalue": {
+												"value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P813",
+									"P854"
+								]
+							}
+						]
+					}
+				],
+				"P8419": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "9f72ab054598f48dc62658da6c85d0ad9767e23b",
+							"datavalue": {
+								"value": "Human",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P3831": [
+								{
+									"snaktype": "value",
+									"property": "P3831",
+									"hash": "e5fb577ebcb6603446a4f3bbe92daa0fce7843f8",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 107316855,
+											"id": "Q107316855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P1552": [
+								{
+									"snaktype": "value",
+									"property": "P1552",
+									"hash": "2676d76a32e544ce99d8cfe832a8ec77039a8f2e",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 105265074,
+											"id": "Q105265074"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P3831",
+							"P1552"
+						],
+						"id": "Q5$2B60534B-9009-48E4-9853-10B783FDCA2A",
+						"rank": "preferred"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "9e8bf49bea364250d7960b2184a52a03b59664c4",
+							"datavalue": {
+								"value": "Human being",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1552": [
+								{
+									"snaktype": "value",
+									"property": "P1552",
+									"hash": "2676d76a32e544ce99d8cfe832a8ec77039a8f2e",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 105265074,
+											"id": "Q105265074"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P3831": [
+								{
+									"snaktype": "value",
+									"property": "P3831",
+									"hash": "14dfa11fbc879e89ffa6ed59bfc98468262f00ea",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 110914171,
+											"id": "Q110914171"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1552",
+							"P3831"
+						],
+						"id": "Q5$ca0a197e-490c-6272-8b86-f1fdfb858876",
+						"rank": "preferred"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "a43d1a71ffbaf0c1c90649b0bd16c1dbbfe4e2bb",
+							"datavalue": {
+								"value": "People",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P3831": [
+								{
+									"snaktype": "value",
+									"property": "P3831",
+									"hash": "e5fb577ebcb6603446a4f3bbe92daa0fce7843f8",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 107316855,
+											"id": "Q107316855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P3831"
+						],
+						"id": "Q5$d3c99102-4626-f9c2-60de-c38cacffebaf",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "afc21b503318aba6b7ab53a765d790ea6cdf4a22",
+							"datavalue": {
+								"value": "Person",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1552": [
+								{
+									"snaktype": "novalue",
+									"property": "P1552",
+									"hash": "c8439d482c59c2ff630be422cc7a011f666cbfef",
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1552"
+						],
+						"id": "Q5$2c7a6616-4be2-7b6c-b50e-5ae4df7d9c02",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "cd63486bd7bf0e7d678dc731b1436cfab671e2df",
+							"datavalue": {
+								"value": "Homo Sapiens",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P3831": [
+								{
+									"snaktype": "value",
+									"property": "P3831",
+									"hash": "e5fb577ebcb6603446a4f3bbe92daa0fce7843f8",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 107316855,
+											"id": "Q107316855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P3831"
+						],
+						"id": "Q5$985457A6-9DC0-4562-923E-395FE00D8BE1",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "5cf23a4db25f2a5cad40ecc4cabb507a1f88e495",
+							"datavalue": {
+								"value": "Homo",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P3831": [
+								{
+									"snaktype": "value",
+									"property": "P3831",
+									"hash": "e5fb577ebcb6603446a4f3bbe92daa0fce7843f8",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 107316855,
+											"id": "Q107316855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P3831"
+						],
+						"id": "Q5$08C11300-AED0-493F-9518-7076BA7649EB",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "ebc90ac5ec8321963011e9b8fc7dc39a24b1ec42",
+							"datavalue": {
+								"value": "Humankind",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P3831": [
+								{
+									"snaktype": "value",
+									"property": "P3831",
+									"hash": "e5fb577ebcb6603446a4f3bbe92daa0fce7843f8",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 107316855,
+											"id": "Q107316855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P3831"
+						],
+						"id": "Q5$BB09A01C-7AC8-4CE9-9DA2-7394BF38E2D2",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "78c24ecbd00f08fc517c6948b5be3da424e63889",
+							"datavalue": {
+								"value": "Humans",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P3831": [
+								{
+									"snaktype": "value",
+									"property": "P3831",
+									"hash": "e5fb577ebcb6603446a4f3bbe92daa0fce7843f8",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 107316855,
+											"id": "Q107316855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P3831"
+						],
+						"id": "Q5$23CB2FE3-7D14-4058-B623-8209C4AE2543",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "7843579598b3f6cfe52c4ba42eaba18d326d8748",
+							"datavalue": {
+								"value": "Mankind",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P3831": [
+								{
+									"snaktype": "value",
+									"property": "P3831",
+									"hash": "e5fb577ebcb6603446a4f3bbe92daa0fce7843f8",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 107316855,
+											"id": "Q107316855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P3831"
+						],
+						"id": "Q5$6949450E-80B7-4AD4-89B3-30BCB5764669",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8419",
+							"hash": "7ecbd3a9512bec2cfd12f975b5c0dd2efda3a576",
+							"datavalue": {
+								"value": "persons",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P3831": [
+								{
+									"snaktype": "value",
+									"property": "P3831",
+									"hash": "e5fb577ebcb6603446a4f3bbe92daa0fce7843f8",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 107316855,
+											"id": "Q107316855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P3831"
+						],
+						"id": "Q5$496E2D46-C514-455D-8BCE-1B3DD3E2E11F",
+						"rank": "normal"
+					}
+				],
+				"P4527": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P4527",
+							"hash": "8c9678e8db2813c4c76056f076e0b31e098f9d3e",
+							"datavalue": {
+								"value": "92405",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "2f54c997c2f66aa5121a9cbcdcfad378bb56c761",
+									"datavalue": {
+										"value": "People",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q5$5c3da25b-4c2a-374b-9eef-113b5c8d8e97",
+						"rank": "normal"
+					}
+				],
+				"P8313": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8313",
+							"hash": "16b391c6eba8b6b1c6b1f575f2c4e4de46ad060b",
+							"datavalue": {
+								"value": "menneske",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$02885DA5-B792-4716-878D-3CEE952D9675",
+						"rank": "normal"
+					}
+				],
+				"P8972": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8972",
+							"hash": "be0bd2c5d5b4d6c827071ef67e0bf891b8e231c2",
+							"datavalue": {
+								"value": "Font Awesome 5 solid user.svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"id": "Q5$65d9668c-45b1-3ae0-53ef-d9aedd7df0f2",
+						"rank": "normal"
+					}
+				],
+				"P8814": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8814",
+							"hash": "283fd9822f854d535ad97041361cdaecc4a45dd0",
+							"datavalue": {
+								"value": "02477408-n",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$F2416336-CE6B-4463-A729-7A0A93E8D73C",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "3f8c4934cc38de77b597e01bd5028acb514abd2d",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "b43a9435cc2672909edd2b524141c9dbfa50f967",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 112258758,
+													"id": "Q112258758"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8814",
+							"hash": "6ac26145321c252e4e9183e3adf0e2ec0e08f20e",
+							"datavalue": {
+								"value": "02474924-n",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "2cf03d91542ac771ac3bad5d7bdb4619bf58a92f",
+									"datavalue": {
+										"value": "homo",
+										"type": "string"
+									},
+									"datatype": "string"
+								},
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "6a03c470f1326bf5fad7358fee5464fd8ebac642",
+									"datavalue": {
+										"value": "human",
+										"type": "string"
+									},
+									"datatype": "string"
+								},
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "4538aa6fb40c973633434adffa13c469409be7aa",
+									"datavalue": {
+										"value": "human being",
+										"type": "string"
+									},
+									"datatype": "string"
+								},
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "88bcd35dc7c3991cd9d3c9ea6576bbbcad69ea2b",
+									"datavalue": {
+										"value": "man",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P9570": [
+								{
+									"snaktype": "value",
+									"property": "P9570",
+									"hash": "f692d940790e24f986231be8dadd04a958f0d3fc",
+									"datavalue": {
+										"value": {
+											"text": "any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P9570"
+						],
+						"id": "Q5$92F0ED41-074B-42D8-9461-6D5AF49B2C31",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "3f8c4934cc38de77b597e01bd5028acb514abd2d",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "b43a9435cc2672909edd2b524141c9dbfa50f967",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 112258758,
+													"id": "Q112258758"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248"
+								]
+							}
+						]
+					}
+				],
+				"P691": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P691",
+							"hash": "9e5f04d1fdc39bb50c71dd1e21626afd6c174c91",
+							"datavalue": {
+								"value": "ph116876",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "a373b38afe78cb9b4d33c2327901380ff4ef049b",
+									"datavalue": {
+										"value": "\u010dlov\u011bk",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q5$62CA623E-6A75-46D4-8AE6-12AC3A6F7027",
+						"rank": "normal"
+					}
+				],
+				"P10757": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10757",
+							"hash": "c2e0f5c3af30a7862d2b0374f3ba32da21054c87",
+							"datavalue": {
+								"value": "52558",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$E9C440B4-179F-40B0-AE83-A09803AC2ED3",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "d11ca9141741243fcf8c3dfa11b1a8847e7504ed",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "45f8b0f971839be9ab9fbcf373f4cbdebcc371e8",
+											"datavalue": {
+												"value": "https://www.personality-database.com/profile/52558/humans-animals-other-mbti-personality-type",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "f317075afc85607580b79f528ae795a1bd1494a5",
+											"datavalue": {
+												"value": {
+													"text": "Humans MBTI Stereotype - Personality Database\u2122\ufe0f 2022",
+													"language": "en"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "643773968b1d66a8b1966ac641f9ccda97cd89a8",
+											"datavalue": {
+												"value": {
+													"time": "+2022-06-20T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P813"
+								]
+							}
+						]
+					}
+				],
+				"P2184": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2184",
+							"hash": "c73d97f3836531c3a73399db08e6cc68f527324b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 200325,
+									"id": "Q200325"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$c8e0e1d8-48d6-cd5c-8fcc-f222889e60a8",
+						"rank": "normal"
+					}
+				],
+				"P10565": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10565",
+							"hash": "3ab40dbb7d4c54edbce6ee1109e9f58478a02ca5",
+							"datavalue": {
+								"value": "149664",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "ed62a84d65ad7c19691d228da494e22cef52fb58",
+									"datavalue": {
+										"value": "\u4eba",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q5$FC31DFF1-2FCD-4191-ACC4-A6A28FBAB8D5",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10565",
+							"hash": "2002573303e935d8078db7ebc3f19fa2bd55b445",
+							"datavalue": {
+								"value": "220069",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "8d4d49c912ce2da6b68798b016ec1d0c617457d9",
+									"datavalue": {
+										"value": "\u4eba\u7c7b",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q5$B73D0D4E-3617-4F60-989C-5393C783CAF0",
+						"rank": "normal"
+					}
+				],
+				"P5034": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P5034",
+							"hash": "3e186bb3a86059492acc7f9e31257805860498d9",
+							"datavalue": {
+								"value": "KSH1998033764",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "bb39a34c57ec03adb59245e6ae9232296db22fa7",
+									"datavalue": {
+										"value": "\uc778\uac04",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q5$bbb1d014-470a-efd7-9b5b-182333a91f86",
+						"rank": "normal"
+					}
+				],
+				"P2163": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2163",
+							"hash": "23183f23501dd1a90e597ab78e319a0d1b2d7d16",
+							"datavalue": {
+								"value": "962832",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$f51821c1-4ada-7f5d-dea4-650136be813f",
+						"rank": "normal"
+					}
+				],
+				"P6262": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6262",
+							"hash": "9c790c67426cba4e546f89eef51927066ff145eb",
+							"datavalue": {
+								"value": "non-aliencreatures:Human",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "e4dd5369ac0ce88d488c7df042d149b09014139f",
+									"datavalue": {
+										"value": "Human",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "07afe07c5be2f204d54e4b61a525307b3ea92c02",
+									"datavalue": {
+										"value": "5855",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P407",
+							"P9675"
+						],
+						"id": "Q5$0BE38AA7-51C3-4A64-AD37-DDDA87387BBA",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "ea361411937959d72fbb8e2d2864501fb584eb5d",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "0e5bd1a33b58e9442d1aad953f3196c17757cf7b",
+											"datavalue": {
+												"value": "https://non-aliencreatures.fandom.com/wiki/Human",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "8cf15f115b696b1f03dcc35e0aa20f2438593680",
+											"datavalue": {
+												"value": {
+													"text": "Human | Non-alien Creatures Wiki | Fandom",
+													"language": "en"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "c5cc278d673ed6c5463f1c0852aed072b413da6c",
+											"datavalue": {
+												"value": {
+													"time": "+2022-10-04T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6262",
+							"hash": "04ab390916a04d53e0f8a08bf3b512875d740ee7",
+							"datavalue": {
+								"value": "tier-zoo:Human",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "e4dd5369ac0ce88d488c7df042d149b09014139f",
+									"datavalue": {
+										"value": "Human",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P407"
+						],
+						"id": "Q5$604132c1-41ed-574a-ae8e-9b2150795609",
+						"rank": "normal"
+					}
+				],
+				"P1114": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1114",
+							"hash": "7ac63f757eb588ad1432cf3551c75bcbce38270c",
+							"datavalue": {
+								"value": {
+									"amount": "+117020448575",
+									"unit": "1"
+								},
+								"type": "quantity"
+							},
+							"datatype": "quantity"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P585": [
+								{
+									"snaktype": "value",
+									"property": "P585",
+									"hash": "05d08449b8babb071a49d6d7ec01748ddec626d7",
+									"datavalue": {
+										"value": {
+											"time": "+2022-11-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 10,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P459": [
+								{
+									"snaktype": "value",
+									"property": "P459",
+									"hash": "f054ad54d1ef222c850d18da1dcb69e584f87dc1",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37113960,
+											"id": "Q37113960"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P585",
+							"P459"
+						],
+						"id": "Q5$787146e8-445c-81ff-a0ab-51a9bb4c38df",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "b3ae6da920089b4e2b1b94fdced8447cbfd2e31c",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "396d3c7cf820aaf5b2d4a15a443513167edf1dff",
+											"datavalue": {
+												"value": "https://www.prb.org/articles/how-many-people-have-ever-lived-on-earth/",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "d3a738dd2bb43a327c40d7f1f3419ec8daef62f1",
+											"datavalue": {
+												"value": {
+													"time": "+2022-11-26T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P813"
+								]
+							}
+						]
+					}
+				],
+				"P5337": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P5337",
+							"hash": "79d26ebb8f741f3262a9386c538d1dff93755430",
+							"datavalue": {
+								"value": "CAAqJggKIiBDQkFTRWdvSkwyMHZNR1JuZHpseUVnVmxiaTFIUWlnQVAB",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$9c6366e2-4d35-69db-abf4-3466525f7643",
+						"rank": "normal"
+					}
+				],
+				"P8189": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8189",
+							"hash": "5b71f406551a481e851d39ecf4a2bceba4ee34ec",
+							"datavalue": {
+								"value": "987007546070205171",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "3031f89c761c25a9544fabd0c18a9514d25be66f",
+									"datavalue": {
+										"value": "Human beings",
+										"type": "string"
+									},
+									"datatype": "string"
+								},
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "35431f5c3031f5e93033a56c2ebc35d51d6da59d",
+									"datavalue": {
+										"value": "\u05d1\u05e0\u05d9 \u05d0\u05d3\u05dd",
+										"type": "string"
+									},
+									"datatype": "string"
+								},
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "ae7cab8651900a4265400dc05be94574f3df47d5",
+									"datavalue": {
+										"value": "\u0627\u0644\u0628\u0634\u0631",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q5$4edb43be-4d2d-0ef3-3665-4096b6df7c1a",
+						"rank": "normal"
+					}
+				],
+				"P9495": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P9495",
+							"hash": "116614c28cf12c00753404288d28d7df2db997bc",
+							"datavalue": {
+								"value": "term/D14AD121-23B7-4ADB-80CB-BDF876E89F2F",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$4AD60A1E-9F50-41B0-8C23-2C7CF00527C1",
+						"rank": "normal"
+					}
+				],
+				"P10376": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10376",
+							"hash": "b38f434d647c4ac4775dc43d55112e9f7b81081b",
+							"datavalue": {
+								"value": "social-sciences/human-being",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$44867fc0-4583-508c-3899-70f034166ed5",
+						"rank": "normal"
+					}
+				],
+				"P461": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P461",
+							"hash": "536fe7b298426b81f8f3e0dbd34f9c6b1ffe1c38",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 24249370,
+									"id": "Q24249370"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1013": [
+								{
+									"snaktype": "value",
+									"property": "P1013",
+									"hash": "434c04aab657496b94e3efd28c50b1436b0233e0",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 242767,
+											"id": "Q242767"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1013"
+						],
+						"id": "Q5$f15a38b2-4bbc-524e-0ffa-716135ccc2ea",
+						"rank": "normal"
+					}
+				],
+				"P11955": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P11955",
+							"hash": "336dad774e85b946f93465d79b45f651a468294d",
+							"datavalue": {
+								"value": "T016",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$6D6077E9-641A-4271-ACE2-F2A204BDE000",
+						"rank": "normal"
+					}
+				],
+				"P3911": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P3911",
+							"hash": "e21239b41a623f0472fda9a1f2dfb59cfff03e71",
+							"datavalue": {
+								"value": "15659-3",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P4390": [
+								{
+									"snaktype": "value",
+									"property": "P4390",
+									"hash": "1a4df62914ea9afca349bd5fb5d8efd5832d83fa",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 39893449,
+											"id": "Q39893449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P4390"
+						],
+						"id": "Q5$92EDD1E8-3ECA-4FAC-935E-327E0902E833",
+						"rank": "normal"
+					}
+				],
+				"P2347": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2347",
+							"hash": "e68e6ce50d6a688ca30c0f34eafef4e88f150ade",
+							"datavalue": {
+								"value": "18849",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$1930A424-53D5-4FBB-BB18-C39AAE51FB27",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "a3680dcf3988c75a34ac53406a45e6826c19228e",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 89345680,
+													"id": "Q89345680"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P577": [
+										{
+											"snaktype": "value",
+											"property": "P577",
+											"hash": "653027f415a8950f5e5753e6b8e2f666db9fd6d5",
+											"datavalue": {
+												"value": {
+													"time": "+2023-12-05T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P577"
+								]
+							}
+						]
+					}
+				],
+				"P6058": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6058",
+							"hash": "073992f521ff35114d82a2b73cf4867cf0b55615",
+							"datavalue": {
+								"value": "divers/homme/58559",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$c2a91d8a-425e-0c5a-466b-392d0659572a",
+						"rank": "normal"
+					}
+				],
+				"P12385": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12385",
+							"hash": "617d305b47c376fdc865237c1206e52871d5d85f",
+							"datavalue": {
+								"value": "humans",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$67110246-bd54-462e-b3b6-1ae839e69359",
+						"rank": "normal"
+					}
+				],
+				"P18": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "5ac274537a9a1490d85f5155994885ddbb97e9fd",
+							"datavalue": {
+								"value": "Anterior view of human female and male, with labels.svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"id": "Q5$5be68858-46f6-fd73-5618-9f019027fbd5",
+						"rank": "normal"
+					}
+				],
+				"P31": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P31",
+							"hash": "039ca41f187ee0f849e34958ffb63a69ad6d50e4",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 55983715,
+									"id": "Q55983715"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P642": [
+								{
+									"snaktype": "value",
+									"property": "P642",
+									"hash": "cf6408ac6fef3df8e0ce0ffdc5fcf3e138d2c8bc",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 15978631,
+											"id": "Q15978631"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								},
+								{
+									"snaktype": "value",
+									"property": "P642",
+									"hash": "d295d53e576550a9c88b8e74f5741450d6a6d681",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3238275,
+											"id": "Q3238275"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								},
+								{
+									"snaktype": "value",
+									"property": "P642",
+									"hash": "a25937e849cb8860f1f7d0badc5ce41065dc5b0c",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 171283,
+											"id": "Q171283"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P642"
+						],
+						"id": "Q5$82b80d5f-4353-c7cb-1a3c-c0c8f4f5f237",
+						"rank": "normal"
+					}
+				],
+				"P1269": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1269",
+							"hash": "f03017245f9ad7d62a5b02de4f35957e21b57cc5",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1156970,
+									"id": "Q1156970"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$dad9d940-4e95-decd-5ab7-66e61b76c474",
+						"rank": "normal"
+					}
+				],
+				"P646": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P646",
+							"hash": "7f4d65b3b2a0f7845585de92523ecba5f36d22b2",
+							"datavalue": {
+								"value": "/m/0dgw9r",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$4D513F46-E17D-4DCA-995F-2FEDD058F841",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 15241312,
+													"id": "Q15241312"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P577": [
+										{
+											"snaktype": "value",
+											"property": "P577",
+											"hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+											"datavalue": {
+												"value": {
+													"time": "+2013-10-28T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P577"
+								]
+							}
+						]
+					}
+				],
+				"P12596": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12596",
+							"hash": "411fb832726bdf707bc9fd421451768a771aeace",
+							"datavalue": {
+								"value": "786",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$356D1B0A-CF0F-4057-BBC0-B53DFBAA1F71",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12596",
+							"hash": "50f5cfab269643ea6c022c961f6b0130447e691a",
+							"datavalue": {
+								"value": "787",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$03422299-0F2A-4AC3-A148-3BE4B648B48D",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12596",
+							"hash": "411afa3b80a3337d5c8bee407dc3cf6fd3842711",
+							"datavalue": {
+								"value": "6376",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$317AA849-4281-4F4D-8A1C-B497B89C539A",
+						"rank": "normal"
+					}
+				],
+				"P1034": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1034",
+							"hash": "a61c187cff461107c1fd00226a65f475a2012974",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 8195619,
+									"id": "Q8195619"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q5$07d61efc-40ac-cd22-0a30-3944f8735e19",
+						"rank": "normal"
+					}
+				],
+				"P7775": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P7775",
+							"hash": "dc763c3c68a1807a3e2e52b273dac558beb392f7",
+							"datavalue": {
+								"value": "Human",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$6d635166-40c8-79b2-4bb0-59a7497064c7",
+						"rank": "normal"
+					}
+				],
+				"P12800": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12800",
+							"hash": "149e1de45f4c222e9518ff18a763d75341af12ac",
+							"datavalue": {
+								"value": "es:Ser_humano",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$E35A69A5-89B7-4D66-A523-2574A261079C",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12800",
+							"hash": "025988b741d02d6876d406e50452727dc5d995f8",
+							"datavalue": {
+								"value": "fr:Homo_sapiens",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q5$EF8C63F3-BE7B-4C07-A43B-374EB1E416A7",
 						"rank": "normal"
 					}
 				]
 			},
 			"sitelinks": {
-				"acewiki": {
-					"site": "acewiki",
-					"title": "Tokoh",
-					"badges": [],
-					"url": "https://ace.wikipedia.org/wiki/Tokoh"
-				},
 				"afwiki": {
 					"site": "afwiki",
 					"title": "Mens",
@@ -7358,187 +11522,305 @@ const Human: WikidataResponse = {
 				"alswiki": {
 					"site": "alswiki",
 					"title": "Mensch",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://als.wikipedia.org/wiki/Mensch"
 				},
 				"amwiki": {
 					"site": "amwiki",
 					"title": "\u12e8\u1230\u12cd \u120d\u1305",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://am.wikipedia.org/wiki/%E1%8B%A8%E1%88%B0%E1%8B%8D_%E1%88%8D%E1%8C%85"
+				},
+				"anpwiki": {
+					"site": "anpwiki",
+					"title": "\u092e\u0928\u0941\u0937\u094d\u092f",
+					"badges": [
+
+					],
+					"url": "https://anp.wikipedia.org/wiki/%E0%A4%AE%E0%A4%A8%E0%A5%81%E0%A4%B7%E0%A5%8D%E0%A4%AF"
 				},
 				"anwiki": {
 					"site": "anwiki",
 					"title": "Hum\u00e1n",
-					"badges": [],
+					"badges": [
+						"Q70894304"
+					],
 					"url": "https://an.wikipedia.org/wiki/Hum%C3%A1n"
 				},
 				"arcwiki": {
 					"site": "arcwiki",
 					"title": "\u0712\u072a \u0710\u0722\u072b\u0710",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://arc.wikipedia.org/wiki/%DC%92%DC%AA_%DC%90%DC%A2%DC%AB%DC%90"
 				},
 				"arwiki": {
 					"site": "arwiki",
 					"title": "\u0625\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ar.wikipedia.org/wiki/%D8%A5%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"arwikiquote": {
 					"site": "arwikiquote",
 					"title": "\u0625\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ar.wikiquote.org/wiki/%D8%A5%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"arywiki": {
 					"site": "arywiki",
 					"title": "\u0628\u0646\u0627\u062f\u0645",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ary.wikipedia.org/wiki/%D8%A8%D9%86%D8%A7%D8%AF%D9%85"
 				},
 				"arzwiki": {
 					"site": "arzwiki",
 					"title": "\u0627\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://arz.wikipedia.org/wiki/%D8%A7%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"astwiki": {
 					"site": "astwiki",
 					"title": "Humanu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ast.wikipedia.org/wiki/Humanu"
 				},
 				"aswiki": {
 					"site": "aswiki",
 					"title": "\u09ae\u09be\u09a8\u09c1\u09b9",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://as.wikipedia.org/wiki/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B9"
+				},
+				"atjwiki": {
+					"site": "atjwiki",
+					"title": "Iriniw",
+					"badges": [
+
+					],
+					"url": "https://atj.wikipedia.org/wiki/Iriniw"
 				},
 				"avwiki": {
 					"site": "avwiki",
 					"title": "\u0413\u04c0\u0430\u0434\u0430\u043d",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://av.wikipedia.org/wiki/%D0%93%D3%80%D0%B0%D0%B4%D0%B0%D0%BD"
 				},
 				"awawiki": {
 					"site": "awawiki",
 					"title": "\u092e\u0928\u0908",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://awa.wikipedia.org/wiki/%E0%A4%AE%E0%A4%A8%E0%A4%88"
 				},
 				"aywiki": {
 					"site": "aywiki",
 					"title": "Jaqi",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ay.wikipedia.org/wiki/Jaqi"
 				},
 				"azbwiki": {
 					"site": "azbwiki",
 					"title": "\u0627\u06cc\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://azb.wikipedia.org/wiki/%D8%A7%DB%8C%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"azwiki": {
 					"site": "azwiki",
 					"title": "\u0130nsan",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://az.wikipedia.org/wiki/%C4%B0nsan"
 				},
 				"azwikiquote": {
 					"site": "azwikiquote",
 					"title": "\u0130nsan",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://az.wikiquote.org/wiki/%C4%B0nsan"
+				},
+				"banwiki": {
+					"site": "banwiki",
+					"title": "Manusa",
+					"badges": [
+
+					],
+					"url": "https://ban.wikipedia.org/wiki/Manusa"
 				},
 				"barwiki": {
 					"site": "barwiki",
 					"title": "Mensch",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bar.wikipedia.org/wiki/Mensch"
 				},
 				"bat_smgwiki": {
 					"site": "bat_smgwiki",
 					"title": "\u017dmuogos",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bat-smg.wikipedia.org/wiki/%C5%BDmuogos"
 				},
 				"bawiki": {
 					"site": "bawiki",
 					"title": "\u041a\u0435\u0448\u0435",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ba.wikipedia.org/wiki/%D0%9A%D0%B5%D1%88%D0%B5"
 				},
 				"bclwiki": {
 					"site": "bclwiki",
 					"title": "Tawo",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bcl.wikipedia.org/wiki/Tawo"
 				},
 				"be_x_oldwiki": {
 					"site": "be_x_oldwiki",
 					"title": "\u0427\u0430\u043b\u0430\u0432\u0435\u043a",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://be-tarask.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BB%D0%B0%D0%B2%D0%B5%D0%BA"
 				},
 				"bewiki": {
 					"site": "bewiki",
 					"title": "\u0427\u0430\u043b\u0430\u0432\u0435\u043a",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://be.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BB%D0%B0%D0%B2%D0%B5%D0%BA"
+				},
+				"bewikisource": {
+					"site": "bewikisource",
+					"title": "\u0427\u0430\u043b\u0430\u0432\u0435\u043a",
+					"badges": [
+
+					],
+					"url": "https://be.wikisource.org/wiki/%D0%A7%D0%B0%D0%BB%D0%B0%D0%B2%D0%B5%D0%BA"
+				},
+				"bewwiki": {
+					"site": "bewwiki",
+					"title": "Manusia",
+					"badges": [
+
+					],
+					"url": "https://bew.wikipedia.org/wiki/Manusia"
 				},
 				"bgwiki": {
 					"site": "bgwiki",
 					"title": "\u0427\u043e\u0432\u0435\u043a",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bg.wikipedia.org/wiki/%D0%A7%D0%BE%D0%B2%D0%B5%D0%BA"
 				},
 				"bhwiki": {
 					"site": "bhwiki",
 					"title": "\u092e\u093e\u0928\u0941\u0938",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bh.wikipedia.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%81%E0%A4%B8"
 				},
 				"bjnwiki": {
 					"site": "bjnwiki",
 					"title": "Manusia",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bjn.wikipedia.org/wiki/Manusia"
 				},
 				"bnwiki": {
 					"site": "bnwiki",
 					"title": "\u09ae\u09be\u09a8\u09c1\u09b7",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7"
+				},
+				"bnwikiquote": {
+					"site": "bnwikiquote",
+					"title": "\u09ae\u09be\u09a8\u09c1\u09b7",
+					"badges": [
+
+					],
+					"url": "https://bn.wikiquote.org/wiki/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7"
 				},
 				"bowiki": {
 					"site": "bowiki",
 					"title": "\u0f60\u0f42\u0fb2\u0f7c\u0f0b\u0f56\u0f0b\u0f58\u0f72\u0f0d",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bo.wikipedia.org/wiki/%E0%BD%A0%E0%BD%82%E0%BE%B2%E0%BD%BC%E0%BC%8B%E0%BD%96%E0%BC%8B%E0%BD%98%E0%BD%B2%E0%BC%8D"
 				},
 				"brwiki": {
 					"site": "brwiki",
 					"title": "Den",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://br.wikipedia.org/wiki/Den"
 				},
 				"bswiki": {
 					"site": "bswiki",
 					"title": "\u010covjek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bs.wikipedia.org/wiki/%C4%8Covjek"
 				},
 				"bswikiquote": {
 					"site": "bswikiquote",
 					"title": "\u010covjek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bs.wikiquote.org/wiki/%C4%8Covjek"
+				},
+				"btmwiki": {
+					"site": "btmwiki",
+					"title": "Alak",
+					"badges": [
+
+					],
+					"url": "https://btm.wikipedia.org/wiki/Alak"
 				},
 				"bxrwiki": {
 					"site": "bxrwiki",
 					"title": "\u0423\u0445\u0430\u0430\u043d\u0442\u0430 \u0445\u04af\u043d",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://bxr.wikipedia.org/wiki/%D0%A3%D1%85%D0%B0%D0%B0%D0%BD%D1%82%D0%B0_%D1%85%D2%AF%D0%BD"
 				},
 				"cawiki": {
@@ -7552,103 +11834,153 @@ const Human: WikidataResponse = {
 				"cdowiki": {
 					"site": "cdowiki",
 					"title": "N\u00e8\u0324ng",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://cdo.wikipedia.org/wiki/N%C3%A8%CC%A4ng"
 				},
 				"cebwiki": {
 					"site": "cebwiki",
 					"title": "Tawo",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ceb.wikipedia.org/wiki/Tawo"
 				},
 				"cewiki": {
 					"site": "cewiki",
 					"title": "\u0410\u0434\u0430\u043c",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ce.wikipedia.org/wiki/%D0%90%D0%B4%D0%B0%D0%BC"
 				},
 				"ckbwiki": {
 					"site": "ckbwiki",
 					"title": "\u0645\u0631\u06c6\u06a4",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ckb.wikipedia.org/wiki/%D9%85%D8%B1%DB%86%DA%A4"
+				},
+				"commonswiki": {
+					"site": "commonswiki",
+					"title": "Homo sapiens",
+					"badges": [
+
+					],
+					"url": "https://commons.wikimedia.org/wiki/Homo_sapiens"
 				},
 				"cowiki": {
 					"site": "cowiki",
 					"title": "Omu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://co.wikipedia.org/wiki/Omu"
 				},
 				"cswiki": {
 					"site": "cswiki",
 					"title": "\u010clov\u011bk moudr\u00fd",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://cs.wikipedia.org/wiki/%C4%8Clov%C4%9Bk_moudr%C3%BD"
 				},
 				"cswikiquote": {
 					"site": "cswikiquote",
 					"title": "\u010clov\u011bk",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://cs.wikiquote.org/wiki/%C4%8Clov%C4%9Bk"
 				},
 				"cvwiki": {
 					"site": "cvwiki",
-					"title": "\u0422\u0103\u043d\u043b\u0103 \u00e7\u044b\u043d",
-					"badges": [],
-					"url": "https://cv.wikipedia.org/wiki/%D0%A2%C4%83%D0%BD%D0%BB%C4%83_%C3%A7%D1%8B%D0%BD"
+					"title": "\u00c7\u044b\u043d",
+					"badges": [
+
+					],
+					"url": "https://cv.wikipedia.org/wiki/%C3%87%D1%8B%D0%BD"
 				},
 				"cywiki": {
 					"site": "cywiki",
 					"title": "Bod dynol",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://cy.wikipedia.org/wiki/Bod_dynol"
+				},
+				"dagwiki": {
+					"site": "dagwiki",
+					"title": "Ninsala",
+					"badges": [
+
+					],
+					"url": "https://dag.wikipedia.org/wiki/Ninsala"
 				},
 				"dawiki": {
 					"site": "dawiki",
 					"title": "Menneske",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://da.wikipedia.org/wiki/Menneske"
 				},
 				"dewiki": {
 					"site": "dewiki",
 					"title": "Mensch",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://de.wikipedia.org/wiki/Mensch"
-				},
-				"dewikinews": {
-					"site": "dewikinews",
-					"title": "Kategorie:Personalie",
-					"badges": [],
-					"url": "https://de.wikinews.org/wiki/Kategorie:Personalie"
 				},
 				"dewikiquote": {
 					"site": "dewikiquote",
 					"title": "Mensch",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://de.wikiquote.org/wiki/Mensch"
+				},
+				"dewikisource": {
+					"site": "dewikisource",
+					"title": "Mensch",
+					"badges": [
+
+					],
+					"url": "https://de.wikisource.org/wiki/Mensch"
 				},
 				"diqwiki": {
 					"site": "diqwiki",
 					"title": "Merd\u0131m",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://diq.wikipedia.org/wiki/Merd%C4%B1m"
 				},
 				"dtywiki": {
 					"site": "dtywiki",
 					"title": "\u092e\u093e\u0928\u094d\u0938\u0941",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://dty.wikipedia.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B8%E0%A5%81"
 				},
 				"elwiki": {
 					"site": "elwiki",
 					"title": "\u0386\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03c2",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://el.wikipedia.org/wiki/%CE%86%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82"
 				},
 				"elwikiquote": {
 					"site": "elwikiquote",
 					"title": "\u0386\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03c2",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://el.wikiquote.org/wiki/%CE%86%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82"
 				},
 				"enwiki": {
@@ -7662,189 +11994,233 @@ const Human: WikidataResponse = {
 				"enwikiquote": {
 					"site": "enwikiquote",
 					"title": "Human",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://en.wikiquote.org/wiki/Human"
 				},
 				"eowiki": {
 					"site": "eowiki",
 					"title": "Homo",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://eo.wikipedia.org/wiki/Homo"
 				},
 				"eowikinews": {
 					"site": "eowikinews",
 					"title": "Kategorio:Homo",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://eo.wikinews.org/wiki/Kategorio:Homo"
 				},
 				"eowikiquote": {
 					"site": "eowikiquote",
 					"title": "Homo",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://eo.wikiquote.org/wiki/Homo"
 				},
 				"eswiki": {
 					"site": "eswiki",
 					"title": "Humano",
-					"badges": [],
+					"badges": [
+						"Q70894304"
+					],
 					"url": "https://es.wikipedia.org/wiki/Humano"
-				},
-				"eswikinews": {
-					"site": "eswikinews",
-					"title": "Categor\u00eda:Personas",
-					"badges": [],
-					"url": "https://es.wikinews.org/wiki/Categor%C3%ADa:Personas"
 				},
 				"eswikiquote": {
 					"site": "eswikiquote",
 					"title": "Hombre",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://es.wikiquote.org/wiki/Hombre"
 				},
 				"etwiki": {
 					"site": "etwiki",
 					"title": "Inimene",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://et.wikipedia.org/wiki/Inimene"
 				},
 				"etwikiquote": {
 					"site": "etwikiquote",
 					"title": "Inimene",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://et.wikiquote.org/wiki/Inimene"
 				},
 				"euwiki": {
 					"site": "euwiki",
 					"title": "Gizaki",
 					"badges": [
-						"Q17437796"
+						"Q17437798"
 					],
 					"url": "https://eu.wikipedia.org/wiki/Gizaki"
 				},
 				"fawiki": {
 					"site": "fawiki",
 					"title": "\u0627\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://fa.wikipedia.org/wiki/%D8%A7%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"fawikiquote": {
 					"site": "fawikiquote",
-					"title": "\u0641\u0637\u0631\u062a",
-					"badges": [],
-					"url": "https://fa.wikiquote.org/wiki/%D9%81%D8%B7%D8%B1%D8%AA"
+					"title": "\u0627\u0646\u0633\u0627\u0646",
+					"badges": [
+
+					],
+					"url": "https://fa.wikiquote.org/wiki/%D8%A7%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"fiu_vrowiki": {
 					"site": "fiu_vrowiki",
 					"title": "Inemine",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://fiu-vro.wikipedia.org/wiki/Inemine"
 				},
 				"fiwiki": {
 					"site": "fiwiki",
 					"title": "Ihminen",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://fi.wikipedia.org/wiki/Ihminen"
 				},
 				"fiwikiquote": {
 					"site": "fiwikiquote",
 					"title": "Ihminen",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://fi.wikiquote.org/wiki/Ihminen"
 				},
 				"fowiki": {
 					"site": "fowiki",
 					"title": "Menniskja",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://fo.wikipedia.org/wiki/Menniskja"
 				},
 				"frrwiki": {
 					"site": "frrwiki",
 					"title": "Minsk",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://frr.wikipedia.org/wiki/Minsk"
-				},
-				"frwiki": {
-					"site": "frwiki",
-					"title": "Homo sapiens sapiens",
-					"badges": [],
-					"url": "https://fr.wikipedia.org/wiki/Homo_sapiens_sapiens"
 				},
 				"furwiki": {
 					"site": "furwiki",
-					"title": "Omp",
-					"badges": [],
-					"url": "https://fur.wikipedia.org/wiki/Omp"
+					"title": "Uman",
+					"badges": [
+
+					],
+					"url": "https://fur.wikipedia.org/wiki/Uman"
 				},
 				"fywiki": {
 					"site": "fywiki",
 					"title": "Minske",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://fy.wikipedia.org/wiki/Minske"
 				},
 				"ganwiki": {
 					"site": "ganwiki",
 					"title": "\u4eba",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://gan.wikipedia.org/wiki/%E4%BA%BA"
 				},
 				"gawiki": {
 					"site": "gawiki",
 					"title": "Duine",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ga.wikipedia.org/wiki/Duine"
 				},
 				"gcrwiki": {
 					"site": "gcrwiki",
 					"title": "Mounit\u00e9",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://gcr.wikipedia.org/wiki/Mounit%C3%A9"
 				},
 				"gdwiki": {
 					"site": "gdwiki",
 					"title": "Mac an duine",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://gd.wikipedia.org/wiki/Mac_an_duine"
 				},
 				"glkwiki": {
 					"site": "glkwiki",
 					"title": "\u0622\u062f\u0645",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://glk.wikipedia.org/wiki/%D8%A2%D8%AF%D9%85"
 				},
 				"glwiki": {
 					"site": "glwiki",
 					"title": "Ser humano",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://gl.wikipedia.org/wiki/Ser_humano"
 				},
 				"glwikiquote": {
 					"site": "glwikiquote",
 					"title": "Home",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://gl.wikiquote.org/wiki/Home"
 				},
 				"gnwiki": {
 					"site": "gnwiki",
 					"title": "Yvyp\u00f3ra",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://gn.wikipedia.org/wiki/Yvyp%C3%B3ra"
 				},
 				"guwiki": {
 					"site": "guwiki",
 					"title": "\u0aae\u0aa8\u0ac1\u0ab7\u0acd\u0aaf",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://gu.wikipedia.org/wiki/%E0%AA%AE%E0%AA%A8%E0%AB%81%E0%AA%B7%E0%AB%8D%E0%AA%AF"
 				},
 				"hakwiki": {
 					"site": "hakwiki",
 					"title": "Ng\u00ecn",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://hak.wikipedia.org/wiki/Ng%C3%ACn"
 				},
 				"hawiki": {
 					"site": "hawiki",
 					"title": "\u018aan Adam",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ha.wikipedia.org/wiki/%C6%8Aan_Adam"
 				},
 				"hewiki": {
@@ -7858,368 +12234,522 @@ const Human: WikidataResponse = {
 				"hewikiquote": {
 					"site": "hewikiquote",
 					"title": "\u05d0\u05d3\u05dd",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://he.wikiquote.org/wiki/%D7%90%D7%93%D7%9D"
 				},
 				"hifwiki": {
 					"site": "hifwiki",
 					"title": "Insaan",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://hif.wikipedia.org/wiki/Insaan"
 				},
 				"hiwiki": {
 					"site": "hiwiki",
-					"title": "\u0939\u094b\u092e\u094b \u0938\u0947\u092a\u093f\u092f\u0928\u094d\u0938",
-					"badges": [],
-					"url": "https://hi.wikipedia.org/wiki/%E0%A4%B9%E0%A5%8B%E0%A4%AE%E0%A5%8B_%E0%A4%B8%E0%A5%87%E0%A4%AA%E0%A4%BF%E0%A4%AF%E0%A4%A8%E0%A5%8D%E0%A4%B8"
+					"title": "\u092e\u0928\u0941\u0937\u094d\u092f",
+					"badges": [
+
+					],
+					"url": "https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A4%A8%E0%A5%81%E0%A4%B7%E0%A5%8D%E0%A4%AF"
+				},
+				"hiwikiquote": {
+					"site": "hiwikiquote",
+					"title": "\u092e\u0928\u0941\u0937\u094d\u092f",
+					"badges": [
+
+					],
+					"url": "https://hi.wikiquote.org/wiki/%E0%A4%AE%E0%A4%A8%E0%A5%81%E0%A4%B7%E0%A5%8D%E0%A4%AF"
 				},
 				"hrwiki": {
 					"site": "hrwiki",
 					"title": "\u010covjek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://hr.wikipedia.org/wiki/%C4%8Covjek"
 				},
 				"hrwikiquote": {
 					"site": "hrwikiquote",
 					"title": "\u010covjek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://hr.wikiquote.org/wiki/%C4%8Covjek"
 				},
 				"htwiki": {
 					"site": "htwiki",
 					"title": "Moun",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ht.wikipedia.org/wiki/Moun"
 				},
 				"huwiki": {
 					"site": "huwiki",
 					"title": "Ember",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://hu.wikipedia.org/wiki/Ember"
 				},
 				"huwikiquote": {
 					"site": "huwikiquote",
 					"title": "Ember",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://hu.wikiquote.org/wiki/Ember"
 				},
 				"hywiki": {
 					"site": "hywiki",
 					"title": "\u0544\u0561\u0580\u0564 \u0562\u0561\u0576\u0561\u056f\u0561\u0576",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://hy.wikipedia.org/wiki/%D5%84%D5%A1%D6%80%D5%A4_%D5%A2%D5%A1%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6"
 				},
 				"hywikiquote": {
 					"site": "hywikiquote",
 					"title": "\u0544\u0561\u0580\u0564",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://hy.wikiquote.org/wiki/%D5%84%D5%A1%D6%80%D5%A4"
+				},
+				"iawiki": {
+					"site": "iawiki",
+					"title": "Esser human",
+					"badges": [
+
+					],
+					"url": "https://ia.wikipedia.org/wiki/Esser_human"
 				},
 				"idwiki": {
 					"site": "idwiki",
 					"title": "Manusia",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://id.wikipedia.org/wiki/Manusia"
 				},
 				"igwiki": {
 					"site": "igwiki",
 					"title": "Mad\u1ee5\u0300",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ig.wikipedia.org/wiki/Mad%E1%BB%A5%CC%80"
 				},
 				"ilowiki": {
 					"site": "ilowiki",
 					"title": "Tao (sebbangan)",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ilo.wikipedia.org/wiki/Tao_(sebbangan)"
 				},
 				"inhwiki": {
 					"site": "inhwiki",
 					"title": "\u0421\u0430\u0433",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://inh.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B3"
 				},
 				"iowiki": {
 					"site": "iowiki",
 					"title": "Homo",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://io.wikipedia.org/wiki/Homo"
 				},
 				"iswiki": {
 					"site": "iswiki",
 					"title": "Ma\u00f0ur",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://is.wikipedia.org/wiki/Ma%C3%B0ur"
-				},
-				"itwikinews": {
-					"site": "itwikinews",
-					"title": "Categoria:Persone",
-					"badges": [],
-					"url": "https://it.wikinews.org/wiki/Categoria:Persone"
 				},
 				"itwikiquote": {
 					"site": "itwikiquote",
 					"title": "Uomo",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://it.wikiquote.org/wiki/Uomo"
 				},
 				"iuwiki": {
 					"site": "iuwiki",
 					"title": "\u1404\u1483",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://iu.wikipedia.org/wiki/%E1%90%84%E1%92%83"
 				},
 				"jamwiki": {
 					"site": "jamwiki",
 					"title": "Yuuman",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://jam.wikipedia.org/wiki/Yuuman"
 				},
 				"jawiki": {
 					"site": "jawiki",
 					"title": "\u30d2\u30c8",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%88"
 				},
 				"jbowiki": {
 					"site": "jbowiki",
 					"title": "remna",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://jbo.wikipedia.org/wiki/remna"
 				},
 				"jvwiki": {
 					"site": "jvwiki",
 					"title": "Manungsa",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://jv.wikipedia.org/wiki/Manungsa"
+				},
+				"kaawiki": {
+					"site": "kaawiki",
+					"title": "Insan",
+					"badges": [
+
+					],
+					"url": "https://kaa.wikipedia.org/wiki/Insan"
 				},
 				"kabwiki": {
 					"site": "kabwiki",
 					"title": "Afgan",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://kab.wikipedia.org/wiki/Afgan"
 				},
 				"kawiki": {
 					"site": "kawiki",
 					"title": "\u10d0\u10d3\u10d0\u10db\u10d8\u10d0\u10dc\u10d8",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%93%E1%83%90%E1%83%9B%E1%83%98%E1%83%90%E1%83%9C%E1%83%98"
+				},
+				"kcgwiki": {
+					"site": "kcgwiki",
+					"title": "A\u0331tyubishyi",
+					"badges": [
+
+					],
+					"url": "https://kcg.wikipedia.org/wiki/A%CC%B1tyubishyi"
 				},
 				"kgwiki": {
 					"site": "kgwiki",
 					"title": "Muntu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://kg.wikipedia.org/wiki/Muntu"
 				},
 				"kkwiki": {
 					"site": "kkwiki",
-					"title": "\u0421\u0430\u043d\u0430\u043b\u044b \u0430\u0434\u0430\u043c",
-					"badges": [],
-					"url": "https://kk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%B0%D0%BB%D1%8B_%D0%B0%D0%B4%D0%B0%D0%BC"
+					"title": "\u0410\u0434\u0430\u043c",
+					"badges": [
+
+					],
+					"url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B4%D0%B0%D0%BC"
 				},
 				"kmwiki": {
 					"site": "kmwiki",
 					"title": "\u1798\u1793\u17bb\u179f\u17d2\u179f",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://km.wikipedia.org/wiki/%E1%9E%98%E1%9E%93%E1%9E%BB%E1%9E%9F%E1%9F%92%E1%9E%9F"
 				},
 				"knwiki": {
 					"site": "knwiki",
 					"title": "\u0cae\u0cbe\u0ca8\u0cb5",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://kn.wikipedia.org/wiki/%E0%B2%AE%E0%B2%BE%E0%B2%A8%E0%B2%B5"
 				},
 				"koiwiki": {
 					"site": "koiwiki",
 					"title": "\u041c\u043e\u0440\u0442",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://koi.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%82"
 				},
 				"kowiki": {
 					"site": "kowiki",
 					"title": "\uc0ac\ub78c",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%9E%8C"
 				},
 				"kowikiquote": {
 					"site": "kowikiquote",
 					"title": "\uc778\uac04",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ko.wikiquote.org/wiki/%EC%9D%B8%EA%B0%84"
 				},
 				"kshwiki": {
 					"site": "kshwiki",
 					"title": "Minsh",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ksh.wikipedia.org/wiki/Minsh"
 				},
 				"kswiki": {
 					"site": "kswiki",
 					"title": "\u0627\u0650\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ks.wikipedia.org/wiki/%D8%A7%D9%90%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"kuwiki": {
 					"site": "kuwiki",
 					"title": "Mirov",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ku.wikipedia.org/wiki/Mirov"
 				},
 				"kvwiki": {
 					"site": "kvwiki",
 					"title": "\u041c\u043e\u0440\u0442",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://kv.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%82"
 				},
 				"kwwiki": {
 					"site": "kwwiki",
 					"title": "Tus",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://kw.wikipedia.org/wiki/Tus"
 				},
 				"kywiki": {
 					"site": "kywiki",
 					"title": "\u041a\u0438\u0448\u0438",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ky.wikipedia.org/wiki/%D0%9A%D0%B8%D1%88%D0%B8"
 				},
 				"lawiki": {
 					"site": "lawiki",
 					"title": "Gens humana",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://la.wikipedia.org/wiki/Gens_humana"
 				},
 				"lawikiquote": {
 					"site": "lawikiquote",
 					"title": "Homo",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://la.wikiquote.org/wiki/Homo"
 				},
 				"lbewiki": {
 					"site": "lbewiki",
 					"title": "\u0418\u043d\u0441\u0430\u043d",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lbe.wikipedia.org/wiki/%D0%98%D0%BD%D1%81%D0%B0%D0%BD"
 				},
 				"lezwiki": {
 					"site": "lezwiki",
 					"title": "\u041a\u0430\u0441",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lez.wikipedia.org/wiki/%D0%9A%D0%B0%D1%81"
 				},
 				"lfnwiki": {
 					"site": "lfnwiki",
 					"title": "Umana",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lfn.wikipedia.org/wiki/Umana"
 				},
 				"lgwiki": {
 					"site": "lgwiki",
 					"title": "Omuntu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lg.wikipedia.org/wiki/Omuntu"
 				},
 				"lijwiki": {
 					"site": "lijwiki",
 					"title": "\u00cbse uman",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lij.wikipedia.org/wiki/%C3%8Bse_uman"
 				},
 				"liwiki": {
 					"site": "liwiki",
 					"title": "Mins",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://li.wikipedia.org/wiki/Mins"
 				},
 				"lldwiki": {
 					"site": "lldwiki",
 					"title": "Porsona",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lld.wikipedia.org/wiki/Porsona"
 				},
 				"lnwiki": {
 					"site": "lnwiki",
 					"title": "Moto",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ln.wikipedia.org/wiki/Moto"
 				},
 				"lowiki": {
 					"site": "lowiki",
 					"title": "\u0ea1\u0eb0\u0e99\u0eb8\u0e94",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lo.wikipedia.org/wiki/%E0%BA%A1%E0%BA%B0%E0%BA%99%E0%BA%B8%E0%BA%94"
 				},
 				"ltgwiki": {
 					"site": "ltgwiki",
 					"title": "Cylv\u0101ks",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ltg.wikipedia.org/wiki/Cylv%C4%81ks"
 				},
 				"ltwiki": {
 					"site": "ltwiki",
 					"title": "\u017dmogus",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lt.wikipedia.org/wiki/%C5%BDmogus"
 				},
 				"ltwikiquote": {
 					"site": "ltwikiquote",
 					"title": "\u017dmogus",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lt.wikiquote.org/wiki/%C5%BDmogus"
 				},
 				"lvwiki": {
 					"site": "lvwiki",
 					"title": "Cilv\u0113ks",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://lv.wikipedia.org/wiki/Cilv%C4%93ks"
 				},
 				"maiwiki": {
 					"site": "maiwiki",
 					"title": "\u0932\u094b\u0915",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://mai.wikipedia.org/wiki/%E0%A4%B2%E0%A5%8B%E0%A4%95"
 				},
 				"map_bmswiki": {
 					"site": "map_bmswiki",
-					"title": "Tokoh",
-					"badges": [],
-					"url": "https://map-bms.wikipedia.org/wiki/Tokoh"
+					"title": "Menungsa",
+					"badges": [
+
+					],
+					"url": "https://map-bms.wikipedia.org/wiki/Menungsa"
 				},
 				"mdfwiki": {
 					"site": "mdfwiki",
 					"title": "\u041b\u043e\u043c\u0430\u043d\u0446\u044c",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://mdf.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BC%D0%B0%D0%BD%D1%86%D1%8C"
 				},
 				"mgwiki": {
 					"site": "mgwiki",
 					"title": "Olombelona",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://mg.wikipedia.org/wiki/Olombelona"
 				},
 				"mhrwiki": {
 					"site": "mhrwiki",
 					"title": "\u0410\u0439\u0434\u0435\u043c\u0435",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://mhr.wikipedia.org/wiki/%D0%90%D0%B9%D0%B4%D0%B5%D0%BC%D0%B5"
 				},
 				"minwiki": {
 					"site": "minwiki",
 					"title": "Manusia",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://min.wikipedia.org/wiki/Manusia"
 				},
 				"mkwiki": {
 					"site": "mkwiki",
 					"title": "\u0427\u043e\u0432\u0435\u043a",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://mk.wikipedia.org/wiki/%D0%A7%D0%BE%D0%B2%D0%B5%D0%BA"
 				},
 				"mlwiki": {
 					"site": "mlwiki",
 					"title": "\u0d2e\u0d28\u0d41\u0d37\u0d4d\u0d2f\u0d7b",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ml.wikipedia.org/wiki/%E0%B4%AE%E0%B4%A8%E0%B5%81%E0%B4%B7%E0%B5%8D%E0%B4%AF%E0%B5%BB"
+				},
+				"mniwiki": {
+					"site": "mniwiki",
+					"title": "\uabc3\uabe4\uabd1\uabe3\uabcf\uabd5",
+					"badges": [
+
+					],
+					"url": "https://mni.wikipedia.org/wiki/%EA%AF%83%EA%AF%A4%EA%AF%91%EA%AF%A3%EA%AF%8F%EA%AF%95"
 				},
 				"mnwiki": {
 					"site": "mnwiki",
@@ -8232,163 +12762,249 @@ const Human: WikidataResponse = {
 				"mrwiki": {
 					"site": "mrwiki",
 					"title": "\u092e\u093e\u0928\u0935",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%B5"
 				},
 				"mswiki": {
 					"site": "mswiki",
 					"title": "Manusia",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ms.wikipedia.org/wiki/Manusia"
 				},
 				"mtwiki": {
 					"site": "mtwiki",
 					"title": "Bniedem",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://mt.wikipedia.org/wiki/Bniedem"
 				},
 				"mwlwiki": {
 					"site": "mwlwiki",
 					"title": "Houmano",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://mwl.wikipedia.org/wiki/Houmano"
 				},
 				"myvwiki": {
 					"site": "myvwiki",
 					"title": "\u041b\u043e\u043c\u0430\u043d\u044c",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://myv.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BC%D0%B0%D0%BD%D1%8C"
 				},
 				"mywiki": {
 					"site": "mywiki",
 					"title": "\u101c\u1030\u101e\u102c\u1038",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://my.wikipedia.org/wiki/%E1%80%9C%E1%80%B0%E1%80%9E%E1%80%AC%E1%80%B8"
+				},
+				"mznwiki": {
+					"site": "mznwiki",
+					"title": "\u0622\u062f\u0645",
+					"badges": [
+
+					],
+					"url": "https://mzn.wikipedia.org/wiki/%D8%A2%D8%AF%D9%85"
 				},
 				"nahwiki": {
 					"site": "nahwiki",
 					"title": "Tlacatl",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://nah.wikipedia.org/wiki/Tlacatl"
 				},
 				"nds_nlwiki": {
 					"site": "nds_nlwiki",
 					"title": "Mense",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://nds-nl.wikipedia.org/wiki/Mense"
+				},
+				"ndswiki": {
+					"site": "ndswiki",
+					"title": "Minsch",
+					"badges": [
+
+					],
+					"url": "https://nds.wikipedia.org/wiki/Minsch"
 				},
 				"newiki": {
 					"site": "newiki",
 					"title": "\u092e\u093e\u0928\u093f\u0938",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ne.wikipedia.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B8"
 				},
 				"newwiki": {
 					"site": "newwiki",
 					"title": "\u092e\u0928\u0942",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://new.wikipedia.org/wiki/%E0%A4%AE%E0%A4%A8%E0%A5%82"
 				},
 				"nlwiki": {
 					"site": "nlwiki",
 					"title": "Mens",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://nl.wikipedia.org/wiki/Mens"
 				},
 				"nlwikiquote": {
 					"site": "nlwikiquote",
 					"title": "Mens",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://nl.wikiquote.org/wiki/Mens"
 				},
 				"nnwiki": {
 					"site": "nnwiki",
 					"title": "Menneske",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://nn.wikipedia.org/wiki/Menneske"
 				},
 				"nnwikiquote": {
 					"site": "nnwikiquote",
 					"title": "Menneske",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://nn.wikiquote.org/wiki/Menneske"
 				},
 				"nowiki": {
 					"site": "nowiki",
 					"title": "Menneske",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://no.wikipedia.org/wiki/Menneske"
 				},
 				"ocwiki": {
 					"site": "ocwiki",
 					"title": "\u00c8sser uman",
-					"badges": [],
+					"badges": [
+						"Q70894304"
+					],
 					"url": "https://oc.wikipedia.org/wiki/%C3%88sser_uman"
+				},
+				"omwiki": {
+					"site": "omwiki",
+					"title": "Nama",
+					"badges": [
+
+					],
+					"url": "https://om.wikipedia.org/wiki/Nama"
 				},
 				"orwiki": {
 					"site": "orwiki",
 					"title": "\u0b2e\u0b23\u0b3f\u0b37",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://or.wikipedia.org/wiki/%E0%AC%AE%E0%AC%A3%E0%AC%BF%E0%AC%B7"
 				},
 				"oswiki": {
 					"site": "oswiki",
 					"title": "\u0410\u0434\u00e6\u0439\u043c\u0430\u0433",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://os.wikipedia.org/wiki/%D0%90%D0%B4%C3%A6%D0%B9%D0%BC%D0%B0%D0%B3"
 				},
 				"pamwiki": {
 					"site": "pamwiki",
 					"title": "Tau",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://pam.wikipedia.org/wiki/Tau"
 				},
 				"papwiki": {
 					"site": "papwiki",
-					"title": "Hendenan",
-					"badges": [],
-					"url": "https://pap.wikipedia.org/wiki/Hendenan"
+					"title": "Hende",
+					"badges": [
+
+					],
+					"url": "https://pap.wikipedia.org/wiki/Hende"
 				},
 				"pawiki": {
 					"site": "pawiki",
 					"title": "\u0a2e\u0a28\u0a41\u0a71\u0a16",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://pa.wikipedia.org/wiki/%E0%A8%AE%E0%A8%A8%E0%A9%81%E0%A9%B1%E0%A8%96"
+				},
+				"pihwiki": {
+					"site": "pihwiki",
+					"title": "Salan",
+					"badges": [
+
+					],
+					"url": "https://pih.wikipedia.org/wiki/Salan"
 				},
 				"piwiki": {
 					"site": "piwiki",
 					"title": "\u092e\u0928\u0941\u0938\u094d\u0938\u094b",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://pi.wikipedia.org/wiki/%E0%A4%AE%E0%A4%A8%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%B8%E0%A5%8B"
 				},
 				"plwiki": {
 					"site": "plwiki",
 					"title": "Cz\u0142owiek rozumny",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://pl.wikipedia.org/wiki/Cz%C5%82owiek_rozumny"
 				},
 				"plwikiquote": {
 					"site": "plwikiquote",
 					"title": "Cz\u0142owiek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://pl.wikiquote.org/wiki/Cz%C5%82owiek"
 				},
 				"pmswiki": {
 					"site": "pmswiki",
 					"title": "\u00d2m",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://pms.wikipedia.org/wiki/%C3%92m"
 				},
 				"pnbwiki": {
 					"site": "pnbwiki",
 					"title": "\u0627\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://pnb.wikipedia.org/wiki/%D8%A7%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"pswiki": {
 					"site": "pswiki",
 					"title": "\u0627\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ps.wikipedia.org/wiki/%D8%A7%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"ptwiki": {
@@ -8399,70 +13015,84 @@ const Human: WikidataResponse = {
 					],
 					"url": "https://pt.wikipedia.org/wiki/Humano"
 				},
-				"ptwikinews": {
-					"site": "ptwikinews",
-					"title": "Categoria:Pessoas",
-					"badges": [],
-					"url": "https://pt.wikinews.org/wiki/Categoria:Pessoas"
-				},
 				"quwiki": {
 					"site": "quwiki",
 					"title": "Runa",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://qu.wikipedia.org/wiki/Runa"
 				},
 				"rmwiki": {
 					"site": "rmwiki",
 					"title": "Uman",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://rm.wikipedia.org/wiki/Uman"
 				},
 				"rmywiki": {
 					"site": "rmywiki",
 					"title": "Manush",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://rmy.wikipedia.org/wiki/Manush"
 				},
 				"roa_rupwiki": {
 					"site": "roa_rupwiki",
 					"title": "Omu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://roa-rup.wikipedia.org/wiki/Omu"
 				},
 				"rowiki": {
 					"site": "rowiki",
 					"title": "Om",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ro.wikipedia.org/wiki/Om"
 				},
 				"ruwiki": {
 					"site": "ruwiki",
 					"title": "\u0427\u0435\u043b\u043e\u0432\u0435\u043a",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA"
 				},
 				"ruwikinews": {
 					"site": "ruwikinews",
 					"title": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f:\u0427\u0435\u043b\u043e\u0432\u0435\u043a",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA"
 				},
 				"ruwikiquote": {
 					"site": "ruwikiquote",
 					"title": "\u0427\u0435\u043b\u043e\u0432\u0435\u043a",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ru.wikiquote.org/wiki/%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA"
 				},
 				"sahwiki": {
 					"site": "sahwiki",
 					"title": "\u041a\u0438h\u0438",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sah.wikipedia.org/wiki/%D0%9A%D0%B8h%D0%B8"
 				},
 				"satwiki": {
 					"site": "satwiki",
 					"title": "\u1c62\u1c5f\u1c79\u1c71\u1c62\u1c64",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sat.wikipedia.org/wiki/%E1%B1%A2%E1%B1%9F%E1%B1%B9%E1%B1%B1%E1%B1%A2%E1%B1%A4"
 				},
 				"sawiki": {
@@ -8476,331 +13106,481 @@ const Human: WikidataResponse = {
 				"scnwiki": {
 					"site": "scnwiki",
 					"title": "Umanu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://scn.wikipedia.org/wiki/Umanu"
 				},
 				"scowiki": {
 					"site": "scowiki",
 					"title": "Bodie",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sco.wikipedia.org/wiki/Bodie"
 				},
 				"sdwiki": {
 					"site": "sdwiki",
 					"title": "\u0627\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sd.wikipedia.org/wiki/%D8%A7%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"sewiki": {
 					"site": "sewiki",
 					"title": "Olmmo\u0161",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://se.wikipedia.org/wiki/Olmmo%C5%A1"
 				},
 				"shiwiki": {
 					"site": "shiwiki",
 					"title": "Afgan",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://shi.wikipedia.org/wiki/Afgan"
 				},
 				"shwiki": {
 					"site": "shwiki",
 					"title": "\u010covjek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sh.wikipedia.org/wiki/%C4%8Covjek"
 				},
 				"simplewiki": {
 					"site": "simplewiki",
 					"title": "Human",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://simple.wikipedia.org/wiki/Human"
 				},
 				"siwiki": {
 					"site": "siwiki",
 					"title": "\u0db8\u0dd2\u0db1\u0dd2\u0dc3\u0dcf",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://si.wikipedia.org/wiki/%E0%B6%B8%E0%B7%92%E0%B6%B1%E0%B7%92%E0%B7%83%E0%B7%8F"
 				},
 				"skwiki": {
 					"site": "skwiki",
 					"title": "\u010clovek rozumn\u00fd",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sk.wikipedia.org/wiki/%C4%8Clovek_rozumn%C3%BD"
 				},
 				"skwikiquote": {
 					"site": "skwikiquote",
 					"title": "\u010clovek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sk.wikiquote.org/wiki/%C4%8Clovek"
 				},
 				"slwiki": {
 					"site": "slwiki",
 					"title": "\u010clovek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sl.wikipedia.org/wiki/%C4%8Clovek"
 				},
 				"slwikiquote": {
 					"site": "slwikiquote",
 					"title": "\u010clovek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sl.wikiquote.org/wiki/%C4%8Clovek"
+				},
+				"snwiki": {
+					"site": "snwiki",
+					"title": "Munhu",
+					"badges": [
+
+					],
+					"url": "https://sn.wikipedia.org/wiki/Munhu"
 				},
 				"sowiki": {
 					"site": "sowiki",
-					"title": "Insaan",
-					"badges": [],
-					"url": "https://so.wikipedia.org/wiki/Insaan"
+					"title": "Dadyow",
+					"badges": [
+
+					],
+					"url": "https://so.wikipedia.org/wiki/Dadyow"
+				},
+				"specieswiki": {
+					"site": "specieswiki",
+					"title": "Homo sapiens",
+					"badges": [
+
+					],
+					"url": "https://species.wikimedia.org/wiki/Homo_sapiens"
 				},
 				"sqwiki": {
 					"site": "sqwiki",
 					"title": "Njeriu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sq.wikipedia.org/wiki/Njeriu"
 				},
 				"srwiki": {
 					"site": "srwiki",
 					"title": "\u0427\u043e\u0432\u0435\u043a",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sr.wikipedia.org/wiki/%D0%A7%D0%BE%D0%B2%D0%B5%D0%BA"
 				},
 				"srwikiquote": {
 					"site": "srwikiquote",
 					"title": "\u0427\u043e\u0432\u0435\u043a",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sr.wikiquote.org/wiki/%D0%A7%D0%BE%D0%B2%D0%B5%D0%BA"
 				},
 				"suwiki": {
 					"site": "suwiki",
 					"title": "Manusa",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://su.wikipedia.org/wiki/Manusa"
 				},
 				"svwiki": {
 					"site": "svwiki",
 					"title": "M\u00e4nniska",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sv.wikipedia.org/wiki/M%C3%A4nniska"
 				},
 				"swwiki": {
 					"site": "swwiki",
 					"title": "Binadamu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://sw.wikipedia.org/wiki/Binadamu"
 				},
 				"szlwiki": {
 					"site": "szlwiki",
 					"title": "Czowjek",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://szl.wikipedia.org/wiki/Czowjek"
+				},
+				"szywiki": {
+					"site": "szywiki",
+					"title": "tademaw",
+					"badges": [
+
+					],
+					"url": "https://szy.wikipedia.org/wiki/tademaw"
 				},
 				"tawiki": {
 					"site": "tawiki",
 					"title": "\u0bae\u0ba9\u0bbf\u0ba4\u0bb0\u0bcd",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%A9%E0%AE%BF%E0%AE%A4%E0%AE%B0%E0%AF%8D"
 				},
 				"tawikiquote": {
 					"site": "tawikiquote",
 					"title": "\u0bae\u0ba9\u0bbf\u0ba4\u0bb0\u0bcd",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ta.wikiquote.org/wiki/%E0%AE%AE%E0%AE%A9%E0%AE%BF%E0%AE%A4%E0%AE%B0%E0%AF%8D"
 				},
 				"taywiki": {
 					"site": "taywiki",
 					"title": "squliq",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://tay.wikipedia.org/wiki/squliq"
 				},
 				"tewiki": {
 					"site": "tewiki",
 					"title": "\u0c2e\u0c3e\u0c28\u0c35\u0c41\u0c21\u0c41",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://te.wikipedia.org/wiki/%E0%B0%AE%E0%B0%BE%E0%B0%A8%E0%B0%B5%E0%B1%81%E0%B0%A1%E0%B1%81"
 				},
 				"tgwiki": {
 					"site": "tgwiki",
 					"title": "\u0418\u043d\u0441\u043e\u043d",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://tg.wikipedia.org/wiki/%D0%98%D0%BD%D1%81%D0%BE%D0%BD"
 				},
 				"thwiki": {
 					"site": "thwiki",
 					"title": "\u0e21\u0e19\u0e38\u0e29\u0e22\u0e4c",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://th.wikipedia.org/wiki/%E0%B8%A1%E0%B8%99%E0%B8%B8%E0%B8%A9%E0%B8%A2%E0%B9%8C"
+				},
+				"tkwiki": {
+					"site": "tkwiki",
+					"title": "Adam",
+					"badges": [
+
+					],
+					"url": "https://tk.wikipedia.org/wiki/Adam"
 				},
 				"tlwiki": {
 					"site": "tlwiki",
 					"title": "Tao",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://tl.wikipedia.org/wiki/Tao"
+				},
+				"tlywiki": {
+					"site": "tlywiki",
+					"title": "Inson",
+					"badges": [
+
+					],
+					"url": "https://tly.wikipedia.org/wiki/Inson"
 				},
 				"trwiki": {
 					"site": "trwiki",
 					"title": "\u0130nsan",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://tr.wikipedia.org/wiki/%C4%B0nsan"
 				},
 				"trwikiquote": {
 					"site": "trwikiquote",
 					"title": "\u0130nsan",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://tr.wikiquote.org/wiki/%C4%B0nsan"
 				},
 				"tswiki": {
 					"site": "tswiki",
 					"title": "Vanhu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ts.wikipedia.org/wiki/Vanhu"
 				},
 				"ttwiki": {
 					"site": "ttwiki",
 					"title": "\u0410\u043a\u044b\u043b\u043b\u044b \u043a\u0435\u0448\u0435",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://tt.wikipedia.org/wiki/%D0%90%D0%BA%D1%8B%D0%BB%D0%BB%D1%8B_%D0%BA%D0%B5%D1%88%D0%B5"
 				},
 				"tumwiki": {
 					"site": "tumwiki",
 					"title": "Munthu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://tum.wikipedia.org/wiki/Munthu"
+				},
+				"twwiki": {
+					"site": "twwiki",
+					"title": "Nnipa",
+					"badges": [
+
+					],
+					"url": "https://tw.wikipedia.org/wiki/Nnipa"
 				},
 				"ugwiki": {
 					"site": "ugwiki",
 					"title": "\u0626\u0627\u062f\u06d5\u0645",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ug.wikipedia.org/wiki/%D8%A6%D8%A7%D8%AF%DB%95%D9%85"
 				},
 				"ukwiki": {
 					"site": "ukwiki",
 					"title": "\u041b\u044e\u0434\u0438\u043d\u0430",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://uk.wikipedia.org/wiki/%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0"
 				},
 				"ukwikiquote": {
 					"site": "ukwikiquote",
 					"title": "\u041b\u044e\u0434\u0438\u043d\u0430",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://uk.wikiquote.org/wiki/%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0"
 				},
 				"urwiki": {
 					"site": "urwiki",
 					"title": "\u0627\u0646\u0633\u0627\u0646",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ur.wikipedia.org/wiki/%D8%A7%D9%86%D8%B3%D8%A7%D9%86"
 				},
 				"uzwiki": {
 					"site": "uzwiki",
 					"title": "Odam",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://uz.wikipedia.org/wiki/Odam"
 				},
 				"vepwiki": {
 					"site": "vepwiki",
 					"title": "Ristit",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://vep.wikipedia.org/wiki/Ristit"
 				},
 				"viwiki": {
 					"site": "viwiki",
 					"title": "Ng\u01b0\u1eddi",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di"
-				},
-				"viwikiquote": {
-					"site": "viwikiquote",
-					"title": "T\u00ednh n\u1ebft",
-					"badges": [],
-					"url": "https://vi.wikiquote.org/wiki/T%C3%ADnh_n%E1%BA%BFt"
 				},
 				"vlswiki": {
 					"site": "vlswiki",
 					"title": "Mens",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://vls.wikipedia.org/wiki/Mens"
 				},
 				"warwiki": {
 					"site": "warwiki",
 					"title": "Tawo",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://war.wikipedia.org/wiki/Tawo"
 				},
 				"wawiki": {
 					"site": "wawiki",
 					"title": "Djin (biyolodjeye)",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://wa.wikipedia.org/wiki/Djin_(biyolodjeye)"
 				},
 				"wuuwiki": {
 					"site": "wuuwiki",
 					"title": "\u4eba",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://wuu.wikipedia.org/wiki/%E4%BA%BA"
 				},
 				"xhwiki": {
 					"site": "xhwiki",
 					"title": "Abantu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://xh.wikipedia.org/wiki/Abantu"
 				},
 				"xmfwiki": {
 					"site": "xmfwiki",
 					"title": "\u10d0\u10d3\u10d0\u10db\u10d8\u10d4\u10e0\u10d8",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://xmf.wikipedia.org/wiki/%E1%83%90%E1%83%93%E1%83%90%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0%E1%83%98"
 				},
 				"yiwiki": {
 					"site": "yiwiki",
 					"title": "\u05de\u05e2\u05e0\u05d8\u05e9",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://yi.wikipedia.org/wiki/%D7%9E%D7%A2%D7%A0%D7%98%D7%A9"
 				},
 				"yowiki": {
 					"site": "yowiki",
 					"title": "\u1eccm\u1ecdn\u00ecy\u00e0n",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://yo.wikipedia.org/wiki/%E1%BB%8Cm%E1%BB%8Dn%C3%ACy%C3%A0n"
 				},
 				"zawiki": {
 					"site": "zawiki",
 					"title": "Vunz",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://za.wikipedia.org/wiki/Vunz"
 				},
 				"zh_classicalwiki": {
 					"site": "zh_classicalwiki",
 					"title": "\u4eba",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://zh-classical.wikipedia.org/wiki/%E4%BA%BA"
 				},
 				"zh_min_nanwiki": {
 					"site": "zh_min_nanwiki",
 					"title": "L\u00e2ng",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://zh-min-nan.wikipedia.org/wiki/L%C3%A2ng"
 				},
 				"zh_yuewiki": {
 					"site": "zh_yuewiki",
 					"title": "\u4eba",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://zh-yue.wikipedia.org/wiki/%E4%BA%BA"
 				},
 				"zhwiki": {
 					"site": "zhwiki",
 					"title": "\u4eba",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://zh.wikipedia.org/wiki/%E4%BA%BA"
 				},
 				"zhwikiquote": {
 					"site": "zhwikiquote",
 					"title": "\u4eba",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://zh.wikiquote.org/wiki/%E4%BA%BA"
 				},
 				"zuwiki": {
 					"site": "zuwiki",
 					"title": "Umuntu",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://zu.wikipedia.org/wiki/Umuntu"
 				}
 			}

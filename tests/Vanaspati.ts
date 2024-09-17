@@ -3,14 +3,16 @@
 
 import { WikidataResponse } from "../";
 
+// https://www.wikidata.org/wiki/Special:EntityData/Q3522298.json
+
 const Vanaspati: WikidataResponse = {
 	"entities": {
 		"Q3522298": {
 			"pageid": 3353626,
 			"ns": 0,
 			"title": "Q3522298",
-			"lastrevid": 1125469928,
-			"modified": "2020-02-28T18:00:12Z",
+			"lastrevid": 1337699972,
+			"modified": "2021-01-09T12:49:51Z",
 			"type": "item",
 			"id": "Q3522298",
 			"labels": {
@@ -83,6 +85,7 @@ const Vanaspati: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P18",
+							"hash": "eea0339a85d5103d9e311ce8cda8e696393be2a1",
 							"datavalue": {
 								"value": "Vanaspati scale.svg",
 								"type": "string"
@@ -99,6 +102,7 @@ const Vanaspati: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P361",
+							"hash": "0788a5df5c240c96fa68dc0b238f01865e267402",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -157,6 +161,7 @@ const Vanaspati: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P31",
+							"hash": "193f132f9616d3bfb81154fbd5f8cf047831c31c",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -177,6 +182,7 @@ const Vanaspati: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P366",
+							"hash": "8618d8b7422675eb2d774903eb6162a4d82a46bb",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -197,6 +203,7 @@ const Vanaspati: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P7598",
+							"hash": "0f3fe2a3c96cb7e4c3b8e8ddb7ea5d7dca6f6978",
 							"datavalue": {
 								"value": "\\relative c' {c des eeses f g a bes c \\bar \"|.\"} \\addlyrics{S R\u2081 G\u2081 M\u2081 P D\u2082 N\u2082 \u1e60}",
 								"type": "string"
@@ -214,6 +221,7 @@ const Vanaspati: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P248",
+											"hash": "07f20bfcf9e389766c0f57104839900e02a66d42",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -229,6 +237,7 @@ const Vanaspati: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P304",
+											"hash": "e2d8660b97b7373f87c028b1e3e31d7eda142025",
 											"datavalue": {
 												"value": "80",
 												"type": "string"
@@ -250,6 +259,7 @@ const Vanaspati: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P7599",
+							"hash": "525cecfd0e744ccc3c7880603d8e10dd78dcaac0",
 							"datavalue": {
 								"value": "\\relative c' {c' bes a g f eeses des c \\bar \"|.\"} \\addlyrics{\u1e60 N\u2082 D\u2082 P M\u2081 G\u2081 R\u2081 S}",
 								"type": "string"
@@ -267,6 +277,7 @@ const Vanaspati: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P248",
+											"hash": "07f20bfcf9e389766c0f57104839900e02a66d42",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -282,6 +293,7 @@ const Vanaspati: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P304",
+											"hash": "e2d8660b97b7373f87c028b1e3e31d7eda142025",
 											"datavalue": {
 												"value": "80",
 												"type": "string"
@@ -297,37 +309,64 @@ const Vanaspati: WikidataResponse = {
 							}
 						]
 					}
+				],
+				"P646": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P646",
+							"hash": "e3bcd8ccb1f8a61029eccced427d03b6e6f36ce9",
+							"datavalue": {
+								"value": "/m/026w799",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q3522298$DAF03D0F-133E-49CD-8DE8-BE535FDF09B0",
+						"rank": "normal"
+					}
 				]
 			},
 			"sitelinks": {
 				"enwiki": {
 					"site": "enwiki",
 					"title": "Vanaspati (raga)",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://en.wikipedia.org/wiki/Vanaspati_(raga)"
 				},
 				"knwiki": {
 					"site": "knwiki",
 					"title": "\u0cb5\u0ca8\u0cb8\u0ccd\u0caa\u0ca4\u0cbf(\u0cb0\u0cbe\u0c97)",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://kn.wikipedia.org/wiki/%E0%B2%B5%E0%B2%A8%E0%B2%B8%E0%B3%8D%E0%B2%AA%E0%B2%A4%E0%B2%BF(%E0%B2%B0%E0%B2%BE%E0%B2%97)"
 				},
 				"mlwiki": {
 					"site": "mlwiki",
 					"title": "\u0d35\u0d28\u0d38\u0d4d\u0d2a\u0d24\u0d3f",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ml.wikipedia.org/wiki/%E0%B4%B5%E0%B4%A8%E0%B4%B8%E0%B5%8D%E0%B4%AA%E0%B4%A4%E0%B4%BF"
 				},
 				"tawiki": {
 					"site": "tawiki",
 					"title": "\u0bb5\u0ba9\u0bb8\u0bcd\u0baa\u0ba4\u0bbf",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%A9%E0%AE%B8%E0%AF%8D%E0%AE%AA%E0%AE%A4%E0%AE%BF"
 				},
 				"tewiki": {
 					"site": "tewiki",
 					"title": "\u0c35\u0c28\u0c38\u0c4d\u0c2a\u0c24\u0c3f \u0c30\u0c3e\u0c17\u0c2e\u0c41",
-					"badges": [],
+					"badges": [
+
+					],
 					"url": "https://te.wikipedia.org/wiki/%E0%B0%B5%E0%B0%A8%E0%B0%B8%E0%B1%8D%E0%B0%AA%E0%B0%A4%E0%B0%BF_%E0%B0%B0%E0%B0%BE%E0%B0%97%E0%B0%AE%E0%B1%81"
 				}
 			}

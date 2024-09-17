@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import { WikidataResponse } from "..";
+import { WikidataResponse } from "../";
 
+// https://www.wikidata.org/wiki/Special:EntityData/Q44782775.json
 
 const ScientificArticle: WikidataResponse = {
 	"entities": {
@@ -10,18 +11,18 @@ const ScientificArticle: WikidataResponse = {
 			"pageid": 45968252,
 			"ns": 0,
 			"title": "Q44782775",
-			"lastrevid": 1260365267,
-			"modified": "2020-08-19T07:06:12Z",
+			"lastrevid": 2041099499,
+			"modified": "2023-12-31T02:49:59Z",
 			"type": "item",
 			"id": "Q44782775",
 			"labels": {
 				"en": {
 					"language": "en",
-					"value": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression."
+					"value": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression"
 				},
 				"nl": {
 					"language": "nl",
-					"value": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression."
+					"value": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression"
 				}
 			},
 			"descriptions": {
@@ -31,7 +32,7 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"el": {
 					"language": "el",
-					"value": "επιστημονικό άρθρο"
+					"value": "\u03b5\u03c0\u03b9\u03c3\u03c4\u03b7\u03bc\u03bf\u03bd\u03b9\u03ba\u03cc \u03ac\u03c1\u03b8\u03c1\u03bf"
 				},
 				"eo": {
 					"language": "eo",
@@ -39,23 +40,23 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"zh": {
 					"language": "zh",
-					"value": "1988年学术文章"
+					"value": "1988\u5e74\u5b66\u672f\u6587\u7ae0"
 				},
 				"sr-ec": {
 					"language": "sr-ec",
-					"value": "научни чланак"
+					"value": "\u043d\u0430\u0443\u0447\u043d\u0438 \u0447\u043b\u0430\u043d\u0430\u043a"
 				},
 				"wuu": {
 					"language": "wuu",
-					"value": "1988年学术文章"
+					"value": "1988\u5e74\u5b66\u672f\u6587\u7ae0"
 				},
 				"vi": {
 					"language": "vi",
-					"value": "bài báo khoa học"
+					"value": "b\u00e0i b\u00e1o khoa h\u1ecdc"
 				},
 				"sr-el": {
 					"language": "sr-el",
-					"value": "naučni članak"
+					"value": "nau\u010dni \u010dlanak"
 				},
 				"it": {
 					"language": "it",
@@ -63,23 +64,23 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"zh-hk": {
 					"language": "zh-hk",
-					"value": "1988年學術文章"
+					"value": "1988\u5e74\u5b78\u8853\u6587\u7ae0"
 				},
 				"ar": {
 					"language": "ar",
-					"value": "مقالة علمية نشرت في سبتمبر 1988"
+					"value": "\u0645\u0642\u0627\u0644\u0629 \u0639\u0644\u0645\u064a\u0629 \u0646\u0634\u0631\u062a \u0641\u064a \u0633\u0628\u062a\u0645\u0628\u0631 1988"
 				},
 				"pt-br": {
 					"language": "pt-br",
-					"value": "artigo científico"
+					"value": "artigo cient\u00edfico"
 				},
 				"tg-cyrl": {
 					"language": "tg-cyrl",
-					"value": "мақолаи илмӣ"
+					"value": "\u043c\u0430\u049b\u043e\u043b\u0430\u0438 \u0438\u043b\u043c\u04e3"
 				},
 				"cs": {
 					"language": "cs",
-					"value": "vědecký článek"
+					"value": "v\u011bdeck\u00fd \u010dl\u00e1nek"
 				},
 				"et": {
 					"language": "et",
@@ -87,7 +88,7 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"gl": {
 					"language": "gl",
-					"value": "artigo científico"
+					"value": "artigo cient\u00edfico"
 				},
 				"id": {
 					"language": "id",
@@ -95,7 +96,7 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"es": {
 					"language": "es",
-					"value": "artículo científico publicado en 1988"
+					"value": "art\u00edculo cient\u00edfico publicado en 1988"
 				},
 				"en-gb": {
 					"language": "en-gb",
@@ -103,11 +104,11 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"ru": {
 					"language": "ru",
-					"value": "научная статья"
+					"value": "\u043d\u0430\u0443\u0447\u043d\u0430\u044f \u0441\u0442\u0430\u0442\u044c\u044f"
 				},
 				"he": {
 					"language": "he",
-					"value": "מאמר מדעי"
+					"value": "\u05de\u05d0\u05de\u05e8 \u05de\u05d3\u05e2\u05d9"
 				},
 				"nl": {
 					"language": "nl",
@@ -115,11 +116,11 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"pt": {
 					"language": "pt",
-					"value": "artigo científico"
+					"value": "artigo cient\u00edfico"
 				},
 				"zh-tw": {
 					"language": "zh-tw",
-					"value": "1988年學術文章"
+					"value": "1988\u5e74\u5b78\u8853\u6587\u7ae0"
 				},
 				"nb": {
 					"language": "nb",
@@ -131,7 +132,7 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"zh-cn": {
 					"language": "zh-cn",
-					"value": "1988年学术文章"
+					"value": "1988\u5e74\u5b66\u672f\u6587\u7ae0"
 				},
 				"tl": {
 					"language": "tl",
@@ -139,19 +140,19 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"th": {
 					"language": "th",
-					"value": "บทความทางวิทยาศาสตร์"
+					"value": "\u0e1a\u0e17\u0e04\u0e27\u0e32\u0e21\u0e17\u0e32\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c"
 				},
 				"ro": {
 					"language": "ro",
-					"value": "articol științific"
+					"value": "articol \u0219tiin\u021bific"
 				},
 				"ca": {
 					"language": "ca",
-					"value": "article científic"
+					"value": "article cient\u00edfic"
 				},
 				"pl": {
 					"language": "pl",
-					"value": "artykuł naukowy"
+					"value": "artyku\u0142 naukowy"
 				},
 				"fr": {
 					"language": "fr",
@@ -159,19 +160,19 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"bg": {
 					"language": "bg",
-					"value": "научна статия"
+					"value": "\u043d\u0430\u0443\u0447\u043d\u0430 \u0441\u0442\u0430\u0442\u0438\u044f"
 				},
 				"ast": {
 					"language": "ast",
-					"value": "artículu científicu"
+					"value": "art\u00edculu cient\u00edficu"
 				},
 				"zh-sg": {
 					"language": "zh-sg",
-					"value": "1988年学术文章"
+					"value": "1988\u5e74\u5b66\u672f\u6587\u7ae0"
 				},
 				"bn": {
 					"language": "bn",
-					"value": "সেপ্টেম্বর ১৯৮৮-এ প্রকাশিত বৈজ্ঞানিক নিবন্ধ"
+					"value": "\u09b8\u09c7\u09aa\u09cd\u099f\u09c7\u09ae\u09cd\u09ac\u09b0 \u09e7\u09ef\u09ee\u09ee-\u098f \u09aa\u09cd\u09b0\u0995\u09be\u09b6\u09bf\u09a4 \u09ac\u09c8\u099c\u09cd\u099e\u09be\u09a8\u09bf\u0995 \u09a8\u09bf\u09ac\u09a8\u09cd\u09a7"
 				},
 				"de": {
 					"language": "de",
@@ -179,11 +180,11 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"zh-my": {
 					"language": "zh-my",
-					"value": "1988年学术文章"
+					"value": "1988\u5e74\u5b66\u672f\u6587\u7ae0"
 				},
 				"ko": {
 					"language": "ko",
-					"value": "1988년 논문"
+					"value": "1988\ub144 \ub17c\ubb38"
 				},
 				"da": {
 					"language": "da",
@@ -195,15 +196,15 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"zh-mo": {
 					"language": "zh-mo",
-					"value": "1988年學術文章"
+					"value": "1988\u5e74\u5b78\u8853\u6587\u7ae0"
 				},
 				"hu": {
 					"language": "hu",
-					"value": "tudományos cikk"
+					"value": "tudom\u00e1nyos cikk"
 				},
 				"ja": {
 					"language": "ja",
-					"value": "1988年の論文"
+					"value": "1988\u5e74\u306e\u8ad6\u6587"
 				},
 				"en-ca": {
 					"language": "en-ca",
@@ -211,7 +212,7 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"ka": {
 					"language": "ka",
-					"value": "სამეცნიერო სტატია"
+					"value": "\u10e1\u10d0\u10db\u10d4\u10ea\u10dc\u10d8\u10d4\u10e0\u10dd \u10e1\u10e2\u10d0\u10e2\u10d8\u10d0"
 				},
 				"nn": {
 					"language": "nn",
@@ -219,11 +220,11 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"zh-hans": {
 					"language": "zh-hans",
-					"value": "1988年学术文章"
+					"value": "1988\u5e74\u5b66\u672f\u6587\u7ae0"
 				},
 				"sr": {
 					"language": "sr",
-					"value": "научни чланак"
+					"value": "\u043d\u0430\u0443\u0447\u043d\u0438 \u0447\u043b\u0430\u043d\u0430\u043a"
 				},
 				"sq": {
 					"language": "sq",
@@ -231,7 +232,7 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"nan": {
 					"language": "nan",
-					"value": "1988 nî lūn-bûn"
+					"value": "1988 n\u00ee l\u016bn-b\u00fbn"
 				},
 				"oc": {
 					"language": "oc",
@@ -243,22 +244,24 @@ const ScientificArticle: WikidataResponse = {
 				},
 				"zh-hant": {
 					"language": "zh-hant",
-					"value": "1988年學術文章"
+					"value": "1988\u5e74\u5b78\u8853\u6587\u7ae0"
 				},
 				"sk": {
 					"language": "sk",
-					"value": "vedecký článok"
+					"value": "vedeck\u00fd \u010dl\u00e1nok"
 				},
 				"uk": {
 					"language": "uk",
-					"value": "наукова стаття, опублікована у вересні 1988"
+					"value": "\u043d\u0430\u0443\u043a\u043e\u0432\u0430 \u0441\u0442\u0430\u0442\u0442\u044f, \u043e\u043f\u0443\u0431\u043b\u0456\u043a\u043e\u0432\u0430\u043d\u0430 \u0443 \u0432\u0435\u0440\u0435\u0441\u043d\u0456 1988"
 				},
 				"yue": {
 					"language": "yue",
-					"value": "1988年學術文章"
+					"value": "1988\u5e74\u5b78\u8853\u6587\u7ae0"
 				}
 			},
-			"aliases": {},
+			"aliases": {
+
+			},
 			"claims": {
 				"P304": [
 					{
@@ -497,10 +500,10 @@ const ScientificArticle: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1476",
-							"hash": "474fea652e731cacac5905f232ac3e2c5cf1b352",
+							"hash": "59e71c8c574b628e3222de506c64d4e76c248ed6",
 							"datavalue": {
 								"value": {
-									"text": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression.",
+									"text": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression",
 									"language": "en"
 								},
 								"type": "monolingualtext"
@@ -2060,7 +2063,9 @@ const ScientificArticle: WikidataResponse = {
 					}
 				]
 			},
-			"sitelinks": {}
+			"sitelinks": {
+
+			}
 		}
 	}
 };
