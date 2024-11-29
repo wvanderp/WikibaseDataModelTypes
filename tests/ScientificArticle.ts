@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import { WikidataResponse } from "..";
+import { WikidataResponse } from "../";
 
+// https://www.wikidata.org/wiki/Special:EntityData/Q44782775.json
 
 const ScientificArticle: WikidataResponse = {
 	"entities": {
@@ -10,18 +11,18 @@ const ScientificArticle: WikidataResponse = {
 			"pageid": 45968252,
 			"ns": 0,
 			"title": "Q44782775",
-			"lastrevid": 1260365267,
-			"modified": "2020-08-19T07:06:12Z",
+			"lastrevid": 2041099499,
+			"modified": "2023-12-31T02:49:59Z",
 			"type": "item",
 			"id": "Q44782775",
 			"labels": {
 				"en": {
 					"language": "en",
-					"value": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression."
+					"value": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression"
 				},
 				"nl": {
 					"language": "nl",
-					"value": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression."
+					"value": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression"
 				}
 			},
 			"descriptions": {
@@ -258,7 +259,9 @@ const ScientificArticle: WikidataResponse = {
 					"value": "1988年學術文章"
 				}
 			},
-			"aliases": {},
+			"aliases": {
+
+			},
 			"claims": {
 				"P304": [
 					{
@@ -497,10 +500,10 @@ const ScientificArticle: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1476",
-							"hash": "474fea652e731cacac5905f232ac3e2c5cf1b352",
+							"hash": "59e71c8c574b628e3222de506c64d4e76c248ed6",
 							"datavalue": {
 								"value": {
-									"text": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression.",
+									"text": "A comparison of dothiepin versus placebo in the treatment of pain in rheumatoid arthritis and the association of pain with depression",
 									"language": "en"
 								},
 								"type": "monolingualtext"
@@ -2060,7 +2063,9 @@ const ScientificArticle: WikidataResponse = {
 					}
 				]
 			},
-			"sitelinks": {}
+			"sitelinks": {
+
+			}
 		}
 	}
 };

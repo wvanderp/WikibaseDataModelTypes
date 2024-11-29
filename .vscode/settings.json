@@ -1,0 +1,27 @@
+{
+    "cSpell.words": [
+        "calendarmodel",
+        "datavalue",
+        "entityid",
+        "globecoordinate",
+        "lastrevid",
+        "mainsnak",
+        "monolingualtext",
+        "novalue",
+        "pageid",
+        "sitelinks",
+        "snaks",
+        "Snaks",
+        "snaktype",
+        "somevalue",
+        "wbeditentity",
+        "wbgetentities",
+        "wikibase",
+        "Wikibase",
+        "wikidata"
+    ],
+    "editor.formatOnSave": true,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "master"
+    ]
+}

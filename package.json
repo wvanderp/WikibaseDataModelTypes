@@ -25,14 +25,14 @@
 	},
 	"homepage": "https://github.com/wmde/WikibaseDataModelTypes#readme",
 	"devDependencies": {
-		"@types/node": "17.0.16",
-		"@wmde/eslint-config-wikimedia-typescript": "^0.2.2",
-		"ts-node": "10.5.0",
-		"axios": "0.25.0",
-		"typescript": "^4.5.5",
-		"@typescript-eslint/eslint-plugin": "^5.6.0",
-		"@typescript-eslint/parser": "^5.6.0",
-		"eslint-config-wikimedia": "^0.21.0"
+		"@types/node": "22.10.1",
+		"@wmde/eslint-config-wikimedia-typescript": "^0.2.12",
+		"ts-node": "10.9.2",
+		"axios": "1.7.8",
+		"typescript": "^5.7.2",
+		"@typescript-eslint/eslint-plugin": "^7.8.0",
+		"@typescript-eslint/parser": "^7.8.0",
+		"eslint-config-wikimedia": "^0.28.2"
 	},
 	"keywords": [
 		"wikibase",

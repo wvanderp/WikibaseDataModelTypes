@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import { WikidataResponse } from "../";
+import { WikidataResponse } from "..";
 
 // https://www.wikidata.org/wiki/Special:EntityData/Q3522298.json
 
-const Vanaspati: WikidataResponse = {
+const BarackObama: WikidataResponse = {
 	"entities": {
 		"Q3522298": {
 			"pageid": 3353626,

@@ -1,8 +1,8 @@
-import {LabelLanguages} from './LabelLanguages';
-import {MonolingualLanguages} from './MonolingualLanguages';
+import { LabelLanguages } from './LabelLanguages';
+import { MonolingualLanguages } from './MonolingualLanguages';
 
-export {LabelLanguages} from './LabelLanguages';
-export {MonolingualLanguages} from './MonolingualLanguages';
+export { LabelLanguages } from './LabelLanguages';
+export { MonolingualLanguages } from './MonolingualLanguages';
 
 export interface WikidataResponse {
 	entities: {
@@ -89,11 +89,15 @@ export type Snaks = CommonsMediaSnak
 | MathSnak
 | TabularDataSnak
 | MusicalNotationSnak
-| WikibasePropertySnak;
+| WikibasePropertySnak
+| WikiBaseLexemeSnak
+| WikibaseSenseSnak
+| EntitySchemaSnak
+| WikibaseFormSnak;
 
 export interface Statement {
 	mainsnak: Snaks;
-	type: "statement",
+	type: "statement";
 	id?: string;
 	rank: "normal" | "deprecated" | "preferred";
 	qualifiers?: Qualifiers;
@@ -102,7 +106,7 @@ export interface Statement {
 }
 
 export interface Qualifiers {
-	[property: string]: Snak[]
+	[property: string]: Snak[];
 }
 
 export interface Reference {
@@ -143,7 +147,7 @@ export type SnakType = 'value' | 'somevalue' | 'novalue';
 export interface Snak {
 	snaktype: SnakType;
 	property: string;
-	hash?: string,
+	hash?: string;
 	datavalue?: Record<string, unknown>;
 	datatype?: string;
 }
@@ -172,7 +176,7 @@ export interface WikibaseItemSnak extends Snak {
 			id: string;
 		};
 		type: "wikibase-entityid";
-	}
+	};
 	datatype?: "wikibase-item";
 }
 
@@ -186,7 +190,7 @@ export interface TimeSnak extends Snak {
 			before: number;
 			after: number;
 			precision: number;
-			calendarmodel: CalendarModels
+			calendarmodel: CalendarModels;
 		};
 		type: "time";
 	};
@@ -215,12 +219,12 @@ export interface ExternalIdentifierSnak extends Snak {
 export interface QuantitySnak extends Snak {
 	datavalue?: {
 		value: {
-			amount: string
-			unit: string
+			amount: string;
+			unit: string;
 			upperBound?: string;
-			lowerBound?: string
+			lowerBound?: string;
 		};
-		type: "quantity"
+		type: "quantity";
 	};
 	datatype?: "quantity";
 }
@@ -241,40 +245,40 @@ export interface GlobeCoordinateSnak extends Snak {
 
 export interface CommonsMediaSnak extends Snak {
 	datavalue?: {
-		value: string
-		type: "string"
+		value: string;
+		type: "string";
 	};
 	datatype?: "commonsMedia";
 }
 
 export interface GeoShapeSnak extends Snak {
 	datavalue?: {
-		value: string,
-		type: "string"
+		value: string;
+		type: "string";
 	};
 	datatype?: "geo-shape";
 }
 
 export interface MathSnak extends Snak {
 	datavalue?: {
-		value: string,
-		type: "string"
+		value: string;
+		type: "string";
 	};
 	datatype?: "math";
 }
 
 export interface TabularDataSnak extends Snak {
 	datavalue?: {
-		value: string,
-		type: "string"
+		value: string;
+		type: "string";
 	};
 	datatype?: "tabular-data";
 }
 
 export interface MusicalNotationSnak extends Snak {
 	datavalue?: {
-		value: string,
-		type: "string"
+		value: string;
+		type: "string";
 	};
 	datatype?: "musical-notation";
 }
@@ -282,11 +286,56 @@ export interface MusicalNotationSnak extends Snak {
 export interface WikibasePropertySnak extends Snak {
 	datavalue?: {
 		value: {
-			"entity-type": "property",
-			"numeric-id": number,
-			id: string
-		},
-		"type": "wikibase-entityid"
+			"entity-type": "property";
+			"numeric-id": number;
+			id: string;
+		};
+		"type": "wikibase-entityid";
 	};
 	datatype?: "wikibase-property";
+}
+
+export interface WikiBaseLexemeSnak extends Snak {
+	datavalue?: {
+		value: {
+			"entity-type": "lexeme";
+			"numeric-id": number;
+			id: string;
+		};
+		"type": "wikibase-entityid";
+	};
+	datatype?: "wikibase-lexeme";
+}
+
+export interface WikibaseSenseSnak extends Snak {
+	datavalue?: {
+		value: {
+			"id": string;
+			"entity-type": "sense";
+		};
+		type: "wikibase-entityid";
+	};
+	datatype?: "wikibase-sense";
+}
+
+export interface EntitySchemaSnak extends Snak {
+	datavalue?: {
+		value: {
+			"id": string;
+			"entity-type": "entity-schema";
+		};
+		type: "wikibase-entityid";
+	};
+	datatype?: "entity-schema";
+}
+
+export interface WikibaseFormSnak extends Snak {
+	datavalue?: {
+		value: {
+			"entity-type": "form";
+			id: string;
+		};
+		type: "wikibase-entityid";
+	};
+	datatype?: "wikibase-form";
 }

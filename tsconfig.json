@@ -2,7 +2,9 @@
     "compilerOptions": {
         "strict": true,
         "module": "commonjs",
-        "types": ["node"],
+        "types": [
+            "node"
+        ],
         "noEmit": true,
         "isolatedModules": true,
         "forceConsistentCasingInFileNames": true

@@ -3,14 +3,16 @@
 
 import { WikidataResponse } from "../";
 
-const nyc: WikidataResponse = {
+// https://www.wikidata.org/wiki/Special:EntityData/Q2453059.json
+
+const marooned: WikidataResponse = {
 	"entities": {
 		"Q2453059": {
 			"pageid": 2369366,
 			"ns": 0,
 			"title": "Q2453059",
-			"lastrevid": 1308562437,
-			"modified": "2020-11-18T19:38:54Z",
+			"lastrevid": 1855715989,
+			"modified": "2023-03-19T20:21:43Z",
 			"type": "item",
 			"id": "Q2453059",
 			"labels": {
@@ -52,7 +54,7 @@ const nyc: WikidataResponse = {
 				},
 				"fa": {
 					"language": "fa",
-					"value": "\u062a\u0631\u06a9\u200c\u0634\u062f\u0647"
+					"value": "ترک‌شده"
 				},
 				"nl": {
 					"language": "nl",
@@ -76,10 +78,14 @@ const nyc: WikidataResponse = {
 				},
 				"bn": {
 					"language": "bn",
-					"value": "\u09ae\u09b0\u09c1\u09a8\u09cd\u09a1 (\u09af\u09a8\u09cd\u09a4\u09cd\u09b0\u09b8\u0999\u09cd\u0997\u09c0\u09a4)"
+					"value": "মরুন্ড (যন্ত্রসঙ্গীত)"
 				},
 				"pl": {
 					"language": "pl",
+					"value": "Marooned"
+				},
+				"uk": {
+					"language": "uk",
 					"value": "Marooned"
 				}
 			},
@@ -90,7 +96,7 @@ const nyc: WikidataResponse = {
 				},
 				"fa": {
 					"language": "fa",
-					"value": "\u062a\u0631\u0627\u0646\u0647\u200c\u0627\u06cc \u0627\u0632 \u067e\u06cc\u0646\u06a9 \u0641\u0644\u0648\u06cc\u062f"
+					"value": "ترانه‌ای از پینک فلوید"
 				},
 				"nl": {
 					"language": "nl",
@@ -110,7 +116,7 @@ const nyc: WikidataResponse = {
 				},
 				"ca": {
 					"language": "ca",
-					"value": "can\u00e7\u00f3 instrumental de Pink Floyd"
+					"value": "cançó instrumental de Pink Floyd"
 				},
 				"ast": {
 					"language": "ast",
@@ -122,7 +128,31 @@ const nyc: WikidataResponse = {
 				},
 				"pl": {
 					"language": "pl",
-					"value": "utw\u00f3r muzyczny (aut. D. Gilmour, R. Wright; wyk. Pink Floyd; 1994)"
+					"value": "utwór Pink Floyd"
+				},
+				"ru": {
+					"language": "ru",
+					"value": "композиция рок-группы Pink Floyd"
+				},
+				"cs": {
+					"language": "cs",
+					"value": "skladba Pink Floyd"
+				},
+				"ka": {
+					"language": "ka",
+					"value": "პინკ ფლოიდის სიმღერა"
+				},
+				"pt": {
+					"language": "pt",
+					"value": "canção de Pink Floyd"
+				},
+				"sk": {
+					"language": "sk",
+					"value": "skladba Pink Floyd"
+				},
+				"uk": {
+					"language": "uk",
+					"value": "пісня Pink Floyd"
 				}
 			},
 			"aliases": {
@@ -139,6 +169,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P175",
+							"hash": "c4f1fbd2557883f93ad4501c7dccc208a8ac5234",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -160,6 +191,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P143",
+											"hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -184,6 +216,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P264",
+							"hash": "a9721c37000df365298a1f9b779f4082464791ca",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -205,6 +238,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P143",
+											"hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -229,44 +263,20 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P31",
+							"hash": "5be109d8a3cbbd062357a9d210d4ef00ef25244e",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
-									"numeric-id": 7366,
-									"id": "Q7366"
+									"numeric-id": 105543609,
+									"id": "Q105543609"
 								},
 								"type": "wikibase-entityid"
 							},
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
-						"id": "q2453059$A66DE4FB-8A38-47B8-94A2-1DF6DF390052",
-						"rank": "normal",
-						"references": [
-							{
-								"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
-								"snaks": {
-									"P143": [
-										{
-											"snaktype": "value",
-											"property": "P143",
-											"datavalue": {
-												"value": {
-													"entity-type": "item",
-													"numeric-id": 328,
-													"id": "Q328"
-												},
-												"type": "wikibase-entityid"
-											},
-											"datatype": "wikibase-item"
-										}
-									]
-								},
-								"snaks-order": [
-									"P143"
-								]
-							}
-						]
+						"id": "Q2453059$9C1E8474-BF0F-4F86-98B2-59B843C9ECBA",
+						"rank": "normal"
 					}
 				],
 				"P646": [
@@ -274,6 +284,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P646",
+							"hash": "bd601c63c362e1b3637b2926f1287b4563b9f924",
 							"datavalue": {
 								"value": "/m/07_wh4",
 								"type": "string"
@@ -291,6 +302,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P248",
+											"hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -306,6 +318,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P577",
+											"hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
 											"datavalue": {
 												"value": {
 													"time": "+2013-10-28T00:00:00Z",
@@ -334,6 +347,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1651",
+							"hash": "51374013c6b22438f88a89604afed0c7f2fde8f8",
 							"datavalue": {
 								"value": "P7YMI39sObY",
 								"type": "string"
@@ -341,6 +355,97 @@ const nyc: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "6fb12a01c29b7c873073fcbb170f2d0c664c06aa",
+									"datavalue": {
+										"value": "Pink Floyd - Marooned (Official Music Video HD)",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P5436": [
+								{
+									"snaktype": "value",
+									"property": "P5436",
+									"hash": "b245b7c579865e1d99bd45123f538d3861773b09",
+									"datavalue": {
+										"value": {
+											"amount": "+30198655",
+											"unit": "1"
+										},
+										"type": "quantity"
+									},
+									"datatype": "quantity"
+								}
+							],
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"hash": "afe6abb0b70b69abb815becbbc2e92c57c28d90c",
+									"datavalue": {
+										"value": {
+											"time": "+2014-05-20T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P2047": [
+								{
+									"snaktype": "value",
+									"property": "P2047",
+									"hash": "0efa02c2a123f99995a11abcd3d0b5011e341ca2",
+									"datavalue": {
+										"value": {
+											"amount": "+326.0",
+											"unit": "http://www.wikidata.org/entity/Q11574",
+											"upperBound": "+327.0",
+											"lowerBound": "+325.0"
+										},
+										"type": "quantity"
+									},
+									"datatype": "quantity"
+								}
+							],
+							"P585": [
+								{
+									"snaktype": "value",
+									"property": "P585",
+									"hash": "ce5b900ea4f1890beaa70730df00a780e3899afc",
+									"datavalue": {
+										"value": {
+											"time": "+2021-03-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P5436",
+							"P577",
+							"P2047",
+							"P585"
+						],
 						"id": "Q2453059$FCE48B73-5AEC-4630-A164-3A9DF2FCC5C0",
 						"rank": "normal",
 						"references": [
@@ -351,6 +456,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P143",
+											"hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -375,6 +481,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P86",
+							"hash": "136234dab8d8b46f8e42ab2239fae7fc99b2da0d",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -396,6 +503,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P143",
+											"hash": "5946b91c53409c48f5f1fb0319ed41fc67a764da",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -420,6 +528,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P162",
+							"hash": "ed0c21bfe0658815a7a3960af2bbc5a47656e349",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -441,6 +550,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P143",
+											"hash": "5946b91c53409c48f5f1fb0319ed41fc67a764da",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -465,6 +575,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P136",
+							"hash": "02bfb12d7f3bb74481efd7f78486eb059105782c",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -486,6 +597,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P143",
+											"hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -510,6 +622,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "novalue",
 							"property": "P407",
+							"hash": "c187327b56afd9bb560d07570b8a88c4c6f0808c",
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
@@ -522,6 +635,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "novalue",
 							"property": "P676",
+							"hash": "0640b2d60e973bf52e4ca8efa9870fe0e09918f4",
 							"datatype": "wikibase-item"
 						},
 						"type": "statement",
@@ -534,6 +648,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P361",
+							"hash": "05606b1c19370b9321ca62b6b8f4e6dac4bdbed6",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -552,6 +667,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P361",
+							"hash": "c755e704c2ca4795207497adddede89002462c20",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -572,6 +688,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P577",
+							"hash": "6d667644be2a99abadeebf3b342d19d7609125e9",
 							"datavalue": {
 								"value": {
 									"time": "+1994-00-00T00:00:00Z",
@@ -596,6 +713,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P143",
+											"hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -620,6 +738,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P435",
+							"hash": "8ec50a1f8800269b17b8eaf1811d2d1332e57c1d",
 							"datavalue": {
 								"value": "fcaaea81-21cf-3c64-af4f-2e41b0ef9935",
 								"type": "string"
@@ -637,6 +756,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P248",
+											"hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
 											"datavalue": {
 												"value": {
 													"entity-type": "item",
@@ -652,6 +772,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P813",
+											"hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
 											"datavalue": {
 												"value": {
 													"time": "+2019-04-13T00:00:00Z",
@@ -680,6 +801,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P166",
+							"hash": "277556243f169f7a48e55c6ce4f0d4e6542d88d2",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
@@ -701,6 +823,7 @@ const nyc: WikidataResponse = {
 										{
 											"snaktype": "value",
 											"property": "P854",
+											"hash": "659bd46ff65ad6dd3700f9bd2c3f1a183116d964",
 											"datavalue": {
 												"value": "https://www.grammy.com/grammys/artists/pink-floyd/15905",
 												"type": "string"
@@ -721,6 +844,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1730",
+							"hash": "4c9472f4b0f35e5cfa01d9f99dd3ec2b1ee239f1",
 							"datavalue": {
 								"value": "mt0004157530",
 								"type": "string"
@@ -737,6 +861,7 @@ const nyc: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1476",
+							"hash": "59cb0ba99a948b4f117760e78768237557a2bac7",
 							"datavalue": {
 								"value": {
 									"text": "Marooned",
@@ -750,12 +875,33 @@ const nyc: WikidataResponse = {
 						"id": "Q2453059$f81f00ec-4b17-0fc3-2eec-a6edf465295d",
 						"rank": "normal"
 					}
+				],
+				"P7937": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P7937",
+							"hash": "95c182f3c475d9df12743fde55dc93e0a76efa11",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 7366,
+									"id": "Q7366"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q2453059$97875DC8-3755-4E6F-A2B5-4A087BBA7040",
+						"rank": "normal"
+					}
 				]
 			},
 			"sitelinks": {
 				"bnwiki": {
 					"site": "bnwiki",
-					"title": "\u09ae\u09b0\u09c1\u09a8\u09cd\u09a1 (\u09af\u09a8\u09cd\u09a4\u09cd\u09b0\u09b8\u0999\u09cd\u0997\u09c0\u09a4)",
+					"title": "মরুন্ড (যন্ত্রসঙ্গীত)",
 					"badges": [],
 					"url": "https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%B0%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A1_(%E0%A6%AF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80%E0%A6%A4)"
 				},
@@ -791,7 +937,7 @@ const nyc: WikidataResponse = {
 				},
 				"fawiki": {
 					"site": "fawiki",
-					"title": "\u062a\u0631\u06a9\u200c\u0634\u062f\u0647",
+					"title": "ترک‌شده",
 					"badges": [],
 					"url": "https://fa.wikipedia.org/wiki/%D8%AA%D8%B1%DA%A9%E2%80%8C%D8%B4%D8%AF%D9%87"
 				},
@@ -801,12 +947,6 @@ const nyc: WikidataResponse = {
 					"badges": [],
 					"url": "https://fr.wikipedia.org/wiki/Marooned"
 				},
-				"hewiki": {
-					"site": "hewiki",
-					"title": "Marooned",
-					"badges": [],
-					"url": "https://he.wikipedia.org/wiki/Marooned"
-				},
 				"itwiki": {
 					"site": "itwiki",
 					"title": "Marooned",
@@ -815,7 +955,7 @@ const nyc: WikidataResponse = {
 				},
 				"kawiki": {
 					"site": "kawiki",
-					"title": "Marooned (\u10d8\u10dc\u10e1\u10e2\u10e0\u10e3\u10db\u10d4\u10dc\u10e2\u10d0\u10da\u10d8)",
+					"title": "Marooned (ინსტრუმენტალი)",
 					"badges": [],
 					"url": "https://ka.wikipedia.org/wiki/Marooned_(%E1%83%98%E1%83%9C%E1%83%A1%E1%83%A2%E1%83%A0%E1%83%A3%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98)"
 				},
@@ -827,7 +967,7 @@ const nyc: WikidataResponse = {
 				},
 				"ptwiki": {
 					"site": "ptwiki",
-					"title": "Marooned (can\u00e7\u00e3o de Pink Floyd)",
+					"title": "Marooned (canção de Pink Floyd)",
 					"badges": [],
 					"url": "https://pt.wikipedia.org/wiki/Marooned_(can%C3%A7%C3%A3o_de_Pink_Floyd)"
 				},
@@ -842,6 +982,12 @@ const nyc: WikidataResponse = {
 					"title": "Marooned",
 					"badges": [],
 					"url": "https://sk.wikipedia.org/wiki/Marooned"
+				},
+				"ukwiki": {
+					"site": "ukwiki",
+					"title": "Marooned",
+					"badges": [],
+					"url": "https://uk.wikipedia.org/wiki/Marooned"
 				}
 			}
 		}

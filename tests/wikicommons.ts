@@ -3,18 +3,24 @@
 
 import { WikiCommonsResponse } from "../";
 
+// https://commons.wikimedia.org/wiki/Special:EntityData/M86365084.json
+
 const wikiCommons: WikiCommonsResponse = {
 	"entities": {
 		"M86365084": {
 			"pageid": 86365084,
 			"ns": 6,
 			"title": "File:Peiskeshof 82 - 131184 - onroerenderfgoed.jpg",
-			"lastrevid": 610499733,
-			"modified": "2021-11-28T10:31:14Z",
+			"lastrevid": 920996161,
+			"modified": "2024-09-08T08:18:50Z",
 			"type": "mediainfo",
 			"id": "M86365084",
-			"labels": {},
-			"descriptions": {},
+			"labels": {
+
+			},
+			"descriptions": {
+
+			},
 			"statements": {
 				"P6216": [
 					{
@@ -131,28 +137,6 @@ const wikiCommons: WikiCommonsResponse = {
 						"rank": "normal"
 					}
 				],
-				"P625": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P625",
-							"hash": "e860f6a5a805c7ea31c6da10b860bf808a44495b",
-							"datavalue": {
-								"value": {
-									"latitude": 50.88987614095103,
-									"longitude": 3.454003290658397,
-									"altitude": null,
-									"precision": 1.0e-6,
-									"globe": "http://www.wikidata.org/entity/Q2"
-								},
-								"type": "globecoordinate"
-							}
-						},
-						"type": "statement",
-						"id": "M86365084$1B9C736A-03E1-4F67-B51A-A4A3D9FA5FE2",
-						"rank": "normal"
-					}
-				],
 				"P4082": [
 					{
 						"mainsnak": {
@@ -227,6 +211,137 @@ const wikiCommons: WikiCommonsResponse = {
 						},
 						"type": "statement",
 						"id": "M86365084$30D2BD97-34C9-4EDE-ACEA-D0A93F31EE5A",
+						"rank": "normal"
+					}
+				],
+				"P1163": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1163",
+							"hash": "723d30b878d4a8deb968b0db429888e5353661a2",
+							"datavalue": {
+								"value": "image/jpeg",
+								"type": "string"
+							}
+						},
+						"type": "statement",
+						"id": "M86365084$D5F56D0C-65DA-41A8-BBE9-41BE27940F72",
+						"rank": "normal"
+					}
+				],
+				"P3575": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P3575",
+							"hash": "60cfe5a2a09f14131ed4c4a203ff398929dfcae0",
+							"datavalue": {
+								"value": {
+									"amount": "+57053",
+									"unit": "http://www.wikidata.org/entity/Q8799"
+								},
+								"type": "quantity"
+							}
+						},
+						"type": "statement",
+						"id": "M86365084$25B5F442-68AD-41AA-9A0F-1018DF66B263",
+						"rank": "normal"
+					}
+				],
+				"P2048": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2048",
+							"hash": "7021ba2d34c9a6522c6b65b191ab7c53429290b5",
+							"datavalue": {
+								"value": {
+									"amount": "+443",
+									"unit": "http://www.wikidata.org/entity/Q355198"
+								},
+								"type": "quantity"
+							}
+						},
+						"type": "statement",
+						"id": "M86365084$6E772EE7-4A4B-4C72-A842-8FC5CB563EEC",
+						"rank": "normal"
+					}
+				],
+				"P2049": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2049",
+							"hash": "d2dc239c346abdf076e5dd441d1a898ad1021b2e",
+							"datavalue": {
+								"value": {
+									"amount": "+591",
+									"unit": "http://www.wikidata.org/entity/Q355198"
+								},
+								"type": "quantity"
+							}
+						},
+						"type": "statement",
+						"id": "M86365084$C1453597-286F-4CE3-901C-D07BC506F68D",
+						"rank": "normal"
+					}
+				],
+				"P4092": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P4092",
+							"hash": "2b160a4f192344661b6df545d4755c27ef984f29",
+							"datavalue": {
+								"value": "af52bc5524ff422407776274cb94694b171669ec",
+								"type": "string"
+							}
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P459": [
+								{
+									"snaktype": "value",
+									"property": "P459",
+									"hash": "75dff03c151b13fbab93742164121c16a6aa0de1",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 13414952,
+											"id": "Q13414952"
+										},
+										"type": "wikibase-entityid"
+									}
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P459"
+						],
+						"id": "M86365084$6A488D22-9A9A-4EA1-9AEE-D66E0CBDF790",
+						"rank": "normal"
+					}
+				],
+				"P9149": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P9149",
+							"hash": "fb38445b7827773e5c0700091fd7339c709c5569",
+							"datavalue": {
+								"value": {
+									"latitude": 50.889876,
+									"longitude": 3.454003,
+									"altitude": null,
+									"precision": 0.000001,
+									"globe": "http://www.wikidata.org/entity/Q2"
+								},
+								"type": "globecoordinate"
+							}
+						},
+						"type": "statement",
+						"id": "M86365084$B443B156-4115-48CD-9F60-338B20FE1DC7",
 						"rank": "normal"
 					}
 				]

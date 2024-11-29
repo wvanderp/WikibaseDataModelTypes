@@ -3,7 +3,7 @@
 
 import { WikidataResponse } from "../";
 
-// source: https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q94&origin=*
+// https://www.wikidata.org/wiki/Special:EntityData/Q94.json
 
 const Android: WikidataResponse = {
 	"entities": {
@@ -11,8 +11,8 @@ const Android: WikidataResponse = {
 			"pageid": 225,
 			"ns": 0,
 			"title": "Q94",
-			"lastrevid": 1330039791,
-			"modified": "2020-12-28T07:23:26Z",
+			"lastrevid": 2281248882,
+			"modified": "2024-11-29T13:53:06Z",
 			"type": "item",
 			"id": "Q94",
 			"labels": {
@@ -22,7 +22,7 @@ const Android: WikidataResponse = {
 				},
 				"it": {
 					"language": "it",
-					"value": "Android"
+					"value": "Android OS"
 				},
 				"de": {
 					"language": "de",
@@ -30,10 +30,6 @@ const Android: WikidataResponse = {
 				},
 				"ja": {
 					"language": "ja",
-					"value": "Android"
-				},
-				"ru": {
-					"language": "ru",
 					"value": "Android"
 				},
 				"es": {
@@ -52,13 +48,9 @@ const Android: WikidataResponse = {
 					"language": "hr",
 					"value": "Android"
 				},
-				"af": {
-					"language": "af",
-					"value": "Android"
-				},
 				"ar": {
 					"language": "ar",
-					"value": "\u0623\u0646\u062f\u0631\u0648\u064a\u062f"
+					"value": "أندرويد"
 				},
 				"az": {
 					"language": "az",
@@ -68,17 +60,13 @@ const Android: WikidataResponse = {
 					"language": "bar",
 					"value": "Android"
 				},
-				"be": {
-					"language": "be",
-					"value": "Android"
-				},
 				"bg": {
 					"language": "bg",
 					"value": "Android"
 				},
 				"bn": {
 					"language": "bn",
-					"value": "\u0985\u09cd\u09af\u09be\u09a8\u09a1\u09cd\u09b0\u09af\u09bc\u09c7\u09a1"
+					"value": "অ্যানড্রয়েড"
 				},
 				"bs": {
 					"language": "bs",
@@ -90,22 +78,14 @@ const Android: WikidataResponse = {
 				},
 				"ckb": {
 					"language": "ckb",
-					"value": "\u0626\u06d5\u0646\u062f\u0631\u06c6\u06cc\u062f"
+					"value": "ئەندرۆید"
 				},
 				"cs": {
 					"language": "cs",
 					"value": "Android"
 				},
-				"cy": {
-					"language": "cy",
-					"value": "Android"
-				},
 				"da": {
 					"language": "da",
-					"value": "Android"
-				},
-				"diq": {
-					"language": "diq",
 					"value": "Android"
 				},
 				"el": {
@@ -116,17 +96,9 @@ const Android: WikidataResponse = {
 					"language": "eo",
 					"value": "Android"
 				},
-				"et": {
-					"language": "et",
-					"value": "Android"
-				},
-				"eu": {
-					"language": "eu",
-					"value": "Android"
-				},
 				"fa": {
 					"language": "fa",
-					"value": "\u0627\u0646\u062f\u0631\u0648\u06cc\u062f"
+					"value": "اندروید"
 				},
 				"fi": {
 					"language": "fi",
@@ -138,11 +110,11 @@ const Android: WikidataResponse = {
 				},
 				"he": {
 					"language": "he",
-					"value": "\u05d0\u05e0\u05d3\u05e8\u05d5\u05d0\u05d9\u05d3"
+					"value": "אנדרואיד"
 				},
 				"hi": {
 					"language": "hi",
-					"value": "\u090d\u0923\u094d\u0921\u094d\u0930\u0949\u0907\u0921"
+					"value": "Android"
 				},
 				"hu": {
 					"language": "hu",
@@ -156,21 +128,13 @@ const Android: WikidataResponse = {
 					"language": "is",
 					"value": "Android"
 				},
-				"jv": {
-					"language": "jv",
-					"value": "Android"
-				},
-				"kk": {
-					"language": "kk",
-					"value": "Android"
-				},
 				"kn": {
 					"language": "kn",
-					"value": "\u0c86\u0c82\u0ca1\u0ccd\u0cb0\u0cbe\u0caf\u0ccd\u0ca1\u0ccd"
+					"value": "ಆಂಡ್ರಾಯ್ಡ್"
 				},
 				"ko": {
 					"language": "ko",
-					"value": "\uc548\ub4dc\ub85c\uc774\ub4dc"
+					"value": "안드로이드"
 				},
 				"ku": {
 					"language": "ku",
@@ -182,11 +146,7 @@ const Android: WikidataResponse = {
 				},
 				"lo": {
 					"language": "lo",
-					"value": "\u0ec1\u0ead\u0e99\u0e94\u0ea3\u0ead\u0e8d\u0e94\u0ecc"
-				},
-				"lt": {
-					"language": "lt",
-					"value": "Android"
+					"value": "ແອນດຣອຍດ໌"
 				},
 				"lv": {
 					"language": "lv",
@@ -198,11 +158,11 @@ const Android: WikidataResponse = {
 				},
 				"ml": {
 					"language": "ml",
-					"value": "\u0d06\u0d7b\u0d21\u0d4d\u0d30\u0d4b\u0d2f\u0d4d\u0d21\u0d4d"
+					"value": "ആൻഡ്രോയ്ഡ്"
 				},
 				"mr": {
 					"language": "mr",
-					"value": "\u0972\u0928\u094d\u0921\u094d\u0930\u0949\u0907\u0921"
+					"value": "ॲन्ड्रॉइड"
 				},
 				"ms": {
 					"language": "ms",
@@ -210,11 +170,11 @@ const Android: WikidataResponse = {
 				},
 				"my": {
 					"language": "my",
-					"value": "\u1021\u1014\u103a\u1038\u1012\u101b\u103d\u102d\u102f\u1000\u103a"
+					"value": "အန်းဒရွိုက်"
 				},
 				"ne": {
 					"language": "ne",
-					"value": "\u090f\u0928\u094d\u0921\u094d\u0930\u094b\u0907\u0921"
+					"value": "एन्ड्रोइड"
 				},
 				"nn": {
 					"language": "nn",
@@ -222,7 +182,7 @@ const Android: WikidataResponse = {
 				},
 				"or": {
 					"language": "or",
-					"value": "\u0b06\u0b23\u0b4d\u0b21\u0b4d\u0b30\u0b0f\u0b21\u0b3c"
+					"value": "ଆଣ୍ଡ୍ରଏଡ଼"
 				},
 				"pl": {
 					"language": "pl",
@@ -246,7 +206,7 @@ const Android: WikidataResponse = {
 				},
 				"si": {
 					"language": "si",
-					"value": "\u0d87\u0db1\u0dca\u0da9\u0dca\u200d\u0dbb\u0ddc\u0dba\u0dd2\u0da9\u0dca"
+					"value": "ඇන්ඩ්‍රොයිඩ්"
 				},
 				"sk": {
 					"language": "sk",
@@ -266,7 +226,7 @@ const Android: WikidataResponse = {
 				},
 				"sr": {
 					"language": "sr",
-					"value": "\u0410\u043d\u0434\u0440\u043e\u0438\u0434"
+					"value": "Андроид"
 				},
 				"sv": {
 					"language": "sv",
@@ -278,23 +238,19 @@ const Android: WikidataResponse = {
 				},
 				"ta": {
 					"language": "ta",
-					"value": "\u0b95\u0bc2\u0b95\u0bc1\u0bb3\u0bcd \u0b85\u0ba3\u0bcd\u0b9f\u0bcd\u0bb0\u0bbe\u0baf\u0bcd\u0b9f\u0bc1"
+					"value": "அண்ட்ராய்டு"
 				},
 				"th": {
 					"language": "th",
-					"value": "\u0e41\u0e2d\u0e19\u0e14\u0e23\u0e2d\u0e22\u0e14\u0e4c"
+					"value": "แอนดรอยด์"
 				},
 				"tr": {
 					"language": "tr",
 					"value": "Android"
 				},
-				"uk": {
-					"language": "uk",
-					"value": "Android"
-				},
 				"ur": {
 					"language": "ur",
-					"value": "\u0627\u06cc\u0646\u0688\u0631\u0648\u0626\u06cc\u0688"
+					"value": "اینڈروئیڈ"
 				},
 				"vi": {
 					"language": "vi",
@@ -342,11 +298,7 @@ const Android: WikidataResponse = {
 				},
 				"te": {
 					"language": "te",
-					"value": "\u0c06\u0c02\u0c21\u0c4d\u0c30\u0c3e\u0c2f\u0c3f\u0c21\u0c4d"
-				},
-				"ka": {
-					"language": "ka",
-					"value": "Android"
+					"value": "ఆండ్రాయిడ్"
 				},
 				"ang": {
 					"language": "ang",
@@ -354,47 +306,31 @@ const Android: WikidataResponse = {
 				},
 				"mn": {
 					"language": "mn",
-					"value": "\u0410\u043d\u0434\u0440\u043e\u0439\u0434"
+					"value": "Андройд"
 				},
 				"km": {
 					"language": "km",
-					"value": "\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792\u1794\u17d2\u179a\u178f\u17b7\u1794\u178f\u17d2\u178f\u1780\u17b6\u179a Android"
+					"value": "អេនដ្រយដ៍"
 				},
 				"as": {
 					"language": "as",
-					"value": "\u098f\u09a3\u09cd\u09a1\u09cd\u09f0\u0987\u09a1"
-				},
-				"vec": {
-					"language": "vec",
-					"value": "Android"
-				},
-				"oc": {
-					"language": "oc",
-					"value": "Android"
+					"value": "এণ্ড্ৰইড"
 				},
 				"sr-ec": {
 					"language": "sr-ec",
-					"value": "\u0410\u043d\u0434\u0440\u043e\u0438\u0434"
-				},
-				"sr-el": {
-					"language": "sr-el",
-					"value": "Android"
+					"value": "Андроид"
 				},
 				"ga": {
 					"language": "ga",
 					"value": "Android"
 				},
-				"be-tarask": {
-					"language": "be-tarask",
-					"value": "Android"
-				},
 				"hy": {
 					"language": "hy",
-					"value": "\u0531\u0576\u0564\u0580\u0578\u056b\u0564"
+					"value": "Անդրոիդ"
 				},
 				"pa": {
 					"language": "pa",
-					"value": "\u0a10\u0a02\u0a21\u0a30\u0a3e\u0a07\u0a21"
+					"value": "ਐਂਡਰਾਇਡ"
 				},
 				"gsw": {
 					"language": "gsw",
@@ -408,16 +344,8 @@ const Android: WikidataResponse = {
 					"language": "nl",
 					"value": "Android"
 				},
-				"br": {
-					"language": "br",
-					"value": "Android"
-				},
 				"tl": {
 					"language": "tl",
-					"value": "Android"
-				},
-				"sah": {
-					"language": "sah",
 					"value": "Android"
 				},
 				"fy": {
@@ -426,7 +354,7 @@ const Android: WikidataResponse = {
 				},
 				"lzh": {
 					"language": "lzh",
-					"value": "\u5b89\u5353"
+					"value": "安卓"
 				},
 				"ce": {
 					"language": "ce",
@@ -436,13 +364,9 @@ const Android: WikidataResponse = {
 					"language": "mg",
 					"value": "Android"
 				},
-				"hsb": {
-					"language": "hsb",
-					"value": "Android"
-				},
 				"azb": {
 					"language": "azb",
-					"value": "\u0627\u0646\u062f\u0631\u0648\u06cc\u062f"
+					"value": "اندروید"
 				},
 				"pap": {
 					"language": "pap",
@@ -458,7 +382,7 @@ const Android: WikidataResponse = {
 				},
 				"arz": {
 					"language": "arz",
-					"value": "\u0627\u0646\u062f\u0631\u0648\u064a\u062f"
+					"value": "اندرويد"
 				},
 				"xmf": {
 					"language": "xmf",
@@ -466,15 +390,11 @@ const Android: WikidataResponse = {
 				},
 				"tcy": {
 					"language": "tcy",
-					"value": "\u0c86\u0c82\u0ca1\u0ccd\u0cb0\u0cbe\u0caf\u0cbf\u0ca1\u0ccd"
+					"value": "ಆಂಡ್ರಾಯಿಡ್"
 				},
 				"sd": {
 					"language": "sd",
-					"value": "\u0627\u064a\u0646\u068a\u0631\u0648\u0626\u064a\u068a"
-				},
-				"an": {
-					"language": "an",
-					"value": "Android"
+					"value": "اينڊروئيڊ"
 				},
 				"sn": {
 					"language": "sn",
@@ -482,7 +402,7 @@ const Android: WikidataResponse = {
 				},
 				"zh-cn": {
 					"language": "zh-cn",
-					"value": "\u5b89\u5353"
+					"value": "安卓"
 				},
 				"ast": {
 					"language": "ast",
@@ -510,11 +430,11 @@ const Android: WikidataResponse = {
 				},
 				"mai": {
 					"language": "mai",
-					"value": "\u090f\u0928\u094d\u0921\u094d\u0930\u094b\u0907\u0921"
+					"value": "एन्ड्रोइड"
 				},
 				"wuu": {
 					"language": "wuu",
-					"value": "\u5b89\u5353"
+					"value": "安卓"
 				},
 				"ug": {
 					"language": "ug",
@@ -534,7 +454,7 @@ const Android: WikidataResponse = {
 				},
 				"bho": {
 					"language": "bho",
-					"value": "\u090f\u0902\u0921\u094d\u0930\u0949\u0907\u0921"
+					"value": "एंड्रॉइड"
 				},
 				"za": {
 					"language": "za",
@@ -542,7 +462,7 @@ const Android: WikidataResponse = {
 				},
 				"pnb": {
 					"language": "pnb",
-					"value": "\u0627\u06cc\u0646\u0688\u0631\u0648\u0626\u06cc\u0688"
+					"value": "اینڈروئیڈ"
 				},
 				"os": {
 					"language": "os",
@@ -550,11 +470,7 @@ const Android: WikidataResponse = {
 				},
 				"nqo": {
 					"language": "nqo",
-					"value": "\u07ca\u07f2\u07d8\u07d9\u07cf\u07cc\u07d8"
-				},
-				"frr": {
-					"language": "frr",
-					"value": "Android"
+					"value": "ߊ߲ߘߙߏߌߘ"
 				},
 				"en": {
 					"language": "en",
@@ -562,10 +478,214 @@ const Android: WikidataResponse = {
 				},
 				"shn": {
 					"language": "shn",
-					"value": "\u1022\u1085\u107c\u103a\u1038\u1010\u101b\u1062\u1086\u1089 (\u1015\u102d\u1030\u1004\u103a\u101e\u1062\u1004\u103a\u1088\u1075\u1062\u107c\u103a)"
+					"value": "ဢႅၼ်းတရၢႆႉ (ပိူင်သၢင်ႈၵၢၼ်)"
 				},
 				"mad": {
 					"language": "mad",
+					"value": "Android"
+				},
+				"ban": {
+					"language": "ban",
+					"value": "Android (sistem operasi)"
+				},
+				"ms-arab": {
+					"language": "ms-arab",
+					"value": "اندروءيد"
+				},
+				"ks": {
+					"language": "ks",
+					"value": "اینڈروئیڈ"
+				},
+				"ps": {
+					"language": "ps",
+					"value": "انډرايد (د عامل سيستم)"
+				},
+				"ceb": {
+					"language": "ceb",
+					"value": "Android"
+				},
+				"gu": {
+					"language": "gu",
+					"value": "એન્ડ્રોઇડ (યંત્રગત વ્યવસ્થા)"
+				},
+				"blk": {
+					"language": "blk",
+					"value": "အဲန်းဒရွဲ့ဒ် (တပန်ႏအီမိုဗုဲင်းစက်စနိစ်)"
+				},
+				"skr": {
+					"language": "skr",
+					"value": "سرائیکی ٹیکنالوجی"
+				},
+				"qu": {
+					"language": "qu",
+					"value": "Android"
+				},
+				"lld": {
+					"language": "lld",
+					"value": "Android"
+				},
+				"ia": {
+					"language": "ia",
+					"value": "Android"
+				},
+				"io": {
+					"language": "io",
+					"value": "Android (funcionanta sistemo)"
+				},
+				"su": {
+					"language": "su",
+					"value": "Android (sistim operasi)"
+				},
+				"avk": {
+					"language": "avk",
+					"value": "Android"
+				},
+				"co": {
+					"language": "co",
+					"value": "Android"
+				},
+				"fj": {
+					"language": "fj",
+					"value": "Android"
+				},
+				"fo": {
+					"language": "fo",
+					"value": "Android"
+				},
+				"gv": {
+					"language": "gv",
+					"value": "Android"
+				},
+				"ie": {
+					"language": "ie",
+					"value": "Android"
+				},
+				"jut": {
+					"language": "jut",
+					"value": "Android"
+				},
+				"kw": {
+					"language": "kw",
+					"value": "Android"
+				},
+				"lad": {
+					"language": "lad",
+					"value": "Android"
+				},
+				"lb": {
+					"language": "lb",
+					"value": "Android"
+				},
+				"lfn": {
+					"language": "lfn",
+					"value": "Android"
+				},
+				"li": {
+					"language": "li",
+					"value": "Android"
+				},
+				"lij": {
+					"language": "lij",
+					"value": "Android"
+				},
+				"lmo": {
+					"language": "lmo",
+					"value": "Android"
+				},
+				"na": {
+					"language": "na",
+					"value": "Android"
+				},
+				"nap": {
+					"language": "nap",
+					"value": "Android"
+				},
+				"nov": {
+					"language": "nov",
+					"value": "Android"
+				},
+				"pcd": {
+					"language": "pcd",
+					"value": "Android"
+				},
+				"pdc": {
+					"language": "pdc",
+					"value": "Android"
+				},
+				"pdt": {
+					"language": "pdt",
+					"value": "Android"
+				},
+				"pih": {
+					"language": "pih",
+					"value": "Android"
+				},
+				"rm": {
+					"language": "rm",
+					"value": "Android"
+				},
+				"se": {
+					"language": "se",
+					"value": "Android"
+				},
+				"sje": {
+					"language": "sje",
+					"value": "Android"
+				},
+				"sma": {
+					"language": "sma",
+					"value": "Android"
+				},
+				"smj": {
+					"language": "smj",
+					"value": "Android"
+				},
+				"zea": {
+					"language": "zea",
+					"value": "Android"
+				},
+				"sms": {
+					"language": "sms",
+					"value": "Android"
+				},
+				"smn": {
+					"language": "smn",
+					"value": "Android"
+				},
+				"ba": {
+					"language": "ba",
+					"value": "Android"
+				},
+				"bew": {
+					"language": "bew",
+					"value": "Android"
+				},
+				"ha": {
+					"language": "ha",
+					"value": "Wayar hannu mai shiga yanar gizo"
+				},
+				"mul": {
+					"language": "mul",
+					"value": "Android"
+				},
+				"ru": {
+					"language": "ru",
+					"value": "Android"
+				},
+				"ann": {
+					"language": "ann",
+					"value": "Andurọid"
+				},
+				"vec": {
+					"language": "vec",
+					"value": "Android"
+				},
+				"en-us": {
+					"language": "en-us",
+					"value": "Android"
+				},
+				"scn": {
+					"language": "scn",
 					"value": "Android"
 				}
 			},
@@ -576,23 +696,23 @@ const Android: WikidataResponse = {
 				},
 				"de": {
 					"language": "de",
-					"value": "Betriebssystem der Open Handset Alliance f\u00fcr Mobilger\u00e4te, lizenziert von Google"
+					"value": "freies Betriebssystem für mobile Geräte, das von Google entwickelt wurde"
 				},
 				"fr": {
 					"language": "fr",
-					"value": "syst\u00e8me d'exploitation mobile d\u00e9velopp\u00e9 par Google"
+					"value": "système d'exploitation open source pour appareils mobiles créé par Google"
 				},
 				"ja": {
 					"language": "ja",
-					"value": "Google\u306e\u30e2\u30d0\u30a4\u30eb\u30aa\u30da\u30ec\u30fc\u30c6\u30a3\u30f3\u30b0\u30b7\u30b9\u30c6\u30e0"
+					"value": "Googleが開発しているオペレーティングシステム"
 				},
 				"ru": {
 					"language": "ru",
-					"value": "\u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430\u044f \u0438 \u043e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0434\u043b\u044f \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432, \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u043c\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0435\u0439 Google"
+					"value": "бесплатная и открытая операционная система для мобильных устройств, разрабатываемая компанией Google"
 				},
 				"es": {
 					"language": "es",
-					"value": "sistema operativo para dispositivos m\u00f3viles, desarrollado por Google"
+					"value": "sistema operativo para dispositivos móviles, desarrollado por Google"
 				},
 				"nb": {
 					"language": "nb",
@@ -600,63 +720,63 @@ const Android: WikidataResponse = {
 				},
 				"hu": {
 					"language": "hu",
-					"value": "linux kernel f\u00f6l\u00f6tt fut\u00f3 mobil oper\u00e1ci\u00f3s rendszer"
+					"value": "linux kernel fölött futó mobil operációs rendszer"
 				},
 				"zh-hant": {
 					"language": "zh-hant",
-					"value": "\u534a\u958b\u6e90\u7684\u884c\u52d5\u88dd\u7f6e\u4f5c\u696d\u7cfb\u7d71"
+					"value": "半開源的行動裝置作業系統"
 				},
 				"zh-hans": {
 					"language": "zh-hans",
-					"value": "\u534a\u5f00\u6e90\u7684\u79fb\u52a8\u88c5\u7f6e\u64cd\u4f5c\u7cfb\u7edf"
+					"value": "半开源的移动装置操作系统"
 				},
 				"zh-cn": {
 					"language": "zh-cn",
-					"value": "\u5f00\u6e90\u7684\u79fb\u52a8\u88c5\u7f6e\u64cd\u4f5c\u7cfb\u7edf"
+					"value": "开源的移动装置操作系统（Android）"
 				},
 				"zh-sg": {
 					"language": "zh-sg",
-					"value": "\u534a\u5f00\u6e90\u7684\u79fb\u52a8\u88c5\u7f6e\u64cd\u4f5c\u7cfb\u7edf"
+					"value": "半开源的移动装置操作系统"
 				},
 				"zh-my": {
 					"language": "zh-my",
-					"value": "\u534a\u5f00\u6e90\u7684\u79fb\u52a8\u88c5\u7f6e\u64cd\u4f5c\u7cfb\u7edf"
+					"value": "半开源的移动装置操作系统"
 				},
 				"zh-hk": {
 					"language": "zh-hk",
-					"value": "\u534a\u958b\u6e90\u7684\u79fb\u52d5\u88dd\u7f6e\u4f5c\u696d\u7cfb\u7d71"
+					"value": "半開源的移動裝置作業系統"
 				},
 				"zh-tw": {
 					"language": "zh-tw",
-					"value": "\u534a\u958b\u6e90\u7684\u884c\u52d5\u88dd\u7f6e\u4f5c\u696d\u7cfb\u7d71"
+					"value": "半開源的行動裝置作業系統"
 				},
 				"zh-mo": {
 					"language": "zh-mo",
-					"value": "\u534a\u958b\u6e90\u7684\u79fb\u52d5\u88dd\u7f6e\u4f5c\u696d\u7cfb\u7d71"
+					"value": "半開源的移動裝置作業系統"
 				},
 				"zh": {
 					"language": "zh",
-					"value": "\u958b\u6e90\u7684\u884c\u52d5\u4f5c\u696d\u7cfb\u7d71"
+					"value": "開源的行動作業系統"
 				},
 				"ca": {
 					"language": "ca",
-					"value": "sistema operatiu per a dispositius m\u00f2bils"
+					"value": "sistema operatiu per a dispositius mòbils"
 				},
 				"fi": {
 					"language": "fi",
-					"value": "p\u00e4\u00e4asiassa Googlen kehitt\u00e4m\u00e4 k\u00e4ytt\u00f6j\u00e4rjestelm\u00e4 mobiililaitteille"
+					"value": "pääasiassa Googlen kehittämä käyttöjärjestelmä mobiililaitteille"
 				},
 				"pt-br": {
 					"language": "pt-br",
-					"value": "sistema operacional para dispositivos m\u00f3veis criado pelo Google"
+					"value": "sistema operacional para dispositivos móveis criado pelo Google"
 				},
 				"he": {
 					"language": "he",
-					"value": "\u05de\u05e2\u05e8\u05db\u05ea \u05d4\u05e4\u05e2\u05dc\u05d4"
+					"value": "מערכת הפעלה"
 				},
 				"ta": {
 					"language": "ta",
-					"value": "\u0b95\u0bc8\u0baa\u0bc7\u0b9a\u0bbf\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc2\u0b95\u0bbf\u0bb3\u0bbe\u0bb2\u0bcd \u0b8e\u0bb4\u0bc1\u0ba4\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f \u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0bb3\u0bcd"
+					"value": "கைபேசிகளுக்கு கூகிளால் எழுதப்பட்ட இயங்குதளம்"
 				},
 				"nl": {
 					"language": "nl",
@@ -664,19 +784,19 @@ const Android: WikidataResponse = {
 				},
 				"pt": {
 					"language": "pt",
-					"value": "sistema operacional"
+					"value": "sistema operativo móvel desenvolvido pela Google"
 				},
 				"ko": {
 					"language": "ko",
-					"value": "\ubaa8\ubc14\uc77c \uc6b4\uc601 \uccb4\uc81c"
+					"value": "구글이 개발한 모바일 기기용 오픈 소스 운영 체제"
 				},
 				"sr": {
 					"language": "sr",
-					"value": "\u0433\u0443\u0433\u043b\u043e\u0432 \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0438 \u0441\u0438\u0441\u0442\u0435\u043c \u0437\u0430\u0441\u043d\u043e\u0432\u0430\u043d \u043d\u0430 \u041b\u0438\u043d\u0443\u043a\u0441\u0443"
+					"value": "гуглов оперативни систем заснован на Линуксу"
 				},
 				"sr-ec": {
 					"language": "sr-ec",
-					"value": "\u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0438 \u0441\u0438\u0441\u0442\u0435\u043c"
+					"value": "оперативни систем"
 				},
 				"pl": {
 					"language": "pl",
@@ -688,7 +808,7 @@ const Android: WikidataResponse = {
 				},
 				"uk": {
 					"language": "uk",
-					"value": "\u043e\u043f\u0435\u0440\u0430\u0446\u0456\u0439\u043d\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0456 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0434\u043b\u044f \u043c\u043e\u0431\u0456\u043b\u044c\u043d\u0438\u0445 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0456\u0432 \u0442\u0430 \u043f\u043b\u0430\u043d\u0448\u0435\u0442\u043d\u0438\u0445 \u043a\u043e\u043c\u043f'\u044e\u0442\u0435\u0440\u0456\u0432, \u0441\u0442\u0432\u043e\u0440\u0435\u043d\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u0454\u044e Google \u043d\u0430 \u0431\u0430\u0437\u0456 \u044f\u0434\u0440\u0430 Linux"
+					"value": "мобільна операційна система"
 				},
 				"fy": {
 					"language": "fy",
@@ -696,19 +816,19 @@ const Android: WikidataResponse = {
 				},
 				"vi": {
 					"language": "vi",
-					"value": "h\u1ec7 \u0111i\u1ec1u h\u00e0nh di \u0111\u1ed9ng"
+					"value": "hệ điều hành di động"
 				},
 				"ne": {
 					"language": "ne",
-					"value": "\u0917\u0941\u0917\u0932\u0926\u094d\u0935\u093e\u0930\u093e \u0938\u093f\u0930\u094d\u091c\u0928\u093e \u0917\u0930\u093f\u090f\u0915\u094b \u092e\u094b\u092c\u093e\u0908\u0932 \u0905\u092a\u0930\u0947\u091f\u093f\u0919 \u0938\u093f\u0938\u094d\u091f\u092e"
+					"value": "गुगलद्वारा सिर्जना गरिएको मोबाईल अपरेटिङ सिस्टम"
 				},
 				"cs": {
 					"language": "cs",
-					"value": "opera\u010dn\u00ed syst\u00e9m pro mobiln\u00ed za\u0159\u00edzen\u00ed vytvo\u0159en\u00fd spole\u010dnost\u00ed Google"
+					"value": "operační systém pro mobilní zařízení od firmy Google"
 				},
 				"ar": {
 					"language": "ar",
-					"value": "\u0646\u0638\u0627\u0645 \u062a\u0634\u063a\u064a\u0644 \u0645\u0641\u062a\u0648\u062d \u0627\u0644\u0645\u0635\u062f\u0631 \u0644\u0644\u0623\u062c\u0647\u0632\u0629 \u0627\u0644\u0645\u062d\u0645\u0648\u0644\u0629 \u0645\u0646 \u062c\u0648\u062c\u0644"
+					"value": "نظام تشغيل مفتوح المصدر للمحمول من جوجل"
 				},
 				"en-ca": {
 					"language": "en-ca",
@@ -720,7 +840,7 @@ const Android: WikidataResponse = {
 				},
 				"sv": {
 					"language": "sv",
-					"value": "operativ f\u00f6r mobiltelefoner och surfplattor"
+					"value": "operativ för mobiltelefoner och surfplattor"
 				},
 				"ro": {
 					"language": "ro",
@@ -732,19 +852,19 @@ const Android: WikidataResponse = {
 				},
 				"hi": {
 					"language": "hi",
-					"value": "\u092a\u094d\u0930\u091a\u093e\u0932\u0928 \u0924\u0928\u094d\u0924\u094d\u0930"
+					"value": "Google द्वारा मोबाइल डिवाइसों के लिए निर्मित मुक्त-स्रोत ऑपरेटिंग सिस्टम"
 				},
 				"ml": {
 					"language": "ml",
-					"value": "\u0d13\u0d2a\u0d4d\u0d2a\u0d31\u0d47\u0d31\u0d4d\u0d31\u0d3f\u0d19\u0d4d\u200c \u0d38\u0d3f\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d02"
+					"value": "ഓപ്പറേറ്റിങ്‌ സിസ്റ്റം"
 				},
 				"pa": {
 					"language": "pa",
-					"value": "\u0a06\u0a2a\u0a30\u0a47\u0a1f\u0a3f\u0a70\u0a17 \u0a38\u0a3f\u0a38\u0a1f\u0a2e"
+					"value": "ਆਪਰੇਟਿੰਗ ਸਿਸਟਮ"
 				},
 				"sk": {
 					"language": "sk",
-					"value": "opera\u010dn\u00fd syst\u00e9m"
+					"value": "operačný systém"
 				},
 				"ang": {
 					"language": "ang",
@@ -756,35 +876,35 @@ const Android: WikidataResponse = {
 				},
 				"kn": {
 					"language": "kn",
-					"value": "\u0cb2\u0cbf\u0ca8\u0cc1\u0c95\u0ccd\u0cb8-\u0cac\u0cc7\u0cb8\u0ccd\u0ca1 \u0cae\u0cca\u0cac\u0cc8\u0cb2\u0ccd \u0c86\u0caa\u0cb0\u0cc6\u0c9f\u0cbf\u0c82\u0c97\u0ccd \u0cb8\u0cbf\u0cb8\u0ccd\u0c9f\u0c82"
+					"value": "ಲಿನುಕ್ಸ-ಬೇಸ್ಡ ಮೊಬೈಲ್ ಆಪರೆಟಿಂಗ್ ಸಿಸ್ಟಂ"
 				},
 				"ur": {
 					"language": "ur",
-					"value": "\u0645\u0648\u0628\u0627\u0626\u0644 \u0622\u067e\u0631\u06cc\u0679\u0646\u06af \u0633\u0633\u0679\u0645"
+					"value": "موبائل آپریٹنگ سسٹم"
 				},
 				"bn": {
 					"language": "bn",
-					"value": "\u0997\u09c1\u0997\u09b2 \u09a6\u09cd\u09ac\u09be\u09b0\u09be \u09b8\u09c3\u09b7\u09cd\u099f \u09ae\u09cb\u09ac\u09be\u0987\u09b2 \u09a1\u09bf\u09ad\u09be\u0987\u09b8\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u09ae\u09c1\u0995\u09cd\u09a4 \u0989\u09ce\u09b8\u09c7\u09b0 \u0985\u09aa\u09be\u09b0\u09c7\u099f\u09bf\u0982 \u09b8\u09bf\u09b8\u09cd\u099f\u09c7\u09ae"
+					"value": "গুগলের তৈরি মোবাইল ডিভাইসের জন্য মুক্ত উৎসের অপারেটিং সিস্টেম"
 				},
 				"ast": {
 					"language": "ast",
-					"value": "sistema operativu pa preseos m\u00f3viles"
+					"value": "sistema operativu pa preseos móviles"
 				},
 				"el": {
 					"language": "el",
-					"value": "\u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc \u03c3\u03cd\u03c3\u03c4\u03b7\u03bc\u03b1"
+					"value": "λειτουργικό σύστημα έξυπνων τηλεφώνων της Google"
 				},
 				"tcy": {
 					"language": "tcy",
-					"value": "\u0cb2\u0cbf\u0ca8\u0c95\u0ccd\u0cb8\u0ccd \u0c86\u0ca7\u0cbe\u0cb0\u0cbf\u0ca4 \u0cb8\u0ccd\u0cae\u0cbe\u0cb0\u0ccd\u0c9f\u0ccd \u0cab\u0ccb\u0ca8\u0ccd \u0cac\u0cca\u0c95\u0ccd\u0c95 \u0cb8\u0ccd\u0cae\u0cbe\u0cb0\u0ccd\u0c9f\u0ccd \u0c9f\u0cbf.\u0cb5\u0cbf \u0c95\u0cbe\u0cb0\u0ccd\u0caf\u0cbe\u0c9a\u0cb0\u0ca3\u0cc6 \u0ca4\u0c82\u0ca4\u0ccd\u0cb0\u0cbe\u0c82\u0cb6 \u0cb5\u0ccd\u0caf\u0cb5\u0cb8\u0ccd\u0ca5\u0cc6"
+					"value": "ಲಿನಕ್ಸ್ ಆಧಾರಿತ ಸ್ಮಾರ್ಟ್ ಫೋನ್ ಬೊಕ್ಕ ಸ್ಮಾರ್ಟ್ ಟಿ.ವಿ ಕಾರ್ಯಾಚರಣೆ ತಂತ್ರಾಂಶ ವ್ಯವಸ್ಥೆ"
 				},
 				"hy": {
 					"language": "hy",
-					"value": "\u0585\u057a\u0565\u0580\u0561\u0581\u056b\u0578\u0576 \u0570\u0561\u0574\u0561\u056f\u0561\u0580\u0563"
+					"value": "օպերացիոն համակարգ"
 				},
 				"th": {
 					"language": "th",
-					"value": "\u0e23\u0e30\u0e1a\u0e1a\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e42\u0e17\u0e23\u0e28\u0e31\u0e1e\u0e17\u0e4c\u0e40\u0e04\u0e25\u0e37\u0e48\u0e2d\u0e19\u0e17\u0e35\u0e48\u0e42\u0e14\u0e22\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e01\u0e39\u0e40\u0e01\u0e34\u0e25"
+					"value": "ระบบปฏิบัติการสำหรับโทรศัพท์เคลื่อนที่โดยบริษัทกูเกิล"
 				},
 				"id": {
 					"language": "id",
@@ -792,27 +912,27 @@ const Android: WikidataResponse = {
 				},
 				"tr": {
 					"language": "tr",
-					"value": "mobil i\u015fletim sistemi"
+					"value": "Mobil işletim sistemi"
 				},
 				"bho": {
 					"language": "bho",
-					"value": "\u092e\u094b\u092c\u093e\u0907\u0932 \u0916\u093e\u0924\u0940, \u0917\u0942\u0917\u0932 \u0915\u0947 \u092c\u0928\u093e\u0935\u0932, \u0913\u092a\u0928 \u0938\u094b\u0930\u094d\u0938 \u0911\u092a\u0930\u0947\u091f\u093f\u0902\u0917 \u0938\u093f\u0938\u094d\u091f\u092e"
+					"value": "मोबाइल खाती, गूगल के बनावल, ओपन सोर्स ऑपरेटिंग सिस्टम"
 				},
 				"my": {
 					"language": "my",
-					"value": "\u1002\u1030\u1002\u1032\u101c\u103a\u1019\u103e\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1031\u102c \u1019\u102d\u102f\u101c\u103a\u1018\u102d\u102f\u1004\u103a\u1038\u1005\u1000\u103a\u1015\u1005\u1039\u1005\u100a\u103a\u1038\u1021\u1010\u103d\u1000\u103a \u1015\u103d\u1004\u1037\u103a\u101c\u1004\u103a\u1038\u101b\u1004\u103a\u1038\u1019\u103c\u1005\u103a \u1005\u1000\u103a\u101c\u100a\u103a\u1015\u1010\u103a\u101b\u1031\u1038\u1005\u1014\u1005\u103a"
+					"value": "ဂူဂဲလ်မှဖန်တီးသော မိုလ်ဘိုင်းစက်ပစ္စည်းအတွက် ပွင့်လင်းရင်းမြစ် စက်လည်ပတ်ရေးစနစ်"
 				},
 				"ga": {
 					"language": "ga",
-					"value": "c\u00f3ras oibri\u00fach\u00e1in foinse oscailte agus saor do ghl\u00e9asanna soghluaiste, forbartha ag Google"
+					"value": "córas oibriúcháin foinse oscailte agus saor do ghléasanna soghluaiste, forbartha ag Google"
 				},
 				"lv": {
 					"language": "lv",
-					"value": "oper\u0101t\u0101jsist\u0113ma da\u017e\u0101d\u0101m viedier\u012bc\u0113m"
+					"value": "operātājsistēma dažādām viedierīcēm"
 				},
 				"fa": {
 					"language": "fa",
-					"value": "\u0633\u06cc\u0633\u062a\u0645\u200c\u0639\u0627\u0645\u0644 \u0645\u0648\u0628\u0627\u06cc\u0644 \u0633\u0627\u062e\u062a \u0634\u0631\u06a9\u062a \u06af\u0648\u06af\u0644"
+					"value": "سیستم‌عامل موبایل ساخت شرکت گوگل"
 				},
 				"bar": {
 					"language": "bar",
@@ -820,7 +940,7 @@ const Android: WikidataResponse = {
 				},
 				"os": {
 					"language": "os",
-					"value": "\u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d \u0441\u0438\u0441\u0442\u0435\u043c\u04d5"
+					"value": "операцион системӕ"
 				},
 				"so": {
 					"language": "so",
@@ -828,11 +948,11 @@ const Android: WikidataResponse = {
 				},
 				"nqo": {
 					"language": "nqo",
-					"value": "\u07e2\u07cd\u07e5\u07df\u07ca \u07d3\u07ca\u07d6\u07ce\u07e1\u07ca \u07df\u07cb\u07ec \u07dc\u07cb\u07df\u07cb\u07f2\u07dc\u07cb\u07df\u07cb\u07f2 \u07e0\u07ce\u07ec \u07df\u07ca\u07eb"
+					"value": "ߢߍߥߟߊ ߓߊߖߎߡߊ ߟߋ߬ ߜߋߟߋ߲ߜߋߟߋ߲ ߠߎ߬ ߟߊ߫"
 				},
 				"bg": {
 					"language": "bg",
-					"value": "\u043c\u043e\u0431\u0438\u043b\u043d\u0430 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u0430, \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0432\u0430\u043d\u0430 \u043e\u0442 Google"
+					"value": "мобилна операционна система, разработвана от Google"
 				},
 				"sco": {
 					"language": "sco",
@@ -840,88 +960,156 @@ const Android: WikidataResponse = {
 				},
 				"gl": {
 					"language": "gl",
-					"value": "sistema operativo para m\u00f3biles"
+					"value": "sistema operativo para móbiles"
 				},
 				"en": {
 					"language": "en",
 					"value": "open-source operating system for mobile devices created by Google"
+				},
+				"eo": {
+					"language": "eo",
+					"value": "mastruma sistemo por poŝaparatoj"
+				},
+				"lt": {
+					"language": "lt",
+					"value": "„Google“ sukurta operacinė sistema"
+				},
+				"lo": {
+					"language": "lo",
+					"value": "ລະບົບປະຕິບັດການທີ່ເຮັດໂດຍ ກູໂກລ"
+				},
+				"km": {
+					"language": "km",
+					"value": "ប្រព័ន្ធប្រតិបត្តិការ អេនដ្រយដ៍"
+				},
+				"is": {
+					"language": "is",
+					"value": "Stýrikerfi ætlað snjalltækjum"
+				},
+				"sd": {
+					"language": "sd",
+					"value": "موبائل آپريٽنگ سسٽم"
+				},
+				"tt": {
+					"language": "tt",
+					"value": "операцион система"
+				},
+				"bs": {
+					"language": "bs",
+					"value": "operativni sistem otvorenog koda napravljen za mobilne uređaje"
+				},
+				"arz": {
+					"language": "arz",
+					"value": "نظام تشغيل مفتوح المصدر للمحمول من جوجل"
+				},
+				"lb": {
+					"language": "lb",
+					"value": "Betribssystem fir mobil Geräter, dat vu Google entwéckelt gouf"
+				},
+				"ba": {
+					"language": "ba",
+					"value": "Google компанияһы тарафынан эшләнгән мобиль ҡоролмалар өсөн бушлай һәм асыҡ операцион система"
+				},
+				"gu": {
+					"language": "gu",
+					"value": "ઓપરેટિંગ સિસ્ટમ"
+				},
+				"ms": {
+					"language": "ms",
+					"value": "sistem pengendalian sumber terbuka untuk peranti mudah alih yang dibangunkan oleh Google"
+				},
+				"lzh": {
+					"language": "lzh",
+					"value": "安卓之術，手機系統也。始創於二〇〇七年冬，出自谷歌之手。越明年，貨始行於世。其本源出自林納克斯，開而示人，廣邀天下賢士共襄盛舉。"
+				},
+				"sq": {
+					"language": "sq",
+					"value": "sistem operativ"
+				},
+				"en-us": {
+					"language": "en-us",
+					"value": "open-source operating system for mobile devices created by Google"
+				},
+				"scn": {
+					"language": "scn",
+					"value": "sistema upirativu a còdici lìbbiru pi apparecchi mòbbili, fattu di Google"
 				}
 			},
 			"aliases": {
 				"ja": [
 					{
 						"language": "ja",
-						"value": "\u30a2\u30f3\u30c9\u30ed\u30a4\u30c9"
+						"value": "アンドロイド"
 					}
 				],
 				"ru": [
 					{
 						"language": "ru",
-						"value": "Google Android"
+						"value": "Андроид"
 					},
 					{
 						"language": "ru",
-						"value": "Android OS"
+						"value": "ОС Андроид"
 					}
 				],
 				"es": [
 					{
 						"language": "es",
-						"value": "Google Android"
+						"value": "sistema operativo Android"
 					}
 				],
 				"zh": [
 					{
 						"language": "zh",
-						"value": "\u5b89\u5353\u7cfb\u7edf"
+						"value": "安卓系统"
 					},
 					{
 						"language": "zh",
-						"value": "\u8c37\u6b4c\u5b89\u5353"
+						"value": "谷歌安卓"
 					},
 					{
 						"language": "zh",
-						"value": "\u5b89\u5353"
+						"value": "安卓"
 					},
 					{
 						"language": "zh",
-						"value": "\u5b89\u81f4"
+						"value": "安致"
 					}
 				],
 				"zh-hans": [
 					{
 						"language": "zh-hans",
-						"value": "\u5b89\u5353"
+						"value": "安卓"
 					}
 				],
 				"zh-hant": [
 					{
 						"language": "zh-hant",
-						"value": "\u5b89\u5353"
+						"value": "安卓"
 					}
 				],
 				"zh-sg": [
 					{
 						"language": "zh-sg",
-						"value": "\u5b89\u5353"
+						"value": "安卓"
 					}
 				],
 				"zh-my": [
 					{
 						"language": "zh-my",
-						"value": "\u5b89\u5353"
+						"value": "安卓"
 					}
 				],
 				"zh-hk": [
 					{
 						"language": "zh-hk",
-						"value": "\u5b89\u5353"
+						"value": "安卓"
 					}
 				],
 				"zh-mo": [
 					{
 						"language": "zh-mo",
-						"value": "\u5b89\u5353"
+						"value": "安卓"
 					}
 				],
 				"ca": [
@@ -956,16 +1144,10 @@ const Android: WikidataResponse = {
 					{
 						"language": "nl",
 						"value": "Android (besturingssysteem)"
-					}
-				],
-				"fy": [
-					{
-						"language": "fy",
-						"value": "Android OS"
 					},
 					{
-						"language": "fy",
-						"value": "Google Android"
+						"language": "nl",
+						"value": "Android-besturingssysteem"
 					}
 				],
 				"cs": [
@@ -982,32 +1164,22 @@ const Android: WikidataResponse = {
 						"value": "android"
 					}
 				],
-				"lt": [
-					{
-						"language": "lt",
-						"value": "Android OS"
-					},
-					{
-						"language": "lt",
-						"value": "Google Android"
-					}
-				],
 				"ar": [
 					{
 						"language": "ar",
-						"value": "\u0627\u0646\u062f\u0631\u0648\u064a\u062f"
+						"value": "اندرويد"
 					},
 					{
 						"language": "ar",
-						"value": "\u0646\u0638\u0627\u0645 \u0623\u0646\u062f\u0631\u0648\u064a\u062f"
+						"value": "نظام أندرويد"
 					},
 					{
 						"language": "ar",
-						"value": "\u0623\u0646\u062f\u0631\u0648\u064a\u062f \u0623\u0648 \u0625\u0633"
+						"value": "نظام التشغيل أندرويد"
 					},
 					{
 						"language": "ar",
-						"value": "\u062c\u0648\u062c\u0644 \u0623\u0646\u062f\u0631\u0648\u064a\u062f"
+						"value": "جوجل أندرويد"
 					}
 				],
 				"it": [
@@ -1016,40 +1188,10 @@ const Android: WikidataResponse = {
 						"value": "Google Android"
 					}
 				],
-				"en-ca": [
-					{
-						"language": "en-ca",
-						"value": "Android OS"
-					},
-					{
-						"language": "en-ca",
-						"value": "Google Android"
-					}
-				],
-				"en-gb": [
-					{
-						"language": "en-gb",
-						"value": "Android OS"
-					},
-					{
-						"language": "en-gb",
-						"value": "Google Android"
-					}
-				],
-				"sv": [
-					{
-						"language": "sv",
-						"value": "Google Android"
-					},
-					{
-						"language": "sv",
-						"value": "Android OS"
-					}
-				],
 				"sr": [
 					{
 						"language": "sr",
-						"value": "\u0410\u043d\u0434\u0440\u043e\u0438\u0434 \u041e\u0421"
+						"value": "Андроид ОС"
 					},
 					{
 						"language": "sr",
@@ -1057,7 +1199,7 @@ const Android: WikidataResponse = {
 					},
 					{
 						"language": "sr",
-						"value": "\u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0438 \u0441\u0438\u0441\u0442\u0435\u043c \u0410\u043d\u0434\u0440\u043e\u0438\u0434"
+						"value": "оперативни систем Андроид"
 					},
 					{
 						"language": "sr",
@@ -1069,75 +1211,41 @@ const Android: WikidataResponse = {
 					},
 					{
 						"language": "sr",
-						"value": "\u0413\u0443\u0433\u043b \u0410\u043d\u0434\u0440\u043e\u0438\u0434"
+						"value": "Гугл Андроид"
 					}
 				],
 				"bg": [
 					{
 						"language": "bg",
-						"value": "\u0410\u043d\u0434\u0440\u043e\u0438\u0434"
-					}
-				],
-				"eu": [
-					{
-						"language": "eu",
-						"value": "Google Android"
-					}
-				],
-				"fr": [
-					{
-						"language": "fr",
-						"value": "Google Android"
-					}
-				],
-				"hr": [
-					{
-						"language": "hr",
-						"value": "Android OS"
-					},
-					{
-						"language": "hr",
-						"value": "Google Android"
-					}
-				],
-				"ast": [
-					{
-						"language": "ast",
-						"value": "Android OS"
-					},
-					{
-						"language": "ast",
-						"value": "Google Android"
-					}
-				],
-				"pt-br": [
-					{
-						"language": "pt-br",
-						"value": "Android OS"
+						"value": "Андроид"
 					}
 				],
 				"zh-cn": [
 					{
 						"language": "zh-cn",
-						"value": "\u5b89\u5353\u7cfb\u7edf"
+						"value": "安卓系统"
+					},
+					{
+						"language": "zh-cn",
+						"value": "Android"
 					}
 				],
 				"th": [
 					{
 						"language": "th",
-						"value": "\u0e40\u0e1b\u0e34\u0e14"
+						"value": "เปิด"
 					}
 				],
 				"bho": [
 					{
 						"language": "bho",
-						"value": "\u090f\u0902\u0921\u094d\u0930\u093e\u0907\u0921"
+						"value": "एंड्राइड"
 					}
 				],
 				"my": [
 					{
 						"language": "my",
-						"value": "\u1002\u1030\u1002\u1032\u101c\u103a \u1021\u1014\u103a\u1038\u1012\u101b\u103d\u102d\u102f\u1000\u103a"
+						"value": "ဂူဂဲလ် အန်းဒရွိုက်"
 					}
 				],
 				"nb": [
@@ -1154,16 +1262,6 @@ const Android: WikidataResponse = {
 						"value": "Android (operativsystem)"
 					}
 				],
-				"uk": [
-					{
-						"language": "uk",
-						"value": "Android OS"
-					},
-					{
-						"language": "uk",
-						"value": "Google Android"
-					}
-				],
 				"pl": [
 					{
 						"language": "pl",
@@ -1177,7 +1275,7 @@ const Android: WikidataResponse = {
 				"bn": [
 					{
 						"language": "bn",
-						"value": "\u098f\u09a8\u09a1\u09cd\u09b0\u09af\u09bc\u09c7\u09a1"
+						"value": "এনড্রয়েড"
 					}
 				],
 				"en": [
@@ -1192,6 +1290,398 @@ const Android: WikidataResponse = {
 					{
 						"language": "en",
 						"value": "Android (operating system)"
+					},
+					{
+						"language": "en",
+						"value": "Android operating system"
+					}
+				],
+				"id": [
+					{
+						"language": "id",
+						"value": "Android OS"
+					},
+					{
+						"language": "id",
+						"value": "Google Android"
+					}
+				],
+				"lo": [
+					{
+						"language": "lo",
+						"value": "Android"
+					},
+					{
+						"language": "lo",
+						"value": "Android OS"
+					},
+					{
+						"language": "lo",
+						"value": "Google Android"
+					}
+				],
+				"hi": [
+					{
+						"language": "hi",
+						"value": "ऍण्ड्रॉइड"
+					}
+				],
+				"ko": [
+					{
+						"language": "ko",
+						"value": "안드로이드 OS"
+					},
+					{
+						"language": "ko",
+						"value": "구글 안드로이드"
+					}
+				],
+				"co": [
+					{
+						"language": "co",
+						"value": "Google Android"
+					},
+					{
+						"language": "co",
+						"value": "Android OS"
+					}
+				],
+				"gv": [
+					{
+						"language": "gv",
+						"value": "Google Android"
+					},
+					{
+						"language": "gv",
+						"value": "Android OS"
+					}
+				],
+				"hsb": [
+					{
+						"language": "hsb",
+						"value": "Google Android"
+					},
+					{
+						"language": "hsb",
+						"value": "Android OS"
+					}
+				],
+				"ia": [
+					{
+						"language": "ia",
+						"value": "Google Android"
+					},
+					{
+						"language": "ia",
+						"value": "Android OS"
+					}
+				],
+				"ie": [
+					{
+						"language": "ie",
+						"value": "Google Android"
+					},
+					{
+						"language": "ie",
+						"value": "Android OS"
+					}
+				],
+				"io": [
+					{
+						"language": "io",
+						"value": "Google Android"
+					},
+					{
+						"language": "io",
+						"value": "Android OS"
+					}
+				],
+				"is": [
+					{
+						"language": "is",
+						"value": "Google Android"
+					},
+					{
+						"language": "is",
+						"value": "Android OS"
+					}
+				],
+				"jut": [
+					{
+						"language": "jut",
+						"value": "Google Android"
+					},
+					{
+						"language": "jut",
+						"value": "Android OS"
+					}
+				],
+				"kw": [
+					{
+						"language": "kw",
+						"value": "Google Android"
+					},
+					{
+						"language": "kw",
+						"value": "Android OS"
+					}
+				],
+				"lad": [
+					{
+						"language": "lad",
+						"value": "Google Android"
+					},
+					{
+						"language": "lad",
+						"value": "Android OS"
+					}
+				],
+				"lb": [
+					{
+						"language": "lb",
+						"value": "Google Android"
+					},
+					{
+						"language": "lb",
+						"value": "Android OS"
+					}
+				],
+				"lfn": [
+					{
+						"language": "lfn",
+						"value": "Google Android"
+					},
+					{
+						"language": "lfn",
+						"value": "Android OS"
+					}
+				],
+				"li": [
+					{
+						"language": "li",
+						"value": "Google Android"
+					},
+					{
+						"language": "li",
+						"value": "Android OS"
+					}
+				],
+				"lij": [
+					{
+						"language": "lij",
+						"value": "Google Android"
+					},
+					{
+						"language": "lij",
+						"value": "Android OS"
+					}
+				],
+				"lld": [
+					{
+						"language": "lld",
+						"value": "Google Android"
+					},
+					{
+						"language": "lld",
+						"value": "Android OS"
+					}
+				],
+				"lmo": [
+					{
+						"language": "lmo",
+						"value": "Google Android"
+					},
+					{
+						"language": "lmo",
+						"value": "Android OS"
+					}
+				],
+				"na": [
+					{
+						"language": "na",
+						"value": "Google Android"
+					},
+					{
+						"language": "na",
+						"value": "Android OS"
+					}
+				],
+				"nap": [
+					{
+						"language": "nap",
+						"value": "Google Android"
+					},
+					{
+						"language": "nap",
+						"value": "Android OS"
+					}
+				],
+				"pih": [
+					{
+						"language": "pih",
+						"value": "Google Android"
+					},
+					{
+						"language": "pih",
+						"value": "Android OS"
+					}
+				],
+				"pms": [
+					{
+						"language": "pms",
+						"value": "Google Android"
+					},
+					{
+						"language": "pms",
+						"value": "Android OS"
+					}
+				],
+				"se": [
+					{
+						"language": "se",
+						"value": "Google Android"
+					},
+					{
+						"language": "se",
+						"value": "Android OS"
+					}
+				],
+				"sma": [
+					{
+						"language": "sma",
+						"value": "Google Android"
+					},
+					{
+						"language": "sma",
+						"value": "Android OS"
+					}
+				],
+				"smj": [
+					{
+						"language": "smj",
+						"value": "Google Android"
+					},
+					{
+						"language": "smj",
+						"value": "Android OS"
+					}
+				],
+				"zea": [
+					{
+						"language": "zea",
+						"value": "Google Android"
+					},
+					{
+						"language": "zea",
+						"value": "Android OS"
+					}
+				],
+				"ta": [
+					{
+						"language": "ta",
+						"value": "ஆண்ட்ராய்டு இயங்குதளம்"
+					}
+				],
+				"arz": [
+					{
+						"language": "arz",
+						"value": "نظام اندرويد"
+					},
+					{
+						"language": "arz",
+						"value": "نظام التشغيل اندرويد"
+					},
+					{
+						"language": "arz",
+						"value": "جوجل اندرويد"
+					},
+					{
+						"language": "arz",
+						"value": "أندرويد"
+					}
+				],
+				"pt": [
+					{
+						"language": "pt",
+						"value": "Google Android"
+					},
+					{
+						"language": "pt",
+						"value": "Sistema Operativo Android"
+					}
+				],
+				"mul": [
+					{
+						"language": "mul",
+						"value": "Android OS"
+					},
+					{
+						"language": "mul",
+						"value": "Google Android"
+					}
+				],
+				"ms": [
+					{
+						"language": "ms",
+						"value": "Android OS"
+					},
+					{
+						"language": "ms",
+						"value": "Google Android"
+					},
+					{
+						"language": "ms",
+						"value": "Android (sistem pengendalian)"
+					},
+					{
+						"language": "ms",
+						"value": "sistem pengendalian Android"
+					}
+				],
+				"fr": [
+					{
+						"language": "fr",
+						"value": "Androïde"
+					}
+				],
+				"en-us": [
+					{
+						"language": "en-us",
+						"value": "Android OS"
+					},
+					{
+						"language": "en-us",
+						"value": "Google Android"
+					},
+					{
+						"language": "en-us",
+						"value": "Android (operating system)"
+					},
+					{
+						"language": "en-us",
+						"value": "Android operating system"
+					}
+				],
+				"hu": [
+					{
+						"language": "hu",
+						"value": "Android"
+					}
+				],
+				"bs": [
+					{
+						"language": "bs",
+						"value": "Android"
+					}
+				],
+				"scn": [
+					{
+						"language": "scn",
+						"value": "Android OS"
+					},
+					{
+						"language": "scn",
+						"value": "sistema upirativu Android"
 					}
 				]
 			},
@@ -1210,7 +1700,65 @@ const Android: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q94$a1929d2c-4911-f2ef-d4a7-34bfb175dadd",
-						"rank": "normal"
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "a67a2e82f82c54dad196f649152823e7ca5918d1",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "f72e4c10bc6653ff4a0fc5c3beede41b046d5a7f",
+											"datavalue": {
+												"value": "https://stackoverflow.com/questions/tagged/android",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "1165c69d93f35842bd8604fc8c0fa0e01510567c",
+											"datavalue": {
+												"value": {
+													"text": "Newest 'android' Questions - Stack Overflow",
+													"language": "en"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "9c83bed7f296863778d6f37b8c4e26f7a5dee9ac",
+											"datavalue": {
+												"value": {
+													"time": "+2022-09-13T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P813"
+								]
+							}
+						]
 					},
 					{
 						"mainsnak": {
@@ -1565,25 +2113,6 @@ const Android: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P31",
-							"hash": "5688eb867dbcb2ebeacf707c1dd33511d27f3a7f",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 14656,
-									"id": "Q14656"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q94$dda64adc-40c9-4838-0b17-8d70f303fc20",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P31",
 							"hash": "34b5baadaa8ca5a01b5af242be40f8b65afbe19c",
 							"datavalue": {
 								"value": {
@@ -1597,7 +2126,83 @@ const Android: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q94$0fd573a0-4335-43b7-aff0-95aac0ffb271",
-						"rank": "normal"
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "cb653be049dbbc2486fe0f8a1d82bec00107e367",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 36578,
+													"id": "Q36578"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P227": [
+										{
+											"snaktype": "value",
+											"property": "P227",
+											"hash": "e60c0610b1fc7375c72a9d34a97ac74cd637a6a9",
+											"datavalue": {
+												"value": "7635475-1",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 188,
+													"id": "Q188"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "88da55a5e9c6059f581a52b88dbbd8d5c0efc753",
+											"datavalue": {
+												"value": {
+													"time": "+2021-06-09T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P227",
+									"P407",
+									"P813"
+								]
+							}
+						]
 					},
 					{
 						"mainsnak": {
@@ -1619,238 +2224,6 @@ const Android: WikidataResponse = {
 						"rank": "preferred"
 					}
 				],
-				"P154": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P154",
-							"hash": "a14da507f6ccd33e42ef133bfb305adebcc45b2f",
-							"datavalue": {
-								"value": "Android new logo 2019.svg",
-								"type": "string"
-							},
-							"datatype": "commonsMedia"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P580": [
-								{
-									"snaktype": "value",
-									"property": "P580",
-									"hash": "66d16d15afb9a5d83257061455cc790eddf2b9df",
-									"datavalue": {
-										"value": {
-											"time": "+2019-00-00T00:00:00Z",
-											"timezone": 0,
-											"before": 0,
-											"after": 0,
-											"precision": 9,
-											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-										},
-										"type": "time"
-									},
-									"datatype": "time"
-								}
-							],
-							"P8798": [
-								{
-									"snaktype": "value",
-									"property": "P8798",
-									"hash": "2cdba8e78f291d90c13a8d613bd6ac1efa02d99e",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 101608434,
-											"id": "Q101608434"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P580",
-							"P8798"
-						],
-						"id": "Q94$d3d87789-4eca-994a-9852-bc5c1a833f68",
-						"rank": "preferred"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P154",
-							"hash": "0bc2291e3aa7d199a0bfe6a7ebcbf58d57319bc1",
-							"datavalue": {
-								"value": "Android robot 2014.svg",
-								"type": "string"
-							},
-							"datatype": "commonsMedia"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P580": [
-								{
-									"snaktype": "value",
-									"property": "P580",
-									"hash": "bee3cd83ff5f413745df62b88072f2e7cb5fe5d2",
-									"datavalue": {
-										"value": {
-											"time": "+2014-00-00T00:00:00Z",
-											"timezone": 0,
-											"before": 0,
-											"after": 0,
-											"precision": 9,
-											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-										},
-										"type": "time"
-									},
-									"datatype": "time"
-								}
-							],
-							"P582": [
-								{
-									"snaktype": "value",
-									"property": "P582",
-									"hash": "c9582fcdd0adc330e4c921177cb7e523de50720e",
-									"datavalue": {
-										"value": {
-											"time": "+2019-00-00T00:00:00Z",
-											"timezone": 0,
-											"before": 0,
-											"after": 0,
-											"precision": 9,
-											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-										},
-										"type": "time"
-									},
-									"datatype": "time"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P580",
-							"P582"
-						],
-						"id": "Q94$e323efa2-4ee0-57ff-1aee-36df46e32431",
-						"rank": "preferred"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P154",
-							"hash": "42c58d8f322a7995823e258acf2c5e34c860855f",
-							"datavalue": {
-								"value": "Android robot.svg",
-								"type": "string"
-							},
-							"datatype": "commonsMedia"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P580": [
-								{
-									"snaktype": "value",
-									"property": "P580",
-									"hash": "bd4aa5c434ced58f8ac39be7e53116a89da4aa89",
-									"datavalue": {
-										"value": {
-											"time": "+2008-00-00T00:00:00Z",
-											"timezone": 0,
-											"before": 0,
-											"after": 0,
-											"precision": 9,
-											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-										},
-										"type": "time"
-									},
-									"datatype": "time"
-								}
-							],
-							"P582": [
-								{
-									"snaktype": "value",
-									"property": "P582",
-									"hash": "52d84e1a17d2921a6af0bc3dc21cbb4d6564e06e",
-									"datavalue": {
-										"value": {
-											"time": "+2014-00-00T00:00:00Z",
-											"timezone": 0,
-											"before": 0,
-											"after": 0,
-											"precision": 9,
-											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-										},
-										"type": "time"
-									},
-									"datatype": "time"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P580",
-							"P582"
-						],
-						"id": "Q94$fef05888-4e7f-f91e-8159-4121f31e15cb",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P154",
-							"hash": "a5de6c353aa747f11dd8853f3e43eaa6c5bf6e61",
-							"datavalue": {
-								"value": "Android new logo 2019 darkbg.svg",
-								"type": "string"
-							},
-							"datatype": "commonsMedia"
-						},
-						"type": "statement",
-						"qualifiers": {
-							"P580": [
-								{
-									"snaktype": "value",
-									"property": "P580",
-									"hash": "66d16d15afb9a5d83257061455cc790eddf2b9df",
-									"datavalue": {
-										"value": {
-											"time": "+2019-00-00T00:00:00Z",
-											"timezone": 0,
-											"before": 0,
-											"after": 0,
-											"precision": 9,
-											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-										},
-										"type": "time"
-									},
-									"datatype": "time"
-								}
-							],
-							"P8798": [
-								{
-									"snaktype": "value",
-									"property": "P8798",
-									"hash": "b9b09e4b1ffeb75e8f65e044c5493de5d25a1770",
-									"datavalue": {
-										"value": {
-											"entity-type": "item",
-											"numeric-id": 6545942,
-											"id": "Q6545942"
-										},
-										"type": "wikibase-entityid"
-									},
-									"datatype": "wikibase-item"
-								}
-							]
-						},
-						"qualifiers-order": [
-							"P580",
-							"P8798"
-						],
-						"id": "Q94$73b6f17d-45c3-692b-4d66-bb8c0619e14a",
-						"rank": "preferred"
-					}
-				],
 				"P227": [
 					{
 						"mainsnak": {
@@ -1868,7 +2241,7 @@ const Android: WikidataResponse = {
 						"rank": "normal",
 						"references": [
 							{
-								"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+								"hash": "bf10533ed525e3e817b4f1eaa55af13398676424",
 								"snaks": {
 									"P143": [
 										{
@@ -1885,10 +2258,43 @@ const Android: WikidataResponse = {
 											},
 											"datatype": "wikibase-item"
 										}
+									],
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "b732cb0ee9cc5239265f9683540fa96d0fc5ab21",
+											"datavalue": {
+												"value": "https://de.wikipedia.org/w/index.php?title=Android_(Betriebssystem)&oldid=212802662",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "88da55a5e9c6059f581a52b88dbbd8d5c0efc753",
+											"datavalue": {
+												"value": {
+													"time": "+2021-06-09T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
 									]
 								},
 								"snaks-order": [
-									"P143"
+									"P143",
+									"P4656",
+									"P813"
 								]
 							}
 						]
@@ -3341,7 +3747,7 @@ const Android: WikidataResponse = {
 							"P548"
 						],
 						"id": "Q94$1077fda1-4d0b-998a-1a6b-e3376cc3b931",
-						"rank": "preferred",
+						"rank": "normal",
 						"references": [
 							{
 								"hash": "ba30eb459afcd010d3429a7d2dd58789d44fdb47",
@@ -3498,6 +3904,686 @@ const Android: WikidataResponse = {
 						],
 						"id": "Q94$74384f86-4a19-3105-fcb3-f1e5dd9b5c9f",
 						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P348",
+							"hash": "c83c1e9ff209ae282938e0403c143280c083c979",
+							"datavalue": {
+								"value": "12",
+								"type": "string"
+							},
+							"datatype": "string"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P548": [
+								{
+									"snaktype": "value",
+									"property": "P548",
+									"hash": "e006ea8d2fa441433e0fa85bc4132b806e0fabee",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2804309,
+											"id": "Q2804309"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"hash": "7c29d75c59976186eefde50d4b970c87f8120a97",
+									"datavalue": {
+										"value": {
+											"time": "+2021-10-04T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P548",
+							"P577"
+						],
+						"id": "Q94$2f46d72f-4209-f798-44d8-62aefd62422c",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "bdce3917c59ca275c211dcb82f0a4711208e50af",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "6c71b9653498f0e8f5015dc4cadd1ed155386b2d",
+											"datavalue": {
+												"value": "https://android-developers.googleblog.com/2021/10/android-12-is-live-in-aosp.html",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P348",
+							"hash": "311be9fef557e53ccd4712856231944cf5404260",
+							"datavalue": {
+								"value": "13",
+								"type": "string"
+							},
+							"datatype": "string"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"hash": "b573a7eaee88fbc89d9a84918ab03e7c820cb7b3",
+									"datavalue": {
+										"value": {
+											"time": "+2022-08-15T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P548": [
+								{
+									"snaktype": "value",
+									"property": "P548",
+									"hash": "e006ea8d2fa441433e0fa85bc4132b806e0fabee",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2804309,
+											"id": "Q2804309"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P577",
+							"P548"
+						],
+						"id": "Q94$3529728f-4d1d-ad42-7bf7-9e6700e7f921",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "52d5bf5f0a09722fcd0392b7b0294cef915ed80a",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "132b6c4077a75a0c43ee356c59b876ecc6dbe452",
+											"datavalue": {
+												"value": "https://android-developers.googleblog.com/2022/08/android-13-is-in-aosp.html",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P348",
+							"hash": "489dce7c118d8b1c309744318ac3aba1f80a54a9",
+							"datavalue": {
+								"value": "14",
+								"type": "string"
+							},
+							"datatype": "string"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"hash": "c7f2a417f06a8af4c5847b579c4ffb8e0ee6f8ee",
+									"datavalue": {
+										"value": {
+											"time": "+2023-10-04T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P548": [
+								{
+									"snaktype": "value",
+									"property": "P548",
+									"hash": "e006ea8d2fa441433e0fa85bc4132b806e0fabee",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2804309,
+											"id": "Q2804309"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P577",
+							"P548"
+						],
+						"id": "Q94$1a4805f4-4529-69f3-a24c-9c386079a0a5",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "9856810b769dac06f883d7bc337e808d19f3b6c7",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "8d2a3c2eb9fcee04868d9d56a7415c5d9639a3e9",
+											"datavalue": {
+												"value": "https://android-developers.googleblog.com/2023/10/android-14-is-live-in-aosp.html",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "260dfbcb8330fc52e4a362ca67f70be58dbbac99",
+											"datavalue": {
+												"value": {
+													"text": "Android 14 is live in AOSP",
+													"language": "en"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 1860,
+													"id": "Q1860"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "87c17baac7ea46e9e1467b5c352eca0e30ff54de",
+											"datavalue": {
+												"value": {
+													"time": "+2024-09-28T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P407",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P348",
+							"hash": "01ee3c54cc6e6a201b5d5bd00deae6eb1f6d7ce3",
+							"datavalue": {
+								"value": "15",
+								"type": "string"
+							},
+							"datatype": "string"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"hash": "064ba90391be8339d676662175826378ee7f7e25",
+									"datavalue": {
+										"value": {
+											"time": "+2024-09-03T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P548": [
+								{
+									"snaktype": "value",
+									"property": "P548",
+									"hash": "e006ea8d2fa441433e0fa85bc4132b806e0fabee",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2804309,
+											"id": "Q2804309"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P577",
+							"P548"
+						],
+						"id": "Q94$4cff71b6-4e4a-2c97-bfa1-4f6895fa98c4",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "6a233768953bf222bc8560ff2633aaeaa748ed7d",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "019a3b2b3d9e797820051dcf88d12ecdd543178f",
+											"datavalue": {
+												"value": "https://android-developers.googleblog.com/2024/09/android-15-is-released-to-aosp.html",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "2dca96c32403fef781ab1bb3bfd855d8565e7d0d",
+											"datavalue": {
+												"value": {
+													"text": "Android 15 is released to AOSP",
+													"language": "en"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 1860,
+													"id": "Q1860"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "87c17baac7ea46e9e1467b5c352eca0e30ff54de",
+											"datavalue": {
+												"value": {
+													"time": "+2024-09-28T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P407",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P348",
+							"hash": "be738dcfd248d120fbfc5d342ac88a0a238bb257",
+							"datavalue": {
+								"value": "16",
+								"type": "string"
+							},
+							"datatype": "string"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"hash": "c11ca916aec253549897854d8eba352c81341049",
+									"datavalue": {
+										"value": {
+											"time": "+2024-11-18T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P548": [
+								{
+									"snaktype": "value",
+									"property": "P548",
+									"hash": "0ed7c996386280c7370050a9da84e4a97580e160",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 51930650,
+											"id": "Q51930650"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P577",
+							"P548"
+						],
+						"id": "Q94$935116d2-4c1a-6dcf-c540-9d6675bdfb9f",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "3132c7b72c01bd84f9af36e11f5a1f4f6a64fb1f",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "2c840c234e77c29e159e600091d5110735cfa656",
+											"datavalue": {
+												"value": "https://android-developers.googleblog.com/2024/11/the-first-developer-preview-android16.html",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "1f356c5e0c1fa1e491736f0b970ca5bfcd3d9f4a",
+											"datavalue": {
+												"value": {
+													"text": "The First Developer Preview of Android 16",
+													"language": "en"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 1860,
+													"id": "Q1860"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "92f6bd48b1702347b96ba5a1b7ff870c4f73f92a",
+											"datavalue": {
+												"value": {
+													"time": "+2024-11-20T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P407",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P348",
+							"hash": "587ea58b3b28c6c54f599d28da1547815e853341",
+							"datavalue": {
+								"value": "15.0.0 r5",
+								"type": "string"
+							},
+							"datatype": "string"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"hash": "cd8896413c66c4cb13d42603d18aba94aabdc7e8",
+									"datavalue": {
+										"value": {
+											"time": "+2024-11-06T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P548": [
+								{
+									"snaktype": "value",
+									"property": "P548",
+									"hash": "e006ea8d2fa441433e0fa85bc4132b806e0fabee",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2804309,
+											"id": "Q2804309"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P577",
+							"P548"
+						],
+						"id": "Q94$067991c8-47bf-d3b3-216d-a0230ca266f6",
+						"rank": "preferred",
+						"references": [
+							{
+								"hash": "0d626ebed860a03b0b20f3445b54afcddbe6c2ba",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "a1f0f4ff79ade4ab735fe027433c2ddb98e1a69b",
+											"datavalue": {
+												"value": "https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r5",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "02b3126ff703066205ebf276abe24d5bd4a8ae25",
+											"datavalue": {
+												"value": {
+													"text": "android / platform / build / refs/tags/android-15.0.0_r5",
+													"language": "en"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 1860,
+													"id": "Q1860"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "2d1a628a24a9758b4f7d9381288c497788aa7b54",
+											"datavalue": {
+												"value": {
+													"time": "+2024-11-24T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P407",
+									"P813"
+								]
+							}
+						]
 					}
 				],
 				"P856": [
@@ -3518,34 +4604,21 @@ const Android: WikidataResponse = {
 								{
 									"snaktype": "value",
 									"property": "P407",
-									"hash": "c757ac6da9712097bc0871742564687f009a3f64",
+									"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
 									"datavalue": {
 										"value": {
 											"entity-type": "item",
-											"numeric-id": 20923490,
-											"id": "Q20923490"
+											"numeric-id": 1860,
+											"id": "Q1860"
 										},
 										"type": "wikibase-entityid"
 									},
 									"datatype": "wikibase-item"
 								}
-							],
-							"P1065": [
-								{
-									"snaktype": "value",
-									"property": "P1065",
-									"hash": "47fa0775bd8f349736352da7e31cf8e534bb0bfd",
-									"datavalue": {
-										"value": "https://web.archive.org/web/20080516173841/https://www.android.com/",
-										"type": "string"
-									},
-									"datatype": "url"
-								}
 							]
 						},
 						"qualifiers-order": [
-							"P407",
-							"P1065"
+							"P407"
 						],
 						"id": "Q94$CBAAED3E-E6D9-41E1-9783-C87CDDD9D96B",
 						"rank": "normal"
@@ -3634,6 +4707,26 @@ const Android: WikidataResponse = {
 								"snaks-order": [
 									"P143",
 									"P813"
+								]
+							},
+							{
+								"hash": "0bc4d0c56132068db6def2e7544c25533b945a46",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "78ba9b1d504143fb30e457aab10bff8411caf74c",
+											"datavalue": {
+												"value": "https://source.android.com/docs/setup/about/licenses",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854"
 								]
 							}
 						]
@@ -3805,7 +4898,7 @@ const Android: WikidataResponse = {
 						"rank": "normal",
 						"references": [
 							{
-								"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+								"hash": "bf10533ed525e3e817b4f1eaa55af13398676424",
 								"snaks": {
 									"P143": [
 										{
@@ -3822,10 +4915,43 @@ const Android: WikidataResponse = {
 											},
 											"datatype": "wikibase-item"
 										}
+									],
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "b732cb0ee9cc5239265f9683540fa96d0fc5ab21",
+											"datavalue": {
+												"value": "https://de.wikipedia.org/w/index.php?title=Android_(Betriebssystem)&oldid=212802662",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "88da55a5e9c6059f581a52b88dbbd8d5c0efc753",
+											"datavalue": {
+												"value": {
+													"time": "+2021-06-09T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
 									]
 								},
 								"snaks-order": [
-									"P143"
+									"P143",
+									"P4656",
+									"P813"
 								]
 							}
 						]
@@ -3848,7 +4974,7 @@ const Android: WikidataResponse = {
 						"rank": "normal",
 						"references": [
 							{
-								"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+								"hash": "bf10533ed525e3e817b4f1eaa55af13398676424",
 								"snaks": {
 									"P143": [
 										{
@@ -3865,10 +4991,43 @@ const Android: WikidataResponse = {
 											},
 											"datatype": "wikibase-item"
 										}
+									],
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "b732cb0ee9cc5239265f9683540fa96d0fc5ab21",
+											"datavalue": {
+												"value": "https://de.wikipedia.org/w/index.php?title=Android_(Betriebssystem)&oldid=212802662",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "88da55a5e9c6059f581a52b88dbbd8d5c0efc753",
+											"datavalue": {
+												"value": {
+													"time": "+2021-06-09T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
 									]
 								},
 								"snaks-order": [
-									"P143"
+									"P143",
+									"P4656",
+									"P813"
 								]
 							}
 						]
@@ -4254,6 +5413,23 @@ const Android: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
 						"id": "Q94$EBBC2733-31F9-4633-9551-D870893CE40B",
 						"rank": "normal"
 					}
@@ -4590,9 +5766,9 @@ const Android: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1324",
-							"hash": "a835bde37dae6fa254d33af140852db016df1255",
+							"hash": "e9e3825a4f07f63fe4a4f8fed64c122d18ac0196",
 							"datavalue": {
-								"value": "https://android.googlesource.com/",
+								"value": "http://android.googlesource.com/",
 								"type": "string"
 							},
 							"datatype": "url"
@@ -4626,9 +5802,9 @@ const Android: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1324",
-							"hash": "bb7332dbd87b06f51a406dc2d0e8605b6b0a2e60",
+							"hash": "3fcf850ebc8d477034c7d73ebce58d2e87388301",
 							"datavalue": {
-								"value": "https://android-review.googlesource.com/admin/repos",
+								"value": "http://android-review.googlesource.com/admin/repos",
 								"type": "string"
 							},
 							"datatype": "url"
@@ -4895,12 +6071,12 @@ const Android: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P1072",
-							"hash": "2ea4bb33081a6f5474fa99a8b629d609ef519e2d",
+							"hash": "545dd0a4b0c03a82d011567378e1e6e127cd20e6",
 							"datavalue": {
 								"value": {
 									"entity-type": "item",
-									"numeric-id": 27881556,
-									"id": "Q27881556"
+									"numeric-id": 219848,
+									"id": "Q219848"
 								},
 								"type": "wikibase-entityid"
 							},
@@ -6699,9 +7875,9 @@ const Android: WikidataResponse = {
 								{
 									"snaktype": "value",
 									"property": "P1065",
-									"hash": "81b8e7133241625525996b3efb701389c7297aac",
+									"hash": "b1397c072482be293e659aa7dd14f0b634cffa61",
 									"datavalue": {
-										"value": "https://web.archive.org/web/20161010134103/https://blog.google/products/android/",
+										"value": "https://web.archive.org/web/20161010134103/http://blog.google/products/android/",
 										"type": "string"
 									},
 									"datatype": "url"
@@ -6730,21 +7906,6 @@ const Android: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q94$6460E806-123E-4DEC-B744-FCAD6B9A0CAC",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P3417",
-							"hash": "6cfd3a142d7f5086eae69da4c509a94675743ebb",
-							"datavalue": {
-								"value": "Android-Phones-2",
-								"type": "string"
-							},
-							"datatype": "external-id"
-						},
-						"type": "statement",
-						"id": "Q94$2EBCC1D5-C6B9-4195-8A7D-A701398F833C",
 						"rank": "normal"
 					}
 				],
@@ -6796,187 +7957,6 @@ const Android: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q94$95c688d9-4ac3-1cfc-21ad-78f2adbf1aa8",
-						"rank": "normal"
-					}
-				],
-				"P407": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P407",
-							"hash": "d858d1b9f6e6e383f38dfbe706d102f056c07312",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 5287,
-									"id": "Q5287"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q94$ab076e59-47f1-30dc-bfc9-4ad900623871",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P407",
-							"hash": "d291ddb7cd77c94a7bd709a8395934147e0864fc",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 7737,
-									"id": "Q7737"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q94$101c5530-45e6-989e-cb45-fdc231c6b485",
-						"rank": "normal",
-						"references": [
-							{
-								"hash": "d80f5e662c2ec8b2f20f8cfd53da49150dd7d7de",
-								"snaks": {
-									"P143": [
-										{
-											"snaktype": "value",
-											"property": "P143",
-											"hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
-											"datavalue": {
-												"value": {
-													"entity-type": "item",
-													"numeric-id": 206855,
-													"id": "Q206855"
-												},
-												"type": "wikibase-entityid"
-											},
-											"datatype": "wikibase-item"
-										}
-									],
-									"P4656": [
-										{
-											"snaktype": "value",
-											"property": "P4656",
-											"hash": "ee89a41cfc59e77c02fcb8492a7f9f0349edb9f5",
-											"datavalue": {
-												"value": "https://ru.wikipedia.org/?oldid=97646670",
-												"type": "string"
-											},
-											"datatype": "url"
-										}
-									]
-								},
-								"snaks-order": [
-									"P143",
-									"P4656"
-								]
-							}
-						]
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P407",
-							"hash": "c757ac6da9712097bc0871742564687f009a3f64",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 20923490,
-									"id": "Q20923490"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q94$1CC272E8-13B9-4CD5-BCE5-2A2AF9F5640A",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P407",
-							"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 1860,
-									"id": "Q1860"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q94$59e473f6-4335-0586-3442-556512b3a899",
-						"rank": "normal",
-						"references": [
-							{
-								"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
-								"snaks": {
-									"P143": [
-										{
-											"snaktype": "value",
-											"property": "P143",
-											"hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
-											"datavalue": {
-												"value": {
-													"entity-type": "item",
-													"numeric-id": 206855,
-													"id": "Q206855"
-												},
-												"type": "wikibase-entityid"
-											},
-											"datatype": "wikibase-item"
-										}
-									]
-								},
-								"snaks-order": [
-									"P143"
-								]
-							}
-						]
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P407",
-							"hash": "3b33ca235f16338704ecefe35d73712fbf0377a5",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 7850,
-									"id": "Q7850"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q94$27343b70-4d1d-fec5-f42b-7340896f3970",
-						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P407",
-							"hash": "be63730b87f6f8cb3f19e6f244d57b5891ea8593",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 7033959,
-									"id": "Q7033959"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q94$ffdba469-4f05-95f1-24f3-1155bb6ea5f8",
 						"rank": "normal"
 					}
 				],
@@ -7257,6 +8237,111 @@ const Android: WikidataResponse = {
 								]
 							}
 						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P277",
+							"hash": "cf8723d0320f96e46066ff0953151348054f3c87",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 575650,
+									"id": "Q575650"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$44c67751-43e1-5c5d-3c36-ad803b108642",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "e2a4eec2b9fa988bc49d12f48d301a823401338c",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "85d6ae50b22ad1565996390d8a5107dbc481fe14",
+											"datavalue": {
+												"value": "https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P577": [
+										{
+											"snaktype": "value",
+											"property": "P577",
+											"hash": "2a7ae97d7c0279de5a4f48cb4e81abf73b335dce",
+											"datavalue": {
+												"value": {
+													"time": "+2022-12-01T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "7af60df801d26749ee503d3bbc7956a76159db12",
+											"datavalue": {
+												"value": {
+													"time": "+2024-04-25T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P577",
+									"P813"
+								]
+							},
+							{
+								"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+								"snaks": {
+									"P143": [
+										{
+											"snaktype": "value",
+											"property": "P143",
+											"hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 328,
+													"id": "Q328"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									]
+								},
+								"snaks-order": [
+									"P143"
+								]
+							}
+						]
 					}
 				],
 				"P268": [
@@ -7340,6 +8425,88 @@ const Android: WikidataResponse = {
 						"type": "statement",
 						"id": "Q94$95c7cb58-4087-da6f-5d3e-1efbc3e551b1",
 						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P112",
+							"hash": "226bd3e2d98defa4b45bd520e142d66dfb4bb63e",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 95,
+									"id": "Q95"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$80052e91-49d3-7271-ce5a-e6551dd2b937",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "b15bbc697c651b728e9d4060f7804f4eba87ea16",
+								"snaks": {
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "141e66ec8ce738aeffb15063d27be57350c7f3e9",
+											"datavalue": {
+												"value": "https://az.m.wikipedia.org/?oldid=7628442",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P4656"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P112",
+							"hash": "e18640874fcf7fca3acd5fb3d628e777c8df153f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 819702,
+									"id": "Q819702"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$c349a79f-4059-ea0c-3cf9-76ec70e22fee",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "b15bbc697c651b728e9d4060f7804f4eba87ea16",
+								"snaks": {
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "141e66ec8ce738aeffb15063d27be57350c7f3e9",
+											"datavalue": {
+												"value": "https://az.m.wikipedia.org/?oldid=7628442",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P4656"
+								]
+							}
+						]
 					}
 				],
 				"P4204": [
@@ -7419,23 +8586,23 @@ const Android: WikidataResponse = {
 						"rank": "normal",
 						"references": [
 							{
-								"hash": "d59c6fe2736b1b9aa3e18a544956eb0df92471b6",
+								"hash": "ab7f7762e98ba263080f19ccc6815f84893430d2",
 								"snaks": {
-									"P854": [
+									"P2397": [
 										{
 											"snaktype": "value",
-											"property": "P854",
-											"hash": "6a430f981d7697a49e3a657c5b065e4f7302eb74",
+											"property": "P2397",
+											"hash": "3f79b0b1774adf4a16ce1b56e0b8b7476a2f78f0",
 											"datavalue": {
-												"value": "https://www.youtube.com/channel/UC9M7-jzdU8CVrQo1JwmIdWA",
+												"value": "UC9M7-jzdU8CVrQo1JwmIdWA",
 												"type": "string"
 											},
-											"datatype": "url"
+											"datatype": "external-id"
 										}
 									]
 								},
 								"snaks-order": [
-									"P854"
+									"P2397"
 								]
 							}
 						]
@@ -7546,51 +8713,6 @@ const Android: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P3033",
-							"hash": "fd82b61f8f412a38f782cf7e0f9cfdf9143bd43f",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 596391,
-									"id": "Q596391"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q94$68d71656-4191-148b-0627-c50f3a96f4b3",
-						"rank": "preferred",
-						"references": [
-							{
-								"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
-								"snaks": {
-									"P143": [
-										{
-											"snaktype": "value",
-											"property": "P143",
-											"hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
-											"datavalue": {
-												"value": {
-													"entity-type": "item",
-													"numeric-id": 206855,
-													"id": "Q206855"
-												},
-												"type": "wikibase-entityid"
-											},
-											"datatype": "wikibase-item"
-										}
-									]
-								},
-								"snaks-order": [
-									"P143"
-								]
-							}
-						]
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P3033",
 							"hash": "1f52eeebb361f7f3a12fc950c522cdacdae9ab2b",
 							"datavalue": {
 								"value": {
@@ -7604,7 +8726,7 @@ const Android: WikidataResponse = {
 						},
 						"type": "statement",
 						"id": "Q94$e572490f-4b99-7d3d-5379-a9e1c647b62f",
-						"rank": "preferred",
+						"rank": "normal",
 						"references": [
 							{
 								"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
@@ -7763,6 +8885,109 @@ const Android: WikidataResponse = {
 								},
 								"snaks-order": [
 									"P143"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P3033",
+							"hash": "fd82b61f8f412a38f782cf7e0f9cfdf9143bd43f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 596391,
+									"id": "Q596391"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$68d71656-4191-148b-0627-c50f3a96f4b3",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+								"snaks": {
+									"P143": [
+										{
+											"snaktype": "value",
+											"property": "P143",
+											"hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 206855,
+													"id": "Q206855"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									]
+								},
+								"snaks-order": [
+									"P143"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P3033",
+							"hash": "0f037c1bfce756ba61fa58b3c9272d7025f0dd58",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 456078,
+									"id": "Q456078"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$08c08d54-4be1-bfe5-fb6d-b956956ba595",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "0414c71f3cbf7f70ed5079216b771e2ded426326",
+								"snaks": {
+									"P143": [
+										{
+											"snaktype": "value",
+											"property": "P143",
+											"hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 206855,
+													"id": "Q206855"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "bfc3b2eb864f3271d9aa54f6304a95b8ad3d7bb9",
+											"datavalue": {
+												"value": "https://ru.wikipedia.org/?oldid=115040515",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P143",
+									"P4656"
 								]
 							}
 						]
@@ -7974,14 +9199,58 @@ const Android: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P2910",
-							"hash": "59588eb6ebb5567ee212e227026284fe6c92408a",
+							"hash": "1c1290395f1ca06a81e7bb2b4f0ee5b59f38b84c",
 							"datavalue": {
-								"value": "Google Android.png",
+								"value": "Android robot (2014-2019).svg",
 								"type": "string"
 							},
 							"datatype": "commonsMedia"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "bee3cd83ff5f413745df62b88072f2e7cb5fe5d2",
+									"datavalue": {
+										"value": {
+											"time": "+2014-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P582": [
+								{
+									"snaktype": "value",
+									"property": "P582",
+									"hash": "c9582fcdd0adc330e4c921177cb7e523de50720e",
+									"datavalue": {
+										"value": {
+											"time": "+2019-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580",
+							"P582"
+						],
 						"id": "Q94$3c596dde-4022-08bc-f51b-d5763aa5a722",
 						"rank": "normal"
 					},
@@ -7989,16 +9258,158 @@ const Android: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P2910",
-							"hash": "7bf18cab61ce72f5d41452e855f0b25a4df8151c",
+							"hash": "52d8feced1d1516a070f41dca3628a455ed1630c",
 							"datavalue": {
-								"value": "Android Easter eggs.jpg",
+								"value": "Android robot.svg",
 								"type": "string"
 							},
 							"datatype": "commonsMedia"
 						},
 						"type": "statement",
-						"id": "Q94$9538a619-470b-54b3-61e2-d390651615a6",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "2ff980d429ca62a9f912808fc44b6488fe02ca1c",
+									"datavalue": {
+										"value": {
+											"time": "+2007-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P582": [
+								{
+									"snaktype": "value",
+									"property": "P582",
+									"hash": "52d84e1a17d2921a6af0bc3dc21cbb4d6564e06e",
+									"datavalue": {
+										"value": {
+											"time": "+2014-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580",
+							"P582"
+						],
+						"id": "Q94$09b9f5c9-4d26-2c5c-3134-460643bbb03f",
 						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2910",
+							"hash": "923c83b5a37083c265250b867a1708bccfda0ad3",
+							"datavalue": {
+								"value": "Android logo 2019 (stacked).svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "66d16d15afb9a5d83257061455cc790eddf2b9df",
+									"datavalue": {
+										"value": {
+											"time": "+2019-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P582": [
+								{
+									"snaktype": "value",
+									"property": "P582",
+									"hash": "f2a04c4f9ed9438562e6f7da0e4630b5af466a61",
+									"datavalue": {
+										"value": {
+											"time": "+2023-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580",
+							"P582"
+						],
+						"id": "Q94$9b71e850-4f33-f23d-15a4-80fa4ac10b5f",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2910",
+							"hash": "feb9c3aceac91359dc9ff6ebf3b2d788b30b835e",
+							"datavalue": {
+								"value": "Android logo 2023 (stacked).svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "e18d3ba7a83b3a85bc3146e03813224f03817c66",
+									"datavalue": {
+										"value": {
+											"time": "+2023-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580"
+						],
+						"id": "Q94$c3538666-48a1-0d13-e74b-35b512c30cf7",
+						"rank": "preferred"
 					}
 				],
 				"P6262": [
@@ -8014,6 +9425,53 @@ const Android: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "33a5422831d11cb6994067ad8b359cd98b2c9337",
+									"datavalue": {
+										"value": "2010",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P407",
+							"P9675"
+						],
 						"id": "Q94$2f748838-4346-40fb-bdd7-d615cb1ee944",
 						"rank": "normal"
 					},
@@ -8029,7 +9487,744 @@ const Android: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "1941b47e25d71e87038b71e0e80b102e306e32fb",
+									"datavalue": {
+										"value": "2680",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P407",
+							"P9675"
+						],
 						"id": "Q94$90820866-4b09-34e8-e19d-10a3f0cd4305",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6262",
+							"hash": "3a729e117ce2d04d5d9f1356555c48550bbf5d43",
+							"datavalue": {
+								"value": "apple:Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "48fe8d77e777593bf3ba2029081c7df12b49e61a",
+									"datavalue": {
+										"value": "19111",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P407",
+							"P9675"
+						],
+						"id": "Q94$58BED4FE-42F6-4F3A-B651-F536D56FDEDE",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6262",
+							"hash": "091936886d00dba86f2aabc2d03ba2378c2ecf1d",
+							"datavalue": {
+								"value": "gta:Android_OS",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "a7f5f0777943cca1139e849c944aa1b1464b73f3",
+									"datavalue": {
+										"value": "Android OS",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "8575afd5fee3d7bfc89c171dd4763fda29c32d0d",
+									"datavalue": {
+										"value": "104577",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P407",
+							"P9675"
+						],
+						"id": "Q94$B9D9410B-EBA5-4A9F-9939-D98A2DE44445",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "f5f8bf5bb5b20e2f323f0db17c60fd0e5102e908",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "96c608daa3847ef7a0ad1e7803aecc4413e41d8d",
+											"datavalue": {
+												"value": "https://gta.fandom.com/wiki/Android_OS#Navigation",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "d6d2b438b82d9682b6369b963f36bed43311c2c7",
+											"datavalue": {
+												"value": {
+													"text": "Android OS | GTA Wiki | Fandom",
+													"language": "en"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "1ca645fa9398b136eb2012664d8998cb5a962caa",
+											"datavalue": {
+												"value": {
+													"time": "+2023-06-04T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6262",
+							"hash": "0c62802b7cf7e009e337b7e06f7e63d05183fce9",
+							"datavalue": {
+								"value": "es.gta:Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "ffe70325d10cfc55f0dca807ed80ca0b5b97c472",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1321,
+											"id": "Q1321"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "8f03d29f9a0a4283dc8ba7b97ed7c62c5322125f",
+									"datavalue": {
+										"value": "67205",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P407",
+							"P9675"
+						],
+						"id": "Q94$4F66EC2D-1C78-4365-B8B4-5DCA343FB15B",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "8a9761932a29d98e52c914e4326a1e4e9a33495d",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "f5b43f4a3834d4f4d6abfc0ad6f443cbedd8c9e0",
+											"datavalue": {
+												"value": "https://gta.fandom.com/es/wiki/Android",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "0c7eea2a5bd33d1998145ec59b46086832aee3e8",
+											"datavalue": {
+												"value": {
+													"text": "Android | Grand Theft Encyclopedia | Fandom",
+													"language": "es"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "1ca645fa9398b136eb2012664d8998cb5a962caa",
+											"datavalue": {
+												"value": {
+													"time": "+2023-06-04T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6262",
+							"hash": "d1af8d9abbc8d8ba3c556fcc712130ea0b08f915",
+							"datavalue": {
+								"value": "it.gta:Android_OS",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "a7f5f0777943cca1139e849c944aa1b1464b73f3",
+									"datavalue": {
+										"value": "Android OS",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "2ab2e485ce235a18142330fa1873a5bba7115d23",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 652,
+											"id": "Q652"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "4f132f01b9a194792344b23a6c4798da4754e9f2",
+									"datavalue": {
+										"value": "2894",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P407",
+							"P9675"
+						],
+						"id": "Q94$3025387B-C167-4558-A030-942E7DD9AE01",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "814023a0037392ba01154d15cbed00905ffe9bbc",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "36447bad6f8dc0b6a0ab3a5b2bddfe5f34c449b5",
+											"datavalue": {
+												"value": "https://gta.fandom.com/it/wiki/Android_OS",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "04d1db8192b519d7dfee855fa50c9f979bb8f36c",
+											"datavalue": {
+												"value": {
+													"text": "Android OS | GTA Wiki | Fandom",
+													"language": "it"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "1ca645fa9398b136eb2012664d8998cb5a962caa",
+											"datavalue": {
+												"value": {
+													"time": "+2023-06-04T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6262",
+							"hash": "659671bf16d001ad3aa96878b652fa70ae6bce93",
+							"datavalue": {
+								"value": "pt.gta:Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "6febf53c394d82404ef12d77afe5a6ceceaecc57",
+									"datavalue": {
+										"value": "19859",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P9675"
+						],
+						"id": "Q94$237D6D18-C5C6-44BD-8C51-21E489D7174F",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "a6471acb670495cc296aa027f7e958f4aa6995a3",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "0f70ba271923fc38065e8aaa8287a3c6dc86653e",
+											"datavalue": {
+												"value": "https://gta.fandom.com/pt/wiki/Android",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "dd652954caa9d3f1ea7fe141e9d7c78d9773ad1d",
+											"datavalue": {
+												"value": {
+													"text": "Android | Grand Theft Auto Wiki | Fandom",
+													"language": "pt-br"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "1ca645fa9398b136eb2012664d8998cb5a962caa",
+											"datavalue": {
+												"value": {
+													"time": "+2023-06-04T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6262",
+							"hash": "760a53cc4140ddc5f8f152fd62b60f3eaddf201b",
+							"datavalue": {
+								"value": "uk.gta:Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "3f9e33ae79ca930c8a001c8abe3fdf663a7c0ccd",
+									"datavalue": {
+										"value": "2898",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P9675"
+						],
+						"id": "Q94$CBC445F4-ABB5-43AF-9656-BD5CC10FC637",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "1d0749c413d40c548971182783e75ce4c44004ba",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "87671ecd31aa8899d290bb9c8555bbdf9ce50a8d",
+											"datavalue": {
+												"value": "https://gta.fandom.com/uk/wiki/Android",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "78793fe0b349b9a5026114b9e9db4163ee1f7590",
+											"datavalue": {
+												"value": {
+													"text": "Android | GTA-педія | Fandom",
+													"language": "uk"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "1ca645fa9398b136eb2012664d8998cb5a962caa",
+											"datavalue": {
+												"value": {
+													"time": "+2023-06-04T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6262",
+							"hash": "10ce53e6f24d5e4f0c8faa0fd44bc4382b18e3d3",
+							"datavalue": {
+								"value": "fr.gta:Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 150,
+											"id": "Q150"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "5aa7a6534d38c1d6422d2cb300d3d267367bb803",
+									"datavalue": {
+										"value": "19788",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P407",
+							"P9675"
+						],
+						"id": "Q94$c704d355-458d-22f2-52fb-bea3b978f24f",
 						"rank": "normal"
 					}
 				],
@@ -8153,21 +10348,6 @@ const Android: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P18",
-							"hash": "54df9377d74c7d4b5a15019dc9b5c5bb1c21ede3",
-							"datavalue": {
-								"value": "Pixel 4a Android 11 Launcher.png",
-								"type": "string"
-							},
-							"datatype": "commonsMedia"
-						},
-						"type": "statement",
-						"id": "Q94$05e822bf-412e-3b2a-32eb-85ff7de06608",
-						"rank": "preferred"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P18",
 							"hash": "68dc834136168aa2fe8cafacb36814803fc8de95",
 							"datavalue": {
 								"value": "Android phones.jpg",
@@ -8178,6 +10358,485 @@ const Android: WikidataResponse = {
 						"type": "statement",
 						"id": "Q94$650c87ae-41c1-1a08-a4de-861bdbf0a5dd",
 						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "cf478b06f3e0e1ed56deaa7d7d4682dac59b49b0",
+							"datavalue": {
+								"value": "Android Gingerbread Easter egg.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "6b16d9a92f9a6a48d847251095bec734cbcbfde6",
+									"datavalue": {
+										"value": "2.3",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$16E32B51-489B-49EE-9855-5236E98224CF",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "7843fdb41ed3015e449636cd307ce63d4f4cdb4f",
+							"datavalue": {
+								"value": "Android Honeycomb Easter egg.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "0d39aa824bfdfdad1080f5b19c4fe21893a52c98",
+									"datavalue": {
+										"value": "3",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$451F5B9D-1344-4B4A-94BB-9DB079B8C9DD",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "c223a3c712fc1c59c6a76e16bae4b050d5228e36",
+							"datavalue": {
+								"value": "Android Ice Cream Sandwich Easter egg.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "b1f31c27c4c6d25c178c85203bfb3b7b7c6ff22f",
+									"datavalue": {
+										"value": "4.0",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$A23E82EF-3FDA-4A20-91BE-54AFF3386CC5",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "76626a4c71b6824abccbbe66a12aaa35d533e6f2",
+							"datavalue": {
+								"value": "Android Jelly Bean Easter egg.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "da1953a3a769465de6b18b295c9cc301108bd0b3",
+									"datavalue": {
+										"value": "4.1",
+										"type": "string"
+									},
+									"datatype": "string"
+								},
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "df28cadbf35a7d5b3f60b421f382934563d3ea6f",
+									"datavalue": {
+										"value": "4.3.1",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$45440792-CEC2-4F52-A386-F5E365891675",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "6fb086920808ee4d6b64a88b6aded4dd89653864",
+							"datavalue": {
+								"value": "Android KitKat Easter egg.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "f1fa4470859d0b6d4027258e75e02be40cc9022d",
+									"datavalue": {
+										"value": "4.4",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$2EE88A38-4445-4B09-B09E-55CC27F084F8",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "77e76b9644d5214155bf3e9c7adb0c853fdb510e",
+							"datavalue": {
+								"value": "Android Lollipop Easter egg.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "d2f0b25df5dcccd0e70db76492fa52cc34630791",
+									"datavalue": {
+										"value": "5",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$E0147807-C1D7-4B60-9596-6357DF7640A9",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "6bf34e7adc016b9caf61a7e5fd6fcabf3725fa42",
+							"datavalue": {
+								"value": "Android Marshmallow Easter egg.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "aba7249070c1daf366bdb8b4efe6e9973e4e6d49",
+									"datavalue": {
+										"value": "6",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$4FC32478-7292-4F02-A991-9C760A8887DB",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "02404575b114f38fcc29eb29cecd887af8f867d8",
+							"datavalue": {
+								"value": "Android Nougat Easter egg.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "98b1206fd31b8e2f2d7f062bbdf2e761518e3495",
+									"datavalue": {
+										"value": "7",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$CA10781C-5AAE-4A95-8F8D-23706E1BB134",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "914c11c613369a2d56e14eb4dcf95bbdb1beff73",
+							"datavalue": {
+								"value": "Android Oreo Easter egg.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "daa0e19500c173f4aa3a2a344e289012f7552f8b",
+									"datavalue": {
+										"value": "8",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$AC21235F-AB0D-4BB9-BF23-D778DF4947DA",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "2158afcc8d9353734a934100fdfe21911d44e3b9",
+							"datavalue": {
+								"value": "Android Samsung Smartphones.jpg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "98b1206fd31b8e2f2d7f062bbdf2e761518e3495",
+									"datavalue": {
+										"value": "7",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$74F5A75A-59A6-4EBB-87B2-7C140CD1F66D",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "626a55bd51b07c5f792cb5505293f43f06264e7e",
+							"datavalue": {
+								"value": "Android 11 Homescreen.png",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "628350c51d340d24b860f14202aae58bd08733fd",
+									"datavalue": {
+										"value": "11",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$6a5f9bb8-48e3-6254-4307-f2beea64b377",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "bf10533ed525e3e817b4f1eaa55af13398676424",
+								"snaks": {
+									"P143": [
+										{
+											"snaktype": "value",
+											"property": "P143",
+											"hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 48183,
+													"id": "Q48183"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "b732cb0ee9cc5239265f9683540fa96d0fc5ab21",
+											"datavalue": {
+												"value": "https://de.wikipedia.org/w/index.php?title=Android_(Betriebssystem)&oldid=212802662",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "88da55a5e9c6059f581a52b88dbbd8d5c0efc753",
+											"datavalue": {
+												"value": {
+													"time": "+2021-06-09T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P143",
+									"P4656",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P18",
+							"hash": "a9d56c2a099216d769579ba000cce8b52c347c2f",
+							"datavalue": {
+								"value": "Android14Home.png",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P348": [
+								{
+									"snaktype": "value",
+									"property": "P348",
+									"hash": "489dce7c118d8b1c309744318ac3aba1f80a54a9",
+									"datavalue": {
+										"value": "14",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P348"
+						],
+						"id": "Q94$c00316bb-42cf-d0be-06bc-be8b40d92715",
+						"rank": "preferred",
+						"references": [
+							{
+								"hash": "e71a7903858496c67eea189a7084d5559f788edb",
+								"snaks": {
+									"P143": [
+										{
+											"snaktype": "value",
+											"property": "P143",
+											"hash": "5d3b16d350189b0a81818758208505444c86c127",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 565,
+													"id": "Q565"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									]
+								},
+								"snaks-order": [
+									"P143"
+								]
+							}
+						]
 					}
 				],
 				"P7556": [
@@ -8633,21 +11292,6 @@ const Android: WikidataResponse = {
 						"type": "statement",
 						"id": "Q94$9c4ed503-40b1-699e-dff6-34815bd4da99",
 						"rank": "normal"
-					},
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P10",
-							"hash": "c55adad65ff442e1fa88481c8b2ffdec16b11c01",
-							"datavalue": {
-								"value": "Android OS.webm",
-								"type": "string"
-							},
-							"datatype": "commonsMedia"
-						},
-						"type": "statement",
-						"id": "Q94$003d35d5-4977-ef0d-278d-4c1b8bd108dc",
-						"rank": "normal"
 					}
 				],
 				"P8408": [
@@ -8747,8 +11391,67 @@ const Android: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
-						"id": "Q94$b6f84cc2-444b-e5c5-6917-00de2c795a08",
-						"rank": "normal"
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q94$12A36F38-148F-46B1-BE63-F602C234527D",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "751960851fa235edaddbc9b689395740c56c71e1",
+								"snaks": {
+									"P1065": [
+										{
+											"snaktype": "value",
+											"property": "P1065",
+											"hash": "cd432ccb4c173858e960ad05696c85162d5669ba",
+											"datavalue": {
+												"value": "https://web.archive.org/web/20210221120801/https://twitter.com/i/api/1.1/onboarding/task.json?flow_name=topics_selector",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P2960": [
+										{
+											"snaktype": "value",
+											"property": "P2960",
+											"hash": "2f6cd8fdfa49e076c77e12f032eca37d5dbd8aea",
+											"datavalue": {
+												"value": {
+													"time": "+2021-02-21T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P1065",
+									"P2960"
+								]
+							}
+						]
 					}
 				],
 				"P6706": [
@@ -8764,30 +11467,28 @@ const Android: WikidataResponse = {
 							"datatype": "external-id"
 						},
 						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
 						"id": "Q94$C7D2211C-557C-48A8-B96A-5A0D2B8B72D9",
 						"rank": "normal"
 					}
 				],
 				"P4969": [
-					{
-						"mainsnak": {
-							"snaktype": "value",
-							"property": "P4969",
-							"hash": "1e2f379fb0d203508aadfb69695ebf4142aa20eb",
-							"datavalue": {
-								"value": {
-									"entity-type": "item",
-									"numeric-id": 85764357,
-									"id": "Q85764357"
-								},
-								"type": "wikibase-entityid"
-							},
-							"datatype": "wikibase-item"
-						},
-						"type": "statement",
-						"id": "Q94$b66d0aca-4210-381c-0085-3de2fb3a44e4",
-						"rank": "normal"
-					},
 					{
 						"mainsnak": {
 							"snaktype": "value",
@@ -9022,9 +11723,9 @@ const Android: WikidataResponse = {
 						"mainsnak": {
 							"snaktype": "value",
 							"property": "P6541",
-							"hash": "7f30c1db7b795fa8a3562364ff67f77eb3285fb5",
+							"hash": "1d3cf9d74eb450f4083e63ae1ab9067dd0dcb1cd",
 							"datavalue": {
-								"value": "https://android.stackexchange.com",
+								"value": "https://android.stackexchange.com/",
 								"type": "string"
 							},
 							"datatype": "url"
@@ -9053,6 +11754,47 @@ const Android: WikidataResponse = {
 						"type": "statement",
 						"id": "Q94$b8cee8ed-46fa-932c-267b-c18efae5d16f",
 						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P138",
+							"hash": "a7344455771eaecc049e8aa86c0156e0917c07d6",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 49826,
+									"id": "Q49826"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$45013072-47d8-e2d1-96ca-73b349d9112b",
+						"rank": "preferred",
+						"references": [
+							{
+								"hash": "47eb6852fdd4403c14d55900287bcbb271aae625",
+								"snaks": {
+									"P1651": [
+										{
+											"snaktype": "value",
+											"property": "P1651",
+											"hash": "d013b573755a096e2200912b5e607d1f3a870fc3",
+											"datavalue": {
+												"value": "PGfcOSwQ0SI",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									]
+								},
+								"snaks-order": [
+									"P1651"
+								]
+							}
+						]
 					}
 				],
 				"P178": [
@@ -9136,925 +11878,3578 @@ const Android: WikidataResponse = {
 						"id": "Q94$0860e84c-49af-d32e-7c65-4b7f4ccb95ff",
 						"rank": "normal"
 					}
+				],
+				"P9100": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P9100",
+							"hash": "337c777d7a79aed52f4765f71cec2dfbd07df09d",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$8b6b02ab-4315-e286-25ad-edba7788fea8",
+						"rank": "normal"
+					}
+				],
+				"P8885": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8885",
+							"hash": "36e44aa7ea162c71841fdb296cbcb6407faaa392",
+							"datavalue": {
+								"value": "안드로이드(운영체제)",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$908f7908-4d4c-bce9-593b-6e62a4fdfc5d",
+						"rank": "normal"
+					}
+				],
+				"P154": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P154",
+							"hash": "9c4134c3805c4496c9d36bdaef23fe3c6776c12c",
+							"datavalue": {
+								"value": "Android logo (2015-2019).svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "301fd6578ed6983cefaa7493099d4b2b15d8c844",
+									"datavalue": {
+										"value": {
+											"time": "+2015-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P582": [
+								{
+									"snaktype": "value",
+									"property": "P582",
+									"hash": "c9582fcdd0adc330e4c921177cb7e523de50720e",
+									"datavalue": {
+										"value": {
+											"time": "+2019-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580",
+							"P582"
+						],
+						"id": "Q94$bbd204c7-4ba9-6cdf-1c40-e66e0875bcaf",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P154",
+							"hash": "048efed5503be27ce47bbe0f1385cfa574dd06b2",
+							"datavalue": {
+								"value": "Android Logo (2014-2015).svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "bee3cd83ff5f413745df62b88072f2e7cb5fe5d2",
+									"datavalue": {
+										"value": {
+											"time": "+2014-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P582": [
+								{
+									"snaktype": "value",
+									"property": "P582",
+									"hash": "85ebf02f8b80826a7e6dc78230ef266087006d1f",
+									"datavalue": {
+										"value": {
+											"time": "+2015-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580",
+							"P582"
+						],
+						"id": "Q94$fba7f74b-462d-336b-bf8a-260c4cfb1104",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P154",
+							"hash": "f7ff4bf9bf568f56e39345fc190a6bad3a7d0511",
+							"datavalue": {
+								"value": "Android logo (2007-2014).svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "2ff980d429ca62a9f912808fc44b6488fe02ca1c",
+									"datavalue": {
+										"value": {
+											"time": "+2007-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P582": [
+								{
+									"snaktype": "value",
+									"property": "P582",
+									"hash": "85ebf02f8b80826a7e6dc78230ef266087006d1f",
+									"datavalue": {
+										"value": {
+											"time": "+2015-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580",
+							"P582"
+						],
+						"id": "Q94$406ee3db-41c6-9054-e6b8-1eafa9e9beac",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P154",
+							"hash": "23d2a4ba8b52c6eccc82cbd04b281108f8e71daa",
+							"datavalue": {
+								"value": "Android logo (2019-2023).svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "66d16d15afb9a5d83257061455cc790eddf2b9df",
+									"datavalue": {
+										"value": {
+											"time": "+2019-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P582": [
+								{
+									"snaktype": "value",
+									"property": "P582",
+									"hash": "f2a04c4f9ed9438562e6f7da0e4630b5af466a61",
+									"datavalue": {
+										"value": {
+											"time": "+2023-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580",
+							"P582"
+						],
+						"id": "Q94$1cd462ca-4d31-a694-524d-b5c9a567a24d",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P154",
+							"hash": "052b5b8f49948c8424b4721bdb78460a7e7a9b23",
+							"datavalue": {
+								"value": "Android logo 2023.svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "e18d3ba7a83b3a85bc3146e03813224f03817c66",
+									"datavalue": {
+										"value": {
+											"time": "+2023-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580"
+						],
+						"id": "Q94$68911057-4de5-e298-0360-b6389b50095b",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P154",
+							"hash": "20cce7aca0d71573e0e9ab4e642b657b8fc35516",
+							"datavalue": {
+								"value": "Android 2023 3D logo and wordmark.svg",
+								"type": "string"
+							},
+							"datatype": "commonsMedia"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P580": [
+								{
+									"snaktype": "value",
+									"property": "P580",
+									"hash": "e18d3ba7a83b3a85bc3146e03813224f03817c66",
+									"datavalue": {
+										"value": {
+											"time": "+2023-00-00T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P580"
+						],
+						"id": "Q94$ca47c804-453b-d0d1-f281-2bf7a1a70c4b",
+						"rank": "preferred"
+					}
+				],
+				"P9618": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P9618",
+							"hash": "84905aa51469665f45a8e19becba131b3370e45a",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$53cdb9f8-433f-335b-9191-f0747c6f9b2a",
+						"rank": "normal"
+					}
+				],
+				"P1036": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1036",
+							"hash": "e63c2babfe511dbd7c8bae9886480bcc7946c6bb",
+							"datavalue": {
+								"value": "005.25",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$19f036fa-48ca-282c-e746-83c5ae0740b8",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "cb653be049dbbc2486fe0f8a1d82bec00107e367",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 36578,
+													"id": "Q36578"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P227": [
+										{
+											"snaktype": "value",
+											"property": "P227",
+											"hash": "e60c0610b1fc7375c72a9d34a97ac74cd637a6a9",
+											"datavalue": {
+												"value": "7635475-1",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 188,
+													"id": "Q188"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "88da55a5e9c6059f581a52b88dbbd8d5c0efc753",
+											"datavalue": {
+												"value": {
+													"time": "+2021-06-09T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P227",
+									"P407",
+									"P813"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1036",
+							"hash": "804e218d3b96e900884930b0671bc2fb38587b01",
+							"datavalue": {
+								"value": "005.445",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$dd5db8a0-4961-ff99-9353-1ac9f60f1168",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "cb653be049dbbc2486fe0f8a1d82bec00107e367",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 36578,
+													"id": "Q36578"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P227": [
+										{
+											"snaktype": "value",
+											"property": "P227",
+											"hash": "e60c0610b1fc7375c72a9d34a97ac74cd637a6a9",
+											"datavalue": {
+												"value": "7635475-1",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 188,
+													"id": "Q188"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "88da55a5e9c6059f581a52b88dbbd8d5c0efc753",
+											"datavalue": {
+												"value": {
+													"time": "+2021-06-09T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P227",
+									"P407",
+									"P813"
+								]
+							}
+						]
+					}
+				],
+				"P3553": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P3553",
+							"hash": "dca2c34b21b672ee1e4495e4926998312ad23413",
+							"datavalue": {
+								"value": "19603145",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q94$B2683F4E-112E-4481-8DCF-9577124F5D92",
+						"rank": "normal"
+					}
+				],
+				"P9621": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P9621",
+							"hash": "5a354569328b592f7778a2334cc0c33976745e55",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "40bf0475f88982bce18d4b5a655e45c65367302a",
+									"datavalue": {
+										"value": "Android",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							],
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"hash": "ccd6ea06a2c9c0f54f5b1f45991a659225b5f4ef",
+									"datavalue": {
+										"value": {
+											"time": "+2013-01-01T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 9,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810",
+							"P577"
+						],
+						"id": "Q94$63C79FA5-F793-4147-AA3F-4D0BD62F5AC8",
+						"rank": "normal"
+					}
+				],
+				"P4644": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P4644",
+							"hash": "2d634fa8affda532a43c3daf75bdab3b40024aec",
+							"datavalue": {
+								"value": "d8829a1d-dbde-435b-b921-29d6462f35c9",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$15BFABAB-0710-4FE6-A17B-0792D94D82D9",
+						"rank": "normal"
+					}
+				],
+				"P6009": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6009",
+							"hash": "2a8b48976d8ca8c218401be46cd8b0a1c6ee58eb",
+							"datavalue": {
+								"value": "14873",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$C6ED5804-D531-4CC2-9A90-2821CDACF48C",
+						"rank": "normal"
+					}
+				],
+				"P4342": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P4342",
+							"hash": "f7f242ce47861b90c242eab33b36e2ca6027a1d7",
+							"datavalue": {
+								"value": "Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$87FCB174-977F-48FD-985F-BB72E73D2877",
+						"rank": "normal"
+					}
+				],
+				"P7840": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P7840",
+							"hash": "ecc0cfd96497cb1336c622913065bfb06231d7c2",
+							"datavalue": {
+								"value": "Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$1BC1ED2C-1BB3-4471-99ED-DB453B05A2C8",
+						"rank": "normal"
+					}
+				],
+				"P7666": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P7666",
+							"hash": "73c824c5a9f315028c22117a8303cde278bd4623",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$61195C9C-B261-44A4-98B5-B58102F95D51",
+						"rank": "normal"
+					}
+				],
+				"P8687": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8687",
+							"hash": "efa51c75454bfc1aa5ab67b7461766baa082f530",
+							"datavalue": {
+								"value": {
+									"amount": "+940000",
+									"unit": "1",
+									"upperBound": "+940999",
+									"lowerBound": "+940000"
+								},
+								"type": "quantity"
+							},
+							"datatype": "quantity"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P2397": [
+								{
+									"snaktype": "value",
+									"property": "P2397",
+									"hash": "3f79b0b1774adf4a16ce1b56e0b8b7476a2f78f0",
+									"datavalue": {
+										"value": "UC9M7-jzdU8CVrQo1JwmIdWA",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P585": [
+								{
+									"snaktype": "value",
+									"property": "P585",
+									"hash": "c05cdafb0975b5293443e2f8bf4b50551d609bc5",
+									"datavalue": {
+										"value": {
+											"time": "+2021-07-02T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P2397",
+							"P585"
+						],
+						"id": "Q94$7bad790d-bb69-441d-a08c-9f45bcdd3ed8",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8687",
+							"hash": "f7f388cefc62ca5b74358d555cc141c49d347d23",
+							"datavalue": {
+								"value": {
+									"amount": "+972000",
+									"unit": "1",
+									"upperBound": "+972999",
+									"lowerBound": "+972000"
+								},
+								"type": "quantity"
+							},
+							"datatype": "quantity"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P2397": [
+								{
+									"snaktype": "value",
+									"property": "P2397",
+									"hash": "3f79b0b1774adf4a16ce1b56e0b8b7476a2f78f0",
+									"datavalue": {
+										"value": "UC9M7-jzdU8CVrQo1JwmIdWA",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P585": [
+								{
+									"snaktype": "value",
+									"property": "P585",
+									"hash": "a8bd43a0e4d959a5c9c558c2834b81311ce9054b",
+									"datavalue": {
+										"value": {
+											"time": "+2023-03-22T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P2397",
+							"P585"
+						],
+						"id": "Q94$f95ef07b-33a4-42e6-a9af-0b2610c15fa9",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "58a6269a7282347320705325b7864f6a78658db2",
+								"snaks": {
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "b30214ab2341df33eaf6cd0166751459da477f79",
+											"datavalue": {
+												"value": {
+													"time": "+2023-03-22T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 8056784,
+													"id": "Q8056784"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									]
+								},
+								"snaks-order": [
+									"P813",
+									"P248"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8687",
+							"hash": "8775d9765385e47971293e803051ebaa3ddb77be",
+							"datavalue": {
+								"value": {
+									"amount": "+1000000",
+									"unit": "1",
+									"upperBound": "+1009999",
+									"lowerBound": "+1000000"
+								},
+								"type": "quantity"
+							},
+							"datatype": "quantity"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P2397": [
+								{
+									"snaktype": "value",
+									"property": "P2397",
+									"hash": "3f79b0b1774adf4a16ce1b56e0b8b7476a2f78f0",
+									"datavalue": {
+										"value": "UC9M7-jzdU8CVrQo1JwmIdWA",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P585": [
+								{
+									"snaktype": "value",
+									"property": "P585",
+									"hash": "57899951a459f2a1e65bc37a293d444dcc7c9256",
+									"datavalue": {
+										"value": {
+											"time": "+2024-01-15T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P2397",
+							"P585"
+						],
+						"id": "Q94$0b011721-57ec-4d08-a3ac-7dd81c6ae255",
+						"rank": "preferred",
+						"references": [
+							{
+								"hash": "ba88cc545322162fa9218501a7ffcfb900c96108",
+								"snaks": {
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "38eab0f0140de1e1bce1fb0e53e22b3dfc5a16e8",
+											"datavalue": {
+												"value": {
+													"time": "+2024-01-15T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 8056784,
+													"id": "Q8056784"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									]
+								},
+								"snaks-order": [
+									"P813",
+									"P248"
+								]
+							}
+						]
+					}
+				],
+				"P9984": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P9984",
+							"hash": "0fc1aa1b4cdf85befffa3673f1bf2e56f424c4ff",
+							"datavalue": {
+								"value": "981058614871106706",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$B1919457-EAFD-495B-8CDC-C067692195D9",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "cc8799e81616743f8fd4a4eeb0bc0b7b711477dd",
+								"snaks": {
+									"P214": [
+										{
+											"snaktype": "value",
+											"property": "P214",
+											"hash": "577a70396229e2c2906e58cda7b31167dcb2807a",
+											"datavalue": {
+												"value": "316754250",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									]
+								},
+								"snaks-order": [
+									"P214"
+								]
+							}
+						]
+					}
+				],
+				"P8189": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8189",
+							"hash": "0279c5e46c6909b3297d4a4ed558396e93ffb677",
+							"datavalue": {
+								"value": "987007460408105171",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$AE84D2B0-90D5-4D53-B76E-602DFE1705D8",
+						"rank": "normal"
+					}
+				],
+				"P10283": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10283",
+							"hash": "335c5ce5b01c6c261fb3fdc8986ce127c9849e61",
+							"datavalue": {
+								"value": "C3017891749",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$06526C2A-6A29-4A22-BB11-2B4114579C57",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 107507571,
+													"id": "Q107507571"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+											"datavalue": {
+												"value": {
+													"time": "+2022-01-26T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+											"datavalue": {
+												"value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P813",
+									"P854"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10283",
+							"hash": "a2529eba43a23eedcef6edf1b56ebae4b59ce069",
+							"datavalue": {
+								"value": "C557433098",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$F314EF90-0322-4B20-8401-942907F6893E",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 107507571,
+													"id": "Q107507571"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+											"datavalue": {
+												"value": {
+													"time": "+2022-01-26T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+											"datavalue": {
+												"value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P813",
+									"P854"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10283",
+							"hash": "bbab2e7b4723a0463c84c7baede403e01140a7e7",
+							"datavalue": {
+								"value": "C2988045736",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$112FE30B-A8C9-464B-945A-7E952A8C1DB1",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 107507571,
+													"id": "Q107507571"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+											"datavalue": {
+												"value": {
+													"time": "+2022-01-26T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+											"datavalue": {
+												"value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P813",
+									"P854"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10283",
+							"hash": "389cb06bd8041e9eec5d61afed02122e93549b24",
+							"datavalue": {
+								"value": "C2989133298",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$F5E27305-D026-40AB-8043-9E8707E2FDCA",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 107507571,
+													"id": "Q107507571"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+											"datavalue": {
+												"value": {
+													"time": "+2022-01-26T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									],
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+											"datavalue": {
+												"value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P813",
+									"P854"
+								]
+							}
+						]
+					}
+				],
+				"P8313": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8313",
+							"hash": "3a214a183c339676eacf305c1324e650b523d3be",
+							"datavalue": {
+								"value": "Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$215FE495-1BB9-43D2-9AAF-6F3E754FDB4D",
+						"rank": "normal"
+					}
+				],
+				"P691": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P691",
+							"hash": "afd44f75497556212351967926daabe206ec8577",
+							"datavalue": {
+								"value": "ph636353",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P1810": [
+								{
+									"snaktype": "value",
+									"property": "P1810",
+									"hash": "9b13fdb3495da4dd7694d8d64d354689bd9bca73",
+									"datavalue": {
+										"value": "Android (operační systém)",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P1810"
+						],
+						"id": "Q94$715DB545-6F90-4221-96D4-7B3DFFA05EA7",
+						"rank": "normal"
+					}
+				],
+				"P1972": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1972",
+							"hash": "b4e8089e481dca6536169bf7e24c92cb8907fa4a",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$5c964090-4cb5-2e02-c380-289b790b9464",
+						"rank": "normal"
+					}
+				],
+				"P2572": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P2572",
+							"hash": "834e8642da40e5b61f04a4d3743dc8687b7294c4",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "string"
+						},
+						"type": "statement",
+						"id": "Q94$5D43DA10-D3EC-4ADA-97B1-E29D3E78B031",
+						"rank": "normal"
+					}
+				],
+				"P822": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P822",
+							"hash": "f0bf749e06ca10494b6491aff1c90301e0872a24",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 115382893,
+									"id": "Q115382893"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$2b19c4fd-441e-0c6f-c320-aee7a2e9fce5",
+						"rank": "normal"
+					}
+				],
+				"P11337": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P11337",
+							"hash": "99124099b0b7862dec29ef88cb52a4bb86345a43",
+							"datavalue": {
+								"value": "1471182551540715528",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$DB4FA331-F6B8-46C9-A96F-7B3765A26D9C",
+						"rank": "normal"
+					}
+				],
+				"P6760": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6760",
+							"hash": "360756399e615d45ae3b887f7fb02fa8aab1e47b",
+							"datavalue": {
+								"value": "11358",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$d6c9c049-4d78-6c5b-0b4f-fa5593f2cc70",
+						"rank": "normal"
+					}
+				],
+				"P11540": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P11540",
+							"hash": "c1df0c75f92964b8f6408fd49153185f84acf72b",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$2699b0f2-4a57-2138-0245-96c1946ab39b",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "a87842003774ac7a86944d50441113926cb794ad",
+								"snaks": {
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "0e2e05bd32f3aa909585c3cd9903cedb2e50fc7c",
+											"datavalue": {
+												"value": "https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/Glitchwave_platform_ID&oldid=1821174072",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P4656"
+								]
+							}
+						]
+					}
+				],
+				"P11196": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P11196",
+							"hash": "e87e2a47517893205de55f94e0a7a7f1b25106c9",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P3740": [
+								{
+									"snaktype": "value",
+									"property": "P3740",
+									"hash": "3d79b81e793abda033ff07eac00d93f5c52a8b83",
+									"datavalue": {
+										"value": {
+											"amount": "+34540938",
+											"unit": "1"
+										},
+										"type": "quantity"
+									},
+									"datatype": "quantity"
+								}
+							],
+							"P585": [
+								{
+									"snaktype": "value",
+									"property": "P585",
+									"hash": "f49040f82f5801abf0caaadaa611bf90e7e3947a",
+									"datavalue": {
+										"value": {
+											"time": "+2023-03-02T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P3740",
+							"P585"
+						],
+						"id": "Q94$83091082-C220-4C5C-8D07-49FA3157C202",
+						"rank": "normal"
+					}
+				],
+				"P11686": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P11686",
+							"hash": "b03ed2a0b6ba692d71ac097e68bfac7199311407",
+							"datavalue": {
+								"value": "981058614871106706",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$19665D5F-43F4-4CD5-A55B-4EEF04570950",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "cc8799e81616743f8fd4a4eeb0bc0b7b711477dd",
+								"snaks": {
+									"P214": [
+										{
+											"snaktype": "value",
+											"property": "P214",
+											"hash": "577a70396229e2c2906e58cda7b31167dcb2807a",
+											"datavalue": {
+												"value": "316754250",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									]
+								},
+								"snaks-order": [
+									"P214"
+								]
+							}
+						]
+					}
+				],
+				"P10376": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10376",
+							"hash": "a3c7b097f31c77b79eec86237b33a3290eca8ff2",
+							"datavalue": {
+								"value": "computer-science/android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$28f8e8b1-4e7c-c6ed-1cfc-bfc8607508ea",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10376",
+							"hash": "103c2c9ac8ba15e0b77b9715601565b2ee191853",
+							"datavalue": {
+								"value": "psychology/android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$63d8a8c9-40fd-6431-d90f-68f2862636b1",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10376",
+							"hash": "b641ec5ad43b6176ee02cb25624de22ea444e06f",
+							"datavalue": {
+								"value": "mathematics/android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$9bfd0d12-4340-290b-b2ca-d9a21beb7710",
+						"rank": "normal"
+					}
+				],
+				"P11245": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P11245",
+							"hash": "e8cf185137edacbc53cf7cdeefe8fca161838d80",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P2397": [
+								{
+									"snaktype": "value",
+									"property": "P2397",
+									"hash": "3f79b0b1774adf4a16ce1b56e0b8b7476a2f78f0",
+									"datavalue": {
+										"value": "UC9M7-jzdU8CVrQo1JwmIdWA",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P2397"
+						],
+						"id": "Q94$a021774c-4efa-da33-0197-c8b49d1bf8de",
+						"rank": "normal"
+					}
+				],
+				"P1617": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1617",
+							"hash": "8a631ad984fcf06d25f8927981d3e6d7e3c385a4",
+							"datavalue": {
+								"value": "fba58174-597a-4a3e-a97b-42c59e085eb2",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$97801b68-7269-4178-af9f-ab1dec068c0d",
+						"rank": "normal"
+					}
+				],
+				"P6200": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P6200",
+							"hash": "91a15c66527d5532a7b58e3ea405e4fbf867d932",
+							"datavalue": {
+								"value": "crv19w14wg8t",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$edc635c0-a62e-41fb-bbcc-fd1cf4bc075d",
+						"rank": "normal"
+					}
+				],
+				"P11947": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P11947",
+							"hash": "43dd4db2af81d282d0b6eaca6ce92b9f68853596",
+							"datavalue": {
+								"value": "android@lemmy.world",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$55F46373-9FBB-4A15-8C3D-4969E9D8495E",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "27d7c41c7165167e44faa60d4a8e2c62148ca380",
+								"snaks": {
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "2552bd007ee246824d049bbc36f16d3c46cd9ada",
+											"datavalue": {
+												"value": "https://www.wikidata.org/wiki/Wikidata:Property_proposal/Lemmy_community_identifier",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P4656"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P11947",
+							"hash": "2dc8aca705562020ae4bea6cb527688627a1c42e",
+							"datavalue": {
+								"value": "android@lemmy.ml",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$56f115ba-47fc-8402-c08d-0bf0618059c4",
+						"rank": "normal"
+					}
+				],
+				"P12216": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12216",
+							"hash": "a31c85d97c1cb7869af27d5be056bb757862e1fc",
+							"datavalue": {
+								"value": "123",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$C912AA09-3095-4993-9ADF-5CBB55E4F2EC",
+						"rank": "normal"
+					}
+				],
+				"P12086": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12086",
+							"hash": "631206627518cd5674b60336abc5b4a8c08632d2",
+							"datavalue": {
+								"value": "Android_(besturingssysteem)",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$D1379616-15EA-4C43-A993-1BD4E91AA891",
+						"rank": "normal"
+					}
+				],
+				"P12385": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12385",
+							"hash": "3df9ba9a0b86ee0369012fb8e5c42299c71f1acd",
+							"datavalue": {
+								"value": "android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$7efd3719-a0d9-42bb-9ab6-2c9e8b431e7f",
+						"rank": "normal"
+					}
+				],
+				"P1889": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1889",
+							"hash": "95d332a08503fd823e8ada41514c6dd1986ef0f6",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 181787,
+									"id": "Q181787"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$3AA72B65-E0A4-4EB1-BE38-D232C9D0B81F",
+						"rank": "normal"
+					}
+				],
+				"P12508": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12508",
+							"hash": "684289a8d293f07234a76fbcc7a3501cbf57174d",
+							"datavalue": {
+								"value": "176/01",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$9B648D17-4814-42A4-8144-7128DEBBD5B8",
+						"rank": "normal"
+					}
+				],
+				"P3847": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P3847",
+							"hash": "f9d5698ff63b150036f8f134c2498db080465f4d",
+							"datavalue": {
+								"value": "android_(electronic_resource)",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$41356f81-48cc-aa4d-ae8d-58f0933dd84e",
+						"rank": "normal"
+					}
+				],
+				"P7788": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P7788",
+							"hash": "658bc692000d19b984e8f43e1ed9d925ea0d49cc",
+							"datavalue": {
+								"value": "motoya-lcedar-fonts",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$a973d149-5482-425b-8a29-c93a9f2b903d",
+						"rank": "normal"
+					}
+				],
+				"P12695": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12695",
+							"hash": "aeb4765c20d0c47b84cbec710ebd39501285d7ac",
+							"datavalue": {
+								"value": "Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "Q94$02103648-C041-4CE8-B85D-E2027B148C03",
+						"rank": "normal"
+					}
+				],
+				"P12873": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P12873",
+							"hash": "a5d8e1552a328d81354d70b64d9b26d453ec5ec7",
+							"datavalue": {
+								"value": "Android",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P9675": [
+								{
+									"snaktype": "value",
+									"property": "P9675",
+									"hash": "e821b6f7f603190a315f9ef957887b8a8a4febca",
+									"datavalue": {
+										"value": "9906",
+										"type": "string"
+									},
+									"datatype": "string"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P9675"
+						],
+						"id": "Q94$D19D71B3-9E28-4385-A803-6FFA1C7FFF05",
+						"rank": "normal"
+					}
+				],
+				"P1343": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1343",
+							"hash": "ee37ed1b058aeea099e3833af9844f170f6274ba",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 130273018,
+									"id": "Q130273018"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"qualifiers": {
+							"P2699": [
+								{
+									"snaktype": "value",
+									"property": "P2699",
+									"hash": "6546dab1d8e89d8228cdbddfb179f6773f9ad0cd",
+									"datavalue": {
+										"value": "https://cs.android.com/android",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P518": [
+								{
+									"snaktype": "value",
+									"property": "P518",
+									"hash": "04e4ff9a54046dd49c67c859d29d503bc7e19e4c",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 128751,
+											"id": "Q128751"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"qualifiers-order": [
+							"P2699",
+							"P518"
+						],
+						"id": "Q94$5412a2a5-4618-e283-2781-aaf494e1e4f9",
+						"rank": "normal"
+					}
+				],
+				"P1448": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1448",
+							"hash": "3dea011f97bca648eac1b2044ee6adbe14e4607f",
+							"datavalue": {
+								"value": {
+									"text": "Android",
+									"language": "en"
+								},
+								"type": "monolingualtext"
+							},
+							"datatype": "monolingualtext"
+						},
+						"type": "statement",
+						"id": "Q94$7ad34247-4254-02db-eff5-9580d0150ce3",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "df0c6f27b53418530f9123e7aecc85bf8202d7fa",
+								"snaks": {
+									"P854": [
+										{
+											"snaktype": "value",
+											"property": "P854",
+											"hash": "e803c024a44d0181681b651be3708e0626283b11",
+											"datavalue": {
+												"value": "https://www.android.com/",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									],
+									"P1476": [
+										{
+											"snaktype": "value",
+											"property": "P1476",
+											"hash": "f01db0c77db7fceaee779cb0fb32f8f20b3de103",
+											"datavalue": {
+												"value": {
+													"text": "Android | Do More With Google on Android Phones & Devices",
+													"language": "en"
+												},
+												"type": "monolingualtext"
+											},
+											"datatype": "monolingualtext"
+										}
+									],
+									"P407": [
+										{
+											"snaktype": "value",
+											"property": "P407",
+											"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 1860,
+													"id": "Q1860"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "87c17baac7ea46e9e1467b5c352eca0e30ff54de",
+											"datavalue": {
+												"value": {
+													"time": "+2024-09-28T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P854",
+									"P1476",
+									"P407",
+									"P813"
+								]
+							}
+						]
+					}
+				],
+				"P1015": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P1015",
+							"hash": "9a886d24d704b8ee1d024747a7e282dfc8689cbe",
+							"datavalue": {
+								"value": "12064211",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "q94$eee338f6-494c-760f-c331-0c665f58e02a",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "45eb4faf0422538f03d7b00a5acf7a4fd9f24323",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 54919,
+													"id": "Q54919"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P214": [
+										{
+											"snaktype": "value",
+											"property": "P214",
+											"hash": "577a70396229e2c2906e58cda7b31167dcb2807a",
+											"datavalue": {
+												"value": "316754250",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "3df78ed2af3410ec1694bde37de4a3770372374a",
+											"datavalue": {
+												"value": {
+													"time": "+2024-10-21T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P214",
+									"P813"
+								]
+							}
+						]
+					}
+				],
+				"P8179": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P8179",
+							"hash": "2755a088bbd8b1acb3ecea7f76c522825ab2fd22",
+							"datavalue": {
+								"value": "ncf10782308",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "q94$cf1899d9-4c18-7afe-fc5e-d07bc43e36b6",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "45eb4faf0422538f03d7b00a5acf7a4fd9f24323",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 54919,
+													"id": "Q54919"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P214": [
+										{
+											"snaktype": "value",
+											"property": "P214",
+											"hash": "577a70396229e2c2906e58cda7b31167dcb2807a",
+											"datavalue": {
+												"value": "316754250",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "3df78ed2af3410ec1694bde37de4a3770372374a",
+											"datavalue": {
+												"value": {
+													"time": "+2024-10-21T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P214",
+									"P813"
+								]
+							}
+						]
+					}
+				],
+				"P10227": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P10227",
+							"hash": "fe2d7dfb78b6eac909372274d55b930d672b9a04",
+							"datavalue": {
+								"value": "vtls002066420",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "q94$8958aec5-4f86-bee4-9f37-55658ee823f6",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "45eb4faf0422538f03d7b00a5acf7a4fd9f24323",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 54919,
+													"id": "Q54919"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P214": [
+										{
+											"snaktype": "value",
+											"property": "P214",
+											"hash": "577a70396229e2c2906e58cda7b31167dcb2807a",
+											"datavalue": {
+												"value": "316754250",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "3df78ed2af3410ec1694bde37de4a3770372374a",
+											"datavalue": {
+												"value": {
+													"time": "+2024-10-21T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P214",
+									"P813"
+								]
+							}
+						]
+					}
+				],
+				"P269": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P269",
+							"hash": "cc5219c7e8e1dc883eced1b6ec148c5562f05f28",
+							"datavalue": {
+								"value": "140430504",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						},
+						"type": "statement",
+						"id": "q94$c007d8b2-46a2-8d9d-82b4-2e79b9e7cb98",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "45eb4faf0422538f03d7b00a5acf7a4fd9f24323",
+								"snaks": {
+									"P248": [
+										{
+											"snaktype": "value",
+											"property": "P248",
+											"hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 54919,
+													"id": "Q54919"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P214": [
+										{
+											"snaktype": "value",
+											"property": "P214",
+											"hash": "577a70396229e2c2906e58cda7b31167dcb2807a",
+											"datavalue": {
+												"value": "316754250",
+												"type": "string"
+											},
+											"datatype": "external-id"
+										}
+									],
+									"P813": [
+										{
+											"snaktype": "value",
+											"property": "P813",
+											"hash": "3df78ed2af3410ec1694bde37de4a3770372374a",
+											"datavalue": {
+												"value": {
+													"time": "+2024-10-21T00:00:00Z",
+													"timezone": 0,
+													"before": 0,
+													"after": 0,
+													"precision": 11,
+													"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+												},
+												"type": "time"
+											},
+											"datatype": "time"
+										}
+									]
+								},
+								"snaks-order": [
+									"P248",
+									"P214",
+									"P813"
+								]
+							}
+						]
+					}
+				],
+				"P407": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "c757ac6da9712097bc0871742564687f009a3f64",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 20923490,
+									"id": "Q20923490"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$1CC272E8-13B9-4CD5-BCE5-2A2AF9F5640A",
+						"rank": "preferred"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1860,
+									"id": "Q1860"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$59e473f6-4335-0586-3442-556512b3a899",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+								"snaks": {
+									"P143": [
+										{
+											"snaktype": "value",
+											"property": "P143",
+											"hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 206855,
+													"id": "Q206855"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									]
+								},
+								"snaks-order": [
+									"P143"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "d858d1b9f6e6e383f38dfbe706d102f056c07312",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 5287,
+									"id": "Q5287"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$ab076e59-47f1-30dc-bfc9-4ad900623871",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "d291ddb7cd77c94a7bd709a8395934147e0864fc",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 7737,
+									"id": "Q7737"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$101c5530-45e6-989e-cb45-fdc231c6b485",
+						"rank": "normal",
+						"references": [
+							{
+								"hash": "d80f5e662c2ec8b2f20f8cfd53da49150dd7d7de",
+								"snaks": {
+									"P143": [
+										{
+											"snaktype": "value",
+											"property": "P143",
+											"hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+											"datavalue": {
+												"value": {
+													"entity-type": "item",
+													"numeric-id": 206855,
+													"id": "Q206855"
+												},
+												"type": "wikibase-entityid"
+											},
+											"datatype": "wikibase-item"
+										}
+									],
+									"P4656": [
+										{
+											"snaktype": "value",
+											"property": "P4656",
+											"hash": "ee89a41cfc59e77c02fcb8492a7f9f0349edb9f5",
+											"datavalue": {
+												"value": "https://ru.wikipedia.org/?oldid=97646670",
+												"type": "string"
+											},
+											"datatype": "url"
+										}
+									]
+								},
+								"snaks-order": [
+									"P143",
+									"P4656"
+								]
+							}
+						]
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "3b33ca235f16338704ecefe35d73712fbf0377a5",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 7850,
+									"id": "Q7850"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$27343b70-4d1d-fec5-f42b-7340896f3970",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "be63730b87f6f8cb3f19e6f244d57b5891ea8593",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 7033959,
+									"id": "Q7033959"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$ffdba469-4f05-95f1-24f3-1155bb6ea5f8",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "2ab2e485ce235a18142330fa1873a5bba7115d23",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 652,
+									"id": "Q652"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$99136375-4c38-33cd-59a5-f91e81105510",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "ec06d5af7af836fa6b5c49e9b0ded85c8ab48b12",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 7026,
+									"id": "Q7026"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$f509c80b-4bf6-e248-c972-a26aa2c1d2f3",
+						"rank": "normal"
+					},
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "ffe70325d10cfc55f0dca807ed80ca0b5b97c472",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1321,
+									"id": "Q1321"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$86c5b8bc-444e-0459-d287-aa9d2b5ec466",
+						"rank": "normal"
+					}
+				],
+				"P279": [
+					{
+						"mainsnak": {
+							"snaktype": "value",
+							"property": "P279",
+							"hash": "d66912d6cdc656568896303fe28fef5cae53f173",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 9135,
+									"id": "Q9135"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						"type": "statement",
+						"id": "Q94$5eb6582b-4a1c-a5d0-ee99-6b36b9d3cdc8",
+						"rank": "normal"
+					}
 				]
 			},
 			"sitelinks": {
 				"afwiki": {
 					"site": "afwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://af.wikipedia.org/wiki/Android"
 				},
 				"alswiki": {
 					"site": "alswiki",
 					"title": "Android (Betriebssystem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://als.wikipedia.org/wiki/Android_(Betriebssystem)"
 				},
 				"angwiki": {
 					"site": "angwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ang.wikipedia.org/wiki/Android"
+				},
+				"annwiki": {
+					"site": "annwiki",
+					"title": "Andurọid",
+					"badges": [],
+					"url": "https://ann.wikipedia.org/wiki/Andur%E1%BB%8Did"
 				},
 				"anwiki": {
 					"site": "anwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://an.wikipedia.org/wiki/Android"
 				},
 				"arwiki": {
 					"site": "arwiki",
-					"title": "\u0623\u0646\u062f\u0631\u0648\u064a\u062f (\u0646\u0638\u0627\u0645 \u062a\u0634\u063a\u064a\u0644)",
-					"badges": [
-			  
-					]
+					"title": "أندرويد (نظام تشغيل)",
+					"badges": [],
+					"url": "https://ar.wikipedia.org/wiki/%D8%A3%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF_(%D9%86%D8%B8%D8%A7%D9%85_%D8%AA%D8%B4%D8%BA%D9%8A%D9%84)"
 				},
 				"arzwiki": {
 					"site": "arzwiki",
-					"title": "\u0627\u0646\u062f\u0631\u0648\u064a\u062f",
-					"badges": [
-			  
-					]
+					"title": "اندرويد",
+					"badges": [],
+					"url": "https://arz.wikipedia.org/wiki/%D8%A7%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF"
 				},
 				"astwiki": {
 					"site": "astwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ast.wikipedia.org/wiki/Android"
 				},
 				"aswiki": {
 					"site": "aswiki",
-					"title": "\u098f\u09a3\u09cd\u09a1\u09cd\u09f0\u0987\u09a1",
-					"badges": [
-			  
-					]
+					"title": "এণ্ড্ৰইড",
+					"badges": [],
+					"url": "https://as.wikipedia.org/wiki/%E0%A6%8F%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A7%8D%E0%A7%B0%E0%A6%87%E0%A6%A1"
 				},
 				"azbwiki": {
 					"site": "azbwiki",
-					"title": "\u0627\u0646\u062f\u0631\u0648\u06cc\u062f",
-					"badges": [
-			  
-					]
+					"title": "اندروید",
+					"badges": [],
+					"url": "https://azb.wikipedia.org/wiki/%D8%A7%D9%86%D8%AF%D8%B1%D9%88%DB%8C%D8%AF"
 				},
 				"azwiki": {
 					"site": "azwiki",
-					"title": "Android (\u0259m\u0259liyyat sistemi)",
-					"badges": [
-			  
-					]
+					"title": "Android",
+					"badges": [],
+					"url": "https://az.wikipedia.org/wiki/Android"
+				},
+				"banwiki": {
+					"site": "banwiki",
+					"title": "Android (sistem operasi)",
+					"badges": [],
+					"url": "https://ban.wikipedia.org/wiki/Android_(sistem_operasi)"
 				},
 				"barwiki": {
 					"site": "barwiki",
 					"title": "Android (Betriebssystem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://bar.wikipedia.org/wiki/Android_(Betriebssystem)"
 				},
 				"be_x_oldwiki": {
 					"site": "be_x_oldwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://be-tarask.wikipedia.org/wiki/Android"
 				},
 				"bewiki": {
 					"site": "bewiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://be.wikipedia.org/wiki/Android"
+				},
+				"bewwiki": {
+					"site": "bewwiki",
+					"title": "Android",
+					"badges": [],
+					"url": "https://bew.wikipedia.org/wiki/Android"
 				},
 				"bgwiki": {
 					"site": "bgwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://bg.wikipedia.org/wiki/Android"
 				},
 				"bhwiki": {
 					"site": "bhwiki",
-					"title": "\u090f\u0902\u0921\u094d\u0930\u0949\u0907\u0921",
-					"badges": [
-			  
-					]
+					"title": "एंड्रॉइड",
+					"badges": [],
+					"url": "https://bh.wikipedia.org/wiki/%E0%A4%8F%E0%A4%82%E0%A4%A1%E0%A5%8D%E0%A4%B0%E0%A5%89%E0%A4%87%E0%A4%A1"
+				},
+				"blkwiki": {
+					"site": "blkwiki",
+					"title": "အဲန်းဒရွဲ့ဒ် (တပန်ႏအီမိုဗုဲင်းစက်စနိစ်)",
+					"badges": [],
+					"url": "https://blk.wikipedia.org/wiki/%E1%80%A1%E1%80%B2%E1%80%94%E1%80%BA%E1%80%B8%E1%80%92%E1%80%9B%E1%80%BD%E1%80%B2%E1%80%B7%E1%80%92%E1%80%BA_(%E1%80%90%E1%80%95%E1%80%94%E1%80%BA%E1%82%8F%E1%80%A1%E1%80%AE%E1%80%99%E1%80%AD%E1%80%AF%E1%80%97%E1%80%AF%E1%80%B2%E1%80%84%E1%80%BA%E1%80%B8%E1%80%85%E1%80%80%E1%80%BA%E1%80%85%E1%80%94%E1%80%AD%E1%80%85%E1%80%BA)"
 				},
 				"bnwiki": {
 					"site": "bnwiki",
-					"title": "\u0985\u09cd\u09af\u09be\u09a8\u09a1\u09cd\u09b0\u09af\u09bc\u09c7\u09a1 (\u0985\u09aa\u09be\u09b0\u09c7\u099f\u09bf\u0982 \u09b8\u09bf\u09b8\u09cd\u099f\u09c7\u09ae)",
-					"badges": [
-						"Q17437798"
-					]
+					"title": "অ্যান্ড্রয়েড (অপারেটিং সিস্টেম)",
+					"badges": [],
+					"url": "https://bn.wikipedia.org/wiki/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%A1_(%E0%A6%85%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%9F%E0%A6%BF%E0%A6%82_%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE)"
 				},
 				"bnwikibooks": {
 					"site": "bnwikibooks",
-					"title": "\u0985\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09cd\u09b0\u09af\u09bc\u09c7\u09a1",
-					"badges": [
-			  
-					]
+					"title": "অ্যান্ড্রয়েড",
+					"badges": [],
+					"url": "https://bn.wikibooks.org/wiki/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%A1"
 				},
 				"brwiki": {
 					"site": "brwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://br.wikipedia.org/wiki/Android"
 				},
 				"bswiki": {
 					"site": "bswiki",
 					"title": "Android (operativni sistem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://bs.wikipedia.org/wiki/Android_(operativni_sistem)"
 				},
 				"cawiki": {
 					"site": "cawiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ca.wikipedia.org/wiki/Android"
 				},
 				"cawikibooks": {
 					"site": "cawikibooks",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ca.wikibooks.org/wiki/Android"
 				},
 				"cdowiki": {
 					"site": "cdowiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://cdo.wikipedia.org/wiki/Android"
+				},
+				"cebwiki": {
+					"site": "cebwiki",
+					"title": "Android",
+					"badges": [],
+					"url": "https://ceb.wikipedia.org/wiki/Android"
 				},
 				"cewiki": {
 					"site": "cewiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ce.wikipedia.org/wiki/Android"
 				},
 				"ckbwiki": {
 					"site": "ckbwiki",
-					"title": "\u0626\u06d5\u0646\u062f\u0631\u06c6\u06cc\u062f",
-					"badges": [
-			  
-					]
+					"title": "ئەندرۆید",
+					"badges": [],
+					"url": "https://ckb.wikipedia.org/wiki/%D8%A6%DB%95%D9%86%D8%AF%D8%B1%DB%86%DB%8C%D8%AF"
 				},
 				"commonswiki": {
 					"site": "commonswiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://commons.wikimedia.org/wiki/Android"
 				},
 				"cswiki": {
 					"site": "cswiki",
-					"title": "Android (opera\u010dn\u00ed syst\u00e9m)",
-					"badges": [
-			  
-					]
+					"title": "Android (operační systém)",
+					"badges": [],
+					"url": "https://cs.wikipedia.org/wiki/Android_(opera%C4%8Dn%C3%AD_syst%C3%A9m)"
 				},
 				"cywiki": {
 					"site": "cywiki",
 					"title": "Android (system weithredu)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://cy.wikipedia.org/wiki/Android_(system_weithredu)"
 				},
 				"dawiki": {
 					"site": "dawiki",
-					"title": "Google Android",
-					"badges": [
-			  
-					]
+					"title": "Android",
+					"badges": [],
+					"url": "https://da.wikipedia.org/wiki/Android"
 				},
 				"dewiki": {
 					"site": "dewiki",
 					"title": "Android (Betriebssystem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://de.wikipedia.org/wiki/Android_(Betriebssystem)"
 				},
 				"dewikibooks": {
 					"site": "dewikibooks",
 					"title": "Googles Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://de.wikibooks.org/wiki/Googles_Android"
 				},
 				"dewikinews": {
 					"site": "dewikinews",
 					"title": "Kategorie:Android (Betriebssystem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://de.wikinews.org/wiki/Kategorie:Android_(Betriebssystem)"
 				},
 				"elwiki": {
 					"site": "elwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://el.wikipedia.org/wiki/Android"
 				},
 				"enwiki": {
 					"site": "enwiki",
 					"title": "Android (operating system)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://en.wikipedia.org/wiki/Android_(operating_system)"
 				},
 				"enwikibooks": {
 					"site": "enwikibooks",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://en.wikibooks.org/wiki/Android"
 				},
 				"eowiki": {
 					"site": "eowiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://eo.wikipedia.org/wiki/Android"
+				},
+				"eowikinews": {
+					"site": "eowikinews",
+					"title": "Kategorio:Androido",
+					"badges": [],
+					"url": "https://eo.wikinews.org/wiki/Kategorio:Androido"
 				},
 				"eswiki": {
 					"site": "eswiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://es.wikipedia.org/wiki/Android"
 				},
 				"etwiki": {
 					"site": "etwiki",
-					"title": "Android (operatsioonis\u00fcsteem)",
-					"badges": [
-			  
-					]
+					"title": "Android (operatsioonisüsteem)",
+					"badges": [],
+					"url": "https://et.wikipedia.org/wiki/Android_(operatsioonis%C3%BCsteem)"
 				},
 				"euwiki": {
 					"site": "euwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://eu.wikipedia.org/wiki/Android"
 				},
 				"fawiki": {
 					"site": "fawiki",
-					"title": "\u0627\u0646\u062f\u0631\u0648\u06cc\u062f",
-					"badges": [
-			  
-					]
+					"title": "اندروید",
+					"badges": [],
+					"url": "https://fa.wikipedia.org/wiki/%D8%A7%D9%86%D8%AF%D8%B1%D9%88%DB%8C%D8%AF"
 				},
 				"fiwiki": {
 					"site": "fiwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://fi.wikipedia.org/wiki/Android"
 				},
 				"frrwiki": {
 					"site": "frrwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://frr.wikipedia.org/wiki/Android"
 				},
 				"frwiki": {
 					"site": "frwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://fr.wikipedia.org/wiki/Android"
 				},
 				"frwikibooks": {
 					"site": "frwikibooks",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://fr.wikibooks.org/wiki/Android"
 				},
 				"frwikinews": {
 					"site": "frwikinews",
-					"title": "Cat\u00e9gorie:Android",
-					"badges": [
-			  
-					]
+					"title": "Catégorie:Android",
+					"badges": [],
+					"url": "https://fr.wikinews.org/wiki/Cat%C3%A9gorie:Android"
 				},
 				"gawiki": {
 					"site": "gawiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ga.wikipedia.org/wiki/Android"
 				},
 				"glwiki": {
 					"site": "glwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://gl.wikipedia.org/wiki/Android"
+				},
+				"guwiki": {
+					"site": "guwiki",
+					"title": "એન્ડ્રોઇડ (ઓપરેટિંગ સિસ્ટમ)",
+					"badges": [],
+					"url": "https://gu.wikipedia.org/wiki/%E0%AA%8F%E0%AA%A8%E0%AB%8D%E0%AA%A1%E0%AB%8D%E0%AA%B0%E0%AB%8B%E0%AA%87%E0%AA%A1_(%E0%AA%93%E0%AA%AA%E0%AA%B0%E0%AB%87%E0%AA%9F%E0%AA%BF%E0%AA%82%E0%AA%97_%E0%AA%B8%E0%AA%BF%E0%AA%B8%E0%AB%8D%E0%AA%9F%E0%AA%AE)"
 				},
 				"hakwiki": {
 					"site": "hakwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://hak.wikipedia.org/wiki/Android"
 				},
 				"hewiki": {
 					"site": "hewiki",
-					"title": "\u05d0\u05e0\u05d3\u05e8\u05d5\u05d0\u05d9\u05d3 (\u05de\u05e2\u05e8\u05db\u05ea \u05d4\u05e4\u05e2\u05dc\u05d4)",
-					"badges": [
-			  
-					]
+					"title": "אנדרואיד (מערכת הפעלה)",
+					"badges": [],
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%93%D7%A8%D7%95%D7%90%D7%99%D7%93_(%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA_%D7%94%D7%A4%D7%A2%D7%9C%D7%94)"
 				},
 				"hiwiki": {
 					"site": "hiwiki",
-					"title": "\u090f\u0902\u0921\u094d\u0930\u0949\u0907\u0921 (\u092a\u094d\u0930\u091a\u093e\u0932\u0928 \u0924\u0902\u0924\u094d\u0930)",
-					"badges": [
-			  
-					]
+					"title": "एंड्रॉइड (प्रचालन तंत्र)",
+					"badges": [],
+					"url": "https://hi.wikipedia.org/wiki/%E0%A4%8F%E0%A4%82%E0%A4%A1%E0%A5%8D%E0%A4%B0%E0%A5%89%E0%A4%87%E0%A4%A1_(%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8_%E0%A4%A4%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0)"
 				},
 				"hrwiki": {
 					"site": "hrwiki",
 					"title": "Android (operacijski sustav)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://hr.wikipedia.org/wiki/Android_(operacijski_sustav)"
 				},
 				"hsbwiki": {
 					"site": "hsbwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://hsb.wikipedia.org/wiki/Android"
 				},
 				"huwiki": {
 					"site": "huwiki",
-					"title": "Android (oper\u00e1ci\u00f3s rendszer)",
-					"badges": [
-			  
-					]
+					"title": "Android (operációs rendszer)",
+					"badges": [],
+					"url": "https://hu.wikipedia.org/wiki/Android_(oper%C3%A1ci%C3%B3s_rendszer)"
 				},
 				"hywiki": {
 					"site": "hywiki",
-					"title": "\u0531\u0576\u0564\u0580\u0578\u056b\u0564",
-					"badges": [
-			  
-					]
+					"title": "Անդրոիդ",
+					"badges": [],
+					"url": "https://hy.wikipedia.org/wiki/%D4%B1%D5%B6%D5%A4%D6%80%D5%B8%D5%AB%D5%A4"
+				},
+				"iawiki": {
+					"site": "iawiki",
+					"title": "Android",
+					"badges": [],
+					"url": "https://ia.wikipedia.org/wiki/Android"
 				},
 				"idwiki": {
 					"site": "idwiki",
 					"title": "Android (sistem operasi)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://id.wikipedia.org/wiki/Android_(sistem_operasi)"
+				},
+				"iowiki": {
+					"site": "iowiki",
+					"title": "Android (funcionanta sistemo)",
+					"badges": [],
+					"url": "https://io.wikipedia.org/wiki/Android_(funcionanta_sistemo)"
 				},
 				"iswiki": {
 					"site": "iswiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://is.wikipedia.org/wiki/Android"
 				},
 				"itwiki": {
 					"site": "itwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://it.wikipedia.org/wiki/Android"
 				},
 				"jawiki": {
 					"site": "jawiki",
-					"title": "Android (\u30aa\u30da\u30ec\u30fc\u30c6\u30a3\u30f3\u30b0\u30b7\u30b9\u30c6\u30e0)",
-					"badges": [
-			  
-					]
+					"title": "Android (オペレーティングシステム)",
+					"badges": [],
+					"url": "https://ja.wikipedia.org/wiki/Android_(%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)"
 				},
 				"jvwiki": {
 					"site": "jvwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://jv.wikipedia.org/wiki/Android"
 				},
 				"kawiki": {
 					"site": "kawiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ka.wikipedia.org/wiki/Android"
 				},
 				"kkwiki": {
 					"site": "kkwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://kk.wikipedia.org/wiki/Android"
+				},
+				"kmwiki": {
+					"site": "kmwiki",
+					"title": "អេនដ្រយ",
+					"badges": [],
+					"url": "https://km.wikipedia.org/wiki/%E1%9E%A2%E1%9F%81%E1%9E%93%E1%9E%8A%E1%9F%92%E1%9E%9A%E1%9E%99"
 				},
 				"knwiki": {
 					"site": "knwiki",
-					"title": "\u0c86\u0c82\u0ca1\u0ccd\u0cb0\u0cbe\u0caf\u0ccd\u0ca1\u0ccd (\u0c86\u0caa\u0cb0\u0cc7\u0c9f\u0cbf\u0c82\u0c97\u0ccd \u0cb8\u0cbf\u0cb8\u0ccd\u0c9f\u0c82)",
-					"badges": [
-			  
-					]
+					"title": "ಆಂಡ್ರಾಯ್ಡ್ (ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಂ)",
+					"badges": [],
+					"url": "https://kn.wikipedia.org/wiki/%E0%B2%86%E0%B2%82%E0%B2%A1%E0%B3%8D%E0%B2%B0%E0%B2%BE%E0%B2%AF%E0%B3%8D%E0%B2%A1%E0%B3%8D_(%E0%B2%86%E0%B2%AA%E0%B2%B0%E0%B3%87%E0%B2%9F%E0%B2%BF%E0%B2%82%E0%B2%97%E0%B3%8D_%E0%B2%B8%E0%B2%BF%E0%B2%B8%E0%B3%8D%E0%B2%9F%E0%B2%82)"
 				},
 				"kowiki": {
 					"site": "kowiki",
-					"title": "\uc548\ub4dc\ub85c\uc774\ub4dc (\uc6b4\uc601 \uccb4\uc81c)",
-					"badges": [
-			  
-					]
+					"title": "안드로이드 (운영체제)",
+					"badges": [],
+					"url": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_(%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C)"
+				},
+				"kswiki": {
+					"site": "kswiki",
+					"title": "اینڈرویِڈ",
+					"badges": [],
+					"url": "https://ks.wikipedia.org/wiki/%D8%A7%DB%8C%D9%86%DA%88%D8%B1%D9%88%DB%8C%D9%90%DA%88"
 				},
 				"kuwiki": {
 					"site": "kuwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ku.wikipedia.org/wiki/Android"
 				},
 				"kywiki": {
 					"site": "kywiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ky.wikipedia.org/wiki/Android"
 				},
 				"lowiki": {
 					"site": "lowiki",
-					"title": "\u0ec1\u0ead\u0e99\u0e94\u0ea3\u0ead\u0e8d\u0e94\u0ecc",
-					"badges": [
-			  
-					]
+					"title": "ແອນດຣອຍດ໌",
+					"badges": [],
+					"url": "https://lo.wikipedia.org/wiki/%E0%BB%81%E0%BA%AD%E0%BA%99%E0%BA%94%E0%BA%A3%E0%BA%AD%E0%BA%8D%E0%BA%94%E0%BB%8C"
 				},
 				"ltwiki": {
 					"site": "ltwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://lt.wikipedia.org/wiki/Android"
 				},
 				"lvwiki": {
 					"site": "lvwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://lv.wikipedia.org/wiki/Android"
 				},
 				"madwiki": {
 					"site": "madwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://mad.wikipedia.org/wiki/Android"
 				},
 				"maiwiki": {
 					"site": "maiwiki",
-					"title": "\u090f\u0928\u094d\u0921\u094d\u0930\u094b\u0907\u0921 (\u0938\u091e\u094d\u091a\u093e\u0932\u0928 \u092a\u094d\u0930\u0923\u093e\u0932\u0940)",
-					"badges": [
-			  
-					]
+					"title": "एन्ड्रोइड (सञ्चालन प्रणाली)",
+					"badges": [],
+					"url": "https://mai.wikipedia.org/wiki/%E0%A4%8F%E0%A4%A8%E0%A5%8D%E0%A4%A1%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%87%E0%A4%A1_(%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A3%E0%A4%BE%E0%A4%B2%E0%A5%80)"
 				},
 				"mgwiki": {
 					"site": "mgwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://mg.wikipedia.org/wiki/Android"
 				},
 				"mkwiki": {
 					"site": "mkwiki",
-					"title": "\u0410\u043d\u0434\u0440\u043e\u0438\u0434 (\u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u0435\u043d \u0441\u0438\u0441\u0442\u0435\u043c)",
-					"badges": [
-			  
-					]
+					"title": "Андроид (оперативен систем)",
+					"badges": [],
+					"url": "https://mk.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%B8%D0%B4_(%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%B5%D0%BD_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC)"
 				},
 				"mlwiki": {
 					"site": "mlwiki",
-					"title": "\u0d06\u0d7b\u0d21\u0d4d\u0d30\u0d4b\u0d2f\u0d4d\u0d21\u0d4d",
+					"title": "ആൻഡ്രോയ്ഡ്",
 					"badges": [
 						"Q17437796"
-					]
+					],
+					"url": "https://ml.wikipedia.org/wiki/%E0%B4%86%E0%B5%BB%E0%B4%A1%E0%B5%8D%E0%B4%B0%E0%B5%8B%E0%B4%AF%E0%B5%8D%E0%B4%A1%E0%B5%8D"
 				},
 				"mnwiki": {
 					"site": "mnwiki",
-					"title": "\u0410\u043d\u0434\u0440\u043e\u0439\u0434 (\u04af\u0439\u043b\u0434\u043b\u0438\u0439\u043d \u0441\u0438\u0441\u0442\u0435\u043c)",
-					"badges": [
-			  
-					]
+					"title": "Андройд (үйлдлийн систем)",
+					"badges": [],
+					"url": "https://mn.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%B9%D0%B4_(%D2%AF%D0%B9%D0%BB%D0%B4%D0%BB%D0%B8%D0%B9%D0%BD_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC)"
 				},
 				"mrwiki": {
 					"site": "mrwiki",
-					"title": "\u0905\u0945\u0928\u094d\u0921\u094d\u0930\u0949\u0907\u0921",
-					"badges": [
-			  
-					]
+					"title": "अँड्रॉईड",
+					"badges": [],
+					"url": "https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%81%E0%A4%A1%E0%A5%8D%E0%A4%B0%E0%A5%89%E0%A4%88%E0%A4%A1"
 				},
 				"mswiki": {
 					"site": "mswiki",
 					"title": "Android (sistem pengendalian)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ms.wikipedia.org/wiki/Android_(sistem_pengendalian)"
 				},
 				"mywiki": {
 					"site": "mywiki",
-					"title": "\u1021\u1014\u103a\u1038\u1012\u101b\u103d\u102d\u102f\u1000\u103a(\u1019\u102d\u102f\u1018\u102d\u102f\u1004\u103a\u1038\u101c\u103a\u1005\u1000\u103a\u101c\u100a\u103a\u1015\u1010\u103a\u101b\u1031\u1038\u1005\u1014\u1005\u103a)",
-					"badges": [
-			  
-					]
+					"title": "အန်းဒရွိုက် (မိုဘိုင်းလ်စက်လည်ပတ်ရေးစနစ်)",
+					"badges": [],
+					"url": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%94%E1%80%BA%E1%80%B8%E1%80%92%E1%80%9B%E1%80%BD%E1%80%AD%E1%80%AF%E1%80%80%E1%80%BA_(%E1%80%99%E1%80%AD%E1%80%AF%E1%80%98%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%B8%E1%80%9C%E1%80%BA%E1%80%85%E1%80%80%E1%80%BA%E1%80%9C%E1%80%8A%E1%80%BA%E1%80%95%E1%80%90%E1%80%BA%E1%80%9B%E1%80%B1%E1%80%B8%E1%80%85%E1%80%94%E1%80%85%E1%80%BA)"
 				},
 				"newiki": {
 					"site": "newiki",
-					"title": "\u090f\u0928\u094d\u0921\u094d\u0930\u094b\u0907\u0921 (\u0938\u091e\u094d\u091a\u093e\u0932\u0928 \u092a\u094d\u0930\u0923\u093e\u0932\u0940)",
-					"badges": [
-			  
-					]
+					"title": "एन्ड्रोइड (सञ्चालन प्रणाली)",
+					"badges": [],
+					"url": "https://ne.wikipedia.org/wiki/%E0%A4%8F%E0%A4%A8%E0%A5%8D%E0%A4%A1%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%87%E0%A4%A1_(%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A3%E0%A4%BE%E0%A4%B2%E0%A5%80)"
 				},
 				"nlwiki": {
 					"site": "nlwiki",
 					"title": "Android (besturingssysteem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://nl.wikipedia.org/wiki/Android_(besturingssysteem)"
 				},
 				"nnwiki": {
 					"site": "nnwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://nn.wikipedia.org/wiki/Android"
 				},
 				"nowiki": {
 					"site": "nowiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://no.wikipedia.org/wiki/Android"
 				},
 				"ocwiki": {
 					"site": "ocwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://oc.wikipedia.org/wiki/Android"
 				},
 				"orwiki": {
 					"site": "orwiki",
-					"title": "\u0b06\u0b23\u0b4d\u0b21\u0b4d\u0b30\u0b0f\u0b21\u0b3c",
-					"badges": [
-			  
-					]
+					"title": "ଆଣ୍ଡ୍ରଏଡ଼",
+					"badges": [],
+					"url": "https://or.wikipedia.org/wiki/%E0%AC%86%E0%AC%A3%E0%AD%8D%E0%AC%A1%E0%AD%8D%E0%AC%B0%E0%AC%8F%E0%AC%A1%E0%AC%BC"
 				},
 				"oswiki": {
 					"site": "oswiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://os.wikipedia.org/wiki/Android"
 				},
 				"papwiki": {
 					"site": "papwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://pap.wikipedia.org/wiki/Android"
 				},
 				"pawiki": {
 					"site": "pawiki",
-					"title": "\u0a10\u0a02\u0a21\u0a30\u0a4c\u0a07\u0a21 (\u0a14\u0a2a\u0a30\u0a47\u0a1f\u0a3f\u0a70\u0a17 \u0a38\u0a3f\u0a38\u0a1f\u0a2e)",
-					"badges": [
-			  
-					]
+					"title": "ਐਂਡਰੌਇਡ (ਔਪਰੇਟਿੰਗ ਸਿਸਟਮ)",
+					"badges": [],
+					"url": "https://pa.wikipedia.org/wiki/%E0%A8%90%E0%A8%82%E0%A8%A1%E0%A8%B0%E0%A9%8C%E0%A8%87%E0%A8%A1_(%E0%A8%94%E0%A8%AA%E0%A8%B0%E0%A9%87%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97_%E0%A8%B8%E0%A8%BF%E0%A8%B8%E0%A8%9F%E0%A8%AE)"
 				},
 				"plwiki": {
 					"site": "plwiki",
 					"title": "Android (system operacyjny)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://pl.wikipedia.org/wiki/Android_(system_operacyjny)"
 				},
 				"pmswiki": {
 					"site": "pmswiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://pms.wikipedia.org/wiki/Android"
 				},
 				"pnbwiki": {
 					"site": "pnbwiki",
-					"title": "\u0627\u06cc\u0646\u0688\u0631\u0648\u0626\u06cc\u0688",
-					"badges": [
-			  
-					]
+					"title": "اینڈروئیڈ",
+					"badges": [],
+					"url": "https://pnb.wikipedia.org/wiki/%D8%A7%DB%8C%D9%86%DA%88%D8%B1%D9%88%D8%A6%DB%8C%DA%88"
+				},
+				"pswiki": {
+					"site": "pswiki",
+					"title": "انډرايد (د عامل سيستم)",
+					"badges": [],
+					"url": "https://ps.wikipedia.org/wiki/%D8%A7%D9%86%DA%89%D8%B1%D8%A7%D9%8A%D8%AF_(%D8%AF_%D8%B9%D8%A7%D9%85%D9%84_%D8%B3%D9%8A%D8%B3%D8%AA%D9%85)"
 				},
 				"ptwiki": {
 					"site": "ptwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://pt.wikipedia.org/wiki/Android"
 				},
 				"ptwikibooks": {
 					"site": "ptwikibooks",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://pt.wikibooks.org/wiki/Android"
+				},
+				"ptwikinews": {
+					"site": "ptwikinews",
+					"title": "Categoria:Android",
+					"badges": [],
+					"url": "https://pt.wikinews.org/wiki/Categoria:Android"
+				},
+				"ptwikiquote": {
+					"site": "ptwikiquote",
+					"title": "Android",
+					"badges": [],
+					"url": "https://pt.wikiquote.org/wiki/Android"
+				},
+				"quwiki": {
+					"site": "quwiki",
+					"title": "Android",
+					"badges": [],
+					"url": "https://qu.wikipedia.org/wiki/Android"
 				},
 				"rowiki": {
 					"site": "rowiki",
 					"title": "Android (sistem de operare)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ro.wikipedia.org/wiki/Android_(sistem_de_operare)"
 				},
 				"ruwiki": {
 					"site": "ruwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ru.wikipedia.org/wiki/Android"
 				},
 				"ruwikinews": {
 					"site": "ruwikinews",
-					"title": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f:Android",
-					"badges": [
-			  
-					]
+					"title": "Категория:Android",
+					"badges": [],
+					"url": "https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:Android"
 				},
 				"sahwiki": {
 					"site": "sahwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://sah.wikipedia.org/wiki/Android"
 				},
 				"scowiki": {
 					"site": "scowiki",
 					"title": "Android (operatin seestem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://sco.wikipedia.org/wiki/Android_(operatin_seestem)"
 				},
 				"sdwiki": {
 					"site": "sdwiki",
-					"title": "\u0627\u064a\u0646\u068a\u0631\u0648\u0626\u064a\u068a",
-					"badges": [
-			  
-					]
+					"title": "اينڊروئيڊ",
+					"badges": [],
+					"url": "https://sd.wikipedia.org/wiki/%D8%A7%D9%8A%D9%86%DA%8A%D8%B1%D9%88%D8%A6%D9%8A%DA%8A"
 				},
 				"shnwiki": {
 					"site": "shnwiki",
-					"title": "\u1022\u1085\u107c\u103a\u1038\u1010\u101b\u1062\u1086\u1089 (\u1015\u102d\u1030\u1004\u103a\u101e\u1062\u1004\u103a\u1088\u1075\u1062\u107c\u103a)",
-					"badges": [
-			  
-					]
+					"title": "ဢႅၼ်းတရၢႆႉ (ပိူင်သၢင်ႈၵၢၼ်)",
+					"badges": [],
+					"url": "https://shn.wikipedia.org/wiki/%E1%80%A2%E1%82%85%E1%81%BC%E1%80%BA%E1%80%B8%E1%80%90%E1%80%9B%E1%81%A2%E1%82%86%E1%82%89_(%E1%80%95%E1%80%AD%E1%80%B0%E1%80%84%E1%80%BA%E1%80%9E%E1%81%A2%E1%80%84%E1%80%BA%E1%82%88%E1%81%B5%E1%81%A2%E1%81%BC%E1%80%BA)"
 				},
 				"shwiki": {
 					"site": "shwiki",
 					"title": "Android (operativni sistem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://sh.wikipedia.org/wiki/Android_(operativni_sistem)"
 				},
 				"simplewiki": {
 					"site": "simplewiki",
 					"title": "Android (operating system)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://simple.wikipedia.org/wiki/Android_(operating_system)"
 				},
 				"siwiki": {
 					"site": "siwiki",
-					"title": "\u0d87\u0db1\u0dca\u0da9\u0dca\u200d\u0dbb\u0ddc\u0dba\u0dd2\u0da9\u0dca (\u0db8\u0dd9\u0dc4\u0dd9\u0dba\u0dd4\u0db8\u0dca \u0db4\u0daf\u0dca\u0db0\u0dad\u0dd2\u0dba\u200d)",
-					"badges": [
-			  
-					]
+					"title": "ඇන්ඩ්‍රොයිඩ් (මෙහෙයුම් පද්ධතිය‍)",
+					"badges": [],
+					"url": "https://si.wikipedia.org/wiki/%E0%B6%87%E0%B6%B1%E0%B7%8A%E0%B6%A9%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%9C%E0%B6%BA%E0%B7%92%E0%B6%A9%E0%B7%8A_(%E0%B6%B8%E0%B7%99%E0%B7%84%E0%B7%99%E0%B6%BA%E0%B7%94%E0%B6%B8%E0%B7%8A_%E0%B6%B4%E0%B6%AF%E0%B7%8A%E0%B6%B0%E0%B6%AD%E0%B7%92%E0%B6%BA%E2%80%8D)"
+				},
+				"skrwiki": {
+					"site": "skrwiki",
+					"title": "سرائیکی ٹیکنالوجی",
+					"badges": [],
+					"url": "https://skr.wikipedia.org/wiki/%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%DA%A9%DB%8C_%D9%B9%DB%8C%DA%A9%D9%86%D8%A7%D9%84%D9%88%D8%AC%DB%8C"
 				},
 				"skwiki": {
 					"site": "skwiki",
-					"title": "Android (opera\u010dn\u00fd syst\u00e9m)",
-					"badges": [
-			  
-					]
+					"title": "Android (operačný systém)",
+					"badges": [],
+					"url": "https://sk.wikipedia.org/wiki/Android_(opera%C4%8Dn%C3%BD_syst%C3%A9m)"
 				},
 				"slwiki": {
 					"site": "slwiki",
 					"title": "Android (operacijski sistem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://sl.wikipedia.org/wiki/Android_(operacijski_sistem)"
 				},
 				"snwiki": {
 					"site": "snwiki",
 					"title": "Android phones",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://sn.wikipedia.org/wiki/Android_phones"
 				},
 				"sowiki": {
 					"site": "sowiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://so.wikipedia.org/wiki/Android"
 				},
 				"sqwiki": {
 					"site": "sqwiki",
 					"title": "Android (sistemi operativ)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://sq.wikipedia.org/wiki/Android_(sistemi_operativ)"
 				},
 				"srwiki": {
 					"site": "srwiki",
-					"title": "Android (\u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0438 \u0441\u0438\u0441\u0442\u0435\u043c)",
-					"badges": [
-			  
-					]
+					"title": "Android (оперативни систем)",
+					"badges": [],
+					"url": "https://sr.wikipedia.org/wiki/Android_(%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC)"
+				},
+				"suwiki": {
+					"site": "suwiki",
+					"title": "Android (sistim operasi)",
+					"badges": [],
+					"url": "https://su.wikipedia.org/wiki/Android_(sistim_operasi)"
 				},
 				"svwiki": {
 					"site": "svwiki",
 					"title": "Android (operativsystem)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://sv.wikipedia.org/wiki/Android_(operativsystem)"
 				},
 				"swwiki": {
 					"site": "swwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://sw.wikipedia.org/wiki/Android"
 				},
 				"szlwiki": {
 					"site": "szlwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://szl.wikipedia.org/wiki/Android"
 				},
 				"tawiki": {
 					"site": "tawiki",
-					"title": "\u0b86\u0ba3\u0bcd\u0b9f\u0bcd\u0bb0\u0bbe\u0baf\u0bcd\u0b9f\u0bc1 \u0b87\u0baf\u0b99\u0bcd\u0b95\u0bc1\u0ba4\u0bb3\u0bae\u0bcd",
-					"badges": [
-			  
-					]
+					"title": "ஆண்ட்ராய்டு இயங்குதளம்",
+					"badges": [],
+					"url": "https://ta.wikipedia.org/wiki/%E0%AE%86%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%8D%E0%AE%B0%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%AE%9F%E0%AF%81_%E0%AE%87%E0%AE%AF%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%B3%E0%AE%AE%E0%AF%8D"
 				},
 				"tcywiki": {
 					"site": "tcywiki",
-					"title": "\u0c86\u0c82\u0ca1\u0ccd\u0cb0\u0cbe\u0caf\u0cbf\u0ca1\u0ccd",
-					"badges": [
-			  
-					]
+					"title": "ಆಂಡ್ರಾಯಿಡ್",
+					"badges": [],
+					"url": "https://tcy.wikipedia.org/wiki/%E0%B2%86%E0%B2%82%E0%B2%A1%E0%B3%8D%E0%B2%B0%E0%B2%BE%E0%B2%AF%E0%B2%BF%E0%B2%A1%E0%B3%8D"
 				},
 				"tetwiki": {
 					"site": "tetwiki",
 					"title": "Android (Sistema Operasaun)",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://tet.wikipedia.org/wiki/Android_(Sistema_Operasaun)"
 				},
 				"tewiki": {
 					"site": "tewiki",
-					"title": "\u0c06\u0c02\u0c21\u0c4d\u0c30\u0c3e\u0c2f\u0c3f\u0c21\u0c4d",
-					"badges": [
-			  
-					]
+					"title": "ఆండ్రాయిడ్",
+					"badges": [],
+					"url": "https://te.wikipedia.org/wiki/%E0%B0%86%E0%B0%82%E0%B0%A1%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B0%BF%E0%B0%A1%E0%B1%8D"
 				},
 				"tgwiki": {
 					"site": "tgwiki",
-					"title": "\u0410\u043d\u0434\u0440\u043e\u0438\u0434 (\u0441\u0438\u0441\u0442\u0435\u043c\u0430\u0438 \u0430\u043c\u0430\u043b\u0438\u0451\u0442)",
-					"badges": [
-			  
-					]
+					"title": "Android",
+					"badges": [],
+					"url": "https://tg.wikipedia.org/wiki/Android"
 				},
 				"thwiki": {
 					"site": "thwiki",
-					"title": "\u0e41\u0e2d\u0e19\u0e14\u0e23\u0e2d\u0e22\u0e14\u0e4c (\u0e23\u0e30\u0e1a\u0e1a\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23)",
-					"badges": [
-			  
-					]
+					"title": "แอนดรอยด์ (ระบบปฏิบัติการ)",
+					"badges": [],
+					"url": "https://th.wikipedia.org/wiki/%E0%B9%81%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B8%94%E0%B9%8C_(%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3)"
 				},
 				"tlwiki": {
 					"site": "tlwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://tl.wikipedia.org/wiki/Android"
 				},
 				"trwiki": {
 					"site": "trwiki",
-					"title": "Android (i\u015fletim sistemi)",
-					"badges": [
-			  
-					]
+					"title": "Android",
+					"badges": [],
+					"url": "https://tr.wikipedia.org/wiki/Android"
 				},
 				"ttwiki": {
 					"site": "ttwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://tt.wikipedia.org/wiki/Android"
 				},
 				"ugwiki": {
 					"site": "ugwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://ug.wikipedia.org/wiki/Android"
 				},
 				"ukwiki": {
 					"site": "ukwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://uk.wikipedia.org/wiki/Android"
 				},
 				"urwiki": {
 					"site": "urwiki",
-					"title": "\u0627\u06cc\u0646\u0688\u0631\u0648\u0626\u06cc\u0688",
-					"badges": [
-			  
-					]
+					"title": "اینڈروئیڈ",
+					"badges": [],
+					"url": "https://ur.wikipedia.org/wiki/%D8%A7%DB%8C%D9%86%DA%88%D8%B1%D9%88%D8%A6%DB%8C%DA%88"
+				},
+				"uzwiki": {
+					"site": "uzwiki",
+					"title": "Android",
+					"badges": [],
+					"url": "https://uz.wikipedia.org/wiki/Android"
 				},
 				"vecwiki": {
 					"site": "vecwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://vec.wikipedia.org/wiki/Android"
 				},
 				"viwiki": {
 					"site": "viwiki",
-					"title": "Android (h\u1ec7 \u0111i\u1ec1u h\u00e0nh)",
-					"badges": [
-			  
-					]
+					"title": "Android (hệ điều hành)",
+					"badges": [],
+					"url": "https://vi.wikipedia.org/wiki/Android_(h%E1%BB%87_%C4%91i%E1%BB%81u_h%C3%A0nh)"
 				},
 				"wuuwiki": {
 					"site": "wuuwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://wuu.wikipedia.org/wiki/Android"
 				},
 				"xmfwiki": {
 					"site": "xmfwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://xmf.wikipedia.org/wiki/Android"
 				},
 				"zawiki": {
 					"site": "zawiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://za.wikipedia.org/wiki/Android"
 				},
 				"zh_classicalwiki": {
 					"site": "zh_classicalwiki",
-					"title": "\u5b89\u5353",
-					"badges": [
-			  
-					]
+					"title": "安卓",
+					"badges": [],
+					"url": "https://zh-classical.wikipedia.org/wiki/%E5%AE%89%E5%8D%93"
 				},
 				"zh_min_nanwiki": {
 					"site": "zh_min_nanwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://zh-min-nan.wikipedia.org/wiki/Android"
 				},
 				"zh_yuewiki": {
 					"site": "zh_yuewiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://zh-yue.wikipedia.org/wiki/Android"
 				},
 				"zhwiki": {
 					"site": "zhwiki",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://zh.wikipedia.org/wiki/Android"
 				},
 				"zhwikibooks": {
 					"site": "zhwikibooks",
 					"title": "Android",
-					"badges": [
-			  
-					]
+					"badges": [],
+					"url": "https://zh.wikibooks.org/wiki/Android"
 				}
 			}
 		}
