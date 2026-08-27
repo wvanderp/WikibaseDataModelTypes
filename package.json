@@ -1,29 +1,30 @@
 {
-	"name": "@wmde/wikibase-datamodel-types",
+	"name": "@wvanderp/wikibase-datamodel-types",
 	"version": "0.2.0",
 	"description": "TypeScript definitions for the Wikibase data model expressed as flat JS objects",
-	"main": "",
+	"main": "dist/index.d.ts",
+	"types": "dist/index.d.ts",
 	"files": [
-		"index.d.ts",
-		"LabelLanguages.d.ts",
-		"MonolingualLanguages.d.ts"
+		"dist"
 	],
 	"scripts": {
-		"test": "npm run lint && tsc",
+		"test": "pnpm lint && tsc",
 		"lint": "eslint index.d.ts tests/**/*",
-		"fix": "npm run lint -- --fix",
-		"build": "ts-node ./gether.ts"
+		"fix": "pnpm lint -- --fix",
+		"build": "tsc --emitDeclarationOnly --declaration --outDir dist-tmp && rollup -c && rimraf dist-tmp",
+		"generate": "ts-node ./gather.ts",
+		"prepublishOnly": "pnpm build"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/wmde/WikibaseDataModelTypes.git"
+		"url": "git+https://github.com/wvanderp/WikibaseDataModelTypes.git"
 	},
-	"author": "The Wikidata team",
+	"author": "wvanderp",
 	"license": "BSD-3-Clause",
 	"bugs": {
-		"url": "https://github.com/wmde/WikibaseDataModelTypes/issues"
+		"url": "https://github.com/wvanderp/WikibaseDataModelTypes/issues"
 	},
-	"homepage": "https://github.com/wmde/WikibaseDataModelTypes#readme",
+	"homepage": "https://github.com/wvanderp/WikibaseDataModelTypes#readme",
 	"devDependencies": {
 		"@types/node": "22.10.1",
 		"@wmde/eslint-config-wikimedia-typescript": "^0.2.12",
@@ -32,7 +33,10 @@
 		"typescript": "^5.7.2",
 		"@typescript-eslint/eslint-plugin": "^7.8.0",
 		"@typescript-eslint/parser": "^7.8.0",
-		"eslint-config-wikimedia": "^0.28.2"
+		"eslint-config-wikimedia": "^0.28.2",
+		"rollup": "^4.28.1",
+		"rollup-plugin-dts": "^6.1.1",
+		"rimraf": "^6.0.1"
 	},
 	"keywords": [
 		"wikibase",

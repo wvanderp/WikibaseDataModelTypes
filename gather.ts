@@ -9,12 +9,14 @@ interface Response {
 		wbcontentlanguages: {
 			[key: string]: {
 				code: string;
-			}
-		}[]
-	}
+			};
+		}[];
+	};
 }
 
-axios.get<Response>(endpointUrl).then((response) => {
+const headers = { 'User-Agent': 'WikibaseDataModelTypes-generator/0.2 (https://github.com/wvanderp/WikibaseDataModelTypes)' };
+
+axios.get<Response>(endpointUrl, { headers }).then((response) => {
 	const data = Object.keys(response.data.query.wbcontentlanguages);
 
 	const languages = data.map((lang) => {
@@ -26,7 +28,7 @@ axios.get<Response>(endpointUrl).then((response) => {
 
 const labelLanguages = 'https://www.wikidata.org/w/api.php?action=query&format=json&meta=wbcontentlanguages&formatversion=2';
 
-axios.get<Response>(labelLanguages).then((response) => {
+axios.get<Response>(labelLanguages, { headers }).then((response) => {
 	const data = Object.keys(response.data.query.wbcontentlanguages);
 
 	const languages = data.map((lang) => {
