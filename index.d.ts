@@ -5,9 +5,28 @@ export { LabelLanguages } from './LabelLanguages';
 export { MonolingualLanguages } from './MonolingualLanguages';
 
 export interface WikidataResponse {
+	success?: number;
 	entities: {
-		[id: string]: Item;
+		[id: string]: Item | Property;
 	};
+}
+
+export interface Property {
+	pageid?: number;
+	ns?: number;
+	title?: string;
+
+	lastrevid?: number;
+	modified?: string; // ISO 8601 date string
+
+	type: "property";
+	id: string; // P-string
+	datatype: string;
+
+	labels?: Labels;
+	descriptions?: Descriptions;
+	aliases?: Aliases;
+	claims?: StatementMap;
 }
 
 export interface WikiCommonsResponse {
@@ -27,11 +46,11 @@ export interface Item {
 	type: "item";
 	id: string; // Q-string
 
-	labels: Labels;
-	descriptions: Descriptions;
-	aliases: Aliases;
-	claims: StatementMap;
-	sitelinks: Sitelinks;
+	labels?: Labels;
+	descriptions?: Descriptions;
+	aliases?: Aliases;
+	claims?: StatementMap;
+	sitelinks?: Sitelinks;
 }
 
 /**
@@ -50,9 +69,9 @@ export interface Mediainfo {
 	type: "mediainfo";
 	id: string; // Q-string
 
-	labels: Labels;
-	descriptions: Descriptions;
-	statements: StatementMap;
+	labels?: Labels;
+	descriptions?: Descriptions;
+	statements?: StatementMap;
 }
 
 export interface Labels {
@@ -86,6 +105,7 @@ export type Snaks = CommonsMediaSnak
 | WikibaseItemSnak
 | ExternalIdentifierSnak
 | GeoShapeSnak
+| GeoLineSnak
 | MathSnak
 | TabularDataSnak
 | MusicalNotationSnak
@@ -257,6 +277,14 @@ export interface GeoShapeSnak extends Snak {
 		type: "string";
 	};
 	datatype?: "geo-shape";
+}
+
+export interface GeoLineSnak extends Snak {
+	datavalue?: {
+		value: string;
+		type: "string";
+	};
+	datatype?: "geo-line";
 }
 
 export interface MathSnak extends Snak {
