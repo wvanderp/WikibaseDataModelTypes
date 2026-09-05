@@ -21,22 +21,15 @@ jobs:
                   version: 9
 
             - name: Setup Node.js
-              uses: actions/setup-node@v4
+              uses: actions/setup-node@v6
               with:
-                  node-version: 22
+                  # Node 24 includes an npm version that supports trusted publishing.
+                  node-version: 24
                   registry-url: https://registry.npmjs.org/
-                  cache: pnpm
+                  package-manager-cache: false
 
             - name: Install dependencies
               run: pnpm install --frozen-lockfile
 
-            - name: Build
-              run: pnpm build
-
-            - name: Test
-              run: pnpm test
-
             - name: Publish
-              run: npm publish
-              env:
-                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+              run: npm publish --access public

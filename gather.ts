@@ -21,7 +21,7 @@ axios.get<Response>(endpointUrl, { headers }).then((response) => {
 
 	const languages = data.map((lang) => {
 		return `'${lang}'`;
-	}).join(' | \n');
+	}).join(' |\n');
     
 	fs.writeFileSync('MonolingualLanguages.d.ts', `export type MonolingualLanguages = ${languages};`);
 });
@@ -33,7 +33,7 @@ axios.get<Response>(labelLanguages, { headers }).then((response) => {
 
 	const languages = data.map((lang) => {
 		return `'${lang}'`;
-	}).join(' | \n');
+	}).join(' |\n');
 
 	fs.writeFileSync('LabelLanguages.d.ts', `export type LabelLanguages = ${languages};`);
 });
