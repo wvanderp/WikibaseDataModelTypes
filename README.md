@@ -1,7 +1,7 @@
 # WikibaseDataModelTypes
 
-Typescript definitions for the Wikibase DataModel expressed as flat JS objects,
-as returned and accepted by Wikibase APIs like wbgetentities or wbeditentity.
+TypeScript type definitions for the JSON entity data returned and accepted by Wikibase APIs such as `wbgetentities` and `wbeditentity`.
+The package models Wikidata items and properties—including statements, snaks, qualifiers, references, labels, descriptions, aliases, and sitelinks—and provides partial support for Wikimedia Commons MediaInfo entities.
 
 ## Installation
 
