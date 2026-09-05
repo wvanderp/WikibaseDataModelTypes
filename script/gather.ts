@@ -1,5 +1,8 @@
 import axios from 'axios';
 import * as fs from 'fs';
+import * as path from 'path';
+
+const sourceDirectory = path.resolve(__dirname, '../src');
 
 const endpointUrl = 'https://www.wikidata.org/w/api.php?action=query&format=json&meta=wbcontentlanguages&formatversion=2&wbclcontext=monolingualtext';
 
@@ -23,7 +26,7 @@ axios.get<Response>(endpointUrl, { headers }).then((response) => {
 		return `'${lang}'`;
 	}).join(' |\n');
     
-	fs.writeFileSync('MonolingualLanguages.d.ts', `export type MonolingualLanguages = ${languages};`);
+	fs.writeFileSync(path.join(sourceDirectory, 'MonolingualLanguages.d.ts'), `export type MonolingualLanguages = ${languages};`);
 });
 
 const labelLanguages = 'https://www.wikidata.org/w/api.php?action=query&format=json&meta=wbcontentlanguages&formatversion=2';
@@ -35,5 +38,5 @@ axios.get<Response>(labelLanguages, { headers }).then((response) => {
 		return `'${lang}'`;
 	}).join(' |\n');
 
-	fs.writeFileSync('LabelLanguages.d.ts', `export type LabelLanguages = ${languages};`);
+	fs.writeFileSync(path.join(sourceDirectory, 'LabelLanguages.d.ts'), `export type LabelLanguages = ${languages};`);
 });

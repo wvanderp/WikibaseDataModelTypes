@@ -8,10 +8,10 @@
 	],
 	"scripts": {
 		"test": "pnpm lint && tsc",
-		"lint": "eslint index.d.ts tests/**/*",
+		"lint": "eslint src/index.d.ts tests/**/*",
 		"fix": "pnpm lint -- --fix",
 		"build": "tsc --emitDeclarationOnly --declaration --outDir dist-tmp && rollup -c && rimraf dist-tmp",
-		"generate": "ts-node ./gather.ts",
+		"generate": "ts-node ./script/gather.ts",
 		"prepublishOnly": "pnpm test && pnpm build"
 	},
 	"publishConfig": {

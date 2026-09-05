@@ -10,7 +10,7 @@
         "forceConsistentCasingInFileNames": true
     },
     "include": [
-        "index.d.ts",
+        "src/index.d.ts",
         "tests/**/*.ts"
     ]
 }
