@@ -10,10 +10,6 @@ Use npm trusted publishing for routine releases. It lets the GitHub Actions
 workflow authenticate with a short-lived OpenID Connect (OIDC) credential, so
 the repository does not need an `NPM_TOKEN` secret.
 
-There is one bootstrap exception: npm can only configure a trusted publisher
-for a package that already exists in the registry. Publish the first version
-interactively, then configure trusted publishing before making later releases.
-
 npm requires one of the following for a direct publish:
 
 - an account with two-factor authentication (2FA), for an interactive publish;
@@ -35,53 +31,7 @@ Official references:
 - [npm publishing and 2FA](https://docs.npmjs.com/requiring-2fa-for-package-publishing-and-settings-modification/)
 - [Creating granular access tokens](https://docs.npmjs.com/creating-and-viewing-access-tokens/)
 
-## One-time first publication
-
-As of 5 September 2026, the package name was not present in the public npm
-registry. The npm account doing the bootstrap publish must own the `@wvanderp`
-scope, and 2FA must be enabled on that account.
-
-1. Start from a clean checkout of the exact commit to release. Confirm that
-   `package.json` has the intended version. Version `0.2.0` is currently set;
-   decide whether that is the intended first public version before continuing.
-
-2. Install, test, build, and inspect the package:
-
-   ```sh
-   pnpm install --frozen-lockfile
-   pnpm test
-   pnpm build
-   npm pack --dry-run
-   ```
-
-   The package preview should contain only `LICENSE`, `README.md`,
-   `package.json`, and `dist/index.d.ts`.
-
-3. Sign in interactively and verify the account:
-
-   ```sh
-   npm login
-   npm whoami
-   ```
-
-4. Publish the scoped package publicly:
-
-   ```sh
-   npm publish --access public
-   ```
-
-   npm will request the account's second factor when required. Do not use
-   `--otp` in shell history; respond to the prompt instead. The
-   `prepublishOnly` script repeats the tests and build before upload.
-
-5. Verify the published version:
-
-   ```sh
-   npm view @wvanderp/wikibase-datamodel-types version
-   npm view @wvanderp/wikibase-datamodel-types dist
-   ```
-
-## Configure trusted publishing after the bootstrap
+## Configure trusted publishing
 
 On npmjs.com, open the package, then **Settings → Trusted Publisher**. Add a
 GitHub Actions publisher with these exact values:

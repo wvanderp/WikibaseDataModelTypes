@@ -34,5 +34,4 @@ runtime JavaScript exports.
 
 See the
 [publishing guide](https://github.com/wvanderp/WikibaseDataModelTypes/blob/master/PUBLISHING.md)
-for the release checklist, npm authentication setup, and the one-time
-first-publish procedure.
+for the release checklist and npm authentication setup.
