@@ -12,7 +12,7 @@
 		"fix": "pnpm lint --fix",
 		"build": "rimraf dist && tsc -p tsconfig.build.json && rollup -c",
 		"generate": "ts-node ./script/gather.ts",
-		"prepublishOnly": "pnpm test && pnpm build"
+		"prepublishOnly": "pnpm build && pnpm test"
 	},
 	"publishConfig": {
 		"access": "public"

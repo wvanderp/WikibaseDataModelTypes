@@ -67,8 +67,8 @@ an `NPM_TOKEN` GitHub secret.
 3. Run the release checks and inspect the artifact:
 
    ```sh
-   pnpm test
    pnpm build
+   pnpm test
    npm pack --dry-run
    git diff --check
    git status --short
