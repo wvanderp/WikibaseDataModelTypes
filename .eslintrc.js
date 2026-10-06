@@ -1,5 +1,14 @@
 module.exports = {
+	root: true,
 	extends: [
-		'@wmde/wikimedia-typescript',
+		'wikimedia/typescript',
 	],
+	ignorePatterns: [
+		'dist/',
+		'dist-tmp/',
+		'node_modules/',
+	],
+	rules: {
+		'comma-dangle': 'off',
+	},
 };

@@ -105,7 +105,6 @@ export type Snaks = CommonsMediaSnak
 | WikibaseItemSnak
 | ExternalIdentifierSnak
 | GeoShapeSnak
-| GeoLineSnak
 | MathSnak
 | TabularDataSnak
 | MusicalNotationSnak
@@ -277,14 +276,6 @@ export interface GeoShapeSnak extends Snak {
 		type: "string";
 	};
 	datatype?: "geo-shape";
-}
-
-export interface GeoLineSnak extends Snak {
-	datavalue?: {
-		value: string;
-		type: "string";
-	};
-	datatype?: "geo-line";
 }
 
 export interface MathSnak extends Snak {

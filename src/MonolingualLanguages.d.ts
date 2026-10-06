@@ -629,6 +629,7 @@ export type MonolingualLanguages = 'aa' |
 'ach' |
 'ada' |
 'adg' |
+'adj' |
 'ady-latn' |
 'ae' |
 'aec' |
@@ -675,9 +676,11 @@ export type MonolingualLanguages = 'aa' |
 'ati' |
 'atv' |
 'aus' |
+'avi' |
 'axe' |
 'axl' |
 'ayh' |
+'ayz' |
 'az-arab' |
 'az-cyrl' |
 'az-latn' |
@@ -717,6 +720,7 @@ export type MonolingualLanguages = 'aa' |
 'blc' |
 'blo' |
 'blt' |
+'bn-sylo' |
 'bnb' |
 'bnn' |
 'bnt' |
@@ -779,6 +783,10 @@ export type MonolingualLanguages = 'aa' |
 'clc' |
 'cmc' |
 'cmg' |
+'cmn-latn-cn-pinyin' |
+'cmn-latn-tw-pinyin' |
+'cmn-latn-tw-tongyong' |
+'cmn-latn-tw-wadegile' |
 'cnr' |
 'cnr-cyrl' |
 'cnr-latn' |
@@ -812,6 +820,7 @@ export type MonolingualLanguages = 'aa' |
 'den' |
 'dgr' |
 'dje' |
+'djk' |
 'dkr' |
 'dmg' |
 'dmv' |
@@ -838,7 +847,10 @@ export type MonolingualLanguages = 'aa' |
 'el-cy' |
 'elm' |
 'elx' |
+'eme' |
 'en-au' |
+'en-dsrt' |
+'en-emodeng' |
 'en-in' |
 'en-jm' |
 'en-nz' |
@@ -846,6 +858,7 @@ export type MonolingualLanguages = 'aa' |
 'en-uk' |
 'enm' |
 'eo-hsistemo' |
+'eo-shaw' |
 'eo-xsistemo' |
 'es-es' |
 'es-mx' |
@@ -854,6 +867,7 @@ export type MonolingualLanguages = 'aa' |
 'esu' |
 'ett' |
 'eya' |
+'fa-034' |
 'fa-af' |
 'fab' |
 'fan' |
@@ -880,6 +894,7 @@ export type MonolingualLanguages = 'aa' |
 'gbk-takr' |
 'gbm' |
 'gbz' |
+'gdo' |
 'gem' |
 'gez' |
 'gil' |
@@ -917,6 +932,7 @@ export type MonolingualLanguages = 'aa' |
 'hmn' |
 'hne' |
 'hnj' |
+'hr-glag' |
 'hsn-hans' |
 'hsn-hant' |
 'hts' |
@@ -990,6 +1006,7 @@ export type MonolingualLanguages = 'aa' |
 'ko-cn' |
 'ko-hani' |
 'ko-kore' |
+'ko-kr' |
 'kok' |
 'kos' |
 'koy' |
@@ -1028,6 +1045,7 @@ export type MonolingualLanguages = 'aa' |
 'lmn-taml' |
 'lmn-telu' |
 'lol' |
+'lom' |
 'lou' |
 'lsm' |
 'lu' |
@@ -1062,6 +1080,7 @@ export type MonolingualLanguages = 'aa' |
 'miq' |
 'mis' |
 'mix' |
+'mjd' |
 'mjx-beng' |
 'mkh' |
 'mn-cyrl' |
@@ -1095,7 +1114,13 @@ export type MonolingualLanguages = 'aa' |
 'nd' |
 'nic' |
 'njo' |
+'nl-aw' |
 'nl-be' |
+'nl-cw' |
+'nl-nl' |
+'nl-sr' |
+'nl-sx' |
+'nl-u-sd-bebru' |
 'nn-hognorsk' |
 'nod-thai' |
 'non' |
@@ -1124,6 +1149,7 @@ export type MonolingualLanguages = 'aa' |
 'ojw' |
 'oka' |
 'oma' |
+'onw' |
 'ood' |
 'osa' |
 'osi' |
@@ -1132,6 +1158,7 @@ export type MonolingualLanguages = 'aa' |
 'oto' |
 'ovd' |
 'owl' |
+'oym' |
 'pa-guru' |
 'paa' |
 'pal' |
@@ -1142,6 +1169,8 @@ export type MonolingualLanguages = 'aa' |
 'paq' |
 'pau' |
 'pbb' |
+'pcd-be' |
+'pcd-fr' |
 'peo' |
 'pgd' |
 'pgd-arab' |
@@ -1160,6 +1189,7 @@ export type MonolingualLanguages = 'aa' |
 'pkc' |
 'pko' |
 'pks' |
+'plu' |
 'plv' |
 'plw' |
 'pon' |
@@ -1184,6 +1214,7 @@ export type MonolingualLanguages = 'aa' |
 'pt-pt' |
 'pwo' |
 'pyu' |
+'pzh' |
 'qwh' |
 'qxp' |
 'qxq' |
@@ -1239,6 +1270,7 @@ export type MonolingualLanguages = 'aa' |
 'sbp' |
 'sci' |
 'scl' |
+'scz' |
 'sd-deva' |
 'sd-gujr' |
 'sd-khoj' |
@@ -1252,6 +1284,7 @@ export type MonolingualLanguages = 'aa' |
 'sel' |
 'sem' |
 'ser' |
+'sfb' |
 'sga' |
 'sgh' |
 'sgh-arab' |
@@ -1271,6 +1304,7 @@ export type MonolingualLanguages = 'aa' |
 'sjk' |
 'sjn' |
 'sjo' |
+'sjs' |
 'sjt' |
 'sla' |
 'slh' |
@@ -1302,6 +1336,10 @@ export type MonolingualLanguages = 'aa' |
 'sux-latn' |
 'sux-xsux' |
 'suz' |
+'svm' |
+'sw-arab' |
+'sw-arab-cd' |
+'sw-arab-mz' |
 'sw-cd' |
 'swb' |
 'sxr' |
@@ -1356,6 +1394,7 @@ export type MonolingualLanguages = 'aa' |
 'txo-toto' |
 'txx' |
 'tzl' |
+'tzo' |
 'ug-cyrl' |
 'uga' |
 'ulc' |
@@ -1366,16 +1405,22 @@ export type MonolingualLanguages = 'aa' |
 'unr' |
 'unr-deva' |
 'unr-nagm' |
+'uon' |
 'urk' |
 'ush' |
 'uun' |
 'uzs' |
 'vai' |
+'vgt' |
 'vi-hani' |
+'vls-be' |
+'vls-fr' |
+'vls-nl' |
 'vun' |
 'wae' |
 'wak' |
 'was' |
+'way' |
 'wbl-arab' |
 'wbl-arab-af' |
 'wbl-arab-cn' |
@@ -1399,6 +1444,7 @@ export type MonolingualLanguages = 'aa' |
 'xon' |
 'xpu' |
 'xsu' |
+'yag' |
 'yah-cyrl' |
 'yah-latn' |
 'yai-cyrl' |

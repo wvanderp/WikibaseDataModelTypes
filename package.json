@@ -8,8 +8,8 @@
 	],
 	"scripts": {
 		"test": "pnpm lint && tsc",
-		"lint": "eslint src/index.d.ts tests/**/*",
-		"fix": "pnpm lint -- --fix",
+		"lint": "eslint src tests script --ext .ts",
+		"fix": "pnpm lint --fix",
 		"build": "tsc --emitDeclarationOnly --declaration --outDir dist-tmp && rollup -c && rimraf dist-tmp",
 		"generate": "ts-node ./script/gather.ts",
 		"prepublishOnly": "pnpm test && pnpm build"
@@ -28,18 +28,18 @@
 	},
 	"homepage": "https://github.com/wvanderp/WikibaseDataModelTypes#readme",
 	"devDependencies": {
+		"@stylistic/eslint-plugin": "^3.1.0",
 		"@types/node": "22.10.1",
-		"@wmde/eslint-config-wikimedia-typescript": "^0.2.12",
-		"ts-node": "10.9.2",
+		"@typescript-eslint/eslint-plugin": "^8.54.0",
+		"@typescript-eslint/parser": "^8.54.0",
 		"axios": "^1.16.0",
-		"typescript": "^5.7.2",
-		"@typescript-eslint/eslint-plugin": "^7.8.0",
-		"@typescript-eslint/parser": "^7.8.0",
 		"eslint": "^8.57.1",
-		"eslint-config-wikimedia": "^0.32.3",
+		"eslint-config-wikimedia": "^0.32.6",
+		"rimraf": "^6.0.1",
 		"rollup": "^4.28.1",
 		"rollup-plugin-dts": "^6.1.1",
-		"rimraf": "^6.0.1"
+		"ts-node": "10.9.2",
+		"typescript": "^5.7.2"
 	},
 	"keywords": [
 		"wikibase",
