@@ -10,7 +10,7 @@
 		"test": "pnpm lint && tsc",
 		"lint": "eslint src tests script --ext .ts",
 		"fix": "pnpm lint --fix",
-		"build": "tsc --emitDeclarationOnly --declaration --outDir dist-tmp && rollup -c && rimraf dist-tmp",
+		"build": "rimraf dist && tsc -p tsconfig.build.json && rollup -c",
 		"generate": "ts-node ./script/gather.ts",
 		"prepublishOnly": "pnpm test && pnpm build"
 	},
